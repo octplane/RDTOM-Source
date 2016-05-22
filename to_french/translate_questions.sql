@@ -1,1009 +1,1008 @@
-11	"Parmi les surface de piste suivantes, laquelle est acceptable ?"
-12	"Au maximum, combien de patineurs peuvent être inscrits sur la liste de leur équipe pour participer à un match donné ?"
-17	"Vrai ou faux : la surface de patinage et les lignes de limites du terrain ne doivent pas obligatoirement avoir une grande différence visible de contraste."
-18	"Quelle est la définition de « haut contraste » au-delà de tout doute pour la surface de patinage ?"
-19	"Vrai ou faux : la bordure de la piste doit être plate."
-22	"Vrai ou faux : tant que la bordure est conforme aux dimensions légales, elle n'a pas besoin d'être constante sur toute sa longueur que cela soit en épaisseur ou en largeur."
-31	"Combien de personnes d’encadrement par équipe sont autorisées à se trouver dans leurs camps respectifs au cours d'un match ?"
-32	"Vrai ou faux : les joueurs de l'équipe qui ne sont pas inscrits sur la feuille de match peuvent être assis ou debout dans leurs camps respectifs."
-36	"Pourquoi est-ce que la la piste, les limites, la zone de sécurité et la Penalty Box [Prison] doivent être correctement éclairées ?"
-37	"Les lignes matérialisant les limites, ainsi que la piste, sont considérées comme étant …"
-38	"Vrai ou faux : Les lignes matérialisant les limites, ainsi que la piste, sont considérées comme étant en dehors des limites."
-39	"Tourne à"
-40	"Combien de minutes de jeu y-a-t-il dans une période ?"
-41	"Combien de minutes de jeu y-a-t-il dans un match ?"
-42	"Combien de minutes de jeu y-a-t-il dans une période ?"
-43	"Quelle équipe remporte la partie ?"
-46	"Vrai ou faux : un \"bout\" et un match désigent la même chose"
-54	"Vrai ou faux : Tant que le chronomètre officiel de période n'indique pas 0:00 quand un jam est arrêté, un autre jam sera demarré au cours de cette même période (en considérant qu'aucun temps mort n'est appelé)."
-57	"Le nombre de Jams autorisés par période est"
-58	"Une période est divisée en de multiples ..."
-61	"Combien de temps sépare deux jams (en considérant qu'il ne s'agit pas de jams de prolongation) ?"
-66	"Vrai ou faux : les Jammers ont le droit de mettre leur couvre-casque après le début du jam."
-68	"Si un jam a débuté, sous quelle condition est ce qu'un couvre-caque peut rejoindre ce jam ?"
-72	"Vrai ou faux : les pivots ne sont pas autorisés à mettre leur couvre-casque en place après le début du jam ?"
-73	"Où doit être le couvre-casque d'un pivot au début d'un jam ?"
-75	"Que se passe-t-il si un officiel arrête par erreur un jam ?"
-77	"Vrai ou faux : un jam se termine au quatrième coup de sifflet de fin de jam."
-79	"Quelle est la durée d'un jam de prolongation ?"
-80	"Est ce qu'un jammer peut prendre le lead lors d'un jam de prolongation ?"
-82	"Au cours d'un jam de prolongation, à partir de quel passage à travers le pack les jammers commencent-ils à inscrire des points ?"
-83	"Si le score est toujours à égalité à la fin d'un jam de prolongation, que se passe-t-il ?"
-84	"Combien de temps sépare deux jams de prolongation ?"
-85	"A partir de quel moment, il n'y aura pas de nouveau jam démarré au cours d'une période, en considérant qu'aucun temps mort n'est appelé ?"
-87	"Est-ce que la prolongation est une nouvelle période ou une prolongation de la deuxième période ?"
-88	"Combien de temps mort une équipe a-t-elle droit ?"
-89	"Quelle est la durée d'un temps mort d'équipe ?"
-93	"Vrai ou faux : seul un officiel peut démarrer (signal pour arrêter le chronomètre) un temps mort d'équipe ?"
-95	"A la fin d'un temps mort, quelle est la durée maximale avant le début d'un jam (en considérant qu'il ne s'agit pas d'un jam de prolongation) ?"
-96	"Vrai ou faux : après un temps mort, il DOIT y avoir 30 secondes avant le début du prochain jam."
-97	"Vrai ou faux : les officiels peuvent demander un temps-mort (Official Timeout) seulement entre deux jams et pas pendant le déroulement d'un jam."
-98	"A quel moment un officiel peut-il demander un temps-mort (Official Timeout) ?"
-99	"Si un officiel demande un temps-mort (Official Timeout) pendant un jam, que se passe-t-il ?"
-100	"A quel moment est ce que le chronomètre redémarre après un temps-mort ?"
-101	"La zone de la penalty box doit pouvoir accueillir ..."
-103	"La zone de la penalty box doit être ..."
-104	"Les chronomètres de pénalité, jam et de période ..."
-107	"Vrai ou faux : le chronomètre officiel est arrêté si plus de 30 secondes séparent deux jams"
-110	"Quand s'arrête le chronomètre du jam ?"
-111	"Le chronomètre officiel de période doit être visible ..."
-112	"Le chronomètre officiel de jam doit être visible de"
-114	"Quand s'arrêtent les chronomètres de pénalité ?"
-115	"Vrai ou faux : les chronomètres de pénalité doivent être visible à la fois des joueurs, des arbitres et du public"
-117	"Quand ils sont dans la zone de la penalty box, les joueurs ..."
-130	"Quel est le coup de sifflet pour le lead jammer ?"
-133	"Quel est le coup de sifflet pour une pénalité ?"
-134	"Quel est le coup de sifflet pour la fin ou l'arrêt d'un jam ?"
-135	"En ce qui concerne les postes pour un joueur ..."
-136	"Au cours d'un jam, une équipe a le droit de faire jouer au maximum combien de bloqueurs ?"
-137	"La position d'un joueur fait référence à ..."
-139	"Vrai ou faux : les blockers peuvent marquer des points."
-141	"Laquelle de ces affirmations est vraie ?"
-144	"Vrai ou faux : il est obligatoire pour une équipe d'aligner un pivot."
-146	"Que doit porter un pivot sur son casque ?"
-150	"Que doit porter un jammer sur son casque ?"
-155	"Vrai ou faux : le statut de lead jammer ne doit pas être annoncé immédiatement après avoir été obtenu."
-156	"Vrai ou faux : le statut de lead jammer doit être annoncé immédiatement après avoir été obtenu"
-157	"Vrai ou faux : un jammer peut être en dehors des limites de la piste quand ils obtiennent le statut de lead jammer (en considérant qu'aucun blocker n'a commis une action illégale)."
-158	"Un jammer peut gagner le statut de lead jammer seulement si "
-159	"Vrai ou faux : un jammer peut devenir lead jammer si une partie de leur corps ou de leur équipement est en dehors de la piste."
-160	"Quelle partie du jammer doit être devant le blocker en jeu le plus en avant afin de devenir Lead Jammer ?"
-161	"Quels blockers ne doit pas dépasser un jammer pour devenir lead jammer ?"
-162	"Pendant une situation de No Pack, à quel moment un jammer devient lead jammer ?"
-164	"Lors de l’initial pass [passage initial] à travers le pack, un jammer dépasse trois blockers adverses légalement et le quatrième illégalement, ..."
-165	"Si un jammer dépasse tous les blockers d'une manière illégale mais est toujours dans la zone d'engagement ..."
-171	"Comme est déterminé un dépassement ?"
-172	"Vrai ou faux : si le premier jammer qui sort du pack n’obtient pas le statut de lead jammer lors de son initial pass à travers le Pack, le deuxième jammer est automatiquement désigné lead jammer."
-173	"Vrai ou faux : si le premier jammer qui sort du pack n’obtient pas le statut de lead jammer lors de son initial pass à travers le Pack, le deuxième jammer peut obtenir le statut de lead jammer."
-174	"Si les deux jammers n'arrivent pas à obtenir le statut de lead jammer lors de leur passage intial (initial pass) à travers le pack, que se passe-t-il ?"
-175	"Vrai ou faux : un jammer qui débute le jam dans la penalty box peut devenir lead jammer."
-176	"Vrai ou faux : un jammer qui est pénalisé au cours de son initial pass peut devenir lead jammer quand il retourne sur la piste."
-177	"Qui a le droit d'appeler la fin d'un jam ?"
-182	"S’il n’y a pas de lead Jammer, le jam ..."
-183	"Le jam s'arrête quand ..."
-185	"A qui un jammer peut-il transférer son poste ?"
-187	"Qu'est ce qui est transféré lors du passage de l'étoile ?"
-188	"Si avant d'avoir passé l'étoile, le jammer était lead jammer, quel est le statut du pivot devenu jammer ?"
-189	"Si le lead jammer passe son étoile, ..."
-191	"Vrai ou faux : un pivot peut devenir lead jammer si l'étoile a été transféré ?"
-193	"Qui doit être dans la zone d'engagement pour que l'étoile puisse être transferée ?"
-195	"Vrai ou faux : une étoile peut être transferée à un pivot même si ce dernier est hors-jeu."
-197	"Vrai ou faux : les jammers ne peuvent pas transférer leur étoile quand ils sont en route pour ou à l’intérieur de la penalty box."
-198	"Vrai ou faux : un jammer peut passer son étoile quand il revient de la penalty box mais n'est pas encore revenu en jeu."
-199	"Quelle est la procédure correcte pour le passage de l'étoile ?"
-200	"Si un jammer retire son couvre-casque, il perd ..."
-201	"Si le passage de l'étoile est complet mais est illégal et si le pivot porte le couvre-casque du jammer, qui est le jammer de l'équipe ?"
-203	"Vrai ou faux : une fois le passage de l'étoile complet, le nouveau jammer peut rendre l'étoile au jammer initial ?"
-204	"Un passage de l'étoile ..."
-205	"Si au cours d'un passage de l'étoile, le couvre-caque tombe au sol, qui peut le ramasser ?"
-210	"Vrai ou faux : si le passage de l'étoile a été réussi mais que le pivot n'a pas encore mis le couvre-casque de jammer sur son casque Pivot, il peut recevoir une pénalité pour hors-jeu."
-212	"Un pivot devenu jammer ..."
-213	"Combien de temps un pivot qui est devenu jammer après un passage d'étoile doit jouer en tant que jammer ?"
-214	"Combien de temps un jammer qui est devenu blocker après un passage d'étoile doit jouer en tant que blocker ?"
-222	"Que se passe-t-il si les couleurs des couvre-casques d’une équipe ne sont pas fortement contrastées au-delà de tout doute raisonnable ?"
-223	"Les couleurs des couvre-casques de Jammer et/ou de Pivot sont à haut contraste si ..."
-224	"Les couvre-casques d’une équipe sont facilement identifiables s’ils peuvent être clairement distingués par ?"
-228	"Vrai ou faux : un jammer peut demander l'arrêt d'un jam s'il a été pénalisé."
-229	"Vrai ou faux : du moment que les couvre-casques d'une équipe sont fortement contrastés au-delà de tout doute raisonnable, ces couvre-casques peuvent avoir plusieurs schémas de couleur."
-237	"Combien de patineurs peuvent au maximum être inscrits sur la liste de leur équipe pour participer à un match donné ?"
-240	"Vrai ou faux : un lead jammer peut appeler la fin d'un jam si son couvre-casque a été retiré par l’action d’un adversaire (en considérant qu'il tente d'arrêter la fin du jam sans le couvre-casque sur le casque) ?"
-241	"Afin de demander l'arrêt un jam, un jammer doit ..."
-242	"Si le passsage de l'étoile a été réussi mais que le pivot met accidentellement son couvre-casque à l'envers et que les étoiles ne sont pas visibles,  est-ce qu'il peut marquer des points ?"
-243	"Chaque joueur d'une équipe donnée doit ..."
-244	"Vrai ou faux : les épingles de sûreté peuvent être utilisées pour sécuriser les écussons et numéros sur les uniformes."
-246	"Vrai ou faux : l'alternate doit obligatoirement porter un « A » visible sur ses vêtements, son uniforme ou son bras."
-247	"Sur l'uniforme, le nom du patineur ..."
-248	"Le numéro de roster de chaque patineur doit être"
-249	"Le numéro de roster dans le dos d’un patineur doit"
-254	"Vrai ou faux : le numéro d'un joueur doit contenir au moins une lettre."
-255	"Vrai ou faux : le numéro d'un joueur doit contenir au moins un chiffre."
-256	"Parmi les numéros suivant, lequel est un numéro valide ?"
-257	"Si un patineur a des petits caractères précédant ou suivant son numéro de roster sur son uniforme, est ce que ces petits caractères font partie du numéro du joueur ?"
-258	"Un joueur porte \"88mph\" dans son dos, \"mph\" ne faisant pas partie du numéro. Quelle est la hauteur maximale des lettres \"mph\" ?"
-259	"Vrai ou faux : Les patineurs d’une même équipe ne peuvent avoir des numéros de roster identiques"
-260	"Vrai ou faux : L5 et L6 sont considérés comme étant des numéros différents et peuvent être portés par des joueurs de la même équipe."
-261	"Vrai ou faux : L5 et J5 sont considérés comme étant des numéros différents et peuvent être portés par des joueurs de la même équipe."
-262	"Les numéros d’uniforme d’une équipe doivent"
-264	"Vrai ou faux : l’écriture manuscrite des numéros sur les bras est acceptée."
-265	"A quel endroit chaque patineur participant à un match doit afficher visiblement son numéro de roster ?"
-266	"Les numéros sur les bras doivent mesurer ..."
-267	"Vrai ou faux : Les numéros de roster ne peuvent pas être placés sur le casque en supplément de ceux sur les bras/manches."
-269	"Vrai ou faux : les bijoux peuvent être portés pendant un match."
-270	"Parmi les affirmations suivantes, laquelle justifie le fait d'interdire de porter des bijoux pendant un match ?"
-271	"Quel type de patins un joueur doit-il porter ?"
-272	"Vrai ou faux : personne ne connaît la définition du pack ; ceux qui disent le contraire sont des menteurs."
-273	"Les numéros d’uniforme d’une équipe sont à haut contraste si ..."
-274	"Le pack est défini comme étant ..."
-275	"Le pack comprend ..."
-277	"Quelle partie du joueur sert de base pour définir la proximité par rapport au pack ?"
-278	"Vrai ou faux : un pack peut être formé si une équipe n'a qu'un seul blocker sur le track."
-279	"Vrai ou faux : si une équipe n'a pas de blocker sur le track, un pack peut tout de même être formé."
-281	"Vrai ou faux : un joueur créant volontairement une situatuoin de no pack peut être pénalisé."
-282	"Qui est responsable du maintien d’un pack légalement défini ?"
-283	"Vrai ou faux : Un patineur ou un groupe de patineurs est toujours responsable des conséquences de ses actes."
-287	"La ligne de pivot est ..."
-288	"Qui a le droit d'être sur la ligne de pivot ?"
-290	"En début de jam, le jammer doit se trouver ..."
-291	"Vrai ou faux : aucune règle n'impose un ordre particulier d'alignement des blockers entre les lignes de jammer et de pivot, du moment que le pivot ne se trouve pas sur la ligne de pivot."
-294	"Vrai ou faux : un blocker hors jeu (out of play) peut assister son jammer"
-295	"Qui peut être assisté par un blocker qui est hors jeu (out of play) ?"
-300	"Vrai ou faux : un blocker hors jeu (out of play) doit ralentir ou accélerer pour retourner dans la zone d'engagement"
-301	"Vrai ou faux : un arbitre doit donner un avertissement d’out of play à un joueur avant de lui donner une pénalité de Failure to Return."
-302	"Un blocker qui est hors-jeu doit"
-303	"Vrai ou faux : si un patineur hors jeu réalise un blocage passif / possitionnel sur le jammer adverse, il sera pénalisé."
-304	"Vrai ou faux : si un patineur prend un tour d'avance sur le pack, il a le droit de revenir dans la zone d'engagement par l'arrière."
-305	"Si un patineur tombe, il peut attendre que le pack le rattrape afin de revenir dans la zone d'engagement par l'avant."
-307	"Si un patineur tombe, il peut couper à travers l'intérieur de la piste pour rattraper le pack."
-308	"En tant que blocker, l'action de retourner dans la zone d'engagement en faisant un tour de plus que le pack ou en se laissant rattraper par ce même pack implique"
-309	"Contre quel(s) joueur(s), un jammer peut-il initier un blocage en dehors de la zone d'engagement ?"
-316	"Vrai ou faux : un jam se termine au premier des quatres coups de sifflet."
-319	"Vrai ou faux : un blocage implique un contact."
-320	"Vrai ou faux : Le contre-blocage est un blocage."
-322	"Un blocage accidentel ..."
-323	"Vrai ou faux : de manière générale, le contre-blocage suit des règles différentes du blocage."
-324	"Le contre-blocage est ..."
-325	"Quel blocker a le droit de patiner devant un patineur adverse pour gêner les mouvements de l’adversaire sur la piste ?"
-326	"Quel joueur peut effectuer un blocage avec contact ?"
-327	"Quel joueur peut effectuer un blocage positionnel ?"
-328	"Vrai ou faux : Il est légal de bloquer les adversaires qui sont débout sur la piste."
-329	"Vrai ou faux : Il est légal de bloquer les adversaires qui patinent et/ou se déplacent  dans le sens horaire."
-330	"Vrai ou faux : Il est illégal de bloquer les adversaires qui se déplacent dans le sens horaire."
-331	"L’initiateur d’un blocage est (en considérant un blocage avec contact et non pas un blocage positionnel) ..."
-332	"Vrai ou faux : L'initiateur d'un blocage n'est pas toujours responsable de la légalité de son contact."
-333	"Si un joueur est en jeu et marche et/ou patine dans le sens antihoraire, il peut :"
-342	"Vrai ou faux : Un patineur ayant un genou à terre est toujours considéré \"a terre\" [down]"
-343	"Le contact entre adversaires est ..."
-344	"Parmi les propositions suivantes, laquelle désigine une zone cible légale ?"
-345	"Parmi les propositions suivantes, laquelle désigine une zone cible illégale ?"
-346	"Les zones cibles légales sont ..."
-347	"Les zones légales de blocage sont ..."
-348	"Parmi les propositions suivantes, laquelle désigine une zone légale de blocage ?"
-349	"Parmi les propositions suivantes, laquelle désigine une zone illégale de blocage ?"
-354	"Un blocage au dos est ..."
-367	"Parmi les propositions suivantes, laquelle n'entraînera pas d'expulsion ?"
-372	"Un joueur tombe en fall small [position foetale] à la suite d'un blocage. En tombant, il sort de la piste puis revient dans les limites. Est-ce que le joueur peut recevoir une pénalité de low block [blocage bas] si un adversaire trébuche sur lui ?"
-387	"Vrai ou faux : Lors de l’engagement d’une action envers un adversaire, les coudes ne doivent pas être balancés vers l’avant ou vers l’arrière."
-388	"Vrai ou faux : lors de l’engagement d’une action envers un adversaire, les coudes peuvent être balancés vers le haut ou vers le bas"
-389	"Afin d'éviter une pénalité de Elbows [utilisation des coudes] lors d'un blocage avec le bras, le coude doit être ..."
-390	"Vrai ou faux : un contact peut être fait exclusivement avec la pointe du coude."
-391	"Vrai ou faux : les coudes peuvent être utilisés pour accrocher un adversaire."
-401	"Vrai ou faux : les avant-bras ou les mains peuvent être utilisés pour attraper, tenir ou pousser un adversaire."
-402	"Si vos mains touchent accidentellement les mains d'un adversaire ..."
-419	"Vrai ou faux : la tête ne peut pas être utilisée pour bloquer un adversaire."
-426	"Vrai ou faux : il est autorisé pour deux joueurs de s'agripper afin d'empêcher un joueur adverse de passer entre eux."
-428	"Parmi ces actions, laquelle peut entraîner une pénalité de Multi-Player Block [blocage à plusieurs] ?"
-429	"Pour qu'un blocage à plusieurs soit pénalisé pour un Multi-Player Block [blocage à plusieurs] , que faut-il de spécial ?"
-432	"Au cours d'un blocage à plusieurs, quelle action peut faire un patineur s'il veut être sûr de ne pas être pénalisé pour un Multi-Player Block [blocage à plusieurs] ?"
-442	"Où doit se situer un patineur afin d'éviter une pénalité de Out of Bounds ?"
-443	"Où doit se situer un patineur qui commence à prendre de la vitesse pour effectuer un blocage ?"
-444	"A quel moment un patineur réalisant un blocage doit-il arrêter son blocage ?"
-445	"Au cours d'un blocage, quelle partie du (ou des) patin(s) de l'initiateur peut (peuvent) se situer en dehors des limites de la piste ?"
-446	"Vrai ou faux : un patineur qui est dans les limites de la piste doit faire de l’espace pour permettre à un patineur qui est hors des limites de la piste de retourner dans les limites."
-447	"Vrai ou faux : un patineur peut initier un blocage avec un adversaire située complétement en dehors de la piste."
-448	"Un patineur dans les limites de la piste peut bloquer un adeversaire revenant en jeu à partir du moment où ..."
-449	"Un patineur en dehors des limites traverse la limite de la piste mais restera, par définition, en dehors des limites tant que ..."
-450	"Vrai ou faux : un joueur retourne et une partie de ses patins est encore à l'extérieur des limites. Le joueur peut recevoir un blocage."
-451	"Un joueur chevauche la limite de la piste, que peut-il faire ?"
-452	"Vrai ou faux : un patineur qui chevauche la limite peut être bloqué par un joueur sur la piste."
-453	"Pour quelle raison, un joueur chevauchant la limite peut-il être bloqué par un joueur en jeu ?"
-454	"Vrai ou faux : en cas de saut d'un joueur, sa position en jeu / hors jeu ne change pas tant que le joueur n'a pas repris contact avec le sol."
-455	"Vrai ou faux : un joueur, tombé en position de fall small [position foetale] à l'extérieur de la piste, peut être recevoir une pénalité de blocage out of bounds."
-456	"Vrai ou faux : si un joueur en dehors des limites de la piste était à terre, il ne peut pas recevoir une pénalité de blocage out of bounds."
-457	"Vrai ou faux : un joueur qui réalise un blocage légal sur un joueur en l'air et qui a quitté le sol en étant en jeu ne recevra pas de pénalité."
-458	"Vrai ou faux : un joueur a un patin dans les limites de la piste et l'autre en dehors de la piste mais sans toucher le sol. S'il effectue un blocage, il reçoit une pénalité pour un blocage hors des limites."
-471	"Un jammer saute au-dessus d'un virage (saut d'apex) en étant dans les limites au départ du saut. Il atterrit également dans les limites de la piste. Lorsqu'il est en l'air, le jammer est ..."
-472	"Vrai ou faux : un joueur a terre en position foetale retourne en glissant  sur la piste sans le vouloir. Il peut recevoir une pénalité de blocage en dehors des limites de la piste."
-473	"Vrai ou faux : aucune pénalité ne sera donné à un joueur réalisant un blocage contre un adversaire en l'air et ayant quitté le sol dans les limites de la piste."
-474	"Vrai ou faux : il n'est pas possible de bloquer de manière légale un joueur ayant sauté et ne touchant plus la piste."
-475	"Un joueur a un patin dans les limites de la piste et l'autre en dehors de la piste mais sans toucher le sol. S'il effectue un blocage, il ..."
-486	"Que fait un patineur qui est dit \"touchant le track exclusivement à l'extérieur des limites du track\" ?"
-489	"Vrai ou faux : les joueurs doivent patiner ou marcher dans le sens anti-horaire afin de réaliser un blocage."
-490	"A quel moment un patineur peut-il faire un blocage positionnel ?"
-491	"A quel moment un patineur peut-il assister un joueur qui n'est pas à l'arrêt ?"
-492	"Comment le mouvement horaire est-il déterminé ?"
-493	"Vrai ou faux : pour aider un joueur à l'arrêt ou au sol, son coéquipier doit également être arrêté."
-494	"Vrai ou faux : pour aider un joueur à l'arrêt ou au sol, son coéquipier doit également être arrêté."
-495	"A quel moment les patineurs sont-ils autorisés à patiner dans le sens horaire ?"
-496	"A quel moment les patineurs sont-ils autorisés à s'arrêter sur la piste ?"
-497	"Vrai ou faux : les joueurs peuvent patiner dans le sens horaire quand ils sortent de pénalité et sont en dehors de la piste."
-498	"Vrai ou faux : quand ils sortent de pénalité, les joueurs doivent obligatoirement patiner dans le sens anti-horraire pour retourner dans le pack."
-499	"Dans quelle direction doit regarder un joueur afin de bloquer ou de faire un assist ?"
-523	"Vrai ou faux : Un arbitre n'a pas besoin de donner un avertissement à un joueur hors-jeu (Out of play) qui fait un blocage avant de lui donner une pénalité."
-525	"La destruction illégale d'un pack est ..."
-526	"Qui est responsable du maintien d’un pack légalement défini ?"
-529	"Vrai ou faux : Les règles définissent la vitesse du pack."
-531	"Laquelle de ces propoistions est une destruction illégale du pack ?"
-534	"Un joueur tente un blocage sur un adversaire mais manque sa tentative et finit en dehors de la piste ce qui détruit le pack. L'initiateur du blocage ..."
-535	"Quand aucun joueur ou aucune équipe ne peut être clairement définie comme responsable de la destruction illégale du pack, qui reçoit la pénalité ?"
-536	"Vrai ou faux : un jammer peut initier un blocage sur l'autre jammer en dehors de la zone d'engagement sans recevoir de pénalité."
-537	"Sur qui un blocker peut-il initer un blocage en dehors de la zone d'engagement ?"
-538	"Vrai ou faux : un jammer peut initier un blocage sur un blocker en dehors de la zone d'engagement sans recevoir de pénalité."
-539	"Un jammer est bloqué en dehors de la zone d'engagement par un blocker ; que peut faire légalement le jammer ?"
-540	"Vrai ou faux : si un jammer initie un blocage illégal sur un blocker en dehors de la zone d'engagement, le blocker peut contre-bloquer sans recevoir de pénalité."
-541	"Vrai ou faux : un blocker peut initer un blocage en dehors de la zone d'engagement."
-542	"Vrai ou faux : si un blocker initie un blocage en dehors de la zone d'engagement, le joueur adverse a le droit de contre-bloquer sans  recevoir de pénalité."
-544	"Vrai ou faux : en cas de situation de No Pack, les joueurs seront prévenus qu'il n'y a plus de pack mais ne seront pénalisés que s'ils n'essaient pas immédiatement de reformer le pack."
-545	"Vrai ou faux : les patineurs n'ont pas le droit d'assister un coéquipier en dehors de la zone d'engagement."
-552	"Vrai ou faux : Les pénalités de hors-jeu (Out of play) sont appliquées pour des actions qui détruisent illégalement le pack."
-554	"Si deux blockers sont coupables d'une action en étant hors-jeu (Out of play), lequel reçoit une pénalité ?"
-557	"Vrai ou faux : un patineur dans les limites de la piste n'a pas besoin de céder l'avantage à un joueur en dehors des limites."
-558	"Vrai ou faux : Les patineurs doivent être debout et en train de patiner, ou debout sur leurs patins pour recevoir les pénalités de Cutting the Track."
-559	"Vrai ou faux : un joueur à terre peut recevoir une pénalité de Cutting the Track."
-560	"A quel moment, un patineur hors des limites de la piste peut-il être pénalisé par une pénalité de Cutting the Track ?"
-561	"Vrai ou faux : les patineurs peuvent céder l'avantage afin d'éviter de recevoir une pénalité de Cutting the Track."
-562	"Parmi les affirmations, laquelle correspond à une amélioration de position relative ?"
-563	"Si un blocker est forcé en dehors des limites de la piste mais était devant l'initiateur du blocage, où doit-il retourner en jeu ?"
-564	"Vrai ou faux : si les hanches d'un joueur sont devant le blocker qui initie un blocage puis sort le joueur de la piste, ce dernier peut revenir dans les limites devant l'initiateur du blocage."
-565	"Vrai ou faux : un patineur peut retourner en jeu devant le joueur qui l'a fait sortir des limites de la piste si l'initiateur du blocage est considéré comme étant en considéré en « Penalty Box »."
-566	"Vrai ou faux : un patineur ne peut pas retourner en jeu devant le joueur qui l'a fait sortir des limites de la piste si l'initiateur du blocage sort également de la piste."
-567	"Vrai ou faux : un patineur peut retourner en jeu devant le joueur qui l'a fait sortir des limites de la piste si l'initiateur du blocage est à terre."
-569	"Vrai ou faux : un patineur peut retourner en jeu devant le joueur qui l'a fait sortir des limites de la piste si l'initiateur du blocage quitte la zone d'engagement à n'importe quel moment."
-570	"Parmi les affirmations suivantes, laquelle autorise un joueur à revenir sur la piste devant l'adversaire qui l'a bloqué et fait sortir des limites de la piste ?"
-571	"Le résultat final d’un blocage est pris en considération lorsque le patineur cible ..."
-572	"On dit qu'un joueur chevauche la limite de la piste quand ..."
-573	"Les joueurs chevauchant la limite peuvent recevoir une pénalité de \"Cutting the Track\" quand ..."
-574	"Vrai ou faux : les patineurs qui sont en l’air sont considérés comme chevauchant la limite de la piste."
-606	"Vrai ou faux : les joueurs ne peuvent pas prendre de la vitesse avant d'être dans les limites de la piste."
-786	"Si un coach ou un manager est expulsé, qui va en penalty-box à sa place ?"
-793	"Qui peut inscrire des points pour son équipe ?"
-795	"Comment un jammer marque-t-il un point (en considérant qu'il ne s'agit pas de jam de prolongation) ?"
-796	"Combien de point un jammer peut-il inscrire de points contre un blocker donné ?"
-797	"Vrai ou faux : un jammer peut gagner un point en dépassant un blocker adverse illégalement."
-798	"Si un jammer commet une action illégale au cours d'un dépassement et ne reçoit pas de point, que peut-il faire ?"
-805	"Vrai ou faux : si un jammer sort de la zone d’engagement, mais est ensuite rattrapé par le pack, ce jammer retourne à son pass précédent (mais n'a pas le droit de marquer des points sur les blockers contre qui il n'avait pas inscrit un point)."
-813	"Un joueur se retire du jeu de son propre chef. Le jammer adverse inscrit son premier point sur un blocker adverse, combien de points remporte-t-il ?"
-840	"Quel est le nombre minimum d'arbitres en patins nécessaire ?"
-844	"Vrai ou faux : n'importe quel arbitre peut expulser un patineur, un manager ou un coach."
-845	"Vrai ou faux : chaque équipe aura un jammer referee désginé pour la période."
-846	"Les jammer referees ..."
-847	"Vrai ou faux : À la fin de la première période, les jammer referees s’échangent les équipes dont ils sont responsables."
-848	"Quelle est la première responsabilité des Pack Referees ?"
-849	"Combien de Pack referees peuvent être situés à l'intérieur de la piste ?"
-850	"Que signifie le sigle NSO ?"
-851	"Le rôle des Scorekeepers est ..."
-852	"Un des rôles du Penalty Tracker est de ..."
-853	"Un des rôles des Penalty Timing Officials est de ..."
-854	"Le Scoreboard Operator a pour rôle ..."
-855	"Un des rôles du Jam Timer est de ..."
-856	"Vrai ou faux : les arbitres ont la responsabilité de déterminer que les deux équipes ont le nombre correct de patineurs dans le jam."
-857	"Si le jam démarre et qu'il y a trop de patineurs, les arbitres doivent ..."
-858	"Si le jam démarre avec trop de patineurs et que le patineur en trop ne peut être sorti de la piste, les arbitres doivent ..."
-861	"Les arbitres s’assureront que les patineurs portent ..."
-862	"Qui a le devoir de déterminer si les patineurs sont correctement positionnés au début du jam ?"
-865	"Qui doit assigner et communiquer le statut de lead jammer ?"
-867	"Pendant combien de temps, le Jammer referee doit-il pointer le lead jammer ?"
-868	"Qui a la responsabilité de compter et de communiquer le score ?"
-869	"Quelle est la priorité numéro une des arbitres ?"
-870	"Quels sont les gestes que doivent utiliser les arbitres ?"
-873	"Sous quelle condition, un arbitre peut-il arrêter un jam ?"
-874	"Sous quelle condition, un arbitre DOIT-il arrêter un jam ?"
-875	"Si un arbitre arrête un jam avant sa fin naturelle avec du temps restant sur le chronomètre de jam mais celui de la période est à 00:00, ..."
-876	"Si une équipe a cinq patineurs, ou moins, encore qualifiés pour jouer le match, ..."
-877	"Si une équipe refuse d'aligner des joueurs en début de match, ..."
-878	"Si une équipe ne se présente pas au cours d'un match, ..."
-879	"Vrai ou faux : une équipe peut choisir de déclarer forfait plutôt que de continuer à jouer."
-880	"Vrai ou faux : les arbitres peuvent mettre fin aux bagarres selon leur jugement."
-881	"Qui a le droit d'appeler un Official Timeout ?"
-882	"Dans l’éventualité où il y aurait un désaccord concernant l’appel d’une faute ou le comptage des points d’un arbitre, qui est autorisé à discuter des décisions d’arbitrage avec les arbitres ?"
-883	"Comment est demandé un Official Review ?"
-889	"Quel est le nombre garanti d'Official Review pour une équipe ?"
-890	"Vrai ou faux : un Official Review peut être demandé après le dernier Jam une fois que le score n’ait été déclaré définitif."
-891	"Si une situation qui n'est pas clairement énoncée dans ces règles se déroule au cours du match, que se passe-t-il ?"
-892	"Vrai ou faux : un officiel peut accroître la sévérité d’une pénalité à son appréciation."
-893	"Vrai ou faux : un officiel ne peut pas diminuer accroître la sévérité d’une pénalité à son appréciation."
-894	"Vrai ou faux : Décerner des pénalités est prioritaire par rapport à donner des avertissements."
-895	"L’appréciation des officiels leur permet ..."
-896	"Si un arbitre a un doute sur action, ..."
-901	"Vrai ou faux : les arbitres sont autorisés à porter des rollers en ligne ?"
-902	"Vrai ou faux : les arbitres ont le droit de porter les habits qu'ils veulent."
-903	"Les NSOs [officiels sans patins] sont fortement encouragés ..."
-904	"Vrai ou faux : un arbitre doit avoir une identification claire et visible au dos de son maillot ?"
-905	"Quelle identification peut utiliser un arbitre sur le dos de son uniforme ?"
-906	"Vrai ou faux : Chaque arbitre devra fournir son propre sifflet de sport ?"
-908	"Vrai ou faux : Les équipements de protection doivent portés en patinant lors d'un jam, y compris en allant/sortant de la Penalty Box."
-909	"Quels sont les équipements de sécurité minimum pour un patineur lors d'une compétition ?"
-910	"Vrai ou faux : les protège-coudes n'ont pas besoin d'avoir une coque rigide extérieure ou insérée."
-911	"Vrai ou faux : les protège-poignets n'ont pas besoin d'avoir une coque rigide extérieure ou insérée."
-912	"Vrai ou faux : les patineurs sont fortement encouragés à sécuriser ou à scotcher les parties de bandes Velcro non attachées."
-913	"Parmi les protections suivantes, laquelle est optionnelle ?"
-914	"Lequel des équipements suivant est obligatoire ?"
-915	"Parmi les protections suivantes, laquelle doit avoir une coque rigide ?"
-917	"Combien de professionnels de santé doit fournir une équipe qui accueil un match ?"
-918	"Qui a la responsabilité de fournir au personnel médical les informations médicales et/ou les contacts d'urgence des patineurs ?"
-919	"A combien de jam un patineur ne peut-il prendre part si un jam est arrété par un arbitre à cause d'une blessure qu'il a subit ?"
-920	"Si un jam est arrété par un arbitre à cause d'un patineur blessé pour la seconde fois, ce patineur doit manqué ..."
-921	"Vrai ou faux : Un patineur qui saigne peut quand même participer au jeu ?"
-922	"Qui a le droit de revenir sur la piste lors d'un jam en cours ?"
-923	"Un patineur qui quitte la piste à cause d'un problème d'équipement doit retourner dans le pack ..."
-924	"Vrai ou faux : Un patineur blessé avant le match peut jouer s'il a recu l'autorisation de son médecin."
-925	"Vrai ou faux : un patineur peut porter un platre si le Head Referee estime qu'il ne représente pas un danger pour les autres patineurs et si le dit patineur a recu l'autorisation de son médecin de jouer."
-926	"Sous quelle influence un patineur peut-il participer à un match ?"
-927	"Vrai ou faux : les joueurs peuvent boire de la bière en portant leurs patins."
-937	"Quelles sont les deux personnes d'une équipe autorisées à demander un temps mort ?"
-940	"Vrai ou faux : Il est légal de bloquer les adversaires qui sont immobiles sur la piste."
-946	"Dans laquelle des situations ci-dessous un patineur est-il \"hors des limites\" [out of bounds] ?"
-949	"Vrai ou faux : un jammer peut initier un blocage sur un blocker en dehors de la zone d'engagement sans recevoir de pénalité."
-953	"Vrai ou faux : un joueur à l'arrêt à le droit de propulser un coéquipier qui patine dans le sens anti-horaire."
-954	"Que se passe-t-il si un patineur n'est pas complétement dans les limites de la piste au coup de sifflet de départ de Jam ?"
-955	"Vrai ou faux : Un arbitre jugeant une pénalité de Cutting the Track penalties ne prend en compte que les joueurs adverses déjà dépassés."
-958	"S’il ne reste que 30 secondes ou moins à jouer sur le chronomètre officiel de période à la fin d’un jam, est ce qu'il y aura un jam de joué pendant cette période ?"
-959	"Vrai ou faux : les blockers doivent toujours s'aligner derrière les hanches du pivot."
-960	"Le jammer de l'équipe A est dans un passage marquant et dépasse deux blockers de l'équipe B légalement et un troisième illégalement. Le quatrième blocker de l'équipe B est en penalty-box, combien de points le jammer gagne-t-il ?"
-979	"Vrai ou faux : les logos des sponsors sont permis sur la ligne de Pivot et de Jammer ?"
-980	"Vrai ou faux : les logos des sponsors sont permis sur la ligne de Pivot et de Jammer même si ces logos interfèrent avec le contraste entre la ligne et la surface de patinage."
-981	"Les repères de 3 mètres (10 pieds) sur la piste ..."
-982	"Les chaises ou les bancs installés dans les zones réservées aux équipes doivent être "
-983	"La période commence quand ..."
-984	"Quel coup de sifflet annonce le début de la période ?"
-985	"Quand se termine une période ?"
-986	"Vrai ou faux : une période peut s’étendre au-delà du 0:00 sur le chronomètre de période."
-995	"La manquement à porter un équipement de protection, ou le retirer, tel que le protège-dents, se traduira par :"
-996	"Lequel des équipements ci-dessous fait partie de la liste des équipements obligatoires ?"
-997	"Vrai ou faux : les équipes de protection requis (hormis les protège-dents) doivent comporter une coque rigide extérieure ou insérée."
-998	"Quelle affirmation permet à un jammer de mettre son couvre-casque après le début d'un jam ?"
-1002	"Que se passe-t-il si un blocker ou un pivot n'est pas complétement dans les limites de la piste au coup de sifflet de départ de Jam ?"
-1003	"Si le score est à égalité à la fin d’un match, que se passe-t-il ?"
-1004	"A quel moment une équipe peut-elle demander un temps mort ?"
-1005	"Quand démarre le chronomètre officiel de période ?"
-1006	"Le chronomètre officiel de période s’arrête ..."
-1007	"Le chronomètre officiel de période s’arrête ..."
-1008	"Quand démarre le chronomètre officiel de jam ?"
-1009	"Que signifie un coup de sifflet long ?"
-1011	"Que signifient quatre coups de sifflets rapides ?"
-1012	"Quel est le coup de sifflet pour le début du Jam ?"
-1013	"Que signifient deux coups de sifflets brefs ?"
-1014	"Vrai ou faux : Les capitaines ont la responsabilité de fournir au personnel médical les informations médicales et/ou les contacts d’urgence de leurs patineurs si nécessaire."
-1015	"Le nombre maximum de jammers pour une équipe pour un jam donné est de :"
-1016	"Le nombre maximum de blockers pouvant devenir pivot pour une équipe pour un jam donné est de : "
-1017	"Vrai ou faux : L’équipe qui accueille doit fournir au moins deux professionnels de santé diplômés ou certifiés, ayant une expertise en urgence et soins médicaux d’urgence. "
-1018	"Si un patineur subit une blessure suffisamment grave pour que les arbitres arrêtent le Jam, ce patineur doit..."
-1019	"Vrai ou faux : Si plus d’un Jam est arrêté à cause d’un même patineur, celui-ci ne doit pas participer au reste de la période."
-1020	"Si un patineur saigne, le patineur ne peut pas participer au match tant que le saignement n’est pas arrêté."
-1021	"Si un patineur quitte le jam pendant le jeu à cause d'un problème d'équipement, le patineur peut revenir en jeu une fois que le problème a été resolu."
-1022	"Vrai ou faux : Si un patineur quitte le jam à cause d'une blessure, ce patineur peut revenir en jeu dans le même jam ?"
-1024	"Vrai ou faux : Les patineurs qui ont été blessés avant le match peuvent jouer s’ils ont reçu une autorisation de leur médecin."
-1025	"Vrai ou faux : Un patineur ne peut pas porter un appareil, plâtre ou une attelle qui représente un danger pour les autres patineurs (tel que déterminé par le Head Referee)"
-1026	"Vrai ou faux : les patineurs peuvent participer à un match sous l’influence de l’alcool, de narcotiques ou de drogues illégales."
-1028	"Chaque match n'aura pas de moins de  _____ arbitres en patins et pas de plus de _____ au total."
-1030	"Vrai ou faux : tous les arbitres doivent être en patins"
-1031	"Qui est l'autorité ultime sur la piste ?"
-1032	"Quel est l'unique arbitre qui peut expulser un patineur, un manager ou un coach ?"
-1033	"Quel(s) arbitre(s) a la responsabilité d'observer les jammers ?"
-1034	"Qui portent un identifiant (bracelet, écharpe, couvrecasque, etc.) correspondant à la couleur de l’équipe dont ils sont responsables ?"
-1035	"Vrai ou faux : À la fin d’une période, les jammer referees ne s’échangent pas les équipes dont ils sont responsables."
-1036	"Quelle est la première responsabilité des Pack Referees ?"
-1037	"Combien d'arbitres en patins maxium seront positionnés au centre de la piste ?"
-1038	"Quel poste de NSO n'est pas obligatoire ?"
-1039	"Vrai ou faux : l’appréciation des officiels vise uniquement à leur permettre de maintenir un match sécurisé, équitable et cohérent dans le cas où une situation inattendue se présente."
-1041	"Vrai ou faux : un avertissement doit être émis avant qu’une pénalité ne soit donnée (à part pour les pénalités de Out of Play)."
-1042	"Vrai ou faux : si un officiel a un doute sur un appel (par exemple, si l’officiel voit les effets d’un coup, mais ne voit pas l’action), une pénalité ne doit pas être appelée."
-1043	"Vrai ou faux : si un officiel est dans une position où l’intention doit être déduite, mais que ce n’est pas clair, l’intention illégale doit être présumée."
-1044	"Vrai ou faux : si un arbitre n'est pas sûr de savoir si une action mérite une pénalité ou un \"No impact/No pénalité\", il doit appeler une pénalité."
-1046	"Vrai ou faux : si un arbitre n'est pas sûr de savoir si une action mérite une expulsion ou une pénalité, il doit appeler une pénalité."
-1048	"Si un arbitre choisit de s'identifier par un nombre, combien de chiffre(s) peut avoir ce nombre ?"
-1049	"Laquelle des propositions suivantes est un exemple d'identification unique pour un arbitre ?"
-1050	"Vrai ou faux : les arbitres sont uniquement autorisés à porter des rollers en ligne et ne doivent pas porter des des patins à roues non alignées de type « quad »."
-1051	"Vrai ou faux : les NSOs [officiels sans patins] sont fortement encouragés de porter un maillot rayé semblable à celui des arbitres."
-1052	"Vrai ou faux : chaque arbitre participant à un match doit avoir une identification claire et visible au dos de son maillot ?"
-1053	"Vrai ou faux : l'équipe avec le plus de points à la fin du match gagne la partie."
-1054	"Où doivent se placer les blockers qui ne sont pas pivots si le pivot est debout et sur la ligne de Pivot"
-1055	"Que portent les blockers non-pivot sur leur casque ?"
-1056	"Si un pivot ne porte pas son couvre-casque de pivot ..."
-1057	"Si un joueur ne porte pas le couvre-casque de pivot sur son casque, n'est pas positionné sur la ligne de pivot mais tient ce même couvre-casque dans sa main ..."
-1058	"Vrai ou faux : un pivot peut s'aligner sur la ligne de pivot."
-1059	"Vrai ou faux : sous certaines conditions, un pivot peut récupérer le poste de jammer."
-1060	"Quelle est la largeur minimale de la bande unie du couvre-casque du pivot ?"
-1061	"Qui porte un couvre-casque avec une bande unie de l'avant vers l'arrière du casque ?"
-1062	"Où peut être le couvre-casque d'un pivot avant le début d'un jam ?"
-1063	"Vrai ou faux : un couvre-casque de pivot peut rejoindre un jam en cours si une équipe n'a pas aligné de pivot ?"
-1064	"Si un patineur s'aligne dans la position de départ du pivot, dans quelle condition sera-t-il considéré étant pivot ?"
-1065	"Si le couvre-casque de Pivot tombe au sol, qui peut le récupérer ?"
-1066	"Si le couvre-casque tombe au sol, comment peut-il être récupéré ?"
-1067	"Combien de jammer a le droit d'aligner chaque équipe pour un jam ?"
-1068	"Où doivent les jammers s'aligner avant le début d'un jam ?"
-1069	"Quel est le privilège d'un jammer ?"
-1070	"Vrai ou faux : le seul jammer qui a le avoir le privilège de pouvoir demander la fin du jam est le lead jammer ?"
-1071	"Le jammeur a le privilège de pouvoir passer son poste ..."
-1072	"Quelle est la largeur minimale de l'étoile (d'une extrémité à l’autre) sur le couvre-casque d'un jammer ?"
-1073	"Qui porte un couvre-casque avec une ou deux étoiles dessus ?"
-1074	"Vrai ou faux : un couvre-casque de jammeur peut rejoindre un jam en cours si une équipe n'a pas aligné de jammeur ?"
-1075	"Où doit être le couvre-casque d'un jammer avant le début d'un jam ?"
-1076	"Si un patineur s'aligne à la position de jammer, sous quelle condition sera-t-il considéré comme un jammer actif ?"
-1077	"Un jammer inactif ..."
-1078	"Le lead jammer est ..."
-1079	"Lequel des patineurs suivant a le droit de demander l'arrêt d'un jam ?"
-1080	"Pour dépasser lead jammer, un jammer doit dépasser ..."
-1081	"Dans le cas où les deux jammers répondent simultanément à toutes les exigences pour devenir lead jammer, qui est le lead jammer ?"
-1082	"Le passage de l'étoile peut être effectué ..."
-1083	"Au cours d'un passage de l'étoile, le statut de jammer est transféré quand ..."
-1087	"Si un passage d'étoile est tenté mais manqué et que le jammer remet le couvre-casque sur son casque, le jammer ..."
-1088	"Vrai ou faux : les couleurs des couvre-casques d’une équipe ne doivent pas être fortement contrastées."
-1089	"Vrai ou faux : le ruban adhésif peut être utilisé pour attacher les numéros sur les uniformes."
-1092	"La taille des numéros sur les bras-manchent doivent être au minimum de ..."
-1093	"La taille des numéros sur les bras-manchent doivent être au maximum de ..."
-1094	"Vrai ou faux : Les numéros sur le casque doivent correspondre à ceux figurant sur le roster."
-1095	"Combien de Jam Timer(s) doit-il y avoir par match ?"
-1097	"Quel est le nombre de minimum de scoreboard operator(s) pour un match ?"
-1098	"Quelles sont les responsabilité du Jam Timer ?"
-1100	"Qui a la responsabilité d'afficher le score donné par le Scorekeeper ?"
-1101	"Quel est le nombre de minimum de Penalty Timing Official(s) pour un match ? "
-1102	"Qui a la responsabilité de chronomètrer les pénalités et d'assister les arbitres en s’assurant qu’une équipe joue avec des patineurs en moins quand elle le doit ?"
-1103	"Quel est le nombre de minimum de Penalty Tracker(s) pour un match ?"
-1104	"Qui a la responsabilité d'enregistrer les pénalités signalées par les arbitres et de garder la trace de l’enregistrement officiel des pénalités ?"
-1105	"Quel est le nombre de minimum de scorekeeper(s) pour un match ?"
-1106	"Qui a la responsabilité d'enregistrer les points signalés par les jammer referees et de rapportenr le score officiel au Scoreboard Operator ?"
-1107	"Vrai ou faux : L’initiateur d’un blocage est toujours responsable de la légalité du contact."
-1108	"Quelle action peut entraîner une expulsion immédiate d'un joueur, même dès la première occurence ?"
-1109	"Une interférence illégale dans le déroulement du jeu par des patineurs ou des membres de l’encadrement des équipes qui ne sont pas impliqués dans le jam peut entraîner ..."
-1110	"L’utilisation répétée d’un langage ou de gestes obscènes, outrageants ou injurieux à l’égard d’une mascotte, d’un présentateur, de spectateurs ou de toute autre personne faisant partie de l’organisation d’un événementr peut entraîner ..."
-1111	"L’utilisation répétée et excessive d’un langage ou de gestes obscènes, outrageants ou injurieux à l’égard d’un adversaire, d’un coéquipier, d’un manager, d’un coach ou de toute autre personne faisant partie de l’encadrement des équipes peut entraîner ..."
-1112	"Les distances déterminant le pack et la zone d’engagement sont mesurées ..."
-1113	"Vrai ou faux : Un patineur qui se défend exclusivement des coups reçus et qui ne s’engage pas dans la bagarre ne sera pas pénalisé."
-1114	"Un combat est défini comme étant une lutte physique qui ne fait pas partie du déroulement régulier du jeu et ..."
-1116	"Avant le début du jam, où doivent se trouver tous les blockers ?"
-1117	"Mordre un joueur, quelle que soit la raison, peut entraîner ..."
-1118	"Avant le début du jam, les blockers doivent être en position de telle sorte ..."
-1119	"Sauter sur ou dans un tas de patineurs se battant peut entraîner ..."
-1120	"Si il n'y a pas suffisement de blockers sur la piste à temps avant le début du jam de telle sorte de telle sorte qu’un pack n'existe pas ou ne peut pas immédiatement être formé ..."
-1121	"Vrai ou faux : Au coup de sifflet de départ de jam, les blockers sont autorisés à avoir intentionnellement un genou au sol."
-1122	"Une violence physique sérieuse ou toute action considérée par les officiels comme provoquant une menace physique extraordinaire ..."
-1123	"Parmi les positions suivantes, laquelle peut adopter un blocker au coup de sifflet de départ de jam ?"
-1124	"Vrai ou faux : les blockers peuvent intentionnellement prendre une position de départ qui prolonge délibérément la formation d'un pack."
-1125	"Vrai ou faux : les pivots peuvent s'allonger sur la piste et du moment qu'ils touchent la ligne, ils sont considérés comme étant sur la ligne de pivot."
-1126	"Vrai ou faux : il existe un ordre particulier d'alignement des blockers derrière le pivot avant le début d'un jam."
-1127	"Un patineur en entrant dans la penalty box provoque un contact puissant via un siège de penalty box avec une autre personne. Le joueur en question ..."
-1128	"Si un blocker adverse hors-jeu entreprend un contact avec un jammer, le jammer ..."
-1129	"Vrai ou faux : les jammers peuvent assister des blockers hors jeu."
-1133	"Une entrée en penalty box qui provoque un contact uniquement aux personnes empiétant sur la voie de sécurité et/ou la penalty box sans y être autorisées ..."
-1134	"Un contact, réel ou potentiel, par le siège de penalty box du patineur sur une autre personne qui est causé par une défaillance structurelle du siège, et pas par l’entrée du patineur en penalty box ..."
-1135	"Un patineur entre dans la penalty box d'une manière qui oblige un coéquipier à se déplacer pour éviter la collision. Le patineur en question ..."
-1136	"Un joueur initie un contact avec les deux patins ne touchant pas le sol, ce qui déséquilibre l’adversaire cible mais ne lui fait pas perdre de position relative. L'initiateur ..."
-1138	"Vrai ou faux : Initier un contact avec les deux patins ne touchant pas le sol sur un coéquipier est légal, indépendamment de l’impact sur ce coéquipier."
-1139	"Un joueur initie un contact avec les deux patins ne touchant pas le sol, ce qui déséquilibre l’adversaire cible et lui fait perdre sa position relative. L'initiateur ..."
-1140	"Le patineur de l'équipe rouge a un genou à terre quand il est cible d'un blocage par un blocker bleu. Ce dernier ..."
-1141	"Vrai ou faux : un blocage doit être intentionel."
-1142	"Vrai ou faux : Un patineur peut initier un contact envers un adversaire avant le coup de sifflet de départ de jam, ce qui fait perdre à l’adversaire sa position de départ établie."
-1143	"A quel moment les blockers et les jammers peuvent commencer à bloquer des adversaires ?"
-1144	"Vrai ou faux : Un patineur à l'arret est considéré comme \"a terre\" [down] ?"
-1145	"Un patineur touche de la main le dos d'un adversaire mais ce dernier n'est pas affecté par ce contact. L'initiateur du contact ..."
-1146	"Un patineur touche par inadvertance le dos d'un adversaire mais ce dernier ne doit pas ajuster son patinage. L'initiateur du contact ..."
-1147	"Un patineur touche le dos d'un adversaire ce qui fait osciller ce dernier sur ces patins mais sans qu'il ne tombe ou perde sa position établie. L'initiateur du contact ..."
-1148	"Le blocker bleu chasse le jammer rouge et le touche légèrement dans le dos, entraînant la chute du jammer rouge sur la piste. Le blocker bleu ..."
-1149	"Un patineur touche le dos d'un adversaire ce qui fait tomber. L'initiateur du contact ..."
-1150	"Un patineur touche le dos d'un adversaire ce qui fait osciller ce dernier sur ces patins mais sans qu'il ne tombe mais il perd position établie. L'initiateur du contact ..."
-1151	"Un patineur touche le dos d'un adversaire ce qui fait osciller ce dernier sur ces patins puis sortir de la piste sans qu'il tombe. L'initiateur du contact ..."
-1152	"Un patineur touche le dos d'un adversaire d'une manière imprudente. L'initiateur du contact ..."
-1153	"Un patineur fait une une tentative puissante et délibérée de bloquer un adversaire à l’arrière de manière flagrante et touche cet adversaire. L'initiateur du contact ..."
-1154	"Un patineur fait une une tentative puissante et délibérée de bloquer un adversaire à l’arrière de manière flagrante mais manque cet adversaire. L'initiateur du contact ..."
-1155	"Tout blocage avec un contact puissant atterrissant au-dessus des épaules ..."
-1156	"Un joueur initie un contact puissant mais inintentionnel au-dessus des épaules. L'initiateur du contact ..."
-1157	"Tout contact au-dessus des épaules d’un adversaire ne portant pas de casque ..."
-1158	"Un joueur tente un contact négligent au-dessus des épaules d'un joueur mais manque sa tentative et tombe sur les fesses. L'initiateur du contact ..."
-1159	"Un joueur tente d'étouffer un joueur adverse mais sans réussir. Le joueur en question ..."
-1160	"Parmi les propositions suivantes, laquelle n'entraînera pas d'expulsion ?"
-1161	"Vrai ou faux : tout contact qui ne fait pas partie d’un mouvement de patinage normal qui atterrit en dessous des zones cibles légales provoquant la chute ou la perte de position relative d’un adversaire est considéré comme étant un blocage bas (low block)."
-1162	"Deux patineurs réalisent un contact entre leurs roues au cours d'un mouvement normal de patinage. Les joueurs ..."
-1163	"Pour une fois, un patineur tombe en fall small afin d'éviter de faire trébucher les autres joueurs. Il ..."
-1164	"Avec un de ses patins, un joueur initie un contact en dessous des zones cibles légales provoquant le déséquilibre d’un adversaire, sans le faire tomber ou lui faire perdre sa position relative. L'initiateur ..."
-1165	"Tout contact qui atterrit en dessous des zones cibles légales provoquant le déséquilibre d’un adversaire, sans le faire tomber ou lui faire perdre sa position relative ..."
-1166	"Un patineur à terre retournant sur la piste en causant le déséquilibre d’un adversaire, sans le faire tomber ou lui faire perdre sa position relative ..."
-1167	"Avec un patin, le joueur A  initie un contact en dessous des zones cibles légales provoquant le déséquilibre du joueur B qui perd sa position relative. Le joueur A ... "
-1168	"Un patineur tombe en s'affalant par terre et fait chuter un adversaire dans le même temps. Le premier joueur à terre ..."
-1169	"Avec un de ses patins, un joueur initie un contact en dessous des zones cibles légales provoquant le déséquilibre d’un adversaire ce qui le fait tomber. L'initiateur ..."
-1170	"A partir de quel moment, un joueur qui fait tomber un adversaire à cause de sa manière de patiner sera-t-il pénalisé ?"
-1171	"Un patineur tombe régulièrement en fall small devant des adversaires, les faisant trébucher.  A partir de quel moment, le joueur en question sera-t-il pénalisé ?"
-1172	"Un joueur utilise un langage ou de gestes obscènes, outrageants ou injurieux dirigés à l’égard d’une mascotte, d’un présentateur, d’un spectateur ou de toute autre personne faisant partie de l’organisation d’un événement. Le joueur ..."
-1173	"Un patineur à terre retourne sur la piste et provoque la chute d’un adversaire. Le joueur en question ..."
-1174	"Un joueur fait trébucher intentionnellement un adversaire. Il ..."
-1175	"Un joueur met intentionnellement un genou à terre afin d'éviter un blocage, il ..."
-1176	"Un joueur tacle un adversaire en glissant. Il ..."
-1177	"Un joueur tente de frapper un adversaire afin de le faire tomber mais manque son action. Il ..."
-1178	"Un contact temporaire avec un coude qui déséquilibre un adversaire mais ne le contraint pas à ajuster son patinage ..."
-1179	"Un contact fortuit avec le coude qui ne nécessite pas que l'adversaire ne modifie son patinage ..."
-1180	"Un joueur balance ces coudes d'une manière qui gêne un adversaire mais ne le fait ni tomber ni perdre de position relative. L'action ..."
-1181	"Un joueur initie un contact avec son coude d'une manière qui fait avancer un adversaire mais ne le fait pas perdre sa position relative. L'action ..."
-1182	"Un joueur réalise un blocage avec un coude qui s'avère être un contact puissant atterrissant au-dessus des épaules. L'adversaire ne tombe pas. L'action ..."
-1183	"Un joueur réalise un blocage avec son coude . L'adversaire ne tombe pas mais perd  sa position relative. L'initiateur du contact ..."
-1184	"Un joueur initie un contact avec son coude d'une manière qui déséquilibre un adversaire mais ne le fait ni tomber ni perdre de position relative. L'action ..."
-1185	"Un joueur limite les déplacements d'un adversaire en l'attrapant par le bras. L'action ..."
-1186	"Un joueur limite les déplacements d'un adversaire en l'immobilisant par le bras. L'action ..."
-1187	"Un patineur tente illégalement de porter un coup de coude à un adversaire mais manque la cible. Il ... "
-1188	"Un patineur initie un contact négligent ou imprudent avec un adversaire en utilisant les coudes de manière illégale. L'initiateur du contact ... "
-1189	"Un jammer n'est pas d'accord avec une décision d'un arbitre et réagit en insultant un joueur adverse. Le jammer ... "
-1190	"Un patineur entre dans la penalty box d'une manière qui fait qu'une personne doit se déplacer afin éviter raisonnablement d’être contacté puissamment. Le joueur en question ..."
-1191	"Un joueur touche brièvement avec ses mains une zone cible légale d'un adversaire. Ce dernier ne doit pas ajuster son patinage. L'initiateur du contact ..."
-1192	"Un joueur a ses bras positionnés contre lui lors d'un contact contre un adversaire. Sur l'impact, les bras touchent l'adversaire, l'action ..."
-1193	"Un joueur touche sans le vouloir un adversaire avec ses mains, le poussant légèrement. Ce dernier ne perd pas sa position relative. L'action ..."
-1194	"Un joueur met un coup d'épaule à un adversaire mais le pousse également avec ses mains. Ce dernier est propulsé vers l'avant sans perdre sa position relative. L'action ..."
-1195	"Vrai ou faux : Un joueur met un coup d'épaule à un adversaire mais le pousse également avec ses mains sans aucun changement de position relative. L'initiateur du contact est pénalisé."
-1196	"Un joueur pousse légèrement avec les bras un adversaire ce qui fait avancer ce dernier et le déséquilibre mais ne lui fait pas perdre de position relative. L'action entraîne ..."
-1197	"Un joueur initie un contact sur un adversaire avec l'épaule mais dans le même temps le pousse en avant avec les mains. L'action ..."
-1198	"Vrai ou faux : Du moment que la main d'un joueur touche une zone légale de légale d'un adversaire et que ce dernier n'a pas besoin de modifier son patinage, l'initiateur du contact peut laisser sa main autant de temps qu'il le souhaite."
-1199	"Le jammer bleu pose sa main sur le dos d'un blocker rouge pendant plus de 3 secondes. Aucun changement de position relative n'est observé. Le jammeur bleu ..."
-1201	"Un joueur réalise un contact illégal avec ses avants-bras sur un adversaire. Ce dernier ne tombe pas mais perd sa position relative. L'initiateur ..."
-1202	"Un joueur pousse avec ses mains un adversaire vers l'avant. Ce dernier ne tombe pas mais perd sa position relative. L'initiateur ..."
-1203	"Un joueur pousse avec ses avants-bras un adversaire sur le côté. Ce dernier ne tombe pas mais perd sa position relative. L'initiateur ..."
-1204	"Un joueur s'aggripe à un adversaire et l'initiateur améliore ainsi sa position relative. L'action ..."
-1205	"Un patineur tente mais ne parvient pas à bousculer très violement un adversaire avec ses bras. L'action ..."
-1206	"Un patineur met un coup de pain à un adversaire. Il ..."
-1207	"Un joueur qui maintient un coéquipier au sol ..."
-1208	"Un joueur frappe un coéquipier, il ..."
-1209	"Un joueur contacte sans le faire exprès la tête d'un de ses coéquipiers. Le joueur ..."
-1210	"Un joueur touche de manière involontairement avec sa tête un joueur adverse. Le joueur impacté na pas besoin d'adapter son patinage et ne perd pas position relative. L'initiateur ... "
-1211	"Un joueur initie un contact sur un adersaire et touche par la même occasion ce dernier avec sa tête. Le joueur impacté est désquilibré mais ne perd pas position relative. L'initiateur ..."
-1212	"Un joueur initie un contact sur un adversaire avec sa tête faisant perdre l'équilibre à l'adversaire. Ce dernier ne tombe pas mais perd sa position relative. L'action ..."
-1213	"Un joueur réalise un blocage avec la tête qui inclut un contact physique. L'initiateur ..."
-1214	"Un joueur réalise un blocage avec la tête d'une manière illégale. L'initiateur ..."
-1216	"Vrai ou faux : Un joueur entre habituellement dans la penalty box sans prendre de précautions habituelle. A chaque entrée, une défaillance de la structure du siège et non pas par l’entrée du patineur entraîne un contact entre la chaise et une autre personne. Le joueur reçoit une pénalité de misconduct."
-1217	"Un joueur entre habituellement dans la penalty box d'une manière qui implique un contact entre sa chaise et une autre personne, ce contact étant causé par une défaillance de la structure du siège. Le joueur ..."
-1218	"Un joueur entre habituellement dans la penalty box sans prendre de précautions habituelle. A chaque entrée, une défaillance de la structure du siège et non pas par l’entrée du patineur entraîne un contact entre la chaise et une autre personne. Le joueur ..."
-1220	"Vrai ou faux : les pénalités de retard de jeu Delay of Game [retardement de jeu] seront données pour des actions qui font patiner les joueurs moins vite."
-1221	"Les pénalités de Delay of Game [retardement de jeu] seront données pour des actions qui interfèrent avec la progression normale du match et peuvent seulement découler sur une ..."
-1222	"Un joueur reçoit une pénalité et est mis en attente pour la penalty box (qui est pleine) juste avant la fin du jam. Le joueur en attente retourne sur le banc de son équipe pour le début du jam suigvant. Il ..."
-1223	"Vrai ou faux : une pénalité de Delay of Game [retardement de jeu] sera donnée à chaque joueur qui manque à être sur la piste pour le jam suivant au départ du jam, au poste approprié (pivot ou blocker), alors que l’on est en attente pour la penalty box."
-1224	"Une équipe n'aligne aucun blocker au début d'un jam, empêchant ce jam de débuter. Le capitaine de l'équipe en question ..."
-1225	"Une équipe a déjà utilisée ses 3 temps-mort [Team timeout] avant la fin du match mais elle demande et obtient tout de même un nouveau temps-mort. Le capitaine de l'équipe en question ..."
-1226	"Vrai ou faux : une équipe demande et obtient un temps-mort alors qu'elle a déjà utilisée ses 3 temps-mort. La pénalité est donnée au capitaine de l'équipe."
-1227	"Vrai ou faux : Les pénalités d’Insubordination seront données pour des actions qui démontrent un irrespect à l’égard de l’autorité des officiels, qu’elles soient intentionnelles ou non."
-1228	"Un patineur qui, après avoir été pénalisé clairement et de manière appropriée, ne quitte pas la piste. Il ..."
-1229	"Le joueur rouge numéro 5 est pénalisé mais refuse de quitter la piste. Cette pénalité est la septième du joueur au cours du match. Le joueur ..."
-1230	"Vrai ou faux : Commettre intentionnellement une Illegal Procedure n’est pas de l’insubordination."
-1232	"L’utilisation d’un langage ou de gestes obscènes, outrageants ou abusifs dirigés à l’égard d’un officiel ..."
-1233	"Vrai ou faux : une pénalité est donnée à un joueur qui utilise un langage ou de gestes obscènes, outrageants ou abusifs à l’égard d’un officiel."
-1234	"Un joueur exclu (foul out) du match refuse de quitter la piste, il ..."
-1235	"Vrai ou faux : un joueur exclu qui refuse de quitter la piste sera expulsé du match."
-1236	"Vrai ou faux : l’utilisation répétée d’un langage ou de gestes obscènes, outrageants ou injurieux dirigés à l’égard d’un officiel n'entraînera pas une expulsion du match."
-1237	"L’utilisation répétée d’un langage ou de gestes obscènes, outrageants ou injurieux dirigés à l’égard d’un officiel ..."
-1238	"L'insubordination délibérée et excessive envers un arbitre entraîne ..."
-1239	"L'insubordination délibérée et excessive envers un NSO ..."
-1240	"Vrai ou faux : l'insubordination délibérée et excessive envers un arbitre n'entraînera pas l'expulsion du match."
-1241	"Vrai ou faux : Les procédures illégales sont les infractions techniques donnant un avantage à l’équipe incriminée, mais n’ayant pas forcément d’impact sur un adversaire spécifique."
-1243	"Les infractions techniques donnant un avantage à l’équipe incriminée, mais n’ayant pas forcément d’impact sur un adversaire spécifique ..."
-1244	"Vrai ou faux : un joueur coupable d'un faux départ doit s’arrêter complètement pour céder l’avantage ou être pénalisé."
-1245	"Vrai ou faux : si un joueur coupable d'un faux départ (False Start) tente de céder sa position relative (en s’arrêtant), mais qu’aucun autre patineur ne tente de reprendre ledit avantage, le joueur coupable de faux départ ne sera pas pénalisé."
-1246	"Un joueur réalise un false start et ne cède pas l'avantage en continuant à avancer. Il ..."
-1249	"Un blocker non-pivot se voit siffler une pénalité de false start en début de jam quand ..."
-1250	"Un pivot se voit siffler une pénalité de false start en début de jam quand ..."
-1251	"Vrai ou faux : un pivot se voit siffler une pénalité de false start en début de jam lorsque il touche la ligne de jammer."
-1252	"Vrai ou faux : un pivot se voit siffler une pénalité de false start en début de jam lorsque il se situe devant la ligne de pivot dans le sens anti-horaire."
-1253	"Un joueur fait un faux départ mais cède l’avantage à tous les patineurs dans le voisinage immédiat. Le joueur ..."
-1254	"Un joueur ne quitte pas la piste après avoir été pénalisé clairement et de manière appropriée. Le patineur n'est pas conscient qu'il a été pénalisé. Il ..."
-1256	"Un patineur sort complètement de la Penalty Box avant que son temps de pénalité ne soit terminé, après avoir reçu une mauvaise instruction par l’officiel de Penalty Box. Il doit revenir dans la penalty box afin de finir son temps et ..."
-1257	"Un patineur établit une position de départ légale sur la piste avant le coup de sifflet de départ de jam, mais est bloqué hors des limites avant que le coup de sifflet de départ de Jam est donné. Ce patineur est autorisé à rester dans le jam et ..."
-1258	"Trop de patineurs sur la piste. Le patineur en trop est invité à retourner sur son banc sans arrêt du jam et ..."
-1259	"Il y a plus d'un pivot pour une équipe sur la piste lors d'un jam, un arbitre demande au pivot le plus proche de lui de sortir de la piste. Le pivot en question ..."
-1260	"Vrai ou faux : un pivot démarrant le jam en penalty box n'est pas le pivot de l'équipe pour ce jam."
-1261	"Vrai ou faux : s'il y a plus d'un pivot pour une équipe sur la piste lors d'un jam, un arbitre demandera au pivot le plus proche de lui de sortir de la piste si ce patineur est un patineur en trop sur la piste."
-1262	"Vrai ou faux : si un patineur se rend compte qu'il y a deux pivots sur la piste, un des deux pivots peut enlever son couvre-casque sans risquer de prendre une pénalité."
-1263	"Un jammer, qui n'a pas le statut de lead jammer, essaye d’arrêter le jam mais le jam n'est pas arrêté. Le jammer en question ..."
-1264	"Un joueur qui vient de quitter la penalty box retourne sur la piste devant un de ses coéquipiers. Il ..."
-1265	"Le patineur C est pénalisé mais est renvoyé sur la piste car la penalty box est pleine. Il retourne sur la piste en dépassant un de ses coéquipier. Le patineur ..."
-1266	"Le patineur C est pénalisé pour un blocage à la tête mais est renvoyé sur la piste car la penalty box est pleine. Il retourne sur la piste en dépassant un de ses coéquipier. Le patineur C ..."
-1267	"Un patineur après être sorti pour remédier à un dysfonctionnement de son équipement retourne sur la piste devant un de ses coéquipiers. Le patineur en question ..."
-1268	"Vrai ou faux : un patineur après être sorti pour remédier à un dysfonctionnement de son équipement peut retourner sur la piste devant deux de ses coéquipiers sans recevoir de pénalité."
-1269	"Un patineur initie un contact envers un adversaire avant le coup de sifflet de départ de jam, ce qui déséquilibre l’adversaire cible mais ne lui fait pas perdre sa position de départ établie. L'initiateur ..."
-1270	"Un patineur initie un contact envers un adversaire avant le coup de sifflet de départ de jam, ce qui déplace l’adversaire cible vers l’avant mais ne lui fait pas perdre sa position de départ établie. L'initiateur ..."
-1271	"Un patineur initie un contact envers un adversaire après le quatrième coup de sifflet de fin de jam, ce  qui déséquilibre l’adversaire cible mais ne le fait ni tomber ni sortir de la piste. L'initiateur ..."
-1272	"Un patineur initie un contact envers un adversaire après le quatrième coup de sifflet de fin de jam, ce qui déplace l’adversaire cible vers l’avant mais ne le fait ni tomber ni sortir de la piste. L'initiateur ..."
-1273	"Un blocker commençant le jam avec plus d’un genou à terre ..."
-1274	"Un blocker commençant le jam avec plus d’un genou à terre ..."
-1275	"Le blocker rouge A1 maintient son coéquipier A2 contre un blocker bleu B4. A2 touche B4  de manière légale. A1 ..."
-1276	"Un joueur utilise un coéquipier pour se freiner sur la piste sans affecter les joueurs adversaires. Le joueur en question ..."
-1277	"Un joueur utilise le maillot d'un coéquipier pour accélerer sur la piste sans affecter les joueurs adversaires. Le joueur en question ..."
-1278	"Deux patineurs réalisent un blocage à plusieurs (multi-player block) durant 2 secondes, ce qui entrave un patineur adverse mais ne le fait pas tomber ou perdre sa position relative. L'un des patineurs..."
-1279	"Deux patineurs réalisent un blocage à plusieurs (multi-player block) durant 2 secondes, obligeant un patineur adverse à tomber ou perdre sa position relative. L'un des patineurs..."
-1280	"Deux patineurs réalisent un blocage à plusieurs (multi-player block), entravant un patineur adverse, mais ne le faisant pas tomber ou perdre sa position relative. L'un des patineurs..."
-1282	"Un joueur effectue un contact négligent contre un adversaire alors qu'il effectue un blocage à plusieurs (Multi-Player Block) de manière illégale. Il ..."
-1283	"Deux joueurs effectuent un contact imprudent avec un adversaire en formant un blocage à plusieurs (Multi-Player Block). Le joueur le plus  proche de l'arbitre ..."
-1284	"Un joueur continue un contre-blocage alors qu'un de ses patins touche le sol en dehors des limites de la piste. Le joueur adversaire ne tombe pas. L'initiateur ..."
-1285	"Un joueur revient sur la piste sans toucher d'adversaire ni améliorer sa position relative. Il ..."
-1286	"Vrai ou faux : un joueur revient sur la piste sans toucher d'adversaire ni améliorer sa position relative. Il reçoit une pénalité pour un blocage en dehors des limites (Out of Bounds Block)."
-1287	"Le joueur rouge numéro est  bloqué par un blocker vert. Le joueur rouge contre-bloque puis continue son blocage alors qu'un de ses patins touche le sol en dehors de la piste. Le blocker vert ne perd pas sa position relative et reste debout. Le blocker rouge ..."
-1288	"Un joueur en dehors des limites de la piste touche légèrement un adversaire en jeu. Ce dernier ne tombe pas et ne perd pas sa position relative. L'initiateur du contact ..."
-1289	"Un joueur initie un contact qu'il continue alors qu'un de ses patins touche le sol en dehors de la piste. L'adversaire bloqué ne tombe pas et ne perd pas sa position relative. L'initiateur du contact ..."
-1290	"Un joueur initie un contact avec un adversaire qui est complètement hors des limites mais cela n'affecte pas la capacité de l’adversaire à retourner en jeu. L'initiateur du contact ..."
-1291	"Un joueur initie un contact avec un adversaire qui est complètement hors des limites mais cela n’affecte pas la position debout de l’adversaire. L'initiateur du contact ..."
-1292	"Un patineur à terre retourne sur la piste depuis l’extérieur des limites et ne provoque pas la perte de position relative d’un des patineurs adverses. L'initiateur du contact ..."
-1293	"Un patineur à terre retourne sur la piste depuis l’extérieur des limites et ne fait pas tomber un des patineurs adverses. L'initiateur du contact ..."
-1294	"Un patineur en dehors de la piste initie un blocage depuis l’extérieur des limites et fait tomber un adversaire. L'initiateur du contact ..."
-1295	"Un patineur en dehors de la piste touche un adversaire depuis l’extérieur des limites et fait tomber ce joueur. L'initiateur du contact ..."
-1296	"Un patineur en dehors de la piste touche un adversaire depuis l’extérieur des limites. L'adversaire ne tombe pas mais perd sa position relative. L'initiateur du contact ..."
-1297	"Un joueur continue un blocage alors qu'un de ses patins touche le sol en dehors de la piste et son adversaire tombe. L'initiateur du contact ..."
-1298	"Un joueur revient sur la piste en améliorant sa position relative sur un adversaire. Il ..."
-1299	"Un patineur à terre retourne sur la piste depuis l’extérieur des limites et fait tomber un adversaire. L'initiateur du contact ..."
-1300	"Un joueur continue un blocage alors qu'un de ses patins touche le sol en dehors de la piste et son adversaire tombe. L'initiateur du contact ..."
-1301	"Un joueur initie un contact avec un adversaire qui est complètement hors des limites, ce qui affecte la capacité de l’adversaire à retourner en jeu. L'initiateur du contact ..."
-1302	"Un joueur initie un contact avec un adversaire qui est complètement hors des limites, ce qui provoque la chute de l’adversaire. L'initiateur du contact ..."
-1303	"Un patineur en dehors de la piste initie un contact négligent envers un coéquipier qui tombe. L'initiateur du contact ..."
-1304	"Un patineur initie un contact négligent envers un coéquipier en dehors des limites de la piste. L'initiateur du contact ..."
-1305	"Un patineur initie un contact imprudent envers un coéquipier en dehors des limites de la piste. L'initiateur du contact ..."
-1306	"Un joueur fait une tentative puissante et délibérée de bloquer un adversaire en dehors des limites de la piste de manière flagrante. L'initiateur du contact ..."
-1307	"Un joueur effectue un léger blocage dans le sens horaire sur un coéquipier. Il ..."
-1308	"Un patineur engagé dans un blocage, qui se retrouve à l’arrêt, doit ..."
-1309	"A la suite d'un blocage, un patineur tourne sur lui-même et patine alors dans le sens horaire. Il rentre de manière collatérale en contact avec un adversaire qui ne tombe pas et ne perd pas de position relative. Le patineur ..."
-1310	"Un patineur, qui, étant arrêté, aide un coéquipier à terre à se mettre debout. Il ..."
-1311	"Un patineur assiste un coéquipier mais se retrouve à l'arrêt. Il ..."
-1312	"Un patineur effectue un blocage contre un adversaire tout en patinant dans le sens horaire. L'adversaire ne tombe pas et ne perd pas de position relative. L'initiateur ..."
-1313	"Un patineur à l'arrêt effectue un blocage contre un adversaire. L'adversaire est déséquilibré mais ne tombe pas et ne perd pas de position relative. L'initiateur ..."
-1314	"Un patineur à l'arrêt effectue un blocage contre un adversaire. L'adversaire est déplacé sur le côté mais ne tombe pas et ne perd pas de position relative. L'initiateur ..."
-1315	"Un patineur marche dans le sens horaire et donne un assist qui affecte le receveur mais n’améliore pas la position relative du receveur. Le patineur ..."
-1316	"Un patineur marche dans le sens horaire et donne un assist qui améliore la position relative du receveur. Le patineur ..."
-1317	"Un patineur qui initie un contact avec un adversaire se retrouve momentanément à l’arrêt. Il ne commence pas à patiner dans le sens antihoraire à la première opportunité légale. Il ..."
-1318	"Un patineur qui initie un contact avec un adversaire se retrouve momentanément à l’arrêt. Le joueur en question n’a pas d’opportunité légale de patiner dans le sens antihoraire et cesse son action. Il ..."
-1319	"Un patineur qui initie un contact avec un adversaire se retrouve momentanément à l’arrêt. Il commence à patiner dans le sens antihoraire à la première opportunité légale. Il ..."
-1320	"Un patineur à l'arrêt effectue un blocage contre un adversaire. L'adversaire est déplacé sur le côté mais ne tombe pas et ne perd pas de position relative. L'initiateur ..."
-1321	"Un patineur patinant dans le sens horaire initie un blocage contre un adversaire qui tombe à la suite de ce blocage. L'initiateur ..."
-1322	"Un patineur patinant dans le sens horaire initie un blocage contre un adversaire. L'adversaire est déséquilibré mais ne tombe pas et ne perd pas de position relative. L'initiateur ..."
-1323	"Un patineur patinant dans le sens horaire initie un blocage contre un adversaire. L'adversaire est déplacé vers l'avant mais ne tombe pas et ne perd pas de position relative. L'initiateur ..."
-1324	"Un patineur à l'arrêt effectue un blocage contre un adversaire qui tombe sur le coup. L'initiateur ..."
-1325	"Un patineur à l'arrêt effectue un blocage contre un adversaire qui sort des limites de la piste à la suite dudit blocage. L'initiateur ..."
-1326	"Un patineur à l'arrêt effectue un blocage contre un adversaire qui perd sa position relative. L'initiateur ..."
-1327	"Un patineur à l'arrêt effectue un blocage négligent contre un adversaire. L'initiateur ..."
-1328	"Un patineur à l'arrêt effectue un blocage puissant et délibéré contre un adversaire d’une manière flagrante. L'initiateur ..."
-1329	"Un patineur initie un blocage dans le sens horaire mais est distrait par le public. Le blocage devient un blocage négligent sur l'adversaire. L'initiateur ..."
-1330	"Un patineur patinant dans le sens horaire effectue un blocage négligent contre un adversaire. L'initiateur ..."
-1331	"Un joueur tente mais manque un blocage sur un adversaire. Il finit en dehors des limites de la piste et ... "
-1332	"Un joueur sort de la piste en conséquence d'un blocage d'un joueur adverse. Le joueur hors des limites ..."
-1333	"Un joueur quitte la penalty box et maintient sa vitesse en étant en dehors des limites. Il ..."
-1334	"Un joueur sort de la piste en conséquence d'un blocage d'un joueur adverse. Le joueur hors des limites ..."
-1335	"Un joueur tente et réalise un blocage sur un adversaire mais finit en dehors des limites de la piste. Le joueur hors des limites ... "
-1336	"Un joueur qui rejoint la penalty box accélère en étant en dehors des limites. Il ..."
-1337	"Vrai ou faux : si un joueur quitte la piste en raison d'une blessure, il sera pénalisé pour avoir patiné en dehors de la piste."
-1338	"Un joueur quitte la piste afin d'éviter un autre joueur à terre. Il  ..."
-1339	"Un joueur quitte la piste pour résoudre un problème d’équipement. Il ..."
-1340	"Un joueur quitte la piste afin d'éviter blocage. Il ..."
-1341	"Un joueur quitte la piste pour augmenter sa vitesse. Il ..."
-1342	"Un joueur quitte la piste pour conserver sa vitesse. Il  ..."
-1343	"Un joueur coupe à travers la zone intérieure de la piste d'une manière qui raccourcit substantiellement la distance du tour. Il ..."
-1344	"Vrai ou faux : un joueur peut être expulsé pour avoir patiné hors des limites."
-1345	"Une destruction de pack en tant que conséquence d'une action de jeu est ..."
-1346	"Vrai ou faux : un artbire n'a pas besoin de donner un avertissement à un joueur hors-jeu avant de lui donner une pénalité de Failure to Return dans la zone d'engagement."
-1347	"Une situation de No Pack est créée sans impact mesurable sur le déroulement du jeu, la situation ..."
-1348	"Un patineur hors-jeu (Out of play) touche un adversaire ce qui fait osciller ce dernier sur ces patins mais ce dernier ne doit pas ajuster son patinage. L'initiateur du contact ... "
-1349	"Un patineur hors-jeu (Out of play) est averti par un arbitre mais ne tente pas immédiatement de retourner dans la zone d'engagement. Le patineur ..."
-1350	"Si deux blockers ne tentent pas immédiatement de retourner dans la zone d’engagement après avoir été avertis, que se passe-t-il ?"
-1351	"Un patineur hors-jeu (Out of play) touche un adversaire ce qui fait osciller ce dernier sur ces patins mais sans qu'il ne tombe ou perde sa position établie. L'initiateur du contact ... "
-1352	"Un patineur hors-jeu (Out of play) assiste un coéquipier. L'assist affecte le receveur mais n’améliore pas sa position relative. L'initiateur de l'assist ... "
-1353	"Après l'annonce d'un No Pack, un patineur qui est le plus responsable du maintien de la situation de No Pack, ne fait pas d’effort immédiat pour reformer le pack. Le patineur ..."
-1354	"Une situation de No Pack se produit. Après un avertissement, un patineur ne tente pas immédiatement de reformer le pack. Le patineur ..."
-1355	"Un blocker retourne dans la zone d’engagement par l’arrière, en lui ayant pris un tour d’avance. Il ..."
-1356	"Un blocker retourne dans la zone d’engagement par l'avant après être sorti du pack par l’arrière. Il ..."
-1357	"Après un avertissement, un blocker réalise une action qui retarde sa tentative de reformer un pack. Il ..."
-1358	"Un painteur hors-jeu (Out of play) bloque un joueur adverse qui perd sa position établie. L'initiateur du contact ... "
-1359	"Un painteur hors-jeu (Out of play) bloque un joueur adverse qui tombe sur le coup. L'initiateur du contact ... "
-1360	"Un patineur détruit illégallement un pack, il ..."
-1361	"Un patineur hors-jeu (Out of play) assiste un coéquipier qui améliore sa position relative. L'initiateur de l'assist ... "
-1362	"Hors-jeu, un patineur initie un blocage imprudent sur un adversaire. L'initiateur du blocage ..."
-1363	"Au cours d'une situation de no pack, un jammer chevauchant la limilte de la piste passe un blocker adverse puis retourne dans les limites de la piste. Le jammer en question ..."
-1364	"Vrai ou faux : un joueur peut recevoir une pénalité de \"Cutting the Track\" lors d'une situation de No Pack."
-1365	"Un blocker blanc bloque un blocker noir en dehors des limites de la piste mais sort à son temps tour des limites.  Le blocker noir revient sur la piste devant le blocker blanc. Le blocker noir ..."
-1366	"Un joueur debout et patinant retourne complètement dans les limites de la piste (après avoir été hors des limites) en améliorant sa position par rapport à un adversaire. Le joueur ..."
-1367	"Lors d'une situation de no pack, un joueur debout et patinant retourne complètement dans les limites de la piste (après avoir été hors des limites) en améliorant sa position par rapport à un ou plusieurs adversaires. Le joueur ..."
-1368	"Un joueur retourne complétement dans les limites de la piste (après avoir été hors des limites) en dépassant un patineur à qui un artbire vient juste de signaler une pénalité. Le joueur ..."
-1369	"Un joueur debout et patinant retourne complètement dans les limites de la piste (après avoir été hors des limites) en améliorant sa position par rapport à un adversaire à terre. Le joueur ..."
-1370	"Un joueur retourne complétement dans les limites de la piste (après avoir été hors des limites) en dépassant un patineur envoyé en pénalité. Le joueur ..."
-1371	"Un joueur debout et patinant retourne complètement dans les limites de la piste (après avoir été hors des limites) en améliorant sa position par rapport à un adversaire en dehors de la piste. Le joueur ..."
-1372	"Un joueur en dehors des limites met un patin à l'intérieur de la piste et passe deux joueurs tout en chevauchant la ligne. Finalement, il retourne complétement en dehors de la piste. Selon la règle des cutting, que reçoit le joueur en question ?"
-1373	"Après avoir été bloqué, un patineur chevauche la limite de la piste puis sort ensuite complètement de la piste, en ayant dépassé deux joueurs adverses. Le joueur ..."
-1374	"Un patineur debout, dans les limites de la piste et patinant retourne sur la piste devant un coéquipier. Le joueur ..."
-1375	"Un joueur debout et patinant retourne complètement dans les limites de la piste (après avoir été hors des limites) en améliorant sa position par rapport à deux coéquipiers. Le joueur ..."
-1376	"un joueur debout et patinant retourne complètement dans les limites de la piste (après avoir été hors des limites) en améliorant sa position par rapport à un adversaire. Le joueur ..."
-1377	"Vrai ou faux : une action de \"Cutting the Track\" ne peut pas entraîner d'expulsion."
-1378	"Vrai ou faux : une équipe aligne 4 blockers dont 2 pivots. Les 4 joueurs peuvent jouer le jam si le dernier pivot qui est entré sur la piste retire son couvre-casque."
-1379	"Un patineur pénalisé quitte la penalty box pendant un Team Timeout. Il ..."
-1381	"Pendant un Team Timeout, un joueur entre dans la penalty box pour communiquer avec un coéquipier pénalisé. Le joueur pénétrant dans la zone ..."
-1382	"Un joueur pénalisé enlève son casque alors qu'il est assis dans la penalty box. Il ..."
-1383	"Un joueur pénalisé retire son protège-dents alors qu'il est assis dans la penalty box. Il ..."
-1384	"Un joueur pénalisé retire un équipement de protection (autre que son protège-dents) alors qu'il est assis dans la penalty box. Il ..."
-1385	"Un joueur pénalisé ajuste son casque alors qu'il est assis dans la penalty box mais sans le retirer. Il ..."
-1386	"Un joueur réalise un false starts et arrête d'accéler mais ne s'arrête pas sur la piste. Il ..."
-1387	"Un jammer réalise un false starts et ne cède pas l'avantage. Il ..."
-1388	"Un blocker réalise un false starts et ne cède pas l'avantage. Il ..."
-1389	"Un joueur force l'arrêt d'un jam à cause d'un trop grand nombre de patineurs sur la piste. Il ..."
-1390	"Il y a trop de joueurs d'une équipe sur la poste et un blocker refuse de quitter la piste, qui reçoit la pénalité ?"
-1391	"Un joueur porte des patins inappropriés, il ..."
-1392	"Un joueur porte un uniforme inapproprié, il ..."
-1393	"Un joueur porte des bijoux dangereux, il ..."
-1394	"Un Jammer sans statut de Lead Jammer réussit à arrêter un Jam. Il ..."
-1395	"Un joueur viole la procédure de Star Pass. L'initiateur du Star Pass ..."
-1396	"Un joueur empêche un Star Pass de manière illégale. Il ..."
-1397	"Un patineur qui sort de la penalty box retourne sur la piste devant plus d'un joueur du pack. Il ..."
-1398	"Un patineur est renvoyé de la penalty box pleine retourne sur la piste devant deux joueurs de son équipe. Il ..."
-1399	"Un patineur, après avoir remédié à un dysfonctionnement de son équipement au cours d’un jam, revient sur la piste devant plus d'un joueur du pack. Le joueur ..."
-1400	"Un patineur sortant complètement de la Penalty Box avant d’avoir été relâché par un officiel. Il ..."
-1401	"S'il y a trop de patineurs et/ou de personnel de l’encadrement de l’équipe dans la zone désignée de l’équipe, qui est pénalisé ?"
-1402	"S'il y a trop de patineurs et/ou de personnel de l’encadrement de l’équipe dans la zone désignée de l’équipe, les arbitres ..."
-1403	"Un joueur retire son protège dents au cours d'un jam tout en étant sur la piste. Il ..."
-1404	"Un joueur retire un équipement de sécurité au cours d'un jam tout en étant sur la piste. Il ..."
-1405	"Un patineur initie un contact envers un adversaire avant le coup de sifflet de départ de jam, ce qui fait perdre à l’adversaire sa position de départ établie. L'initiateur ..."
-1406	"Vrai ou faux : une procédure illégale ne peut pas entraîner d'expulsion."
-1407	"Un patineur sort de la Penalty Box et rentre sur la piste devant un joueur adverse du pack. Il ..."
-1408	"Un patineur est renvoyé de la penalty box pleine retourne sur la piste devant un joueur adverse du pack. Il ..."
-1409	"Un patineur, après avoir remédié à un dysfonctionnement de son équipement au cours d’un jam revient sur la piste devant un joueur adverse situé dans le pack. Le joueur ..."
-1410	"Un patineur qui a été exclu d’un match interfére avec le match au-delà d’un comportement attendu de la part d’un membre du public. Le capitaine de l'équipe ..."
-1411	"Un patineur qui a été exclu d’un match retourne dans la zone désignée de son équipe. Le capitaine de l'équipe ..."
-1412	"Un joueur commence intentionnellement un jam sur le dos afin de prolonger le temps de formation d'un pack. Il ..."
-1413	"Des joueurs commencent intentionnellement un jam sur le dos afin de prolonger le temps de formation d'un pack. Qui reçoit une pénalité ?"
-1414	"Au coup de sifflet de départ de jam moins de la moitié des blockers d'une équipe se situent entre la ligne de pivot et celle de jammer. L'équipe en question a aligné un pivot. Qui reçoit la pénalité ?"
-1415	"Vrai ou faux : les protections de visage de type grille sont autorisées."
-1417	"Qui siffle le début d'un jam ?"
-1418	"Comment le statut de lead jammer est-il indiqué ?"
-1419	"Au cours d'un Official Review ..."
-1420	"Qui expose sa requête au cours d'un Official Review ?"
-1421	"Qui étudie la requête au cours d'un Official Review ?"
-1422	"La décision du Head Referee sur l'Official Review ..."
-1423	"Quand un joueur est pénalisé ..."
-1424	"Quand les pénalités expirent-elles ?"
-1425	"Combien de temps un joueur doit-il passer en penalty box dans le cas d'une pénalité ?"
-1426	"Si une pénalité unique est commise par un groupe de coéquipiers (hormis \"destroying the pack\") qui reçoit la pénalité ?"
-1427	"Vrai ou faux : les remplacements sont autorisés si une pénalité se poursuit au jam suivant (hormis pour les expulsions, les exclusions et les blessures)."
-1428	"Vrai ou faux : un joueur explusé au début du jam peut revenir en jeu après avoir passé 1 minute dans la penalty box."
-1429	"Sous quelle condition, un joueur pénalisé peut-il être remplacé en penalty box ?"
-1430	"Si un patineur a été expulsé, à quel moment doit-il être remplacé (en considérant qu'il est en penalty box) ?"
-1431	"Quand un joueur est pénalisé, à quel moment doit-il quitter la piste ?"
-1432	"Vrai ou faux : Le chronomètre de la pénalité démarre quand le patineur quitte la piste."
-1433	"Vrai ou faux : une équipe peut avoir 3 blockers pénalisés et assis dans la penalty box en même temps."
-1434	"Vrai ou faux : le patineur peut patiner vers la penalty box dans le sens antihoraire ou horaire comme il le souhaite."
-1435	"Si à la fin d'un jam, la penalty box est pleine et si un joueur reçoit une pénalité, quand ce dernier doit-il purger sa pénalité ?"
-1436	"Au moment où il est ordonné au patineur pénalisé de sortir de la piste, il ..."
-1437	"A quel moment débute une pénalité appelée pendant un jam si le jam ne prend pas fin ?"
-1438	"Une équipe n'aligne qu'un seul blocker au cours d'un jam et il reçoit une pénalité. Il y a de la place dans la penalty box, le joueur ..."
-1439	"Une équipe n'aligne qu'un seul blocker au cours d'un jam et il reçoit une pénalité. Il y a de la place dans la penalty box, le joueur est envoyé en penalty box ..."
-1440	"Un joueur reçoit une pénalité mais est renvoyé de la penalty box qui est pleine. Le jam se termine avant que le joueur en question ne purge sa peine. Si ce dernier ne reste pas sur la piste dans le jam suivant alors qu'il est en attente ..."
-1441	"Vrai ou faux : un jammer ne peut jamais être renvoyé de la penalty box."
-1442	"Une équipe a deux blockers, A5 et B6, en penalty box. Les deux joueurs ont plus de 10 secondes à purger quand le blocker C7 de la même équipe arrive dans la penalty box. C7 ..."
-1443	"Une équipe a deux blockers, A5 et B6, en penalty box. Il reste moins de 10 secondes à purger pour A5 quand le blocker C7 de la même équipe arrive dans la penalty box. C7 ..."
-1444	"Le chronomètre de pénalité démarre quand ..."
-1445	"Vrai ou faux : le chronomètre de pénalité ne tourne que quand le chronomètre de jam tourne."
-1446	"Quand il reste dix secondes à la pénalité d'un joueur, ..."
-1447	"Si un patineur en penalty box ne se lève pas quand on lui demande, ..."
-1448	"Si un patineur en penalty box se met debout sur ses patins avant qu’il ne lui reste 10 secondes sur le chronomètre de pénalité, ..."
-1449	"Vrai ou faux : un joueur pénalisé peut quitter la penalty box au cours d'un temps-mort officiel."
-1450	"Vrai ou faux : un joueur pénalisé peut quitter la penalty box au cours d'un temps-mort d'équipe."
-1451	"Vrai ou faux : si le capitaine ou l'alternate d'une équipe est pénalisé et dans la penalty box, il ne peut pas demander un temps-mort."
-1452	"Si un joueur est dans la zone de la penalty box sans être assis, il a le droit d'enlever ..."
-1453	"Vrai ou faux : le capitaine d'une équipe a le droit de demander un temps-mort alors qu'il est dans la penalty box."
-1454	"Quelle(s) pièce(s) de l'équipement de protection un joueur peut-il enlever quand il est assis dans la penalty box ?"
-1455	"Qui peut pénétrer dans la zone de la penalty box afin de communiquer avec un joueur pénalisé ?"
-1456	"Dans quelle direction doit patiner un joueur sortant de la penalty box ?"
-1457	"Vrai ou faux : quand il sort de la penalty box, un joueur doit patiner à 4,6 mètres des limites de la piste (si la salle le permet)."
-1458	"Où un joueur sortant de pénalisé doit-il retourner en jeu après une pénalité ?"
-1459	"Un jammer est pénalisé alors qu'il a terminé son passage initiale à travers le pack. Il retourne dans le jeu dans le même jam et ..."
-1460	"Vrai ou faux : un jammer a fait un passage marquant partiel quand il a été envoyé en penalty box et retourne en jeu dans le même jam. Il a l’opportunité de compléter le pass, en marquant des points uniquement sur les adversaires qu’il n’avait pas encore passés."
-1461	"Un jammer qui a fait un passage marquant partiel quand il a été envoyé en penalty box retourne en jeu dans le même jam. Il ..."
-1462	"Vrai ou faux : un patineur sortant de la penalty box peut retourner sur la piste devant les adversaires qui sont hors-jeu."
-1463	"Vrai ou faux : dans une situation de No Pack, un joueur sortant de la penalty box doit retourner sur la piste derrière tous les joueurs."
-1464	"Vrai ou faux : si un jammer est éligible pour marquer des points, il gagne immédiatement les points de dépassement des blockers qui sont hors de la zone d’engagement, derrière le jammer, au moment de son retour sur la piste"
-1465	"Vrai ou faux : un patineur sortant de la penalty box peut retourner sur la piste devant les adversaires qui sont hors-jeu."
-1466	"Le jammer A a déjà passé 20 secondes en pénalité quand le jammer B s'assoit à son tour en penalty box. Combien de temps ce dernier doit-il passer en penalty box ?"
-1467	"Vrai ou faux : un jammer doit toujours passer 30 secondes en penalty box quand il est pénalisé."
-1468	"Le jammer A a déjà passé 20 secondes en pénalité quand le jammer B est pénalisé. A quel moment, A peut-il sortir de penalty box ?"
-1469	"Le jammer de l'équipe rouge reçoit une pénalité juste après avoir été relâché de la penalty box en raison d'une pénalité donnée à le jammer bleu. Quand le jammer de l'équipe rouge s'assoit en penalty box, le jammer bleu est toujours assis. Que se passe-t-il ?"
-1470	"Le jammer A est assis en pénalité quand le jammer B reçoit à son tour une pénalité. A est donc relâché par l’officiel de Penalty Box, mais, oh non, A prend une nouvelle pénalité et s'assoit en Penalty Box alors que B y est toujours. Que se passe-t-il ?"
-1471	"Le jammer A est en penalty box quand le jammer B est pénalisé à son tour. Le jammer A est relâché de la penalty box mais reçoit une nouvelle pénalité quand il retourne sur la piste. Il est en route pour la penalty box alors que le jam arrive à sa fin. Que se passe-t-il ?"
-1472	"Que se passe-t-il si les deux jammers s'assoient en même temps dans la penalty box ?"
-1473	"Vrai ou faux : il n'existe pas de durée minimale du temps que doit passer un jammer en penalty box (en dehors du moment où les deux jammers s'assoient en même temps) ?"
-1474	"Un jam se termine avec le jammer A en penalty box et le jammer B en route vers cette même penalty box. Que se passe-t-il ?"
-1475	"Un jam se termine avec le jammer A en penalty box et le jammer B en route vers cette même penalty box. Quel jammer peut être remplacé ?"
-1476	"Un jammer en penalty box quitte cette dernière alors qu'il lui reste moins de 10 secondes à purger et sur sa propre initiative. Le jammer ..."
-1477	"Vrai ou faux : une seule équipe aligne un jammer pour un jam donné. Ce dernier recevant une pénalité, le jam est arrêté au moment le jammer s'assoit en penalty box."
-1478	"Une équipe oublie d'aligner un jammer pour un jam donné. L'autre jammer reçoit une pénalité, que se passe-t-il ?"
-1479	"Un jam est arrêté car il n'y a qu'un jammer pour ce jam et il vient de s'assoir dans la penalty box. Qui a le droit d'être remplacé dans l'inter-jam ?"
-1480	"Une équipe oublie d'aligner un jammer pour un jam donné. L'autre jammer sort de la piste pour un dysfonctionnement de son équipement, que se passe-t-il ?"
-1481	"Un jammer est en penalty box quand l'autre jammer sort de la piste pour un dysfonctionnement de son équipement, que se passe-t-il ?"
-1482	"Un jammer est en penalty box quand l'autre jammer sort de la piste pour une blessure. Finalement, le jammer ne pourra pas revenir sur la piste, que se passe-t-il ?"
-1483	"Si un jammer quitte la piste en raison d'une blessure et que le jam est arrêté, le jammer ..."
-1484	"Au cours d'un même jam, le jammer de l'équipe A est expulsé alors que le jammer B reçoit une pénalité. Que se passe-t-il ?"
-1485	"Au cours d'un même jam, le jammer de l'équipe A est pénalisé alors que le jammer B décide de quitter le jam. Que se passe-t-il ?"
-1486	"Au cours d'un même jam, le jammer de l'équipe A est expulsé alors que le jammer B reçoit une pénalité. Les arbitres arrêtent le jam, qui peut être remplacé pour le prochain jam ?"
-1487	"Le jammer A reçoit deux pénalités au cours de la même action et doit passer 1 minute dans le penalty box. Le jammer B reçoit à son tour une pénalité et s'assoit dans la penalty box alors qu'il ne reste que 45 secondes  de temps sur la pénalité du jammer A. Combien de temps doit passer le jammer B en penalty box ?"
-1488	"Le jammer A reçoit deux pénalités au cours de la même action et doit passer 1 minute dans le penalty box. Le jammer B reçoit à son tour une pénalité et s'assoit dans la penalty box alors qu'il ne reste que 45 secondes  de temps sur la pénalité du jammer A. Combien de temps doit encore passer le jammer A en penalty box ?"
-1491	"Au bout de combien de pénalités, un joueur est-il exclus ?"
-1492	"Un joueur est exclus au bout de ..."
-1493	"Vrai ou faux : afin d'éviter un joueur d'être expulsé, un joueur peut être remplacé en cours de jam."
-1494	"Un joueur reçoit sa 7e pénalité au cours d'un match. Qui doit le remplacer pour le jam suivant (s'il reste encore du temps sur la pénalité du joueur exclu) ?"
-1495	"Un pivot est exclu, qui doit le remplacer pour le jam suivant (s'il reste encore du temps sur la pénalité du pivot exclu) ?"
-1496	"Un jammer est exclu, qui doit le remplacer pour le jam suivant (s'il reste encore du temps sur la pénalité du jammer exclu) ?"
-1497	"Si un joueur qui a été exclu du match interfère avec le jeu ..."
-1499	"Vrai ou faux : La décision d’un Head Referee est indiscutable."
-1500	"Qui a le droit d'expulser un joueur ?"
-1503	"Qui peut réduire une explusion ?"
-1505	"Vrai ou faux : les coaches et managers peuvent être expulsés."
-1506	"Avec qui le Head Referee doit discuter avant d'expulser un joueur ?"
-1507	"Avec qui le Head Referee doit discuter avant d'expulser un joueur ?"
-1508	"Quand un joueur a été exclus, où doit il aller ?"
-1509	"Un patineur explusé du match après sa septième faute passe 20 secondes en penalty box avant la fin du jam. Combien de temps son remplaçant dans la penalty box doit-il passer en penalty box ?"
-1510	"A quel moment commence le temps de pénalité d'un joueur explusé du match après sa septième faute ? "
-1511	"Un joueur est envoyé en penalty box pour la septième fois du match. Les arbitres lui signifient son explusion à la fin du jam après avoir passé 12 secondes en penalty box. Combien de temps son remplaçant doit-il passer en penalty box ?"
-1512	"Vrai ou faux : les jammers peuvent inscrire des points sur les blockers adverses au cours de leur passage initial à travers le pack (en considérant qu'il ne s'agit pas de jam de prolongation)."
-1513	"Vrai ou faux : Un Jammer peut marquer un Jammer Lap Point [point de tour d’avance] sur son Initial Pass."
-1514	"Quand le passage marquant d'un jammer est-il terminé (en considérant qu'un pack existe en permanence) ?"
-1515	"Un jammer quitte le sol en étant dans les limites et dépasse des joueurs. Il inscrit des points seulement ..."
-1516	"Un jammer est à terre mais dans les limites de la piste. Un blocker adverse patine en sens horaire pour revenir derrière le jammer en question. Le jammer ..."
-1517	"Quand le passage marquant d'un jammer prend-il fin (en considérant qu'un pack existe en permanence) ?"
-1518	"Un jammer a marqué un point sur tous les blockers adverses et a quitté la zone d'engagement, mettant fin à son passage marquant. Un blocker adverse chasse le jammer mais est dépassé une nouvelle fois alors qu'il se trouve à 7,6 mètres de l'avant du pack. Combien de point le jammer gagne-t-il sur ce blocker au total ?"
-1519	"Un jammer a marqué un point sur tous les blockers adverses et a quitté la zone d'engagement, mettant fin à son passage marquant. Un blocker adverse chasse le jammer et se met devant le jammer. A quel moment ce dernier est-il autorisé à marquer sur le blocker de manière légale ?"
-1520	"Pour recevoir un point pour avoir passé un adversaire, le jammer doit ..."
-1521	"Vrai ou faux : il existe des circonstances qui font qu'un jammer peut marquer un point contre un blocker adverse devant la zone d'engagement sans l'avoir dépassé."
-1523	"Un jammer peut inscrire un point contre un blocker adverse devant la zone d'engagement sans l'avoir dépassé si ..."
-1524	"Si un jammer est rattrapé par le pack avant d’avoir complété son initial pass [passage initial], combien de fois doit-il passer à travers le pack pour être dans son premier passage marquant ?"
-1525	"Vrai ou faux : un jammer peut marquer des points sur des blockers en dehors des limites de la piste."
-1526	"A quel moment un jammer gagne-t-il des points sur des adversaires absents de la piste ?"
-1527	"L'équipe rouge a un blocker pénalisé alors que le jammer de l'équipe noire est dans un passage marquant mais sans avoir marqué de point. Le jammer noir prend un tour d'avance sur le jammer rouge qui est à l'arrière du pack. Combien de point le jammer noir gagne-t-il ?"
-1528	"Vrai ou faux : un jammer marque des points d’absence de la piste quand il dépasse le jammer adverse."
-1529	"L'équipe rouge a deux blockers pénalisés alors que le jammer de l'équipe noire marque son premier point sur un autre blocker rouge. Combien de point le jammer noir gagne-t-il ?"
-1530	"Une équipe oublie d'aligner un jammer. Le jammer adverse inscrit son premier point sur un blocker adverse, combien de points remporte-t-il ?"
-1531	"Une équipe aligner un jammer et deux blockers. Le jammer adverse inscrit son premier point sur un blocker adverse, combien de points remporte-t-il ?"
-1532	"Une équipe aligner par inadervtance trois blockers. Le jammer adverse inscrit son premier point sur un blocker adverse, combien de points remporte-t-il ?"
-1533	"Le blocker rouge A reçoit une pénalité mais n'a pas encore quitté la piste lors que le jammer bleu inscrit son premier point contre le blocker rouge B. Combien de point le jammer bleu gagne-t-il ?"
-1534	"Un blocker contre qui le jammer n'a pas encore inscrit de point se retire de la piste alors que le jammer adverse est encore dans le pack mais a déjà marqué un point. Que se passe-t-il ?"
-1535	"Un blocker contre qui le jammer n'a pas encore inscrit de point est envoyé en pénalité. Le jammer adverse inscrit son premier point sur un blocker adverse, combien de points remporte-t-il ?"
-1536	"Un blocker contre qui le jammer n'a pas encore inscrit de point est envoyé en pénalité alors que le jammer adverse est encore dans le pack mais a déjà marqué un point. Que se passe-t-il ?"
-1537	"Vrai ou faux : lors d'un passage marquant, quand un jammer inscrit son premier point, il marque également un point pour tous les adversaires revenant de la penalty box derrière lui."
-1538	"Vrai ou faux : un blocker revenant de la penalty box n'est pas encore dans la zone d'engagement mais se trouve devant le jammer adverse. Ce dernier doit dépasser le blocker en question afin de marquer un point contre lui."
-1539	"Vrai ou faux : quand un jammer inscrit son premier point lors d'un passage marquant, il gagne un point pour chaque adversaire revenant de la penalty box devant lui."
-1540	"Un jammer marque des points sur deux blockers adverses avant d'être envoyé en penalty box. Un blocker adverse qui n'a pas encore été dépassé est à son tour pénalisé. Le jam se termine avant que les deux joueurs ne quittent la penalty box. A quel moment le jammer inscrit-il un point pour le blocker pénalisé ?"
-1541	"Un jammer marque des points sur deux blockers adverses avant d'être envoyé en penalty box. Un blocker adverse qui n'a pas encore été dépassé est à son tour pénalisé. A quel moment le jammer inscrit-il un point pour le blocker pénalisé ?"
-1542	"A quel moment les points gagnés par un jammer sont-ils annoncés ?"
-1543	"A quel moment un jammer referee annonce-t-il les points gagnés par un jammer ?"
-1544	"Si un jammer est toujours dans le pack à la fin du jam ..."
-1545	"Si le jam finit quand le jammer est toujours dans le pack, qu'il est dans un passage marquant et que certains blockers adverses surlesquels il n'a pas encore marqué de point se trouvent devant la zone d'engagement ..."
-1546	"Vrai ou faux : si un jammer n'a pas réussi à marquer un point sur un blocker adverse mais a complété son passage, il peut faire demi-tour pour tenter de passer le blocker et gagner un nouveau point ?"
-1547	"Un jammer peut continuer à inscrire des points jusqu'à ..."
-1548	"Vrai ou faux : une fois qu’un jammer a gagné un point, ce point ne peut jamais lui être enlevé."
-1549	"Un Scoreboard operator accorde un point de bonus par erreur à une équipe est-ce que ce point peut êre enlevé ?"
-1550	"Un jammer referee accorde un point de bonus par erreur à un jammer, est-ce que ce point peut êre enlevé ?"
-1551	"Un jammer dépasse les blockers adverses 1 et 2 avant d'être envoyé en pénalité. Sur quel(s) blocker(s) peut il prendre des points au cours du même passage à sa sortie de pénalité ?"
-1552	"Un jammer dépasse les blockers adverses A & B avant d'être envoyé en pénalité. Est-ce que le jammer peut marque de nouveaux points sur A & B quand il revient dans le jeu lors du même jam (et donc dans le même passage) ?"
-1553	"Un jammer a marqué contre tous les blockers adverses mais est envoyé en penalty box avant de sortir de la zone d'engagement. A quel passage à travers le pack le jammer est-il quand il sort de pénalité (en considérant qu'il sorte au cours du même jam) ?"
-1554	"Un jammer inscrit un point contre chaque blocker adverse mais est envoyé en penalty box avant la fin de son passage à travers le pack.  Le jam se termine et un nouveau démarre avant que le jammer ne sorte de penalty box. A quel passage à travers le pack le jammer est-il quand il sort de pénalité ?"
-1555	"Si le jammer A dépasse complètement le jammer B d’un tour alors que les deux jammers sont sur la piste, combien de point marque le jammer A ?"
-1556	"Vrai ou faux : à la fin d'un jam, le jammer reçoit un point par blocker adverse situé devant la zone d'engagement et surlequel il n'a pas encore inscrit de point lors du passage marquant."
-1557	"A quel moment un jammer arrête-t-il de marquer des points ?"
-1559	"Vrai ou faux : un jammer peut marquer des points tout en étant dans la penalty box si les joueurs adverses se déplacent dans le sens horaire."
-1560	"Vrai ou faux : un jammer peut marquer des points tout en étant dans la penalty box"
-1561	"Vrai ou faux : si un joueur ou un groupe de joueurs crée une situation de No Pack, le joueur ou le groupe sera pénalisé selon les règles."
-1562	"Les arbitres ne doivent pas ..."
-1564	"Les arbitres doivent ..."
-1565	"Si un jam de prolongation est arrêté avant 2 minutes, que se passe-t-il ?"
-1566	"Un jammer perd son statut de lead jammer si ..."
-1567	"Si au cours d'un passage de l'étoile, le couvre-caque tombe au sol et que le pivot le ramasse ..."
-1569	"Quelle est la hauteur minimale des limites de la piste ?"
-1570	"Quelle est la hauteur maximale des limites de la piste ?"
-1571	"Quelle doit être l'épaisseur de la limite de la piste ?"
-1572	"Quelle hauteur des limites de la piste est valide ?"
-1573	"Les lignes de pivot et de jammer doivent faire  ..."
-1574	"La méthode utilisée pour délimiter la piste (ruban, adhésif, corde, etc.), y compris les repères de 3 mètres (10 pieds) recommandés, est ..."
-1575	"Vrai ou faux : sous certaines conditions, la largeur du dégagement de sécurité autour de la piste peut être inférieure à 1,5 mètres (5 pieds)."
-1576	"Quelle est la largeur du dégagement de sécurité autour de la piste (en considérant qu'il n'y a pas de balustrade, de mur ou de barrière) ?"
-1577	"S’il y a une balustrade, un mur ou une barrière entre la piste et le public qui empêche tout contact entre les spectateurs et les concurrents, quelle est la largeur du dégagement de sécurité autour de la piste autorisée ?"
-1578	"Vrai ou faux : un jammer peut rendre le jammer adverse inéligible au statut de lead jammer en le bloquant hors des limites de la piste avant qu’il ne soit à moins de 6 mètres (20 pieds) du blocker le plus en arrière du pack ?"
-1579	"Si un jammer est bloqué légalement hors des limites de la piste en étant à moins de 6 mètres (20 pieds) du blocker le plus en arrière du pack, est-il éligible au statut de lead jammer ?"
-1580	"Si un jammer est bloqué légalement hors des limites de la piste en étant à plus de 6 mètres (20 pieds) du blocker le plus en arrière du pack, est-il éligible au statut de lead jammer ?"
-1581	"Quel statut obtient un jammer qui n'a pas dépassé légalement, et dans les limites de la piste, l'ensemble des blockers de chaque équipe (en supposant qu'ils étaient en positions d'être légallement dépassés) et qui est sorti de la zone d'engagement ?"
-1582	"Jusqu'à quelle distance du pack un jammer peut-il aller avant de perdre la possibilité de tenter de redépasser un blocker illégalement dépassé pour tenter de devenir lead jammer ?"
-1583	"Le numéro de roster dans le dos d’un patineur doit"
-1584	"Un numéro au dos d'un uniforme est en police lisible si "
-1585	"Un joueur fait partie du pack s'il se trouve à moins de quelle distance d'un joueur du pack ?"
-1586	"Que se passe-t-il lorsque deux ou plusieurs groupes de blockers, en nombre égal sur la piste, sont à plus de 3 mètres (10 pieds) les uns des autres, et qu’aucun de ces groupes ne correspond aux critères de définition du pack ?"
-1587	"A combien de la ligne de pivot se situe la ligne de jammer ?"
-1588	"Comment est définie la zone d'engagement ?"
-1589	"Quand un blocker devient hors jeu (out of play) ?"
-1590	"Vrai ou faux : un blocker située à 6,4 mètres (21 pieds) devant le pack peut bloquer et assister."
-1591	"Vrai ou faux : un blocker située à 4,9 mètres (16 pieds) devant le pack peut bloquer et assister."
-1592	"Vrai ou faux : si un patineur accélère pour quitter la zone d'engagement par devant puis continue à accélerer jusqu'à se trouver à moins de 6 mètres (20 pieds) de l'arrière, il ne sera pas pénalisé."
-1593	"Parmi les exemples ci-dessous lequel est une destruction illégale d'un pack ?"
-1594	"Vrai ou faux : les blockers qui ne pattinent pas mais sont debouts et à 3 m (10 pieds) d'un joueur du pack font partie du pack."
-1595	"Sous quelle condition un blocker-non pivot a le droit de s'aligner devant le pivot (par rapport à leurs hanches) ?"
-1596	"Quand un blocker est hors jeu (out of play), quelle action peut-il faire ?"
-1597	"Vrai ou faux : un patineur ayant les deux mains au sol est considéré comme \"à terre\" (down)."
-1606	"Un jammer \"coupe\" le jammer adverse en dehors de la zone d'engagment. Il ..."
-1607	"Un patineur, après avoir remédié à un dysfonctionnement de son équipement au cours d’un jam revient sur la piste devant un joueur adverse situé dans la zone d'engagement mais qui ne fait pas partie du pack. Le joueur ..."
-1612	"Lors d'une situation de no pack, un joueur debout et patinant retourne complètement dans les limites de la piste (après avoir été hors des limites) en améliorant sa position par rapport à un coéquipier. Le joueur ..."
-1616	"Vrai ou faux : s’il ne reste que 30 secondes ou moins à jouer sur le chronomètre officiel de période à la fin d’un Jam et qu'une équipe appelle un Official Timeout [temps mort] ?"
-1617	"Que se passe-t-il si un patineur est partiellement dans les limites de la piste (il chevauche la limite [straddling]) au coup de sifflet de départ de Jam ?"
-1620	"Un Official Review est utilisé quand ..."
-1622	"Un joueur qui porte un couvre-casque de pivot reçoit une pénalité avant le début d'un jam. En considèrant que ce joueur n'a pas participé au jam précédent, à quel poste le joueur ira-t-il en penalty box ?"
-1623	"Vrai ou faux : il est possible de transférer le poste de pivot au cours d'un jam ?"
-1624	"Si le couvre-casque de Pivot tombe au sol dans des limites de la piste, comment peut-il être récupéré ?"
-1625	"Si le couvre-casque de Pivot tombe en dehors des limites de la piste, comment peut-il être récupéré ?"
-1626	"Un jammer est dans son passage initial et il lui reste un seul blocker à passer. Le jammer tombe à terre mais reste dans les limites de la piste alors que le blocker retourne derrière le jammer dans le sens horaire. Si l'on considère que le jammer répond à tous les autres critères pour devenir lead jammer, celui-ci..."
-1627	"Vrai ou faux : si un jammer ne réunit pas toutes les conditions pour devenir lead jammer et quitte la zone d'engagement par l'arrière, il est déclaré Not Lead Jammer (Jammer non Lead) ?"
-1628	"Vrai ou faux : un lead jammer ne peut pas appeler la fin d'un jam si son couvre-casque a été retiré au cours du déroulement naturel du jeu (en considérant qu'il tente d'arrêter la fin du jam sans le couvre-casque sur le casque) ?"
-1629	"Vrai ou faux : un jammer peut passer son étoile à un pivot qui est en attente pour la penalty box."
-1630	"Combien d'ensembles de couvre-casques colorés différement doit posséder chaque équipe ?"
-1631	"Si une équipe a l’impression qu’il pourrait y avoir confusion dans la distinction entre les jammers et les pivots adverse, elle ..."
-1632	"Vrai ou faux : une équipe peut contester un numéro inscrit sur un casque a des risques d'être confondue avec une étoile de jammer."
-1633	"Vrai ou faux : un joueur a le droit de décorer son casque même si les décorations en question peuvent être confondues avec une étoile de jammer ou une bande de pivot."
-1634	"Si une équipe conteste l’utilisation des couvre-casques de l'autre équipe parce qu'elle a l’impression qu’il pourrait y avoir confusion dans la distinction entre les jammers, les pivots et que le contestation est justifiée, le Head Referee ... "
-1635	"Vrai ou faux : un numéro d'un uniforme peut être modifié par du ruban adhésif."
-1636	"Qu'est il autorisé de faire ?"
-1637	"Vrai ou faux : le capitaine doit obligatoirement porter un « C » visible sur ses vêtements, son uniforme ou son bras."
-1638	"Si le capitaine d'une équipe ne peut pas participer à la fin d'un match après avoir été exclus ou explusé ..."
-1639	"Si le capitaine d'une équipe ne peut plus participer au match et qu'une pénalité doit lui être assigné ..."
-1640	"Vrai ou faux : une équipe peut désigner un nouvel alternate, si l'alternate est expulsé du match."
-1641	"Vrai ou faux : le ruban adhésif peut être utilisé pour modifier les numéros sur les uniformes."
-1642	"Si tous les blockers d’une équipe sont alignés hors position de pré-jam et que les 30 secondes entre les jams ont expiré ..."
-1643	"A quel moment le pack peut commencer à rouler ?"
-1644	"Au coup de sifflet de départ de jam, que n'a pas le droit de faire un jammer ?"
-1645	"Vrai ou faux : un arbitre doit donner un avertissement d’out of play à un joueur avant de lui donner une pénalité de Out of Play Block."
-1646	"Un joueur initie un contact inintentionnel au-dessus des épaules qui n’est pas puissant. L'initiateur du contact ..."
-1647	"Un joueur contacte sans le faire exprès la tête d'un de ses coéquipiers. Le joueur ..."
-1648	"Un contact sur un adversaire en utilisant les mains en gênant la mobilité de cet adversaire  ..."
-1649	"Un patineur aggripe un adversaire afin de faire un blcoage sur un autre adversaire. L'initiateur ..."
-1650	"Pour qu'un blocage à plusieurs soit pénalisé pour un Multi-Player Block [blocage à plusieurs] , le lien doit ..."
-1651	"Deux coéquipiers se tiennent par les mains pour empêcher un jammer de passer entre eux. L'action ..."
-1652	"Vrai ou faux : un blocage à plusieurs est pénalisé si le jammer ne peut pas physiquement passer entre les deux joueurs impliqués."
-1653	"Un joueur en dehors des limites de la piste assiste un coéquipier. Cette action ne provoque pas l’amélioration de la position relative du coéquipier recevant l’Assist. Le joueur en question ..."
-1654	"Un joueur en dehors des limites de la piste assiste un coéquipier. Cette action provoque l’amélioration de la position relative du coéquipier recevant l’Assist. Le joueur en question ..."
-1655	"Le pack est à l'arrêt ou patine dans le sens horaire. Si un blocker est devant la zone d'engagement, que doit-il faire ?"
-1656	"Une situation de No Pack se crée car tous les blockers d'une équipe se trouvent à plus de 3 mètres (10 pieds) des blockers de l'autre équipe. Que doivent faire les patineurs du groupe avant jusqu'à ce qu'un pack soit à nouveau formé ?"
-1657	"Vrai ou faux : une situation de No Pack se crée car tous les blockers d'une équipe se trouvent à plus de 3 mètres (10 pieds) des blockers de l'autre équipe. Si l'équipe le plus en avant freine, aucun de ses blockers ne sera pénalisé."
-1658	"Une situation de No Pack se crée car tous les blockers d'une équipe se trouvent à plus de 3 mètres (10 pieds) des blockers de l'autre équipe. Que doivent faire les patineurs du groupe arrière jusqu'à ce qu'un pack soit à nouveau formé ?"
-1659	"Lors d'une situation de No Pack avec plus de deux groupes, les joueurs ne faisant pas partie du groupe le plus à l'avant ou le plus à l'arrière ..."
-1660	"Une situation de No Pack se crée car tous les blockers d'une équipe se trouvent hors des limites. L'autre équipe doit ..."
-1661	"Lors d'une situation de no pack, un joueur debout et patinant retourne complètement dans les limites de la piste (après avoir été hors des limites) en améliorant sa position par rapport à un coéquipier en jeu et un deuxième en dehors de la zone d'engagement. Le joueur ..."
-1662	"Un joueur debout et patinant retourne complètement dans les limites de la piste (après avoir été hors des limites) en améliorant sa position par rapport à un adversaire hors de la zone d'engagement. Le joueur ..."
-1663	"Un patineur \"coupe\" un joueur adverse en jeu. Il ..."
-1664	"Un joueur debout et patinant retourne complètement dans les limites de la piste (après avoir été hors des limites) en améliorant sa position par rapport à deux coéquipiers. Le joueur ..."
-1665	"Le patineur de l'équipe rouge est bloqué en dehors des limites de la piste par un adversaire puis revient sur la piste devant cet adversaire. Avant qu'il revienne sur la piste, l'initiateur du blocage est considéré comme étant en prison suite à une pénalité. Le joueur rouge ..."
-1666	"Un patineur est bloqué en dehors de la piste puis revient dans les limites devant l'initiateur qui a également quitté la piste. Le patineur ..."
-1667	"Red 7 est bloqué en dehors de la piste puis revient dans les limites devant Blue 4 qui a également quitté la piste à la suite d'une action illégale. Red 7 ..."
-1668	"Le patineur de l'équipe rouge sort des limites de la piste après avoir reçu un blocage par un adversaire puis revient sur la piste devant cet adversaire. Avant qu'il ne revienne sur la piste, l'initiateur du blocage tombe par terre. Le joueur rouge ..."
-1669	"Le patineur de l'équipe rouge est bloqué en dehors des limites de la piste par un adversaire puis revient sur la piste devant cet adversaire. Avant qu'il revienne sur la piste, l'initiateur du blocage quitte la zone d'engagement. Le joueur rouge ..."
-1670	"Un pivot patine en dehors des limites pour aller récupérer un couvre-casque qui a été jeté en dehors des limites. Le joueur ..."
-1671	"Un joueur décide de chevaucher volontairement les limites de la piste, il ..."
-1672	"Un joueur effectue un cross-over (croisé) en touchant hors des limites. Il reçoit .."
-1674	"Un joueur coupe à travers la zone intérieure de la piste des petites distances du tour, qui, additionnées ensemble, amènent au raccourcissement d’une portion significative de la distance tout au long du match. A quel moment, ce joueur reçoit-il une pénalité ?"
-1675	"Un joueur qui a décidé de chevaucher volontairement la limite quitte la piste. Il ..."
-1676	"Un jammer faisant un faux départ doit ..."
-1677	"Si un jammer est coupable d'avoir fait un faux départ mais qu'il n'y a pas d'autre jammer sur la piste, il ..."
-1678	"Un patineur sort complètement de la Penalty Box avant que son temps de pénalité ne soit terminé, après avoir reçu une mauvaise instruction par l’officiel de Penalty Box. Il ..."
-1679	"Un patineur initie un contact envers un adversaire après le quatrième coup de sifflet de fin de jam, ce qui fait tomber cet adversaire. L'initiateur ..."
-1680	"Un patineur initie un contact envers un adversaire après le quatrième coup de sifflet de fin de Jam, ce qui déséquilibre sévèrement cet adversaire. L'initiateur ..."
-1681	"Dans le cas où un pack ne peut pas se former à la première opportunité légale entre la ligne de jammer et celle de pivot au départ de jam, ..."
-1682	"Si une pénalité de Delay of Game [retardement de jeu] est justifiée ..."
-1683	"Une équipe n'aligne aucun blocker au début d'un jam entre les lignes de pivot et de jammer, empêchant un pack de se former entre les lignes de pivot et de jammer à la première opportunité légale. Le capitaine de l'équipe en tort ..."
-1684	"Une équipe n'aligne aucun blocker au début d'un jam entre les lignes de pivot et de jammer, empêchant un pack de se former entre les lignes de pivot et de jammer à la première opportunité légale. Qui reçoit la pénalité ?"
-1685	"Avec un jammer purgeant une pénalité en penalty box, l'équipe adverse manque à aligner un jammer au jam suivant, empêchant un jam de démarrer. Le capitaine de l'équipe en tort ..."
-1686	"Un patineur ayant précédemment arrêté un jam à cause d’une blessure, se met sur la piste au départ de jam avant que les trois jams requis pendant lesquels le patineur ne peut pas participer ne se soient écoulés."
-1687	"Un joueur qui n'est pas impliqué dans le jam interfére illégalement avec ce jam. Il ..."
-1688	"Vrai ou faux : chaque pénalité est chronométrée séparéement et individuellement."
-1689	"Avant le début d'un jam, un joueur comment une infraction. Sous quel poste doit-il servir sa pénalité ?"
-1690	"Avant le début d'un jam, un joueur comment une infraction alors qu'il porte un couvre-casque de jammer. Sous quel poste doit-il servir sa pénalité ?"
-1691	"Un jammer est un sur un passage marquant et saute au dessus de l'apex d'un virage et dépasse quatre blockers adverses. Il atterrit debout et dans les limites de la piste. Alors qu'il est en l'air,  le jam prend fin. Combien de points le jammer reçoit-il ?"
-1692	"Combien d'arbitres en patins maxium seront positionnés au centre de la piste ?"
-1693	"Avant quelle pénalité, un avertissement doit-il être donné ?"
-1694	"Un joueur initie un contact au-dessus des épaules d'un joueur ne portant pas de casque. L'initiateur du contact ..."
-1695	"Vrai ou faux : une équipe peut avoir trois blockers présents dans le penalty box en même temps."
-2744	"Vai ou faux : seul les décisions faites lors du Jam précédent peuvent être revues lors d'un Official Review ?"
-2745	"Si, lors du premier Official Review d’une équipe dans une période, le Head Referee détermine qu’une erreur d’arbitrage a été faite en relation avec l’objection ..."
-2746	"Une équipe peut avoir plusieurs Offical Reviews (plus de deux) au cours d'une même période si à chaque fois le Head Referee détermine qu’une erreur d’arbitrage."
-2747	"En cas de défaillance ou de divergence, quand le chronomètre officiel de période peut-il être mis à jour ?"
-2748	"Si le temps de période est affiché au tableau de score [scoreboard] bien visible ainsi que sur le chronomètre d'un NSO, lequel des deux est le chronometre officiel de période ?"
-2749	"Quelle est la durée maximale d'un jam ?"
-2750	"S'il reste moins de 30 secondes sur le chronomètre officiel de période quand un Official Timeout [temps mort] est appelé ..."
-2751	"Les lignes de pivot et de jammer ..."
-2752	"A combien de la ligne de jammer se situe la ligne de pivot ?"
-2753	"Vrai ou faux : une coquille de protection peut être portée en tant qu'équipement de protection. "
-"
+UPDATE rdtom_questions SET Text="Parmi les surface de piste suivantes, laquelle est acceptable ?" WHERE ID=11;
+UPDATE rdtom_questions SET Text="Au maximum, combien de patineurs peuvent être inscrits sur la liste de leur équipe pour participer à un match donné ?" WHERE ID=12;
+UPDATE rdtom_questions SET Text="Vrai ou faux : la surface de patinage et les lignes de limites du terrain ne doivent pas obligatoirement avoir une grande différence visible de contraste." WHERE ID=17;
+UPDATE rdtom_questions SET Text="Quelle est la définition de « haut contraste » au-delà de tout doute pour la surface de patinage ?" WHERE ID=18;
+UPDATE rdtom_questions SET Text="Vrai ou faux : la bordure de la piste doit être plate." WHERE ID=19;
+UPDATE rdtom_questions SET Text="Vrai ou faux : tant que la bordure est conforme aux dimensions légales, elle n'a pas besoin d'être constante sur toute sa longueur que cela soit en épaisseur ou en largeur." WHERE ID=22;
+UPDATE rdtom_questions SET Text="Combien de personnes d’encadrement par équipe sont autorisées à se trouver dans leurs camps respectifs au cours d'un match ?" WHERE ID=31;
+UPDATE rdtom_questions SET Text="Vrai ou faux : les joueurs de l'équipe qui ne sont pas inscrits sur la feuille de match peuvent être assis ou debout dans leurs camps respectifs." WHERE ID=32;
+UPDATE rdtom_questions SET Text="Pourquoi est-ce que la la piste, les limites, la zone de sécurité et la Penalty Box [Prison] doivent être correctement éclairées ?" WHERE ID=36;
+UPDATE rdtom_questions SET Text="Les lignes matérialisant les limites, ainsi que la piste, sont considérées comme étant …" WHERE ID=37;
+UPDATE rdtom_questions SET Text="Vrai ou faux : Les lignes matérialisant les limites, ainsi que la piste, sont considérées comme étant en dehors des limites." WHERE ID=38;
+UPDATE rdtom_questions SET Text="Tourne à" WHERE ID=39;
+UPDATE rdtom_questions SET Text="Combien de minutes de jeu y-a-t-il dans une période ?" WHERE ID=40;
+UPDATE rdtom_questions SET Text="Combien de minutes de jeu y-a-t-il dans un match ?" WHERE ID=41;
+UPDATE rdtom_questions SET Text="Combien de minutes de jeu y-a-t-il dans une période ?" WHERE ID=42;
+UPDATE rdtom_questions SET Text="Quelle équipe remporte la partie ?" WHERE ID=43;
+UPDATE rdtom_questions SET Text="Vrai ou faux : un \"bout\" et un match désigent la même chose" WHERE ID=46;
+UPDATE rdtom_questions SET Text="Vrai ou faux : Tant que le chronomètre officiel de période n'indique pas 0:00 quand un jam est arrêté, un autre jam sera demarré au cours de cette même période (en considérant qu'aucun temps mort n'est appelé)." WHERE ID=54;
+UPDATE rdtom_questions SET Text="Le nombre de Jams autorisés par période est" WHERE ID=57;
+UPDATE rdtom_questions SET Text="Une période est divisée en de multiples ..." WHERE ID=58;
+UPDATE rdtom_questions SET Text="Combien de temps sépare deux jams (en considérant qu'il ne s'agit pas de jams de prolongation) ?" WHERE ID=61;
+UPDATE rdtom_questions SET Text="Vrai ou faux : les Jammers ont le droit de mettre leur couvre-casque après le début du jam." WHERE ID=66;
+UPDATE rdtom_questions SET Text="Si un jam a débuté, sous quelle condition est ce qu'un couvre-caque peut rejoindre ce jam ?" WHERE ID=68;
+UPDATE rdtom_questions SET Text="Vrai ou faux : les pivots ne sont pas autorisés à mettre leur couvre-casque en place après le début du jam ?" WHERE ID=72;
+UPDATE rdtom_questions SET Text="Où doit être le couvre-casque d'un pivot au début d'un jam ?" WHERE ID=73;
+UPDATE rdtom_questions SET Text="Que se passe-t-il si un officiel arrête par erreur un jam ?" WHERE ID=75;
+UPDATE rdtom_questions SET Text="Vrai ou faux : un jam se termine au quatrième coup de sifflet de fin de jam." WHERE ID=77;
+UPDATE rdtom_questions SET Text="Quelle est la durée d'un jam de prolongation ?" WHERE ID=79;
+UPDATE rdtom_questions SET Text="Est ce qu'un jammer peut prendre le lead lors d'un jam de prolongation ?" WHERE ID=80;
+UPDATE rdtom_questions SET Text="Au cours d'un jam de prolongation, à partir de quel passage à travers le pack les jammers commencent-ils à inscrire des points ?" WHERE ID=82;
+UPDATE rdtom_questions SET Text="Si le score est toujours à égalité à la fin d'un jam de prolongation, que se passe-t-il ?" WHERE ID=83;
+UPDATE rdtom_questions SET Text="Combien de temps sépare deux jams de prolongation ?" WHERE ID=84;
+UPDATE rdtom_questions SET Text="A partir de quel moment, il n'y aura pas de nouveau jam démarré au cours d'une période, en considérant qu'aucun temps mort n'est appelé ?" WHERE ID=85;
+UPDATE rdtom_questions SET Text="Est-ce que la prolongation est une nouvelle période ou une prolongation de la deuxième période ?" WHERE ID=87;
+UPDATE rdtom_questions SET Text="Combien de temps mort une équipe a-t-elle droit ?" WHERE ID=88;
+UPDATE rdtom_questions SET Text="Quelle est la durée d'un temps mort d'équipe ?" WHERE ID=89;
+UPDATE rdtom_questions SET Text="Vrai ou faux : seul un officiel peut démarrer (signal pour arrêter le chronomètre) un temps mort d'équipe ?" WHERE ID=93;
+UPDATE rdtom_questions SET Text="A la fin d'un temps mort, quelle est la durée maximale avant le début d'un jam (en considérant qu'il ne s'agit pas d'un jam de prolongation) ?" WHERE ID=95;
+UPDATE rdtom_questions SET Text="Vrai ou faux : après un temps mort, il DOIT y avoir 30 secondes avant le début du prochain jam." WHERE ID=96;
+UPDATE rdtom_questions SET Text="Vrai ou faux : les officiels peuvent demander un temps-mort (Official Timeout) seulement entre deux jams et pas pendant le déroulement d'un jam." WHERE ID=97;
+UPDATE rdtom_questions SET Text="A quel moment un officiel peut-il demander un temps-mort (Official Timeout) ?" WHERE ID=98;
+UPDATE rdtom_questions SET Text="Si un officiel demande un temps-mort (Official Timeout) pendant un jam, que se passe-t-il ?" WHERE ID=99;
+UPDATE rdtom_questions SET Text="A quel moment est ce que le chronomètre redémarre après un temps-mort ?" WHERE ID=100;
+UPDATE rdtom_questions SET Text="La zone de la penalty box doit pouvoir accueillir ..." WHERE ID=101;
+UPDATE rdtom_questions SET Text="La zone de la penalty box doit être ..." WHERE ID=103;
+UPDATE rdtom_questions SET Text="Les chronomètres de pénalité, jam et de période ..." WHERE ID=104;
+UPDATE rdtom_questions SET Text="Vrai ou faux : le chronomètre officiel est arrêté si plus de 30 secondes séparent deux jams" WHERE ID=107;
+UPDATE rdtom_questions SET Text="Quand s'arrête le chronomètre du jam ?" WHERE ID=110;
+UPDATE rdtom_questions SET Text="Le chronomètre officiel de période doit être visible ..." WHERE ID=111;
+UPDATE rdtom_questions SET Text="Le chronomètre officiel de jam doit être visible de" WHERE ID=112;
+UPDATE rdtom_questions SET Text="Quand s'arrêtent les chronomètres de pénalité ?" WHERE ID=114;
+UPDATE rdtom_questions SET Text="Vrai ou faux : les chronomètres de pénalité doivent être visible à la fois des joueurs, des arbitres et du public" WHERE ID=115;
+UPDATE rdtom_questions SET Text="Quand ils sont dans la zone de la penalty box, les joueurs ..." WHERE ID=117;
+UPDATE rdtom_questions SET Text="Quel est le coup de sifflet pour le lead jammer ?" WHERE ID=130;
+UPDATE rdtom_questions SET Text="Quel est le coup de sifflet pour une pénalité ?" WHERE ID=133;
+UPDATE rdtom_questions SET Text="Quel est le coup de sifflet pour la fin ou l'arrêt d'un jam ?" WHERE ID=134;
+UPDATE rdtom_questions SET Text="En ce qui concerne les postes pour un joueur ..." WHERE ID=135;
+UPDATE rdtom_questions SET Text="Au cours d'un jam, une équipe a le droit de faire jouer au maximum combien de bloqueurs ?" WHERE ID=136;
+UPDATE rdtom_questions SET Text="La position d'un joueur fait référence à ..." WHERE ID=137;
+UPDATE rdtom_questions SET Text="Vrai ou faux : les blockers peuvent marquer des points." WHERE ID=139;
+UPDATE rdtom_questions SET Text="Laquelle de ces affirmations est vraie ?" WHERE ID=141;
+UPDATE rdtom_questions SET Text="Vrai ou faux : il est obligatoire pour une équipe d'aligner un pivot." WHERE ID=144;
+UPDATE rdtom_questions SET Text="Que doit porter un pivot sur son casque ?" WHERE ID=146;
+UPDATE rdtom_questions SET Text="Que doit porter un jammer sur son casque ?" WHERE ID=150;
+UPDATE rdtom_questions SET Text="Vrai ou faux : le statut de lead jammer ne doit pas être annoncé immédiatement après avoir été obtenu." WHERE ID=155;
+UPDATE rdtom_questions SET Text="Vrai ou faux : le statut de lead jammer doit être annoncé immédiatement après avoir été obtenu" WHERE ID=156;
+UPDATE rdtom_questions SET Text="Vrai ou faux : un jammer peut être en dehors des limites de la piste quand ils obtiennent le statut de lead jammer (en considérant qu'aucun blocker n'a commis une action illégale)." WHERE ID=157;
+UPDATE rdtom_questions SET Text="Un jammer peut gagner le statut de lead jammer seulement si " WHERE ID=158;
+UPDATE rdtom_questions SET Text="Vrai ou faux : un jammer peut devenir lead jammer si une partie de leur corps ou de leur équipement est en dehors de la piste." WHERE ID=159;
+UPDATE rdtom_questions SET Text="Quelle partie du jammer doit être devant le blocker en jeu le plus en avant afin de devenir Lead Jammer ?" WHERE ID=160;
+UPDATE rdtom_questions SET Text="Quels blockers ne doit pas dépasser un jammer pour devenir lead jammer ?" WHERE ID=161;
+UPDATE rdtom_questions SET Text="Pendant une situation de No Pack, à quel moment un jammer devient lead jammer ?" WHERE ID=162;
+UPDATE rdtom_questions SET Text="Lors de l’initial pass [passage initial] à travers le pack, un jammer dépasse trois blockers adverses légalement et le quatrième illégalement, ..." WHERE ID=164;
+UPDATE rdtom_questions SET Text="Si un jammer dépasse tous les blockers d'une manière illégale mais est toujours dans la zone d'engagement ..." WHERE ID=165;
+UPDATE rdtom_questions SET Text="Comme est déterminé un dépassement ?" WHERE ID=171;
+UPDATE rdtom_questions SET Text="Vrai ou faux : si le premier jammer qui sort du pack n’obtient pas le statut de lead jammer lors de son initial pass à travers le Pack, le deuxième jammer est automatiquement désigné lead jammer." WHERE ID=172;
+UPDATE rdtom_questions SET Text="Vrai ou faux : si le premier jammer qui sort du pack n’obtient pas le statut de lead jammer lors de son initial pass à travers le Pack, le deuxième jammer peut obtenir le statut de lead jammer." WHERE ID=173;
+UPDATE rdtom_questions SET Text="Si les deux jammers n'arrivent pas à obtenir le statut de lead jammer lors de leur passage intial (initial pass) à travers le pack, que se passe-t-il ?" WHERE ID=174;
+UPDATE rdtom_questions SET Text="Vrai ou faux : un jammer qui débute le jam dans la penalty box peut devenir lead jammer." WHERE ID=175;
+UPDATE rdtom_questions SET Text="Vrai ou faux : un jammer qui est pénalisé au cours de son initial pass peut devenir lead jammer quand il retourne sur la piste." WHERE ID=176;
+UPDATE rdtom_questions SET Text="Qui a le droit d'appeler la fin d'un jam ?" WHERE ID=177;
+UPDATE rdtom_questions SET Text="S’il n’y a pas de lead Jammer, le jam ..." WHERE ID=182;
+UPDATE rdtom_questions SET Text="Le jam s'arrête quand ..." WHERE ID=183;
+UPDATE rdtom_questions SET Text="A qui un jammer peut-il transférer son poste ?" WHERE ID=185;
+UPDATE rdtom_questions SET Text="Qu'est ce qui est transféré lors du passage de l'étoile ?" WHERE ID=187;
+UPDATE rdtom_questions SET Text="Si avant d'avoir passé l'étoile, le jammer était lead jammer, quel est le statut du pivot devenu jammer ?" WHERE ID=188;
+UPDATE rdtom_questions SET Text="Si le lead jammer passe son étoile, ..." WHERE ID=189;
+UPDATE rdtom_questions SET Text="Vrai ou faux : un pivot peut devenir lead jammer si l'étoile a été transféré ?" WHERE ID=191;
+UPDATE rdtom_questions SET Text="Qui doit être dans la zone d'engagement pour que l'étoile puisse être transferée ?" WHERE ID=193;
+UPDATE rdtom_questions SET Text="Vrai ou faux : une étoile peut être transferée à un pivot même si ce dernier est hors-jeu." WHERE ID=195;
+UPDATE rdtom_questions SET Text="Vrai ou faux : les jammers ne peuvent pas transférer leur étoile quand ils sont en route pour ou à l’intérieur de la penalty box." WHERE ID=197;
+UPDATE rdtom_questions SET Text="Vrai ou faux : un jammer peut passer son étoile quand il revient de la penalty box mais n'est pas encore revenu en jeu." WHERE ID=198;
+UPDATE rdtom_questions SET Text="Quelle est la procédure correcte pour le passage de l'étoile ?" WHERE ID=199;
+UPDATE rdtom_questions SET Text="Si un jammer retire son couvre-casque, il perd ..." WHERE ID=200;
+UPDATE rdtom_questions SET Text="Si le passage de l'étoile est complet mais est illégal et si le pivot porte le couvre-casque du jammer, qui est le jammer de l'équipe ?" WHERE ID=201;
+UPDATE rdtom_questions SET Text="Vrai ou faux : une fois le passage de l'étoile complet, le nouveau jammer peut rendre l'étoile au jammer initial ?" WHERE ID=203;
+UPDATE rdtom_questions SET Text="Un passage de l'étoile ..." WHERE ID=204;
+UPDATE rdtom_questions SET Text="Si au cours d'un passage de l'étoile, le couvre-caque tombe au sol, qui peut le ramasser ?" WHERE ID=205;
+UPDATE rdtom_questions SET Text="Vrai ou faux : si le passage de l'étoile a été réussi mais que le pivot n'a pas encore mis le couvre-casque de jammer sur son casque Pivot, il peut recevoir une pénalité pour hors-jeu." WHERE ID=210;
+UPDATE rdtom_questions SET Text="Un pivot devenu jammer ..." WHERE ID=212;
+UPDATE rdtom_questions SET Text="Combien de temps un pivot qui est devenu jammer après un passage d'étoile doit jouer en tant que jammer ?" WHERE ID=213;
+UPDATE rdtom_questions SET Text="Combien de temps un jammer qui est devenu blocker après un passage d'étoile doit jouer en tant que blocker ?" WHERE ID=214;
+UPDATE rdtom_questions SET Text="Que se passe-t-il si les couleurs des couvre-casques d’une équipe ne sont pas fortement contrastées au-delà de tout doute raisonnable ?" WHERE ID=222;
+UPDATE rdtom_questions SET Text="Les couleurs des couvre-casques de Jammer et/ou de Pivot sont à haut contraste si ..." WHERE ID=223;
+UPDATE rdtom_questions SET Text="Les couvre-casques d’une équipe sont facilement identifiables s’ils peuvent être clairement distingués par ?" WHERE ID=224;
+UPDATE rdtom_questions SET Text="Vrai ou faux : un jammer peut demander l'arrêt d'un jam s'il a été pénalisé." WHERE ID=228;
+UPDATE rdtom_questions SET Text="Vrai ou faux : du moment que les couvre-casques d'une équipe sont fortement contrastés au-delà de tout doute raisonnable, ces couvre-casques peuvent avoir plusieurs schémas de couleur." WHERE ID=229;
+UPDATE rdtom_questions SET Text="Combien de patineurs peuvent au maximum être inscrits sur la liste de leur équipe pour participer à un match donné ?" WHERE ID=237;
+UPDATE rdtom_questions SET Text="Vrai ou faux : un lead jammer peut appeler la fin d'un jam si son couvre-casque a été retiré par l’action d’un adversaire (en considérant qu'il tente d'arrêter la fin du jam sans le couvre-casque sur le casque) ?" WHERE ID=240;
+UPDATE rdtom_questions SET Text="Afin de demander l'arrêt un jam, un jammer doit ..." WHERE ID=241;
+UPDATE rdtom_questions SET Text="Si le passsage de l'étoile a été réussi mais que le pivot met accidentellement son couvre-casque à l'envers et que les étoiles ne sont pas visibles,  est-ce qu'il peut marquer des points ?" WHERE ID=242;
+UPDATE rdtom_questions SET Text="Chaque joueur d'une équipe donnée doit ..." WHERE ID=243;
+UPDATE rdtom_questions SET Text="Vrai ou faux : les épingles de sûreté peuvent être utilisées pour sécuriser les écussons et numéros sur les uniformes." WHERE ID=244;
+UPDATE rdtom_questions SET Text="Vrai ou faux : l'alternate doit obligatoirement porter un « A » visible sur ses vêtements, son uniforme ou son bras." WHERE ID=246;
+UPDATE rdtom_questions SET Text="Sur l'uniforme, le nom du patineur ..." WHERE ID=247;
+UPDATE rdtom_questions SET Text="Le numéro de roster de chaque patineur doit être" WHERE ID=248;
+UPDATE rdtom_questions SET Text="Le numéro de roster dans le dos d’un patineur doit" WHERE ID=249;
+UPDATE rdtom_questions SET Text="Vrai ou faux : le numéro d'un joueur doit contenir au moins une lettre." WHERE ID=254;
+UPDATE rdtom_questions SET Text="Vrai ou faux : le numéro d'un joueur doit contenir au moins un chiffre." WHERE ID=255;
+UPDATE rdtom_questions SET Text="Parmi les numéros suivant, lequel est un numéro valide ?" WHERE ID=256;
+UPDATE rdtom_questions SET Text="Si un patineur a des petits caractères précédant ou suivant son numéro de roster sur son uniforme, est ce que ces petits caractères font partie du numéro du joueur ?" WHERE ID=257;
+UPDATE rdtom_questions SET Text="Un joueur porte \"88mph\" dans son dos, \"mph\" ne faisant pas partie du numéro. Quelle est la hauteur maximale des lettres \"mph\" ?" WHERE ID=258;
+UPDATE rdtom_questions SET Text="Vrai ou faux : Les patineurs d’une même équipe ne peuvent avoir des numéros de roster identiques" WHERE ID=259;
+UPDATE rdtom_questions SET Text="Vrai ou faux : L5 et L6 sont considérés comme étant des numéros différents et peuvent être portés par des joueurs de la même équipe." WHERE ID=260;
+UPDATE rdtom_questions SET Text="Vrai ou faux : L5 et J5 sont considérés comme étant des numéros différents et peuvent être portés par des joueurs de la même équipe." WHERE ID=261;
+UPDATE rdtom_questions SET Text="Les numéros d’uniforme d’une équipe doivent" WHERE ID=262;
+UPDATE rdtom_questions SET Text="Vrai ou faux : l’écriture manuscrite des numéros sur les bras est acceptée." WHERE ID=264;
+UPDATE rdtom_questions SET Text="A quel endroit chaque patineur participant à un match doit afficher visiblement son numéro de roster ?" WHERE ID=265;
+UPDATE rdtom_questions SET Text="Les numéros sur les bras doivent mesurer ..." WHERE ID=266;
+UPDATE rdtom_questions SET Text="Vrai ou faux : Les numéros de roster ne peuvent pas être placés sur le casque en supplément de ceux sur les bras/manches." WHERE ID=267;
+UPDATE rdtom_questions SET Text="Vrai ou faux : les bijoux peuvent être portés pendant un match." WHERE ID=269;
+UPDATE rdtom_questions SET Text="Parmi les affirmations suivantes, laquelle justifie le fait d'interdire de porter des bijoux pendant un match ?" WHERE ID=270;
+UPDATE rdtom_questions SET Text="Quel type de patins un joueur doit-il porter ?" WHERE ID=271;
+UPDATE rdtom_questions SET Text="Vrai ou faux : personne ne connaît la définition du pack ; ceux qui disent le contraire sont des menteurs." WHERE ID=272;
+UPDATE rdtom_questions SET Text="Les numéros d’uniforme d’une équipe sont à haut contraste si ..." WHERE ID=273;
+UPDATE rdtom_questions SET Text="Le pack est défini comme étant ..." WHERE ID=274;
+UPDATE rdtom_questions SET Text="Le pack comprend ..." WHERE ID=275;
+UPDATE rdtom_questions SET Text="Quelle partie du joueur sert de base pour définir la proximité par rapport au pack ?" WHERE ID=277;
+UPDATE rdtom_questions SET Text="Vrai ou faux : un pack peut être formé si une équipe n'a qu'un seul blocker sur le track." WHERE ID=278;
+UPDATE rdtom_questions SET Text="Vrai ou faux : si une équipe n'a pas de blocker sur le track, un pack peut tout de même être formé." WHERE ID=279;
+UPDATE rdtom_questions SET Text="Vrai ou faux : un joueur créant volontairement une situatuoin de no pack peut être pénalisé." WHERE ID=281;
+UPDATE rdtom_questions SET Text="Qui est responsable du maintien d’un pack légalement défini ?" WHERE ID=282;
+UPDATE rdtom_questions SET Text="Vrai ou faux : Un patineur ou un groupe de patineurs est toujours responsable des conséquences de ses actes." WHERE ID=283;
+UPDATE rdtom_questions SET Text="La ligne de pivot est ..." WHERE ID=287;
+UPDATE rdtom_questions SET Text="Qui a le droit d'être sur la ligne de pivot ?" WHERE ID=288;
+UPDATE rdtom_questions SET Text="En début de jam, le jammer doit se trouver ..." WHERE ID=290;
+UPDATE rdtom_questions SET Text="Vrai ou faux : aucune règle n'impose un ordre particulier d'alignement des blockers entre les lignes de jammer et de pivot, du moment que le pivot ne se trouve pas sur la ligne de pivot." WHERE ID=291;
+UPDATE rdtom_questions SET Text="Vrai ou faux : un blocker hors jeu (out of play) peut assister son jammer" WHERE ID=294;
+UPDATE rdtom_questions SET Text="Qui peut être assisté par un blocker qui est hors jeu (out of play) ?" WHERE ID=295;
+UPDATE rdtom_questions SET Text="Vrai ou faux : un blocker hors jeu (out of play) doit ralentir ou accélerer pour retourner dans la zone d'engagement" WHERE ID=300;
+UPDATE rdtom_questions SET Text="Vrai ou faux : un arbitre doit donner un avertissement d’out of play à un joueur avant de lui donner une pénalité de Failure to Return." WHERE ID=301;
+UPDATE rdtom_questions SET Text="Un blocker qui est hors-jeu doit" WHERE ID=302;
+UPDATE rdtom_questions SET Text="Vrai ou faux : si un patineur hors jeu réalise un blocage passif / possitionnel sur le jammer adverse, il sera pénalisé." WHERE ID=303;
+UPDATE rdtom_questions SET Text="Vrai ou faux : si un patineur prend un tour d'avance sur le pack, il a le droit de revenir dans la zone d'engagement par l'arrière." WHERE ID=304;
+UPDATE rdtom_questions SET Text="Si un patineur tombe, il peut attendre que le pack le rattrape afin de revenir dans la zone d'engagement par l'avant." WHERE ID=305;
+UPDATE rdtom_questions SET Text="Si un patineur tombe, il peut couper à travers l'intérieur de la piste pour rattraper le pack." WHERE ID=307;
+UPDATE rdtom_questions SET Text="En tant que blocker, l'action de retourner dans la zone d'engagement en faisant un tour de plus que le pack ou en se laissant rattraper par ce même pack implique" WHERE ID=308;
+UPDATE rdtom_questions SET Text="Contre quel(s) joueur(s), un jammer peut-il initier un blocage en dehors de la zone d'engagement ?" WHERE ID=309;
+UPDATE rdtom_questions SET Text="Vrai ou faux : un jam se termine au premier des quatres coups de sifflet." WHERE ID=316;
+UPDATE rdtom_questions SET Text="Vrai ou faux : un blocage implique un contact." WHERE ID=319;
+UPDATE rdtom_questions SET Text="Vrai ou faux : Le contre-blocage est un blocage." WHERE ID=320;
+UPDATE rdtom_questions SET Text="Un blocage accidentel ..." WHERE ID=322;
+UPDATE rdtom_questions SET Text="Vrai ou faux : de manière générale, le contre-blocage suit des règles différentes du blocage." WHERE ID=323;
+UPDATE rdtom_questions SET Text="Le contre-blocage est ..." WHERE ID=324;
+UPDATE rdtom_questions SET Text="Quel blocker a le droit de patiner devant un patineur adverse pour gêner les mouvements de l’adversaire sur la piste ?" WHERE ID=325;
+UPDATE rdtom_questions SET Text="Quel joueur peut effectuer un blocage avec contact ?" WHERE ID=326;
+UPDATE rdtom_questions SET Text="Quel joueur peut effectuer un blocage positionnel ?" WHERE ID=327;
+UPDATE rdtom_questions SET Text="Vrai ou faux : Il est légal de bloquer les adversaires qui sont débout sur la piste." WHERE ID=328;
+UPDATE rdtom_questions SET Text="Vrai ou faux : Il est légal de bloquer les adversaires qui patinent et/ou se déplacent  dans le sens horaire." WHERE ID=329;
+UPDATE rdtom_questions SET Text="Vrai ou faux : Il est illégal de bloquer les adversaires qui se déplacent dans le sens horaire." WHERE ID=330;
+UPDATE rdtom_questions SET Text="L’initiateur d’un blocage est (en considérant un blocage avec contact et non pas un blocage positionnel) ..." WHERE ID=331;
+UPDATE rdtom_questions SET Text="Vrai ou faux : L'initiateur d'un blocage n'est pas toujours responsable de la légalité de son contact." WHERE ID=332;
+UPDATE rdtom_questions SET Text="Si un joueur est en jeu et marche et/ou patine dans le sens antihoraire, il peut :" WHERE ID=333;
+UPDATE rdtom_questions SET Text="Vrai ou faux : Un patineur ayant un genou à terre est toujours considéré \"a terre\" [down]" WHERE ID=342;
+UPDATE rdtom_questions SET Text="Le contact entre adversaires est ..." WHERE ID=343;
+UPDATE rdtom_questions SET Text="Parmi les propositions suivantes, laquelle désigine une zone cible légale ?" WHERE ID=344;
+UPDATE rdtom_questions SET Text="Parmi les propositions suivantes, laquelle désigine une zone cible illégale ?" WHERE ID=345;
+UPDATE rdtom_questions SET Text="Les zones cibles légales sont ..." WHERE ID=346;
+UPDATE rdtom_questions SET Text="Les zones légales de blocage sont ..." WHERE ID=347;
+UPDATE rdtom_questions SET Text="Parmi les propositions suivantes, laquelle désigine une zone légale de blocage ?" WHERE ID=348;
+UPDATE rdtom_questions SET Text="Parmi les propositions suivantes, laquelle désigine une zone illégale de blocage ?" WHERE ID=349;
+UPDATE rdtom_questions SET Text="Un blocage au dos est ..." WHERE ID=354;
+UPDATE rdtom_questions SET Text="Parmi les propositions suivantes, laquelle n'entraînera pas d'expulsion ?" WHERE ID=367;
+UPDATE rdtom_questions SET Text="Un joueur tombe en fall small [position foetale] à la suite d'un blocage. En tombant, il sort de la piste puis revient dans les limites. Est-ce que le joueur peut recevoir une pénalité de low block [blocage bas] si un adversaire trébuche sur lui ?" WHERE ID=372;
+UPDATE rdtom_questions SET Text="Vrai ou faux : Lors de l’engagement d’une action envers un adversaire, les coudes ne doivent pas être balancés vers l’avant ou vers l’arrière." WHERE ID=387;
+UPDATE rdtom_questions SET Text="Vrai ou faux : lors de l’engagement d’une action envers un adversaire, les coudes peuvent être balancés vers le haut ou vers le bas" WHERE ID=388;
+UPDATE rdtom_questions SET Text="Afin d'éviter une pénalité de Elbows [utilisation des coudes] lors d'un blocage avec le bras, le coude doit être ..." WHERE ID=389;
+UPDATE rdtom_questions SET Text="Vrai ou faux : un contact peut être fait exclusivement avec la pointe du coude." WHERE ID=390;
+UPDATE rdtom_questions SET Text="Vrai ou faux : les coudes peuvent être utilisés pour accrocher un adversaire." WHERE ID=391;
+UPDATE rdtom_questions SET Text="Vrai ou faux : les avant-bras ou les mains peuvent être utilisés pour attraper, tenir ou pousser un adversaire." WHERE ID=401;
+UPDATE rdtom_questions SET Text="Si vos mains touchent accidentellement les mains d'un adversaire ..." WHERE ID=402;
+UPDATE rdtom_questions SET Text="Vrai ou faux : la tête ne peut pas être utilisée pour bloquer un adversaire." WHERE ID=419;
+UPDATE rdtom_questions SET Text="Vrai ou faux : il est autorisé pour deux joueurs de s'agripper afin d'empêcher un joueur adverse de passer entre eux." WHERE ID=426;
+UPDATE rdtom_questions SET Text="Parmi ces actions, laquelle peut entraîner une pénalité de Multi-Player Block [blocage à plusieurs] ?" WHERE ID=428;
+UPDATE rdtom_questions SET Text="Pour qu'un blocage à plusieurs soit pénalisé pour un Multi-Player Block [blocage à plusieurs] , que faut-il de spécial ?" WHERE ID=429;
+UPDATE rdtom_questions SET Text="Au cours d'un blocage à plusieurs, quelle action peut faire un patineur s'il veut être sûr de ne pas être pénalisé pour un Multi-Player Block [blocage à plusieurs] ?" WHERE ID=432;
+UPDATE rdtom_questions SET Text="Où doit se situer un patineur afin d'éviter une pénalité de Out of Bounds ?" WHERE ID=442;
+UPDATE rdtom_questions SET Text="Où doit se situer un patineur qui commence à prendre de la vitesse pour effectuer un blocage ?" WHERE ID=443;
+UPDATE rdtom_questions SET Text="A quel moment un patineur réalisant un blocage doit-il arrêter son blocage ?" WHERE ID=444;
+UPDATE rdtom_questions SET Text="Au cours d'un blocage, quelle partie du (ou des) patin(s) de l'initiateur peut (peuvent) se situer en dehors des limites de la piste ?" WHERE ID=445;
+UPDATE rdtom_questions SET Text="Vrai ou faux : un patineur qui est dans les limites de la piste doit faire de l’espace pour permettre à un patineur qui est hors des limites de la piste de retourner dans les limites." WHERE ID=446;
+UPDATE rdtom_questions SET Text="Vrai ou faux : un patineur peut initier un blocage avec un adversaire située complétement en dehors de la piste." WHERE ID=447;
+UPDATE rdtom_questions SET Text="Un patineur dans les limites de la piste peut bloquer un adeversaire revenant en jeu à partir du moment où ..." WHERE ID=448;
+UPDATE rdtom_questions SET Text="Un patineur en dehors des limites traverse la limite de la piste mais restera, par définition, en dehors des limites tant que ..." WHERE ID=449;
+UPDATE rdtom_questions SET Text="Vrai ou faux : un joueur retourne et une partie de ses patins est encore à l'extérieur des limites. Le joueur peut recevoir un blocage." WHERE ID=450;
+UPDATE rdtom_questions SET Text="Un joueur chevauche la limite de la piste, que peut-il faire ?" WHERE ID=451;
+UPDATE rdtom_questions SET Text="Vrai ou faux : un patineur qui chevauche la limite peut être bloqué par un joueur sur la piste." WHERE ID=452;
+UPDATE rdtom_questions SET Text="Pour quelle raison, un joueur chevauchant la limite peut-il être bloqué par un joueur en jeu ?" WHERE ID=453;
+UPDATE rdtom_questions SET Text="Vrai ou faux : en cas de saut d'un joueur, sa position en jeu / hors jeu ne change pas tant que le joueur n'a pas repris contact avec le sol." WHERE ID=454;
+UPDATE rdtom_questions SET Text="Vrai ou faux : un joueur, tombé en position de fall small [position foetale] à l'extérieur de la piste, peut être recevoir une pénalité de blocage out of bounds." WHERE ID=455;
+UPDATE rdtom_questions SET Text="Vrai ou faux : si un joueur en dehors des limites de la piste était à terre, il ne peut pas recevoir une pénalité de blocage out of bounds." WHERE ID=456;
+UPDATE rdtom_questions SET Text="Vrai ou faux : un joueur qui réalise un blocage légal sur un joueur en l'air et qui a quitté le sol en étant en jeu ne recevra pas de pénalité." WHERE ID=457;
+UPDATE rdtom_questions SET Text="Vrai ou faux : un joueur a un patin dans les limites de la piste et l'autre en dehors de la piste mais sans toucher le sol. S'il effectue un blocage, il reçoit une pénalité pour un blocage hors des limites." WHERE ID=458;
+UPDATE rdtom_questions SET Text="Un jammer saute au-dessus d'un virage (saut d'apex) en étant dans les limites au départ du saut. Il atterrit également dans les limites de la piste. Lorsqu'il est en l'air, le jammer est ..." WHERE ID=471;
+UPDATE rdtom_questions SET Text="Vrai ou faux : un joueur a terre en position foetale retourne en glissant  sur la piste sans le vouloir. Il peut recevoir une pénalité de blocage en dehors des limites de la piste." WHERE ID=472;
+UPDATE rdtom_questions SET Text="Vrai ou faux : aucune pénalité ne sera donné à un joueur réalisant un blocage contre un adversaire en l'air et ayant quitté le sol dans les limites de la piste." WHERE ID=473;
+UPDATE rdtom_questions SET Text="Vrai ou faux : il n'est pas possible de bloquer de manière légale un joueur ayant sauté et ne touchant plus la piste." WHERE ID=474;
+UPDATE rdtom_questions SET Text="Un joueur a un patin dans les limites de la piste et l'autre en dehors de la piste mais sans toucher le sol. S'il effectue un blocage, il ..." WHERE ID=475;
+UPDATE rdtom_questions SET Text="Que fait un patineur qui est dit \"touchant le track exclusivement à l'extérieur des limites du track\" ?" WHERE ID=486;
+UPDATE rdtom_questions SET Text="Vrai ou faux : les joueurs doivent patiner ou marcher dans le sens anti-horaire afin de réaliser un blocage." WHERE ID=489;
+UPDATE rdtom_questions SET Text="A quel moment un patineur peut-il faire un blocage positionnel ?" WHERE ID=490;
+UPDATE rdtom_questions SET Text="A quel moment un patineur peut-il assister un joueur qui n'est pas à l'arrêt ?" WHERE ID=491;
+UPDATE rdtom_questions SET Text="Comment le mouvement horaire est-il déterminé ?" WHERE ID=492;
+UPDATE rdtom_questions SET Text="Vrai ou faux : pour aider un joueur à l'arrêt ou au sol, son coéquipier doit également être arrêté." WHERE ID=493;
+UPDATE rdtom_questions SET Text="Vrai ou faux : pour aider un joueur à l'arrêt ou au sol, son coéquipier doit également être arrêté." WHERE ID=494;
+UPDATE rdtom_questions SET Text="A quel moment les patineurs sont-ils autorisés à patiner dans le sens horaire ?" WHERE ID=495;
+UPDATE rdtom_questions SET Text="A quel moment les patineurs sont-ils autorisés à s'arrêter sur la piste ?" WHERE ID=496;
+UPDATE rdtom_questions SET Text="Vrai ou faux : les joueurs peuvent patiner dans le sens horaire quand ils sortent de pénalité et sont en dehors de la piste." WHERE ID=497;
+UPDATE rdtom_questions SET Text="Vrai ou faux : quand ils sortent de pénalité, les joueurs doivent obligatoirement patiner dans le sens anti-horraire pour retourner dans le pack." WHERE ID=498;
+UPDATE rdtom_questions SET Text="Dans quelle direction doit regarder un joueur afin de bloquer ou de faire un assist ?" WHERE ID=499;
+UPDATE rdtom_questions SET Text="Vrai ou faux : Un arbitre n'a pas besoin de donner un avertissement à un joueur hors-jeu (Out of play) qui fait un blocage avant de lui donner une pénalité." WHERE ID=523;
+UPDATE rdtom_questions SET Text="La destruction illégale d'un pack est ..." WHERE ID=525;
+UPDATE rdtom_questions SET Text="Qui est responsable du maintien d’un pack légalement défini ?" WHERE ID=526;
+UPDATE rdtom_questions SET Text="Vrai ou faux : Les règles définissent la vitesse du pack." WHERE ID=529;
+UPDATE rdtom_questions SET Text="Laquelle de ces propoistions est une destruction illégale du pack ?" WHERE ID=531;
+UPDATE rdtom_questions SET Text="Un joueur tente un blocage sur un adversaire mais manque sa tentative et finit en dehors de la piste ce qui détruit le pack. L'initiateur du blocage ..." WHERE ID=534;
+UPDATE rdtom_questions SET Text="Quand aucun joueur ou aucune équipe ne peut être clairement définie comme responsable de la destruction illégale du pack, qui reçoit la pénalité ?" WHERE ID=535;
+UPDATE rdtom_questions SET Text="Vrai ou faux : un jammer peut initier un blocage sur l'autre jammer en dehors de la zone d'engagement sans recevoir de pénalité." WHERE ID=536;
+UPDATE rdtom_questions SET Text="Sur qui un blocker peut-il initer un blocage en dehors de la zone d'engagement ?" WHERE ID=537;
+UPDATE rdtom_questions SET Text="Vrai ou faux : un jammer peut initier un blocage sur un blocker en dehors de la zone d'engagement sans recevoir de pénalité." WHERE ID=538;
+UPDATE rdtom_questions SET Text="Un jammer est bloqué en dehors de la zone d'engagement par un blocker ; que peut faire légalement le jammer ?" WHERE ID=539;
+UPDATE rdtom_questions SET Text="Vrai ou faux : si un jammer initie un blocage illégal sur un blocker en dehors de la zone d'engagement, le blocker peut contre-bloquer sans recevoir de pénalité." WHERE ID=540;
+UPDATE rdtom_questions SET Text="Vrai ou faux : un blocker peut initer un blocage en dehors de la zone d'engagement." WHERE ID=541;
+UPDATE rdtom_questions SET Text="Vrai ou faux : si un blocker initie un blocage en dehors de la zone d'engagement, le joueur adverse a le droit de contre-bloquer sans  recevoir de pénalité." WHERE ID=542;
+UPDATE rdtom_questions SET Text="Vrai ou faux : en cas de situation de No Pack, les joueurs seront prévenus qu'il n'y a plus de pack mais ne seront pénalisés que s'ils n'essaient pas immédiatement de reformer le pack." WHERE ID=544;
+UPDATE rdtom_questions SET Text="Vrai ou faux : les patineurs n'ont pas le droit d'assister un coéquipier en dehors de la zone d'engagement." WHERE ID=545;
+UPDATE rdtom_questions SET Text="Vrai ou faux : Les pénalités de hors-jeu (Out of play) sont appliquées pour des actions qui détruisent illégalement le pack." WHERE ID=552;
+UPDATE rdtom_questions SET Text="Si deux blockers sont coupables d'une action en étant hors-jeu (Out of play), lequel reçoit une pénalité ?" WHERE ID=554;
+UPDATE rdtom_questions SET Text="Vrai ou faux : un patineur dans les limites de la piste n'a pas besoin de céder l'avantage à un joueur en dehors des limites." WHERE ID=557;
+UPDATE rdtom_questions SET Text="Vrai ou faux : Les patineurs doivent être debout et en train de patiner, ou debout sur leurs patins pour recevoir les pénalités de Cutting the Track." WHERE ID=558;
+UPDATE rdtom_questions SET Text="Vrai ou faux : un joueur à terre peut recevoir une pénalité de Cutting the Track." WHERE ID=559;
+UPDATE rdtom_questions SET Text="A quel moment, un patineur hors des limites de la piste peut-il être pénalisé par une pénalité de Cutting the Track ?" WHERE ID=560;
+UPDATE rdtom_questions SET Text="Vrai ou faux : les patineurs peuvent céder l'avantage afin d'éviter de recevoir une pénalité de Cutting the Track." WHERE ID=561;
+UPDATE rdtom_questions SET Text="Parmi les affirmations, laquelle correspond à une amélioration de position relative ?" WHERE ID=562;
+UPDATE rdtom_questions SET Text="Si un blocker est forcé en dehors des limites de la piste mais était devant l'initiateur du blocage, où doit-il retourner en jeu ?" WHERE ID=563;
+UPDATE rdtom_questions SET Text="Vrai ou faux : si les hanches d'un joueur sont devant le blocker qui initie un blocage puis sort le joueur de la piste, ce dernier peut revenir dans les limites devant l'initiateur du blocage." WHERE ID=564;
+UPDATE rdtom_questions SET Text="Vrai ou faux : un patineur peut retourner en jeu devant le joueur qui l'a fait sortir des limites de la piste si l'initiateur du blocage est considéré comme étant en considéré en « Penalty Box »." WHERE ID=565;
+UPDATE rdtom_questions SET Text="Vrai ou faux : un patineur ne peut pas retourner en jeu devant le joueur qui l'a fait sortir des limites de la piste si l'initiateur du blocage sort également de la piste." WHERE ID=566;
+UPDATE rdtom_questions SET Text="Vrai ou faux : un patineur peut retourner en jeu devant le joueur qui l'a fait sortir des limites de la piste si l'initiateur du blocage est à terre." WHERE ID=567;
+UPDATE rdtom_questions SET Text="Vrai ou faux : un patineur peut retourner en jeu devant le joueur qui l'a fait sortir des limites de la piste si l'initiateur du blocage quitte la zone d'engagement à n'importe quel moment." WHERE ID=569;
+UPDATE rdtom_questions SET Text="Parmi les affirmations suivantes, laquelle autorise un joueur à revenir sur la piste devant l'adversaire qui l'a bloqué et fait sortir des limites de la piste ?" WHERE ID=570;
+UPDATE rdtom_questions SET Text="Le résultat final d’un blocage est pris en considération lorsque le patineur cible ..." WHERE ID=571;
+UPDATE rdtom_questions SET Text="On dit qu'un joueur chevauche la limite de la piste quand ..." WHERE ID=572;
+UPDATE rdtom_questions SET Text="Les joueurs chevauchant la limite peuvent recevoir une pénalité de \"Cutting the Track\" quand ..." WHERE ID=573;
+UPDATE rdtom_questions SET Text="Vrai ou faux : les patineurs qui sont en l’air sont considérés comme chevauchant la limite de la piste." WHERE ID=574;
+UPDATE rdtom_questions SET Text="Vrai ou faux : les joueurs ne peuvent pas prendre de la vitesse avant d'être dans les limites de la piste." WHERE ID=606;
+UPDATE rdtom_questions SET Text="Si un coach ou un manager est expulsé, qui va en penalty-box à sa place ?" WHERE ID=786;
+UPDATE rdtom_questions SET Text="Qui peut inscrire des points pour son équipe ?" WHERE ID=793;
+UPDATE rdtom_questions SET Text="Comment un jammer marque-t-il un point (en considérant qu'il ne s'agit pas de jam de prolongation) ?" WHERE ID=795;
+UPDATE rdtom_questions SET Text="Combien de point un jammer peut-il inscrire de points contre un blocker donné ?" WHERE ID=796;
+UPDATE rdtom_questions SET Text="Vrai ou faux : un jammer peut gagner un point en dépassant un blocker adverse illégalement." WHERE ID=797;
+UPDATE rdtom_questions SET Text="Si un jammer commet une action illégale au cours d'un dépassement et ne reçoit pas de point, que peut-il faire ?" WHERE ID=798;
+UPDATE rdtom_questions SET Text="Vrai ou faux : si un jammer sort de la zone d’engagement, mais est ensuite rattrapé par le pack, ce jammer retourne à son pass précédent (mais n'a pas le droit de marquer des points sur les blockers contre qui il n'avait pas inscrit un point)." WHERE ID=805;
+UPDATE rdtom_questions SET Text="Un joueur se retire du jeu de son propre chef. Le jammer adverse inscrit son premier point sur un blocker adverse, combien de points remporte-t-il ?" WHERE ID=813;
+UPDATE rdtom_questions SET Text="Quel est le nombre minimum d'arbitres en patins nécessaire ?" WHERE ID=840;
+UPDATE rdtom_questions SET Text="Vrai ou faux : n'importe quel arbitre peut expulser un patineur, un manager ou un coach." WHERE ID=844;
+UPDATE rdtom_questions SET Text="Vrai ou faux : chaque équipe aura un jammer referee désginé pour la période." WHERE ID=845;
+UPDATE rdtom_questions SET Text="Les jammer referees ..." WHERE ID=846;
+UPDATE rdtom_questions SET Text="Vrai ou faux : À la fin de la première période, les jammer referees s’échangent les équipes dont ils sont responsables." WHERE ID=847;
+UPDATE rdtom_questions SET Text="Quelle est la première responsabilité des Pack Referees ?" WHERE ID=848;
+UPDATE rdtom_questions SET Text="Combien de Pack referees peuvent être situés à l'intérieur de la piste ?" WHERE ID=849;
+UPDATE rdtom_questions SET Text="Que signifie le sigle NSO ?" WHERE ID=850;
+UPDATE rdtom_questions SET Text="Le rôle des Scorekeepers est ..." WHERE ID=851;
+UPDATE rdtom_questions SET Text="Un des rôles du Penalty Tracker est de ..." WHERE ID=852;
+UPDATE rdtom_questions SET Text="Un des rôles des Penalty Timing Officials est de ..." WHERE ID=853;
+UPDATE rdtom_questions SET Text="Le Scoreboard Operator a pour rôle ..." WHERE ID=854;
+UPDATE rdtom_questions SET Text="Un des rôles du Jam Timer est de ..." WHERE ID=855;
+UPDATE rdtom_questions SET Text="Vrai ou faux : les arbitres ont la responsabilité de déterminer que les deux équipes ont le nombre correct de patineurs dans le jam." WHERE ID=856;
+UPDATE rdtom_questions SET Text="Si le jam démarre et qu'il y a trop de patineurs, les arbitres doivent ..." WHERE ID=857;
+UPDATE rdtom_questions SET Text="Si le jam démarre avec trop de patineurs et que le patineur en trop ne peut être sorti de la piste, les arbitres doivent ..." WHERE ID=858;
+UPDATE rdtom_questions SET Text="Les arbitres s’assureront que les patineurs portent ..." WHERE ID=861;
+UPDATE rdtom_questions SET Text="Qui a le devoir de déterminer si les patineurs sont correctement positionnés au début du jam ?" WHERE ID=862;
+UPDATE rdtom_questions SET Text="Qui doit assigner et communiquer le statut de lead jammer ?" WHERE ID=865;
+UPDATE rdtom_questions SET Text="Pendant combien de temps, le Jammer referee doit-il pointer le lead jammer ?" WHERE ID=867;
+UPDATE rdtom_questions SET Text="Qui a la responsabilité de compter et de communiquer le score ?" WHERE ID=868;
+UPDATE rdtom_questions SET Text="Quelle est la priorité numéro une des arbitres ?" WHERE ID=869;
+UPDATE rdtom_questions SET Text="Quels sont les gestes que doivent utiliser les arbitres ?" WHERE ID=870;
+UPDATE rdtom_questions SET Text="Sous quelle condition, un arbitre peut-il arrêter un jam ?" WHERE ID=873;
+UPDATE rdtom_questions SET Text="Sous quelle condition, un arbitre DOIT-il arrêter un jam ?" WHERE ID=874;
+UPDATE rdtom_questions SET Text="Si un arbitre arrête un jam avant sa fin naturelle avec du temps restant sur le chronomètre de jam mais celui de la période est à 00:00, ..." WHERE ID=875;
+UPDATE rdtom_questions SET Text="Si une équipe a cinq patineurs, ou moins, encore qualifiés pour jouer le match, ..." WHERE ID=876;
+UPDATE rdtom_questions SET Text="Si une équipe refuse d'aligner des joueurs en début de match, ..." WHERE ID=877;
+UPDATE rdtom_questions SET Text="Si une équipe ne se présente pas au cours d'un match, ..." WHERE ID=878;
+UPDATE rdtom_questions SET Text="Vrai ou faux : une équipe peut choisir de déclarer forfait plutôt que de continuer à jouer." WHERE ID=879;
+UPDATE rdtom_questions SET Text="Vrai ou faux : les arbitres peuvent mettre fin aux bagarres selon leur jugement." WHERE ID=880;
+UPDATE rdtom_questions SET Text="Qui a le droit d'appeler un Official Timeout ?" WHERE ID=881;
+UPDATE rdtom_questions SET Text="Dans l’éventualité où il y aurait un désaccord concernant l’appel d’une faute ou le comptage des points d’un arbitre, qui est autorisé à discuter des décisions d’arbitrage avec les arbitres ?" WHERE ID=882;
+UPDATE rdtom_questions SET Text="Comment est demandé un Official Review ?" WHERE ID=883;
+UPDATE rdtom_questions SET Text="Quel est le nombre garanti d'Official Review pour une équipe ?" WHERE ID=889;
+UPDATE rdtom_questions SET Text="Vrai ou faux : un Official Review peut être demandé après le dernier Jam une fois que le score n’ait été déclaré définitif." WHERE ID=890;
+UPDATE rdtom_questions SET Text="Si une situation qui n'est pas clairement énoncée dans ces règles se déroule au cours du match, que se passe-t-il ?" WHERE ID=891;
+UPDATE rdtom_questions SET Text="Vrai ou faux : un officiel peut accroître la sévérité d’une pénalité à son appréciation." WHERE ID=892;
+UPDATE rdtom_questions SET Text="Vrai ou faux : un officiel ne peut pas diminuer accroître la sévérité d’une pénalité à son appréciation." WHERE ID=893;
+UPDATE rdtom_questions SET Text="Vrai ou faux : Décerner des pénalités est prioritaire par rapport à donner des avertissements." WHERE ID=894;
+UPDATE rdtom_questions SET Text="L’appréciation des officiels leur permet ..." WHERE ID=895;
+UPDATE rdtom_questions SET Text="Si un arbitre a un doute sur action, ..." WHERE ID=896;
+UPDATE rdtom_questions SET Text="Vrai ou faux : les arbitres sont autorisés à porter des rollers en ligne ?" WHERE ID=901;
+UPDATE rdtom_questions SET Text="Vrai ou faux : les arbitres ont le droit de porter les habits qu'ils veulent." WHERE ID=902;
+UPDATE rdtom_questions SET Text="Les NSOs [officiels sans patins] sont fortement encouragés ..." WHERE ID=903;
+UPDATE rdtom_questions SET Text="Vrai ou faux : un arbitre doit avoir une identification claire et visible au dos de son maillot ?" WHERE ID=904;
+UPDATE rdtom_questions SET Text="Quelle identification peut utiliser un arbitre sur le dos de son uniforme ?" WHERE ID=905;
+UPDATE rdtom_questions SET Text="Vrai ou faux : Chaque arbitre devra fournir son propre sifflet de sport ?" WHERE ID=906;
+UPDATE rdtom_questions SET Text="Vrai ou faux : Les équipements de protection doivent portés en patinant lors d'un jam, y compris en allant/sortant de la Penalty Box." WHERE ID=908;
+UPDATE rdtom_questions SET Text="Quels sont les équipements de sécurité minimum pour un patineur lors d'une compétition ?" WHERE ID=909;
+UPDATE rdtom_questions SET Text="Vrai ou faux : les protège-coudes n'ont pas besoin d'avoir une coque rigide extérieure ou insérée." WHERE ID=910;
+UPDATE rdtom_questions SET Text="Vrai ou faux : les protège-poignets n'ont pas besoin d'avoir une coque rigide extérieure ou insérée." WHERE ID=911;
+UPDATE rdtom_questions SET Text="Vrai ou faux : les patineurs sont fortement encouragés à sécuriser ou à scotcher les parties de bandes Velcro non attachées." WHERE ID=912;
+UPDATE rdtom_questions SET Text="Parmi les protections suivantes, laquelle est optionnelle ?" WHERE ID=913;
+UPDATE rdtom_questions SET Text="Lequel des équipements suivant est obligatoire ?" WHERE ID=914;
+UPDATE rdtom_questions SET Text="Parmi les protections suivantes, laquelle doit avoir une coque rigide ?" WHERE ID=915;
+UPDATE rdtom_questions SET Text="Combien de professionnels de santé doit fournir une équipe qui accueil un match ?" WHERE ID=917;
+UPDATE rdtom_questions SET Text="Qui a la responsabilité de fournir au personnel médical les informations médicales et/ou les contacts d'urgence des patineurs ?" WHERE ID=918;
+UPDATE rdtom_questions SET Text="A combien de jam un patineur ne peut-il prendre part si un jam est arrété par un arbitre à cause d'une blessure qu'il a subit ?" WHERE ID=919;
+UPDATE rdtom_questions SET Text="Si un jam est arrété par un arbitre à cause d'un patineur blessé pour la seconde fois, ce patineur doit manqué ..." WHERE ID=920;
+UPDATE rdtom_questions SET Text="Vrai ou faux : Un patineur qui saigne peut quand même participer au jeu ?" WHERE ID=921;
+UPDATE rdtom_questions SET Text="Qui a le droit de revenir sur la piste lors d'un jam en cours ?" WHERE ID=922;
+UPDATE rdtom_questions SET Text="Un patineur qui quitte la piste à cause d'un problème d'équipement doit retourner dans le pack ..." WHERE ID=923;
+UPDATE rdtom_questions SET Text="Vrai ou faux : Un patineur blessé avant le match peut jouer s'il a recu l'autorisation de son médecin." WHERE ID=924;
+UPDATE rdtom_questions SET Text="Vrai ou faux : un patineur peut porter un platre si le Head Referee estime qu'il ne représente pas un danger pour les autres patineurs et si le dit patineur a recu l'autorisation de son médecin de jouer." WHERE ID=925;
+UPDATE rdtom_questions SET Text="Sous quelle influence un patineur peut-il participer à un match ?" WHERE ID=926;
+UPDATE rdtom_questions SET Text="Vrai ou faux : les joueurs peuvent boire de la bière en portant leurs patins." WHERE ID=927;
+UPDATE rdtom_questions SET Text="Quelles sont les deux personnes d'une équipe autorisées à demander un temps mort ?" WHERE ID=937;
+UPDATE rdtom_questions SET Text="Vrai ou faux : Il est légal de bloquer les adversaires qui sont immobiles sur la piste." WHERE ID=940;
+UPDATE rdtom_questions SET Text="Dans laquelle des situations ci-dessous un patineur est-il \"hors des limites\" [out of bounds] ?" WHERE ID=946;
+UPDATE rdtom_questions SET Text="Vrai ou faux : un jammer peut initier un blocage sur un blocker en dehors de la zone d'engagement sans recevoir de pénalité." WHERE ID=949;
+UPDATE rdtom_questions SET Text="Vrai ou faux : un joueur à l'arrêt à le droit de propulser un coéquipier qui patine dans le sens anti-horaire." WHERE ID=953;
+UPDATE rdtom_questions SET Text="Que se passe-t-il si un patineur n'est pas complétement dans les limites de la piste au coup de sifflet de départ de Jam ?" WHERE ID=954;
+UPDATE rdtom_questions SET Text="Vrai ou faux : Un arbitre jugeant une pénalité de Cutting the Track penalties ne prend en compte que les joueurs adverses déjà dépassés." WHERE ID=955;
+UPDATE rdtom_questions SET Text="S’il ne reste que 30 secondes ou moins à jouer sur le chronomètre officiel de période à la fin d’un jam, est ce qu'il y aura un jam de joué pendant cette période ?" WHERE ID=958;
+UPDATE rdtom_questions SET Text="Vrai ou faux : les blockers doivent toujours s'aligner derrière les hanches du pivot." WHERE ID=959;
+UPDATE rdtom_questions SET Text="Le jammer de l'équipe A est dans un passage marquant et dépasse deux blockers de l'équipe B légalement et un troisième illégalement. Le quatrième blocker de l'équipe B est en penalty-box, combien de points le jammer gagne-t-il ?" WHERE ID=960;
+UPDATE rdtom_questions SET Text="Vrai ou faux : les logos des sponsors sont permis sur la ligne de Pivot et de Jammer ?" WHERE ID=979;
+UPDATE rdtom_questions SET Text="Vrai ou faux : les logos des sponsors sont permis sur la ligne de Pivot et de Jammer même si ces logos interfèrent avec le contraste entre la ligne et la surface de patinage." WHERE ID=980;
+UPDATE rdtom_questions SET Text="Les repères de 3 mètres (10 pieds) sur la piste ..." WHERE ID=981;
+UPDATE rdtom_questions SET Text="Les chaises ou les bancs installés dans les zones réservées aux équipes doivent être " WHERE ID=982;
+UPDATE rdtom_questions SET Text="La période commence quand ..." WHERE ID=983;
+UPDATE rdtom_questions SET Text="Quel coup de sifflet annonce le début de la période ?" WHERE ID=984;
+UPDATE rdtom_questions SET Text="Quand se termine une période ?" WHERE ID=985;
+UPDATE rdtom_questions SET Text="Vrai ou faux : une période peut s’étendre au-delà du 0:00 sur le chronomètre de période." WHERE ID=986;
+UPDATE rdtom_questions SET Text="La manquement à porter un équipement de protection, ou le retirer, tel que le protège-dents, se traduira par :" WHERE ID=995;
+UPDATE rdtom_questions SET Text="Lequel des équipements ci-dessous fait partie de la liste des équipements obligatoires ?" WHERE ID=996;
+UPDATE rdtom_questions SET Text="Vrai ou faux : les équipes de protection requis (hormis les protège-dents) doivent comporter une coque rigide extérieure ou insérée." WHERE ID=997;
+UPDATE rdtom_questions SET Text="Quelle affirmation permet à un jammer de mettre son couvre-casque après le début d'un jam ?" WHERE ID=998;
+UPDATE rdtom_questions SET Text="Que se passe-t-il si un blocker ou un pivot n'est pas complétement dans les limites de la piste au coup de sifflet de départ de Jam ?" WHERE ID=1002;
+UPDATE rdtom_questions SET Text="Si le score est à égalité à la fin d’un match, que se passe-t-il ?" WHERE ID=1003;
+UPDATE rdtom_questions SET Text="A quel moment une équipe peut-elle demander un temps mort ?" WHERE ID=1004;
+UPDATE rdtom_questions SET Text="Quand démarre le chronomètre officiel de période ?" WHERE ID=1005;
+UPDATE rdtom_questions SET Text="Le chronomètre officiel de période s’arrête ..." WHERE ID=1006;
+UPDATE rdtom_questions SET Text="Le chronomètre officiel de période s’arrête ..." WHERE ID=1007;
+UPDATE rdtom_questions SET Text="Quand démarre le chronomètre officiel de jam ?" WHERE ID=1008;
+UPDATE rdtom_questions SET Text="Que signifie un coup de sifflet long ?" WHERE ID=1009;
+UPDATE rdtom_questions SET Text="Que signifient quatre coups de sifflets rapides ?" WHERE ID=1011;
+UPDATE rdtom_questions SET Text="Quel est le coup de sifflet pour le début du Jam ?" WHERE ID=1012;
+UPDATE rdtom_questions SET Text="Que signifient deux coups de sifflets brefs ?" WHERE ID=1013;
+UPDATE rdtom_questions SET Text="Vrai ou faux : Les capitaines ont la responsabilité de fournir au personnel médical les informations médicales et/ou les contacts d’urgence de leurs patineurs si nécessaire." WHERE ID=1014;
+UPDATE rdtom_questions SET Text="Le nombre maximum de jammers pour une équipe pour un jam donné est de :" WHERE ID=1015;
+UPDATE rdtom_questions SET Text="Le nombre maximum de blockers pouvant devenir pivot pour une équipe pour un jam donné est de : " WHERE ID=1016;
+UPDATE rdtom_questions SET Text="Vrai ou faux : L’équipe qui accueille doit fournir au moins deux professionnels de santé diplômés ou certifiés, ayant une expertise en urgence et soins médicaux d’urgence. " WHERE ID=1017;
+UPDATE rdtom_questions SET Text="Si un patineur subit une blessure suffisamment grave pour que les arbitres arrêtent le Jam, ce patineur doit..." WHERE ID=1018;
+UPDATE rdtom_questions SET Text="Vrai ou faux : Si plus d’un Jam est arrêté à cause d’un même patineur, celui-ci ne doit pas participer au reste de la période." WHERE ID=1019;
+UPDATE rdtom_questions SET Text="Si un patineur saigne, le patineur ne peut pas participer au match tant que le saignement n’est pas arrêté." WHERE ID=1020;
+UPDATE rdtom_questions SET Text="Si un patineur quitte le jam pendant le jeu à cause d'un problème d'équipement, le patineur peut revenir en jeu une fois que le problème a été resolu." WHERE ID=1021;
+UPDATE rdtom_questions SET Text="Vrai ou faux : Si un patineur quitte le jam à cause d'une blessure, ce patineur peut revenir en jeu dans le même jam ?" WHERE ID=1022;
+UPDATE rdtom_questions SET Text="Vrai ou faux : Les patineurs qui ont été blessés avant le match peuvent jouer s’ils ont reçu une autorisation de leur médecin." WHERE ID=1024;
+UPDATE rdtom_questions SET Text="Vrai ou faux : Un patineur ne peut pas porter un appareil, plâtre ou une attelle qui représente un danger pour les autres patineurs (tel que déterminé par le Head Referee)" WHERE ID=1025;
+UPDATE rdtom_questions SET Text="Vrai ou faux : les patineurs peuvent participer à un match sous l’influence de l’alcool, de narcotiques ou de drogues illégales." WHERE ID=1026;
+UPDATE rdtom_questions SET Text="Chaque match n'aura pas de moins de  _____ arbitres en patins et pas de plus de _____ au total." WHERE ID=1028;
+UPDATE rdtom_questions SET Text="Vrai ou faux : tous les arbitres doivent être en patins" WHERE ID=1030;
+UPDATE rdtom_questions SET Text="Qui est l'autorité ultime sur la piste ?" WHERE ID=1031;
+UPDATE rdtom_questions SET Text="Quel est l'unique arbitre qui peut expulser un patineur, un manager ou un coach ?" WHERE ID=1032;
+UPDATE rdtom_questions SET Text="Quel(s) arbitre(s) a la responsabilité d'observer les jammers ?" WHERE ID=1033;
+UPDATE rdtom_questions SET Text="Qui portent un identifiant (bracelet, écharpe, couvrecasque, etc.) correspondant à la couleur de l’équipe dont ils sont responsables ?" WHERE ID=1034;
+UPDATE rdtom_questions SET Text="Vrai ou faux : À la fin d’une période, les jammer referees ne s’échangent pas les équipes dont ils sont responsables." WHERE ID=1035;
+UPDATE rdtom_questions SET Text="Quelle est la première responsabilité des Pack Referees ?" WHERE ID=1036;
+UPDATE rdtom_questions SET Text="Combien d'arbitres en patins maxium seront positionnés au centre de la piste ?" WHERE ID=1037;
+UPDATE rdtom_questions SET Text="Quel poste de NSO n'est pas obligatoire ?" WHERE ID=1038;
+UPDATE rdtom_questions SET Text="Vrai ou faux : l’appréciation des officiels vise uniquement à leur permettre de maintenir un match sécurisé, équitable et cohérent dans le cas où une situation inattendue se présente." WHERE ID=1039;
+UPDATE rdtom_questions SET Text="Vrai ou faux : un avertissement doit être émis avant qu’une pénalité ne soit donnée (à part pour les pénalités de Out of Play)." WHERE ID=1041;
+UPDATE rdtom_questions SET Text="Vrai ou faux : si un officiel a un doute sur un appel (par exemple, si l’officiel voit les effets d’un coup, mais ne voit pas l’action), une pénalité ne doit pas être appelée." WHERE ID=1042;
+UPDATE rdtom_questions SET Text="Vrai ou faux : si un officiel est dans une position où l’intention doit être déduite, mais que ce n’est pas clair, l’intention illégale doit être présumée." WHERE ID=1043;
+UPDATE rdtom_questions SET Text="Vrai ou faux : si un arbitre n'est pas sûr de savoir si une action mérite une pénalité ou un \"No impact/No pénalité\", il doit appeler une pénalité." WHERE ID=1044;
+UPDATE rdtom_questions SET Text="Vrai ou faux : si un arbitre n'est pas sûr de savoir si une action mérite une expulsion ou une pénalité, il doit appeler une pénalité." WHERE ID=1046;
+UPDATE rdtom_questions SET Text="Si un arbitre choisit de s'identifier par un nombre, combien de chiffre(s) peut avoir ce nombre ?" WHERE ID=1048;
+UPDATE rdtom_questions SET Text="Laquelle des propositions suivantes est un exemple d'identification unique pour un arbitre ?" WHERE ID=1049;
+UPDATE rdtom_questions SET Text="Vrai ou faux : les arbitres sont uniquement autorisés à porter des rollers en ligne et ne doivent pas porter des des patins à roues non alignées de type « quad »." WHERE ID=1050;
+UPDATE rdtom_questions SET Text="Vrai ou faux : les NSOs [officiels sans patins] sont fortement encouragés de porter un maillot rayé semblable à celui des arbitres." WHERE ID=1051;
+UPDATE rdtom_questions SET Text="Vrai ou faux : chaque arbitre participant à un match doit avoir une identification claire et visible au dos de son maillot ?" WHERE ID=1052;
+UPDATE rdtom_questions SET Text="Vrai ou faux : l'équipe avec le plus de points à la fin du match gagne la partie." WHERE ID=1053;
+UPDATE rdtom_questions SET Text="Où doivent se placer les blockers qui ne sont pas pivots si le pivot est debout et sur la ligne de Pivot" WHERE ID=1054;
+UPDATE rdtom_questions SET Text="Que portent les blockers non-pivot sur leur casque ?" WHERE ID=1055;
+UPDATE rdtom_questions SET Text="Si un pivot ne porte pas son couvre-casque de pivot ..." WHERE ID=1056;
+UPDATE rdtom_questions SET Text="Si un joueur ne porte pas le couvre-casque de pivot sur son casque, n'est pas positionné sur la ligne de pivot mais tient ce même couvre-casque dans sa main ..." WHERE ID=1057;
+UPDATE rdtom_questions SET Text="Vrai ou faux : un pivot peut s'aligner sur la ligne de pivot." WHERE ID=1058;
+UPDATE rdtom_questions SET Text="Vrai ou faux : sous certaines conditions, un pivot peut récupérer le poste de jammer." WHERE ID=1059;
+UPDATE rdtom_questions SET Text="Quelle est la largeur minimale de la bande unie du couvre-casque du pivot ?" WHERE ID=1060;
+UPDATE rdtom_questions SET Text="Qui porte un couvre-casque avec une bande unie de l'avant vers l'arrière du casque ?" WHERE ID=1061;
+UPDATE rdtom_questions SET Text="Où peut être le couvre-casque d'un pivot avant le début d'un jam ?" WHERE ID=1062;
+UPDATE rdtom_questions SET Text="Vrai ou faux : un couvre-casque de pivot peut rejoindre un jam en cours si une équipe n'a pas aligné de pivot ?" WHERE ID=1063;
+UPDATE rdtom_questions SET Text="Si un patineur s'aligne dans la position de départ du pivot, dans quelle condition sera-t-il considéré étant pivot ?" WHERE ID=1064;
+UPDATE rdtom_questions SET Text="Si le couvre-casque de Pivot tombe au sol, qui peut le récupérer ?" WHERE ID=1065;
+UPDATE rdtom_questions SET Text="Si le couvre-casque tombe au sol, comment peut-il être récupéré ?" WHERE ID=1066;
+UPDATE rdtom_questions SET Text="Combien de jammer a le droit d'aligner chaque équipe pour un jam ?" WHERE ID=1067;
+UPDATE rdtom_questions SET Text="Où doivent les jammers s'aligner avant le début d'un jam ?" WHERE ID=1068;
+UPDATE rdtom_questions SET Text="Quel est le privilège d'un jammer ?" WHERE ID=1069;
+UPDATE rdtom_questions SET Text="Vrai ou faux : le seul jammer qui a le avoir le privilège de pouvoir demander la fin du jam est le lead jammer ?" WHERE ID=1070;
+UPDATE rdtom_questions SET Text="Le jammeur a le privilège de pouvoir passer son poste ..." WHERE ID=1071;
+UPDATE rdtom_questions SET Text="Quelle est la largeur minimale de l'étoile (d'une extrémité à l’autre) sur le couvre-casque d'un jammer ?" WHERE ID=1072;
+UPDATE rdtom_questions SET Text="Qui porte un couvre-casque avec une ou deux étoiles dessus ?" WHERE ID=1073;
+UPDATE rdtom_questions SET Text="Vrai ou faux : un couvre-casque de jammeur peut rejoindre un jam en cours si une équipe n'a pas aligné de jammeur ?" WHERE ID=1074;
+UPDATE rdtom_questions SET Text="Où doit être le couvre-casque d'un jammer avant le début d'un jam ?" WHERE ID=1075;
+UPDATE rdtom_questions SET Text="Si un patineur s'aligne à la position de jammer, sous quelle condition sera-t-il considéré comme un jammer actif ?" WHERE ID=1076;
+UPDATE rdtom_questions SET Text="Un jammer inactif ..." WHERE ID=1077;
+UPDATE rdtom_questions SET Text="Le lead jammer est ..." WHERE ID=1078;
+UPDATE rdtom_questions SET Text="Lequel des patineurs suivant a le droit de demander l'arrêt d'un jam ?" WHERE ID=1079;
+UPDATE rdtom_questions SET Text="Pour dépasser lead jammer, un jammer doit dépasser ..." WHERE ID=1080;
+UPDATE rdtom_questions SET Text="Dans le cas où les deux jammers répondent simultanément à toutes les exigences pour devenir lead jammer, qui est le lead jammer ?" WHERE ID=1081;
+UPDATE rdtom_questions SET Text="Le passage de l'étoile peut être effectué ..." WHERE ID=1082;
+UPDATE rdtom_questions SET Text="Au cours d'un passage de l'étoile, le statut de jammer est transféré quand ..." WHERE ID=1083;
+UPDATE rdtom_questions SET Text="Si un passage d'étoile est tenté mais manqué et que le jammer remet le couvre-casque sur son casque, le jammer ..." WHERE ID=1087;
+UPDATE rdtom_questions SET Text="Vrai ou faux : les couleurs des couvre-casques d’une équipe ne doivent pas être fortement contrastées." WHERE ID=1088;
+UPDATE rdtom_questions SET Text="Vrai ou faux : le ruban adhésif peut être utilisé pour attacher les numéros sur les uniformes." WHERE ID=1089;
+UPDATE rdtom_questions SET Text="La taille des numéros sur les bras-manchent doivent être au minimum de ..." WHERE ID=1092;
+UPDATE rdtom_questions SET Text="La taille des numéros sur les bras-manchent doivent être au maximum de ..." WHERE ID=1093;
+UPDATE rdtom_questions SET Text="Vrai ou faux : Les numéros sur le casque doivent correspondre à ceux figurant sur le roster." WHERE ID=1094;
+UPDATE rdtom_questions SET Text="Combien de Jam Timer(s) doit-il y avoir par match ?" WHERE ID=1095;
+UPDATE rdtom_questions SET Text="Quel est le nombre de minimum de scoreboard operator(s) pour un match ?" WHERE ID=1097;
+UPDATE rdtom_questions SET Text="Quelles sont les responsabilité du Jam Timer ?" WHERE ID=1098;
+UPDATE rdtom_questions SET Text="Qui a la responsabilité d'afficher le score donné par le Scorekeeper ?" WHERE ID=1100;
+UPDATE rdtom_questions SET Text="Quel est le nombre de minimum de Penalty Timing Official(s) pour un match ? " WHERE ID=1101;
+UPDATE rdtom_questions SET Text="Qui a la responsabilité de chronomètrer les pénalités et d'assister les arbitres en s’assurant qu’une équipe joue avec des patineurs en moins quand elle le doit ?" WHERE ID=1102;
+UPDATE rdtom_questions SET Text="Quel est le nombre de minimum de Penalty Tracker(s) pour un match ?" WHERE ID=1103;
+UPDATE rdtom_questions SET Text="Qui a la responsabilité d'enregistrer les pénalités signalées par les arbitres et de garder la trace de l’enregistrement officiel des pénalités ?" WHERE ID=1104;
+UPDATE rdtom_questions SET Text="Quel est le nombre de minimum de scorekeeper(s) pour un match ?" WHERE ID=1105;
+UPDATE rdtom_questions SET Text="Qui a la responsabilité d'enregistrer les points signalés par les jammer referees et de rapportenr le score officiel au Scoreboard Operator ?" WHERE ID=1106;
+UPDATE rdtom_questions SET Text="Vrai ou faux : L’initiateur d’un blocage est toujours responsable de la légalité du contact." WHERE ID=1107;
+UPDATE rdtom_questions SET Text="Quelle action peut entraîner une expulsion immédiate d'un joueur, même dès la première occurence ?" WHERE ID=1108;
+UPDATE rdtom_questions SET Text="Une interférence illégale dans le déroulement du jeu par des patineurs ou des membres de l’encadrement des équipes qui ne sont pas impliqués dans le jam peut entraîner ..." WHERE ID=1109;
+UPDATE rdtom_questions SET Text="L’utilisation répétée d’un langage ou de gestes obscènes, outrageants ou injurieux à l’égard d’une mascotte, d’un présentateur, de spectateurs ou de toute autre personne faisant partie de l’organisation d’un événementr peut entraîner ..." WHERE ID=1110;
+UPDATE rdtom_questions SET Text="L’utilisation répétée et excessive d’un langage ou de gestes obscènes, outrageants ou injurieux à l’égard d’un adversaire, d’un coéquipier, d’un manager, d’un coach ou de toute autre personne faisant partie de l’encadrement des équipes peut entraîner ..." WHERE ID=1111;
+UPDATE rdtom_questions SET Text="Les distances déterminant le pack et la zone d’engagement sont mesurées ..." WHERE ID=1112;
+UPDATE rdtom_questions SET Text="Vrai ou faux : Un patineur qui se défend exclusivement des coups reçus et qui ne s’engage pas dans la bagarre ne sera pas pénalisé." WHERE ID=1113;
+UPDATE rdtom_questions SET Text="Un combat est défini comme étant une lutte physique qui ne fait pas partie du déroulement régulier du jeu et ..." WHERE ID=1114;
+UPDATE rdtom_questions SET Text="Avant le début du jam, où doivent se trouver tous les blockers ?" WHERE ID=1116;
+UPDATE rdtom_questions SET Text="Mordre un joueur, quelle que soit la raison, peut entraîner ..." WHERE ID=1117;
+UPDATE rdtom_questions SET Text="Avant le début du jam, les blockers doivent être en position de telle sorte ..." WHERE ID=1118;
+UPDATE rdtom_questions SET Text="Sauter sur ou dans un tas de patineurs se battant peut entraîner ..." WHERE ID=1119;
+UPDATE rdtom_questions SET Text="Si il n'y a pas suffisement de blockers sur la piste à temps avant le début du jam de telle sorte de telle sorte qu’un pack n'existe pas ou ne peut pas immédiatement être formé ..." WHERE ID=1120;
+UPDATE rdtom_questions SET Text="Vrai ou faux : Au coup de sifflet de départ de jam, les blockers sont autorisés à avoir intentionnellement un genou au sol." WHERE ID=1121;
+UPDATE rdtom_questions SET Text="Une violence physique sérieuse ou toute action considérée par les officiels comme provoquant une menace physique extraordinaire ..." WHERE ID=1122;
+UPDATE rdtom_questions SET Text="Parmi les positions suivantes, laquelle peut adopter un blocker au coup de sifflet de départ de jam ?" WHERE ID=1123;
+UPDATE rdtom_questions SET Text="Vrai ou faux : les blockers peuvent intentionnellement prendre une position de départ qui prolonge délibérément la formation d'un pack." WHERE ID=1124;
+UPDATE rdtom_questions SET Text="Vrai ou faux : les pivots peuvent s'allonger sur la piste et du moment qu'ils touchent la ligne, ils sont considérés comme étant sur la ligne de pivot." WHERE ID=1125;
+UPDATE rdtom_questions SET Text="Vrai ou faux : il existe un ordre particulier d'alignement des blockers derrière le pivot avant le début d'un jam." WHERE ID=1126;
+UPDATE rdtom_questions SET Text="Un patineur en entrant dans la penalty box provoque un contact puissant via un siège de penalty box avec une autre personne. Le joueur en question ..." WHERE ID=1127;
+UPDATE rdtom_questions SET Text="Si un blocker adverse hors-jeu entreprend un contact avec un jammer, le jammer ..." WHERE ID=1128;
+UPDATE rdtom_questions SET Text="Vrai ou faux : les jammers peuvent assister des blockers hors jeu." WHERE ID=1129;
+UPDATE rdtom_questions SET Text="Une entrée en penalty box qui provoque un contact uniquement aux personnes empiétant sur la voie de sécurité et/ou la penalty box sans y être autorisées ..." WHERE ID=1133;
+UPDATE rdtom_questions SET Text="Un contact, réel ou potentiel, par le siège de penalty box du patineur sur une autre personne qui est causé par une défaillance structurelle du siège, et pas par l’entrée du patineur en penalty box ..." WHERE ID=1134;
+UPDATE rdtom_questions SET Text="Un patineur entre dans la penalty box d'une manière qui oblige un coéquipier à se déplacer pour éviter la collision. Le patineur en question ..." WHERE ID=1135;
+UPDATE rdtom_questions SET Text="Un joueur initie un contact avec les deux patins ne touchant pas le sol, ce qui déséquilibre l’adversaire cible mais ne lui fait pas perdre de position relative. L'initiateur ..." WHERE ID=1136;
+UPDATE rdtom_questions SET Text="Vrai ou faux : Initier un contact avec les deux patins ne touchant pas le sol sur un coéquipier est légal, indépendamment de l’impact sur ce coéquipier." WHERE ID=1138;
+UPDATE rdtom_questions SET Text="Un joueur initie un contact avec les deux patins ne touchant pas le sol, ce qui déséquilibre l’adversaire cible et lui fait perdre sa position relative. L'initiateur ..." WHERE ID=1139;
+UPDATE rdtom_questions SET Text="Le patineur de l'équipe rouge a un genou à terre quand il est cible d'un blocage par un blocker bleu. Ce dernier ..." WHERE ID=1140;
+UPDATE rdtom_questions SET Text="Vrai ou faux : un blocage doit être intentionel." WHERE ID=1141;
+UPDATE rdtom_questions SET Text="Vrai ou faux : Un patineur peut initier un contact envers un adversaire avant le coup de sifflet de départ de jam, ce qui fait perdre à l’adversaire sa position de départ établie." WHERE ID=1142;
+UPDATE rdtom_questions SET Text="A quel moment les blockers et les jammers peuvent commencer à bloquer des adversaires ?" WHERE ID=1143;
+UPDATE rdtom_questions SET Text="Vrai ou faux : Un patineur à l'arret est considéré comme \"a terre\" [down] ?" WHERE ID=1144;
+UPDATE rdtom_questions SET Text="Un patineur touche de la main le dos d'un adversaire mais ce dernier n'est pas affecté par ce contact. L'initiateur du contact ..." WHERE ID=1145;
+UPDATE rdtom_questions SET Text="Un patineur touche par inadvertance le dos d'un adversaire mais ce dernier ne doit pas ajuster son patinage. L'initiateur du contact ..." WHERE ID=1146;
+UPDATE rdtom_questions SET Text="Un patineur touche le dos d'un adversaire ce qui fait osciller ce dernier sur ces patins mais sans qu'il ne tombe ou perde sa position établie. L'initiateur du contact ..." WHERE ID=1147;
+UPDATE rdtom_questions SET Text="Le blocker bleu chasse le jammer rouge et le touche légèrement dans le dos, entraînant la chute du jammer rouge sur la piste. Le blocker bleu ..." WHERE ID=1148;
+UPDATE rdtom_questions SET Text="Un patineur touche le dos d'un adversaire ce qui fait tomber. L'initiateur du contact ..." WHERE ID=1149;
+UPDATE rdtom_questions SET Text="Un patineur touche le dos d'un adversaire ce qui fait osciller ce dernier sur ces patins mais sans qu'il ne tombe mais il perd position établie. L'initiateur du contact ..." WHERE ID=1150;
+UPDATE rdtom_questions SET Text="Un patineur touche le dos d'un adversaire ce qui fait osciller ce dernier sur ces patins puis sortir de la piste sans qu'il tombe. L'initiateur du contact ..." WHERE ID=1151;
+UPDATE rdtom_questions SET Text="Un patineur touche le dos d'un adversaire d'une manière imprudente. L'initiateur du contact ..." WHERE ID=1152;
+UPDATE rdtom_questions SET Text="Un patineur fait une une tentative puissante et délibérée de bloquer un adversaire à l’arrière de manière flagrante et touche cet adversaire. L'initiateur du contact ..." WHERE ID=1153;
+UPDATE rdtom_questions SET Text="Un patineur fait une une tentative puissante et délibérée de bloquer un adversaire à l’arrière de manière flagrante mais manque cet adversaire. L'initiateur du contact ..." WHERE ID=1154;
+UPDATE rdtom_questions SET Text="Tout blocage avec un contact puissant atterrissant au-dessus des épaules ..." WHERE ID=1155;
+UPDATE rdtom_questions SET Text="Un joueur initie un contact puissant mais inintentionnel au-dessus des épaules. L'initiateur du contact ..." WHERE ID=1156;
+UPDATE rdtom_questions SET Text="Tout contact au-dessus des épaules d’un adversaire ne portant pas de casque ..." WHERE ID=1157;
+UPDATE rdtom_questions SET Text="Un joueur tente un contact négligent au-dessus des épaules d'un joueur mais manque sa tentative et tombe sur les fesses. L'initiateur du contact ..." WHERE ID=1158;
+UPDATE rdtom_questions SET Text="Un joueur tente d'étouffer un joueur adverse mais sans réussir. Le joueur en question ..." WHERE ID=1159;
+UPDATE rdtom_questions SET Text="Parmi les propositions suivantes, laquelle n'entraînera pas d'expulsion ?" WHERE ID=1160;
+UPDATE rdtom_questions SET Text="Vrai ou faux : tout contact qui ne fait pas partie d’un mouvement de patinage normal qui atterrit en dessous des zones cibles légales provoquant la chute ou la perte de position relative d’un adversaire est considéré comme étant un blocage bas (low block)." WHERE ID=1161;
+UPDATE rdtom_questions SET Text="Deux patineurs réalisent un contact entre leurs roues au cours d'un mouvement normal de patinage. Les joueurs ..." WHERE ID=1162;
+UPDATE rdtom_questions SET Text="Pour une fois, un patineur tombe en fall small afin d'éviter de faire trébucher les autres joueurs. Il ..." WHERE ID=1163;
+UPDATE rdtom_questions SET Text="Avec un de ses patins, un joueur initie un contact en dessous des zones cibles légales provoquant le déséquilibre d’un adversaire, sans le faire tomber ou lui faire perdre sa position relative. L'initiateur ..." WHERE ID=1164;
+UPDATE rdtom_questions SET Text="Tout contact qui atterrit en dessous des zones cibles légales provoquant le déséquilibre d’un adversaire, sans le faire tomber ou lui faire perdre sa position relative ..." WHERE ID=1165;
+UPDATE rdtom_questions SET Text="Un patineur à terre retournant sur la piste en causant le déséquilibre d’un adversaire, sans le faire tomber ou lui faire perdre sa position relative ..." WHERE ID=1166;
+UPDATE rdtom_questions SET Text="Avec un patin, le joueur A  initie un contact en dessous des zones cibles légales provoquant le déséquilibre du joueur B qui perd sa position relative. Le joueur A ... " WHERE ID=1167;
+UPDATE rdtom_questions SET Text="Un patineur tombe en s'affalant par terre et fait chuter un adversaire dans le même temps. Le premier joueur à terre ..." WHERE ID=1168;
+UPDATE rdtom_questions SET Text="Avec un de ses patins, un joueur initie un contact en dessous des zones cibles légales provoquant le déséquilibre d’un adversaire ce qui le fait tomber. L'initiateur ..." WHERE ID=1169;
+UPDATE rdtom_questions SET Text="A partir de quel moment, un joueur qui fait tomber un adversaire à cause de sa manière de patiner sera-t-il pénalisé ?" WHERE ID=1170;
+UPDATE rdtom_questions SET Text="Un patineur tombe régulièrement en fall small devant des adversaires, les faisant trébucher.  A partir de quel moment, le joueur en question sera-t-il pénalisé ?" WHERE ID=1171;
+UPDATE rdtom_questions SET Text="Un joueur utilise un langage ou de gestes obscènes, outrageants ou injurieux dirigés à l’égard d’une mascotte, d’un présentateur, d’un spectateur ou de toute autre personne faisant partie de l’organisation d’un événement. Le joueur ..." WHERE ID=1172;
+UPDATE rdtom_questions SET Text="Un patineur à terre retourne sur la piste et provoque la chute d’un adversaire. Le joueur en question ..." WHERE ID=1173;
+UPDATE rdtom_questions SET Text="Un joueur fait trébucher intentionnellement un adversaire. Il ..." WHERE ID=1174;
+UPDATE rdtom_questions SET Text="Un joueur met intentionnellement un genou à terre afin d'éviter un blocage, il ..." WHERE ID=1175;
+UPDATE rdtom_questions SET Text="Un joueur tacle un adversaire en glissant. Il ..." WHERE ID=1176;
+UPDATE rdtom_questions SET Text="Un joueur tente de frapper un adversaire afin de le faire tomber mais manque son action. Il ..." WHERE ID=1177;
+UPDATE rdtom_questions SET Text="Un contact temporaire avec un coude qui déséquilibre un adversaire mais ne le contraint pas à ajuster son patinage ..." WHERE ID=1178;
+UPDATE rdtom_questions SET Text="Un contact fortuit avec le coude qui ne nécessite pas que l'adversaire ne modifie son patinage ..." WHERE ID=1179;
+UPDATE rdtom_questions SET Text="Un joueur balance ces coudes d'une manière qui gêne un adversaire mais ne le fait ni tomber ni perdre de position relative. L'action ..." WHERE ID=1180;
+UPDATE rdtom_questions SET Text="Un joueur initie un contact avec son coude d'une manière qui fait avancer un adversaire mais ne le fait pas perdre sa position relative. L'action ..." WHERE ID=1181;
+UPDATE rdtom_questions SET Text="Un joueur réalise un blocage avec un coude qui s'avère être un contact puissant atterrissant au-dessus des épaules. L'adversaire ne tombe pas. L'action ..." WHERE ID=1182;
+UPDATE rdtom_questions SET Text="Un joueur réalise un blocage avec son coude . L'adversaire ne tombe pas mais perd  sa position relative. L'initiateur du contact ..." WHERE ID=1183;
+UPDATE rdtom_questions SET Text="Un joueur initie un contact avec son coude d'une manière qui déséquilibre un adversaire mais ne le fait ni tomber ni perdre de position relative. L'action ..." WHERE ID=1184;
+UPDATE rdtom_questions SET Text="Un joueur limite les déplacements d'un adversaire en l'attrapant par le bras. L'action ..." WHERE ID=1185;
+UPDATE rdtom_questions SET Text="Un joueur limite les déplacements d'un adversaire en l'immobilisant par le bras. L'action ..." WHERE ID=1186;
+UPDATE rdtom_questions SET Text="Un patineur tente illégalement de porter un coup de coude à un adversaire mais manque la cible. Il ... " WHERE ID=1187;
+UPDATE rdtom_questions SET Text="Un patineur initie un contact négligent ou imprudent avec un adversaire en utilisant les coudes de manière illégale. L'initiateur du contact ... " WHERE ID=1188;
+UPDATE rdtom_questions SET Text="Un jammer n'est pas d'accord avec une décision d'un arbitre et réagit en insultant un joueur adverse. Le jammer ... " WHERE ID=1189;
+UPDATE rdtom_questions SET Text="Un patineur entre dans la penalty box d'une manière qui fait qu'une personne doit se déplacer afin éviter raisonnablement d’être contacté puissamment. Le joueur en question ..." WHERE ID=1190;
+UPDATE rdtom_questions SET Text="Un joueur touche brièvement avec ses mains une zone cible légale d'un adversaire. Ce dernier ne doit pas ajuster son patinage. L'initiateur du contact ..." WHERE ID=1191;
+UPDATE rdtom_questions SET Text="Un joueur a ses bras positionnés contre lui lors d'un contact contre un adversaire. Sur l'impact, les bras touchent l'adversaire, l'action ..." WHERE ID=1192;
+UPDATE rdtom_questions SET Text="Un joueur touche sans le vouloir un adversaire avec ses mains, le poussant légèrement. Ce dernier ne perd pas sa position relative. L'action ..." WHERE ID=1193;
+UPDATE rdtom_questions SET Text="Un joueur met un coup d'épaule à un adversaire mais le pousse également avec ses mains. Ce dernier est propulsé vers l'avant sans perdre sa position relative. L'action ..." WHERE ID=1194;
+UPDATE rdtom_questions SET Text="Vrai ou faux : Un joueur met un coup d'épaule à un adversaire mais le pousse également avec ses mains sans aucun changement de position relative. L'initiateur du contact est pénalisé." WHERE ID=1195;
+UPDATE rdtom_questions SET Text="Un joueur pousse légèrement avec les bras un adversaire ce qui fait avancer ce dernier et le déséquilibre mais ne lui fait pas perdre de position relative. L'action entraîne ..." WHERE ID=1196;
+UPDATE rdtom_questions SET Text="Un joueur initie un contact sur un adversaire avec l'épaule mais dans le même temps le pousse en avant avec les mains. L'action ..." WHERE ID=1197;
+UPDATE rdtom_questions SET Text="Vrai ou faux : Du moment que la main d'un joueur touche une zone légale de légale d'un adversaire et que ce dernier n'a pas besoin de modifier son patinage, l'initiateur du contact peut laisser sa main autant de temps qu'il le souhaite." WHERE ID=1198;
+UPDATE rdtom_questions SET Text="Le jammer bleu pose sa main sur le dos d'un blocker rouge pendant plus de 3 secondes. Aucun changement de position relative n'est observé. Le jammeur bleu ..." WHERE ID=1199;
+UPDATE rdtom_questions SET Text="Un joueur réalise un contact illégal avec ses avants-bras sur un adversaire. Ce dernier ne tombe pas mais perd sa position relative. L'initiateur ..." WHERE ID=1201;
+UPDATE rdtom_questions SET Text="Un joueur pousse avec ses mains un adversaire vers l'avant. Ce dernier ne tombe pas mais perd sa position relative. L'initiateur ..." WHERE ID=1202;
+UPDATE rdtom_questions SET Text="Un joueur pousse avec ses avants-bras un adversaire sur le côté. Ce dernier ne tombe pas mais perd sa position relative. L'initiateur ..." WHERE ID=1203;
+UPDATE rdtom_questions SET Text="Un joueur s'aggripe à un adversaire et l'initiateur améliore ainsi sa position relative. L'action ..." WHERE ID=1204;
+UPDATE rdtom_questions SET Text="Un patineur tente mais ne parvient pas à bousculer très violement un adversaire avec ses bras. L'action ..." WHERE ID=1205;
+UPDATE rdtom_questions SET Text="Un patineur met un coup de pain à un adversaire. Il ..." WHERE ID=1206;
+UPDATE rdtom_questions SET Text="Un joueur qui maintient un coéquipier au sol ..." WHERE ID=1207;
+UPDATE rdtom_questions SET Text="Un joueur frappe un coéquipier, il ..." WHERE ID=1208;
+UPDATE rdtom_questions SET Text="Un joueur contacte sans le faire exprès la tête d'un de ses coéquipiers. Le joueur ..." WHERE ID=1209;
+UPDATE rdtom_questions SET Text="Un joueur touche de manière involontairement avec sa tête un joueur adverse. Le joueur impacté na pas besoin d'adapter son patinage et ne perd pas position relative. L'initiateur ... " WHERE ID=1210;
+UPDATE rdtom_questions SET Text="Un joueur initie un contact sur un adersaire et touche par la même occasion ce dernier avec sa tête. Le joueur impacté est désquilibré mais ne perd pas position relative. L'initiateur ..." WHERE ID=1211;
+UPDATE rdtom_questions SET Text="Un joueur initie un contact sur un adversaire avec sa tête faisant perdre l'équilibre à l'adversaire. Ce dernier ne tombe pas mais perd sa position relative. L'action ..." WHERE ID=1212;
+UPDATE rdtom_questions SET Text="Un joueur réalise un blocage avec la tête qui inclut un contact physique. L'initiateur ..." WHERE ID=1213;
+UPDATE rdtom_questions SET Text="Un joueur réalise un blocage avec la tête d'une manière illégale. L'initiateur ..." WHERE ID=1214;
+UPDATE rdtom_questions SET Text="Vrai ou faux : Un joueur entre habituellement dans la penalty box sans prendre de précautions habituelle. A chaque entrée, une défaillance de la structure du siège et non pas par l’entrée du patineur entraîne un contact entre la chaise et une autre personne. Le joueur reçoit une pénalité de misconduct." WHERE ID=1216;
+UPDATE rdtom_questions SET Text="Un joueur entre habituellement dans la penalty box d'une manière qui implique un contact entre sa chaise et une autre personne, ce contact étant causé par une défaillance de la structure du siège. Le joueur ..." WHERE ID=1217;
+UPDATE rdtom_questions SET Text="Un joueur entre habituellement dans la penalty box sans prendre de précautions habituelle. A chaque entrée, une défaillance de la structure du siège et non pas par l’entrée du patineur entraîne un contact entre la chaise et une autre personne. Le joueur ..." WHERE ID=1218;
+UPDATE rdtom_questions SET Text="Vrai ou faux : les pénalités de retard de jeu Delay of Game [retardement de jeu] seront données pour des actions qui font patiner les joueurs moins vite." WHERE ID=1220;
+UPDATE rdtom_questions SET Text="Les pénalités de Delay of Game [retardement de jeu] seront données pour des actions qui interfèrent avec la progression normale du match et peuvent seulement découler sur une ..." WHERE ID=1221;
+UPDATE rdtom_questions SET Text="Un joueur reçoit une pénalité et est mis en attente pour la penalty box (qui est pleine) juste avant la fin du jam. Le joueur en attente retourne sur le banc de son équipe pour le début du jam suigvant. Il ..." WHERE ID=1222;
+UPDATE rdtom_questions SET Text="Vrai ou faux : une pénalité de Delay of Game [retardement de jeu] sera donnée à chaque joueur qui manque à être sur la piste pour le jam suivant au départ du jam, au poste approprié (pivot ou blocker), alors que l’on est en attente pour la penalty box." WHERE ID=1223;
+UPDATE rdtom_questions SET Text="Une équipe n'aligne aucun blocker au début d'un jam, empêchant ce jam de débuter. Le capitaine de l'équipe en question ..." WHERE ID=1224;
+UPDATE rdtom_questions SET Text="Une équipe a déjà utilisée ses 3 temps-mort [Team timeout] avant la fin du match mais elle demande et obtient tout de même un nouveau temps-mort. Le capitaine de l'équipe en question ..." WHERE ID=1225;
+UPDATE rdtom_questions SET Text="Vrai ou faux : une équipe demande et obtient un temps-mort alors qu'elle a déjà utilisée ses 3 temps-mort. La pénalité est donnée au capitaine de l'équipe." WHERE ID=1226;
+UPDATE rdtom_questions SET Text="Vrai ou faux : Les pénalités d’Insubordination seront données pour des actions qui démontrent un irrespect à l’égard de l’autorité des officiels, qu’elles soient intentionnelles ou non." WHERE ID=1227;
+UPDATE rdtom_questions SET Text="Un patineur qui, après avoir été pénalisé clairement et de manière appropriée, ne quitte pas la piste. Il ..." WHERE ID=1228;
+UPDATE rdtom_questions SET Text="Le joueur rouge numéro 5 est pénalisé mais refuse de quitter la piste. Cette pénalité est la septième du joueur au cours du match. Le joueur ..." WHERE ID=1229;
+UPDATE rdtom_questions SET Text="Vrai ou faux : Commettre intentionnellement une Illegal Procedure n’est pas de l’insubordination." WHERE ID=1230;
+UPDATE rdtom_questions SET Text="L’utilisation d’un langage ou de gestes obscènes, outrageants ou abusifs dirigés à l’égard d’un officiel ..." WHERE ID=1232;
+UPDATE rdtom_questions SET Text="Vrai ou faux : une pénalité est donnée à un joueur qui utilise un langage ou de gestes obscènes, outrageants ou abusifs à l’égard d’un officiel." WHERE ID=1233;
+UPDATE rdtom_questions SET Text="Un joueur exclu (foul out) du match refuse de quitter la piste, il ..." WHERE ID=1234;
+UPDATE rdtom_questions SET Text="Vrai ou faux : un joueur exclu qui refuse de quitter la piste sera expulsé du match." WHERE ID=1235;
+UPDATE rdtom_questions SET Text="Vrai ou faux : l’utilisation répétée d’un langage ou de gestes obscènes, outrageants ou injurieux dirigés à l’égard d’un officiel n'entraînera pas une expulsion du match." WHERE ID=1236;
+UPDATE rdtom_questions SET Text="L’utilisation répétée d’un langage ou de gestes obscènes, outrageants ou injurieux dirigés à l’égard d’un officiel ..." WHERE ID=1237;
+UPDATE rdtom_questions SET Text="L'insubordination délibérée et excessive envers un arbitre entraîne ..." WHERE ID=1238;
+UPDATE rdtom_questions SET Text="L'insubordination délibérée et excessive envers un NSO ..." WHERE ID=1239;
+UPDATE rdtom_questions SET Text="Vrai ou faux : l'insubordination délibérée et excessive envers un arbitre n'entraînera pas l'expulsion du match." WHERE ID=1240;
+UPDATE rdtom_questions SET Text="Vrai ou faux : Les procédures illégales sont les infractions techniques donnant un avantage à l’équipe incriminée, mais n’ayant pas forcément d’impact sur un adversaire spécifique." WHERE ID=1241;
+UPDATE rdtom_questions SET Text="Les infractions techniques donnant un avantage à l’équipe incriminée, mais n’ayant pas forcément d’impact sur un adversaire spécifique ..." WHERE ID=1243;
+UPDATE rdtom_questions SET Text="Vrai ou faux : un joueur coupable d'un faux départ doit s’arrêter complètement pour céder l’avantage ou être pénalisé." WHERE ID=1244;
+UPDATE rdtom_questions SET Text="Vrai ou faux : si un joueur coupable d'un faux départ (False Start) tente de céder sa position relative (en s’arrêtant), mais qu’aucun autre patineur ne tente de reprendre ledit avantage, le joueur coupable de faux départ ne sera pas pénalisé." WHERE ID=1245;
+UPDATE rdtom_questions SET Text="Un joueur réalise un false start et ne cède pas l'avantage en continuant à avancer. Il ..." WHERE ID=1246;
+UPDATE rdtom_questions SET Text="Un blocker non-pivot se voit siffler une pénalité de false start en début de jam quand ..." WHERE ID=1249;
+UPDATE rdtom_questions SET Text="Un pivot se voit siffler une pénalité de false start en début de jam quand ..." WHERE ID=1250;
+UPDATE rdtom_questions SET Text="Vrai ou faux : un pivot se voit siffler une pénalité de false start en début de jam lorsque il touche la ligne de jammer." WHERE ID=1251;
+UPDATE rdtom_questions SET Text="Vrai ou faux : un pivot se voit siffler une pénalité de false start en début de jam lorsque il se situe devant la ligne de pivot dans le sens anti-horaire." WHERE ID=1252;
+UPDATE rdtom_questions SET Text="Un joueur fait un faux départ mais cède l’avantage à tous les patineurs dans le voisinage immédiat. Le joueur ..." WHERE ID=1253;
+UPDATE rdtom_questions SET Text="Un joueur ne quitte pas la piste après avoir été pénalisé clairement et de manière appropriée. Le patineur n'est pas conscient qu'il a été pénalisé. Il ..." WHERE ID=1254;
+UPDATE rdtom_questions SET Text="Un patineur sort complètement de la Penalty Box avant que son temps de pénalité ne soit terminé, après avoir reçu une mauvaise instruction par l’officiel de Penalty Box. Il doit revenir dans la penalty box afin de finir son temps et ..." WHERE ID=1256;
+UPDATE rdtom_questions SET Text="Un patineur établit une position de départ légale sur la piste avant le coup de sifflet de départ de jam, mais est bloqué hors des limites avant que le coup de sifflet de départ de Jam est donné. Ce patineur est autorisé à rester dans le jam et ..." WHERE ID=1257;
+UPDATE rdtom_questions SET Text="Trop de patineurs sur la piste. Le patineur en trop est invité à retourner sur son banc sans arrêt du jam et ..." WHERE ID=1258;
+UPDATE rdtom_questions SET Text="Il y a plus d'un pivot pour une équipe sur la piste lors d'un jam, un arbitre demande au pivot le plus proche de lui de sortir de la piste. Le pivot en question ..." WHERE ID=1259;
+UPDATE rdtom_questions SET Text="Vrai ou faux : un pivot démarrant le jam en penalty box n'est pas le pivot de l'équipe pour ce jam." WHERE ID=1260;
+UPDATE rdtom_questions SET Text="Vrai ou faux : s'il y a plus d'un pivot pour une équipe sur la piste lors d'un jam, un arbitre demandera au pivot le plus proche de lui de sortir de la piste si ce patineur est un patineur en trop sur la piste." WHERE ID=1261;
+UPDATE rdtom_questions SET Text="Vrai ou faux : si un patineur se rend compte qu'il y a deux pivots sur la piste, un des deux pivots peut enlever son couvre-casque sans risquer de prendre une pénalité." WHERE ID=1262;
+UPDATE rdtom_questions SET Text="Un jammer, qui n'a pas le statut de lead jammer, essaye d’arrêter le jam mais le jam n'est pas arrêté. Le jammer en question ..." WHERE ID=1263;
+UPDATE rdtom_questions SET Text="Un joueur qui vient de quitter la penalty box retourne sur la piste devant un de ses coéquipiers. Il ..." WHERE ID=1264;
+UPDATE rdtom_questions SET Text="Le patineur C est pénalisé mais est renvoyé sur la piste car la penalty box est pleine. Il retourne sur la piste en dépassant un de ses coéquipier. Le patineur ..." WHERE ID=1265;
+UPDATE rdtom_questions SET Text="Le patineur C est pénalisé pour un blocage à la tête mais est renvoyé sur la piste car la penalty box est pleine. Il retourne sur la piste en dépassant un de ses coéquipier. Le patineur C ..." WHERE ID=1266;
+UPDATE rdtom_questions SET Text="Un patineur après être sorti pour remédier à un dysfonctionnement de son équipement retourne sur la piste devant un de ses coéquipiers. Le patineur en question ..." WHERE ID=1267;
+UPDATE rdtom_questions SET Text="Vrai ou faux : un patineur après être sorti pour remédier à un dysfonctionnement de son équipement peut retourner sur la piste devant deux de ses coéquipiers sans recevoir de pénalité." WHERE ID=1268;
+UPDATE rdtom_questions SET Text="Un patineur initie un contact envers un adversaire avant le coup de sifflet de départ de jam, ce qui déséquilibre l’adversaire cible mais ne lui fait pas perdre sa position de départ établie. L'initiateur ..." WHERE ID=1269;
+UPDATE rdtom_questions SET Text="Un patineur initie un contact envers un adversaire avant le coup de sifflet de départ de jam, ce qui déplace l’adversaire cible vers l’avant mais ne lui fait pas perdre sa position de départ établie. L'initiateur ..." WHERE ID=1270;
+UPDATE rdtom_questions SET Text="Un patineur initie un contact envers un adversaire après le quatrième coup de sifflet de fin de jam, ce  qui déséquilibre l’adversaire cible mais ne le fait ni tomber ni sortir de la piste. L'initiateur ..." WHERE ID=1271;
+UPDATE rdtom_questions SET Text="Un patineur initie un contact envers un adversaire après le quatrième coup de sifflet de fin de jam, ce qui déplace l’adversaire cible vers l’avant mais ne le fait ni tomber ni sortir de la piste. L'initiateur ..." WHERE ID=1272;
+UPDATE rdtom_questions SET Text="Un blocker commençant le jam avec plus d’un genou à terre ..." WHERE ID=1273;
+UPDATE rdtom_questions SET Text="Un blocker commençant le jam avec plus d’un genou à terre ..." WHERE ID=1274;
+UPDATE rdtom_questions SET Text="Le blocker rouge A1 maintient son coéquipier A2 contre un blocker bleu B4. A2 touche B4  de manière légale. A1 ..." WHERE ID=1275;
+UPDATE rdtom_questions SET Text="Un joueur utilise un coéquipier pour se freiner sur la piste sans affecter les joueurs adversaires. Le joueur en question ..." WHERE ID=1276;
+UPDATE rdtom_questions SET Text="Un joueur utilise le maillot d'un coéquipier pour accélerer sur la piste sans affecter les joueurs adversaires. Le joueur en question ..." WHERE ID=1277;
+UPDATE rdtom_questions SET Text="Deux patineurs réalisent un blocage à plusieurs (multi-player block) durant 2 secondes, ce qui entrave un patineur adverse mais ne le fait pas tomber ou perdre sa position relative. L'un des patineurs..." WHERE ID=1278;
+UPDATE rdtom_questions SET Text="Deux patineurs réalisent un blocage à plusieurs (multi-player block) durant 2 secondes, obligeant un patineur adverse à tomber ou perdre sa position relative. L'un des patineurs..." WHERE ID=1279;
+UPDATE rdtom_questions SET Text="Deux patineurs réalisent un blocage à plusieurs (multi-player block), entravant un patineur adverse, mais ne le faisant pas tomber ou perdre sa position relative. L'un des patineurs..." WHERE ID=1280;
+UPDATE rdtom_questions SET Text="Un joueur effectue un contact négligent contre un adversaire alors qu'il effectue un blocage à plusieurs (Multi-Player Block) de manière illégale. Il ..." WHERE ID=1282;
+UPDATE rdtom_questions SET Text="Deux joueurs effectuent un contact imprudent avec un adversaire en formant un blocage à plusieurs (Multi-Player Block). Le joueur le plus  proche de l'arbitre ..." WHERE ID=1283;
+UPDATE rdtom_questions SET Text="Un joueur continue un contre-blocage alors qu'un de ses patins touche le sol en dehors des limites de la piste. Le joueur adversaire ne tombe pas. L'initiateur ..." WHERE ID=1284;
+UPDATE rdtom_questions SET Text="Un joueur revient sur la piste sans toucher d'adversaire ni améliorer sa position relative. Il ..." WHERE ID=1285;
+UPDATE rdtom_questions SET Text="Vrai ou faux : un joueur revient sur la piste sans toucher d'adversaire ni améliorer sa position relative. Il reçoit une pénalité pour un blocage en dehors des limites (Out of Bounds Block)." WHERE ID=1286;
+UPDATE rdtom_questions SET Text="Le joueur rouge numéro est  bloqué par un blocker vert. Le joueur rouge contre-bloque puis continue son blocage alors qu'un de ses patins touche le sol en dehors de la piste. Le blocker vert ne perd pas sa position relative et reste debout. Le blocker rouge ..." WHERE ID=1287;
+UPDATE rdtom_questions SET Text="Un joueur en dehors des limites de la piste touche légèrement un adversaire en jeu. Ce dernier ne tombe pas et ne perd pas sa position relative. L'initiateur du contact ..." WHERE ID=1288;
+UPDATE rdtom_questions SET Text="Un joueur initie un contact qu'il continue alors qu'un de ses patins touche le sol en dehors de la piste. L'adversaire bloqué ne tombe pas et ne perd pas sa position relative. L'initiateur du contact ..." WHERE ID=1289;
+UPDATE rdtom_questions SET Text="Un joueur initie un contact avec un adversaire qui est complètement hors des limites mais cela n'affecte pas la capacité de l’adversaire à retourner en jeu. L'initiateur du contact ..." WHERE ID=1290;
+UPDATE rdtom_questions SET Text="Un joueur initie un contact avec un adversaire qui est complètement hors des limites mais cela n’affecte pas la position debout de l’adversaire. L'initiateur du contact ..." WHERE ID=1291;
+UPDATE rdtom_questions SET Text="Un patineur à terre retourne sur la piste depuis l’extérieur des limites et ne provoque pas la perte de position relative d’un des patineurs adverses. L'initiateur du contact ..." WHERE ID=1292;
+UPDATE rdtom_questions SET Text="Un patineur à terre retourne sur la piste depuis l’extérieur des limites et ne fait pas tomber un des patineurs adverses. L'initiateur du contact ..." WHERE ID=1293;
+UPDATE rdtom_questions SET Text="Un patineur en dehors de la piste initie un blocage depuis l’extérieur des limites et fait tomber un adversaire. L'initiateur du contact ..." WHERE ID=1294;
+UPDATE rdtom_questions SET Text="Un patineur en dehors de la piste touche un adversaire depuis l’extérieur des limites et fait tomber ce joueur. L'initiateur du contact ..." WHERE ID=1295;
+UPDATE rdtom_questions SET Text="Un patineur en dehors de la piste touche un adversaire depuis l’extérieur des limites. L'adversaire ne tombe pas mais perd sa position relative. L'initiateur du contact ..." WHERE ID=1296;
+UPDATE rdtom_questions SET Text="Un joueur continue un blocage alors qu'un de ses patins touche le sol en dehors de la piste et son adversaire tombe. L'initiateur du contact ..." WHERE ID=1297;
+UPDATE rdtom_questions SET Text="Un joueur revient sur la piste en améliorant sa position relative sur un adversaire. Il ..." WHERE ID=1298;
+UPDATE rdtom_questions SET Text="Un patineur à terre retourne sur la piste depuis l’extérieur des limites et fait tomber un adversaire. L'initiateur du contact ..." WHERE ID=1299;
+UPDATE rdtom_questions SET Text="Un joueur continue un blocage alors qu'un de ses patins touche le sol en dehors de la piste et son adversaire tombe. L'initiateur du contact ..." WHERE ID=1300;
+UPDATE rdtom_questions SET Text="Un joueur initie un contact avec un adversaire qui est complètement hors des limites, ce qui affecte la capacité de l’adversaire à retourner en jeu. L'initiateur du contact ..." WHERE ID=1301;
+UPDATE rdtom_questions SET Text="Un joueur initie un contact avec un adversaire qui est complètement hors des limites, ce qui provoque la chute de l’adversaire. L'initiateur du contact ..." WHERE ID=1302;
+UPDATE rdtom_questions SET Text="Un patineur en dehors de la piste initie un contact négligent envers un coéquipier qui tombe. L'initiateur du contact ..." WHERE ID=1303;
+UPDATE rdtom_questions SET Text="Un patineur initie un contact négligent envers un coéquipier en dehors des limites de la piste. L'initiateur du contact ..." WHERE ID=1304;
+UPDATE rdtom_questions SET Text="Un patineur initie un contact imprudent envers un coéquipier en dehors des limites de la piste. L'initiateur du contact ..." WHERE ID=1305;
+UPDATE rdtom_questions SET Text="Un joueur fait une tentative puissante et délibérée de bloquer un adversaire en dehors des limites de la piste de manière flagrante. L'initiateur du contact ..." WHERE ID=1306;
+UPDATE rdtom_questions SET Text="Un joueur effectue un léger blocage dans le sens horaire sur un coéquipier. Il ..." WHERE ID=1307;
+UPDATE rdtom_questions SET Text="Un patineur engagé dans un blocage, qui se retrouve à l’arrêt, doit ..." WHERE ID=1308;
+UPDATE rdtom_questions SET Text="A la suite d'un blocage, un patineur tourne sur lui-même et patine alors dans le sens horaire. Il rentre de manière collatérale en contact avec un adversaire qui ne tombe pas et ne perd pas de position relative. Le patineur ..." WHERE ID=1309;
+UPDATE rdtom_questions SET Text="Un patineur, qui, étant arrêté, aide un coéquipier à terre à se mettre debout. Il ..." WHERE ID=1310;
+UPDATE rdtom_questions SET Text="Un patineur assiste un coéquipier mais se retrouve à l'arrêt. Il ..." WHERE ID=1311;
+UPDATE rdtom_questions SET Text="Un patineur effectue un blocage contre un adversaire tout en patinant dans le sens horaire. L'adversaire ne tombe pas et ne perd pas de position relative. L'initiateur ..." WHERE ID=1312;
+UPDATE rdtom_questions SET Text="Un patineur à l'arrêt effectue un blocage contre un adversaire. L'adversaire est déséquilibré mais ne tombe pas et ne perd pas de position relative. L'initiateur ..." WHERE ID=1313;
+UPDATE rdtom_questions SET Text="Un patineur à l'arrêt effectue un blocage contre un adversaire. L'adversaire est déplacé sur le côté mais ne tombe pas et ne perd pas de position relative. L'initiateur ..." WHERE ID=1314;
+UPDATE rdtom_questions SET Text="Un patineur marche dans le sens horaire et donne un assist qui affecte le receveur mais n’améliore pas la position relative du receveur. Le patineur ..." WHERE ID=1315;
+UPDATE rdtom_questions SET Text="Un patineur marche dans le sens horaire et donne un assist qui améliore la position relative du receveur. Le patineur ..." WHERE ID=1316;
+UPDATE rdtom_questions SET Text="Un patineur qui initie un contact avec un adversaire se retrouve momentanément à l’arrêt. Il ne commence pas à patiner dans le sens antihoraire à la première opportunité légale. Il ..." WHERE ID=1317;
+UPDATE rdtom_questions SET Text="Un patineur qui initie un contact avec un adversaire se retrouve momentanément à l’arrêt. Le joueur en question n’a pas d’opportunité légale de patiner dans le sens antihoraire et cesse son action. Il ..." WHERE ID=1318;
+UPDATE rdtom_questions SET Text="Un patineur qui initie un contact avec un adversaire se retrouve momentanément à l’arrêt. Il commence à patiner dans le sens antihoraire à la première opportunité légale. Il ..." WHERE ID=1319;
+UPDATE rdtom_questions SET Text="Un patineur à l'arrêt effectue un blocage contre un adversaire. L'adversaire est déplacé sur le côté mais ne tombe pas et ne perd pas de position relative. L'initiateur ..." WHERE ID=1320;
+UPDATE rdtom_questions SET Text="Un patineur patinant dans le sens horaire initie un blocage contre un adversaire qui tombe à la suite de ce blocage. L'initiateur ..." WHERE ID=1321;
+UPDATE rdtom_questions SET Text="Un patineur patinant dans le sens horaire initie un blocage contre un adversaire. L'adversaire est déséquilibré mais ne tombe pas et ne perd pas de position relative. L'initiateur ..." WHERE ID=1322;
+UPDATE rdtom_questions SET Text="Un patineur patinant dans le sens horaire initie un blocage contre un adversaire. L'adversaire est déplacé vers l'avant mais ne tombe pas et ne perd pas de position relative. L'initiateur ..." WHERE ID=1323;
+UPDATE rdtom_questions SET Text="Un patineur à l'arrêt effectue un blocage contre un adversaire qui tombe sur le coup. L'initiateur ..." WHERE ID=1324;
+UPDATE rdtom_questions SET Text="Un patineur à l'arrêt effectue un blocage contre un adversaire qui sort des limites de la piste à la suite dudit blocage. L'initiateur ..." WHERE ID=1325;
+UPDATE rdtom_questions SET Text="Un patineur à l'arrêt effectue un blocage contre un adversaire qui perd sa position relative. L'initiateur ..." WHERE ID=1326;
+UPDATE rdtom_questions SET Text="Un patineur à l'arrêt effectue un blocage négligent contre un adversaire. L'initiateur ..." WHERE ID=1327;
+UPDATE rdtom_questions SET Text="Un patineur à l'arrêt effectue un blocage puissant et délibéré contre un adversaire d’une manière flagrante. L'initiateur ..." WHERE ID=1328;
+UPDATE rdtom_questions SET Text="Un patineur initie un blocage dans le sens horaire mais est distrait par le public. Le blocage devient un blocage négligent sur l'adversaire. L'initiateur ..." WHERE ID=1329;
+UPDATE rdtom_questions SET Text="Un patineur patinant dans le sens horaire effectue un blocage négligent contre un adversaire. L'initiateur ..." WHERE ID=1330;
+UPDATE rdtom_questions SET Text="Un joueur tente mais manque un blocage sur un adversaire. Il finit en dehors des limites de la piste et ... " WHERE ID=1331;
+UPDATE rdtom_questions SET Text="Un joueur sort de la piste en conséquence d'un blocage d'un joueur adverse. Le joueur hors des limites ..." WHERE ID=1332;
+UPDATE rdtom_questions SET Text="Un joueur quitte la penalty box et maintient sa vitesse en étant en dehors des limites. Il ..." WHERE ID=1333;
+UPDATE rdtom_questions SET Text="Un joueur sort de la piste en conséquence d'un blocage d'un joueur adverse. Le joueur hors des limites ..." WHERE ID=1334;
+UPDATE rdtom_questions SET Text="Un joueur tente et réalise un blocage sur un adversaire mais finit en dehors des limites de la piste. Le joueur hors des limites ... " WHERE ID=1335;
+UPDATE rdtom_questions SET Text="Un joueur qui rejoint la penalty box accélère en étant en dehors des limites. Il ..." WHERE ID=1336;
+UPDATE rdtom_questions SET Text="Vrai ou faux : si un joueur quitte la piste en raison d'une blessure, il sera pénalisé pour avoir patiné en dehors de la piste." WHERE ID=1337;
+UPDATE rdtom_questions SET Text="Un joueur quitte la piste afin d'éviter un autre joueur à terre. Il  ..." WHERE ID=1338;
+UPDATE rdtom_questions SET Text="Un joueur quitte la piste pour résoudre un problème d’équipement. Il ..." WHERE ID=1339;
+UPDATE rdtom_questions SET Text="Un joueur quitte la piste afin d'éviter blocage. Il ..." WHERE ID=1340;
+UPDATE rdtom_questions SET Text="Un joueur quitte la piste pour augmenter sa vitesse. Il ..." WHERE ID=1341;
+UPDATE rdtom_questions SET Text="Un joueur quitte la piste pour conserver sa vitesse. Il  ..." WHERE ID=1342;
+UPDATE rdtom_questions SET Text="Un joueur coupe à travers la zone intérieure de la piste d'une manière qui raccourcit substantiellement la distance du tour. Il ..." WHERE ID=1343;
+UPDATE rdtom_questions SET Text="Vrai ou faux : un joueur peut être expulsé pour avoir patiné hors des limites." WHERE ID=1344;
+UPDATE rdtom_questions SET Text="Une destruction de pack en tant que conséquence d'une action de jeu est ..." WHERE ID=1345;
+UPDATE rdtom_questions SET Text="Vrai ou faux : un artbire n'a pas besoin de donner un avertissement à un joueur hors-jeu avant de lui donner une pénalité de Failure to Return dans la zone d'engagement." WHERE ID=1346;
+UPDATE rdtom_questions SET Text="Une situation de No Pack est créée sans impact mesurable sur le déroulement du jeu, la situation ..." WHERE ID=1347;
+UPDATE rdtom_questions SET Text="Un patineur hors-jeu (Out of play) touche un adversaire ce qui fait osciller ce dernier sur ces patins mais ce dernier ne doit pas ajuster son patinage. L'initiateur du contact ... " WHERE ID=1348;
+UPDATE rdtom_questions SET Text="Un patineur hors-jeu (Out of play) est averti par un arbitre mais ne tente pas immédiatement de retourner dans la zone d'engagement. Le patineur ..." WHERE ID=1349;
+UPDATE rdtom_questions SET Text="Si deux blockers ne tentent pas immédiatement de retourner dans la zone d’engagement après avoir été avertis, que se passe-t-il ?" WHERE ID=1350;
+UPDATE rdtom_questions SET Text="Un patineur hors-jeu (Out of play) touche un adversaire ce qui fait osciller ce dernier sur ces patins mais sans qu'il ne tombe ou perde sa position établie. L'initiateur du contact ... " WHERE ID=1351;
+UPDATE rdtom_questions SET Text="Un patineur hors-jeu (Out of play) assiste un coéquipier. L'assist affecte le receveur mais n’améliore pas sa position relative. L'initiateur de l'assist ... " WHERE ID=1352;
+UPDATE rdtom_questions SET Text="Après l'annonce d'un No Pack, un patineur qui est le plus responsable du maintien de la situation de No Pack, ne fait pas d’effort immédiat pour reformer le pack. Le patineur ..." WHERE ID=1353;
+UPDATE rdtom_questions SET Text="Une situation de No Pack se produit. Après un avertissement, un patineur ne tente pas immédiatement de reformer le pack. Le patineur ..." WHERE ID=1354;
+UPDATE rdtom_questions SET Text="Un blocker retourne dans la zone d’engagement par l’arrière, en lui ayant pris un tour d’avance. Il ..." WHERE ID=1355;
+UPDATE rdtom_questions SET Text="Un blocker retourne dans la zone d’engagement par l'avant après être sorti du pack par l’arrière. Il ..." WHERE ID=1356;
+UPDATE rdtom_questions SET Text="Après un avertissement, un blocker réalise une action qui retarde sa tentative de reformer un pack. Il ..." WHERE ID=1357;
+UPDATE rdtom_questions SET Text="Un painteur hors-jeu (Out of play) bloque un joueur adverse qui perd sa position établie. L'initiateur du contact ... " WHERE ID=1358;
+UPDATE rdtom_questions SET Text="Un painteur hors-jeu (Out of play) bloque un joueur adverse qui tombe sur le coup. L'initiateur du contact ... " WHERE ID=1359;
+UPDATE rdtom_questions SET Text="Un patineur détruit illégallement un pack, il ..." WHERE ID=1360;
+UPDATE rdtom_questions SET Text="Un patineur hors-jeu (Out of play) assiste un coéquipier qui améliore sa position relative. L'initiateur de l'assist ... " WHERE ID=1361;
+UPDATE rdtom_questions SET Text="Hors-jeu, un patineur initie un blocage imprudent sur un adversaire. L'initiateur du blocage ..." WHERE ID=1362;
+UPDATE rdtom_questions SET Text="Au cours d'une situation de no pack, un jammer chevauchant la limilte de la piste passe un blocker adverse puis retourne dans les limites de la piste. Le jammer en question ..." WHERE ID=1363;
+UPDATE rdtom_questions SET Text="Vrai ou faux : un joueur peut recevoir une pénalité de \"Cutting the Track\" lors d'une situation de No Pack." WHERE ID=1364;
+UPDATE rdtom_questions SET Text="Un blocker blanc bloque un blocker noir en dehors des limites de la piste mais sort à son temps tour des limites.  Le blocker noir revient sur la piste devant le blocker blanc. Le blocker noir ..." WHERE ID=1365;
+UPDATE rdtom_questions SET Text="Un joueur debout et patinant retourne complètement dans les limites de la piste (après avoir été hors des limites) en améliorant sa position par rapport à un adversaire. Le joueur ..." WHERE ID=1366;
+UPDATE rdtom_questions SET Text="Lors d'une situation de no pack, un joueur debout et patinant retourne complètement dans les limites de la piste (après avoir été hors des limites) en améliorant sa position par rapport à un ou plusieurs adversaires. Le joueur ..." WHERE ID=1367;
+UPDATE rdtom_questions SET Text="Un joueur retourne complétement dans les limites de la piste (après avoir été hors des limites) en dépassant un patineur à qui un artbire vient juste de signaler une pénalité. Le joueur ..." WHERE ID=1368;
+UPDATE rdtom_questions SET Text="Un joueur debout et patinant retourne complètement dans les limites de la piste (après avoir été hors des limites) en améliorant sa position par rapport à un adversaire à terre. Le joueur ..." WHERE ID=1369;
+UPDATE rdtom_questions SET Text="Un joueur retourne complétement dans les limites de la piste (après avoir été hors des limites) en dépassant un patineur envoyé en pénalité. Le joueur ..." WHERE ID=1370;
+UPDATE rdtom_questions SET Text="Un joueur debout et patinant retourne complètement dans les limites de la piste (après avoir été hors des limites) en améliorant sa position par rapport à un adversaire en dehors de la piste. Le joueur ..." WHERE ID=1371;
+UPDATE rdtom_questions SET Text="Un joueur en dehors des limites met un patin à l'intérieur de la piste et passe deux joueurs tout en chevauchant la ligne. Finalement, il retourne complétement en dehors de la piste. Selon la règle des cutting, que reçoit le joueur en question ?" WHERE ID=1372;
+UPDATE rdtom_questions SET Text="Après avoir été bloqué, un patineur chevauche la limite de la piste puis sort ensuite complètement de la piste, en ayant dépassé deux joueurs adverses. Le joueur ..." WHERE ID=1373;
+UPDATE rdtom_questions SET Text="Un patineur debout, dans les limites de la piste et patinant retourne sur la piste devant un coéquipier. Le joueur ..." WHERE ID=1374;
+UPDATE rdtom_questions SET Text="Un joueur debout et patinant retourne complètement dans les limites de la piste (après avoir été hors des limites) en améliorant sa position par rapport à deux coéquipiers. Le joueur ..." WHERE ID=1375;
+UPDATE rdtom_questions SET Text="un joueur debout et patinant retourne complètement dans les limites de la piste (après avoir été hors des limites) en améliorant sa position par rapport à un adversaire. Le joueur ..." WHERE ID=1376;
+UPDATE rdtom_questions SET Text="Vrai ou faux : une action de \"Cutting the Track\" ne peut pas entraîner d'expulsion." WHERE ID=1377;
+UPDATE rdtom_questions SET Text="Vrai ou faux : une équipe aligne 4 blockers dont 2 pivots. Les 4 joueurs peuvent jouer le jam si le dernier pivot qui est entré sur la piste retire son couvre-casque." WHERE ID=1378;
+UPDATE rdtom_questions SET Text="Un patineur pénalisé quitte la penalty box pendant un Team Timeout. Il ..." WHERE ID=1379;
+UPDATE rdtom_questions SET Text="Pendant un Team Timeout, un joueur entre dans la penalty box pour communiquer avec un coéquipier pénalisé. Le joueur pénétrant dans la zone ..." WHERE ID=1381;
+UPDATE rdtom_questions SET Text="Un joueur pénalisé enlève son casque alors qu'il est assis dans la penalty box. Il ..." WHERE ID=1382;
+UPDATE rdtom_questions SET Text="Un joueur pénalisé retire son protège-dents alors qu'il est assis dans la penalty box. Il ..." WHERE ID=1383;
+UPDATE rdtom_questions SET Text="Un joueur pénalisé retire un équipement de protection (autre que son protège-dents) alors qu'il est assis dans la penalty box. Il ..." WHERE ID=1384;
+UPDATE rdtom_questions SET Text="Un joueur pénalisé ajuste son casque alors qu'il est assis dans la penalty box mais sans le retirer. Il ..." WHERE ID=1385;
+UPDATE rdtom_questions SET Text="Un joueur réalise un false starts et arrête d'accéler mais ne s'arrête pas sur la piste. Il ..." WHERE ID=1386;
+UPDATE rdtom_questions SET Text="Un jammer réalise un false starts et ne cède pas l'avantage. Il ..." WHERE ID=1387;
+UPDATE rdtom_questions SET Text="Un blocker réalise un false starts et ne cède pas l'avantage. Il ..." WHERE ID=1388;
+UPDATE rdtom_questions SET Text="Un joueur force l'arrêt d'un jam à cause d'un trop grand nombre de patineurs sur la piste. Il ..." WHERE ID=1389;
+UPDATE rdtom_questions SET Text="Il y a trop de joueurs d'une équipe sur la poste et un blocker refuse de quitter la piste, qui reçoit la pénalité ?" WHERE ID=1390;
+UPDATE rdtom_questions SET Text="Un joueur porte des patins inappropriés, il ..." WHERE ID=1391;
+UPDATE rdtom_questions SET Text="Un joueur porte un uniforme inapproprié, il ..." WHERE ID=1392;
+UPDATE rdtom_questions SET Text="Un joueur porte des bijoux dangereux, il ..." WHERE ID=1393;
+UPDATE rdtom_questions SET Text="Un Jammer sans statut de Lead Jammer réussit à arrêter un Jam. Il ..." WHERE ID=1394;
+UPDATE rdtom_questions SET Text="Un joueur viole la procédure de Star Pass. L'initiateur du Star Pass ..." WHERE ID=1395;
+UPDATE rdtom_questions SET Text="Un joueur empêche un Star Pass de manière illégale. Il ..." WHERE ID=1396;
+UPDATE rdtom_questions SET Text="Un patineur qui sort de la penalty box retourne sur la piste devant plus d'un joueur du pack. Il ..." WHERE ID=1397;
+UPDATE rdtom_questions SET Text="Un patineur est renvoyé de la penalty box pleine retourne sur la piste devant deux joueurs de son équipe. Il ..." WHERE ID=1398;
+UPDATE rdtom_questions SET Text="Un patineur, après avoir remédié à un dysfonctionnement de son équipement au cours d’un jam, revient sur la piste devant plus d'un joueur du pack. Le joueur ..." WHERE ID=1399;
+UPDATE rdtom_questions SET Text="Un patineur sortant complètement de la Penalty Box avant d’avoir été relâché par un officiel. Il ..." WHERE ID=1400;
+UPDATE rdtom_questions SET Text="S'il y a trop de patineurs et/ou de personnel de l’encadrement de l’équipe dans la zone désignée de l’équipe, qui est pénalisé ?" WHERE ID=1401;
+UPDATE rdtom_questions SET Text="S'il y a trop de patineurs et/ou de personnel de l’encadrement de l’équipe dans la zone désignée de l’équipe, les arbitres ..." WHERE ID=1402;
+UPDATE rdtom_questions SET Text="Un joueur retire son protège dents au cours d'un jam tout en étant sur la piste. Il ..." WHERE ID=1403;
+UPDATE rdtom_questions SET Text="Un joueur retire un équipement de sécurité au cours d'un jam tout en étant sur la piste. Il ..." WHERE ID=1404;
+UPDATE rdtom_questions SET Text="Un patineur initie un contact envers un adversaire avant le coup de sifflet de départ de jam, ce qui fait perdre à l’adversaire sa position de départ établie. L'initiateur ..." WHERE ID=1405;
+UPDATE rdtom_questions SET Text="Vrai ou faux : une procédure illégale ne peut pas entraîner d'expulsion." WHERE ID=1406;
+UPDATE rdtom_questions SET Text="Un patineur sort de la Penalty Box et rentre sur la piste devant un joueur adverse du pack. Il ..." WHERE ID=1407;
+UPDATE rdtom_questions SET Text="Un patineur est renvoyé de la penalty box pleine retourne sur la piste devant un joueur adverse du pack. Il ..." WHERE ID=1408;
+UPDATE rdtom_questions SET Text="Un patineur, après avoir remédié à un dysfonctionnement de son équipement au cours d’un jam revient sur la piste devant un joueur adverse situé dans le pack. Le joueur ..." WHERE ID=1409;
+UPDATE rdtom_questions SET Text="Un patineur qui a été exclu d’un match interfére avec le match au-delà d’un comportement attendu de la part d’un membre du public. Le capitaine de l'équipe ..." WHERE ID=1410;
+UPDATE rdtom_questions SET Text="Un patineur qui a été exclu d’un match retourne dans la zone désignée de son équipe. Le capitaine de l'équipe ..." WHERE ID=1411;
+UPDATE rdtom_questions SET Text="Un joueur commence intentionnellement un jam sur le dos afin de prolonger le temps de formation d'un pack. Il ..." WHERE ID=1412;
+UPDATE rdtom_questions SET Text="Des joueurs commencent intentionnellement un jam sur le dos afin de prolonger le temps de formation d'un pack. Qui reçoit une pénalité ?" WHERE ID=1413;
+UPDATE rdtom_questions SET Text="Au coup de sifflet de départ de jam moins de la moitié des blockers d'une équipe se situent entre la ligne de pivot et celle de jammer. L'équipe en question a aligné un pivot. Qui reçoit la pénalité ?" WHERE ID=1414;
+UPDATE rdtom_questions SET Text="Vrai ou faux : les protections de visage de type grille sont autorisées." WHERE ID=1415;
+UPDATE rdtom_questions SET Text="Qui siffle le début d'un jam ?" WHERE ID=1417;
+UPDATE rdtom_questions SET Text="Comment le statut de lead jammer est-il indiqué ?" WHERE ID=1418;
+UPDATE rdtom_questions SET Text="Au cours d'un Official Review ..." WHERE ID=1419;
+UPDATE rdtom_questions SET Text="Qui expose sa requête au cours d'un Official Review ?" WHERE ID=1420;
+UPDATE rdtom_questions SET Text="Qui étudie la requête au cours d'un Official Review ?" WHERE ID=1421;
+UPDATE rdtom_questions SET Text="La décision du Head Referee sur l'Official Review ..." WHERE ID=1422;
+UPDATE rdtom_questions SET Text="Quand un joueur est pénalisé ..." WHERE ID=1423;
+UPDATE rdtom_questions SET Text="Quand les pénalités expirent-elles ?" WHERE ID=1424;
+UPDATE rdtom_questions SET Text="Combien de temps un joueur doit-il passer en penalty box dans le cas d'une pénalité ?" WHERE ID=1425;
+UPDATE rdtom_questions SET Text="Si une pénalité unique est commise par un groupe de coéquipiers (hormis \"destroying the pack\") qui reçoit la pénalité ?" WHERE ID=1426;
+UPDATE rdtom_questions SET Text="Vrai ou faux : les remplacements sont autorisés si une pénalité se poursuit au jam suivant (hormis pour les expulsions, les exclusions et les blessures)." WHERE ID=1427;
+UPDATE rdtom_questions SET Text="Vrai ou faux : un joueur explusé au début du jam peut revenir en jeu après avoir passé 1 minute dans la penalty box." WHERE ID=1428;
+UPDATE rdtom_questions SET Text="Sous quelle condition, un joueur pénalisé peut-il être remplacé en penalty box ?" WHERE ID=1429;
+UPDATE rdtom_questions SET Text="Si un patineur a été expulsé, à quel moment doit-il être remplacé (en considérant qu'il est en penalty box) ?" WHERE ID=1430;
+UPDATE rdtom_questions SET Text="Quand un joueur est pénalisé, à quel moment doit-il quitter la piste ?" WHERE ID=1431;
+UPDATE rdtom_questions SET Text="Vrai ou faux : Le chronomètre de la pénalité démarre quand le patineur quitte la piste." WHERE ID=1432;
+UPDATE rdtom_questions SET Text="Vrai ou faux : une équipe peut avoir 3 blockers pénalisés et assis dans la penalty box en même temps." WHERE ID=1433;
+UPDATE rdtom_questions SET Text="Vrai ou faux : le patineur peut patiner vers la penalty box dans le sens antihoraire ou horaire comme il le souhaite." WHERE ID=1434;
+UPDATE rdtom_questions SET Text="Si à la fin d'un jam, la penalty box est pleine et si un joueur reçoit une pénalité, quand ce dernier doit-il purger sa pénalité ?" WHERE ID=1435;
+UPDATE rdtom_questions SET Text="Au moment où il est ordonné au patineur pénalisé de sortir de la piste, il ..." WHERE ID=1436;
+UPDATE rdtom_questions SET Text="A quel moment débute une pénalité appelée pendant un jam si le jam ne prend pas fin ?" WHERE ID=1437;
+UPDATE rdtom_questions SET Text="Une équipe n'aligne qu'un seul blocker au cours d'un jam et il reçoit une pénalité. Il y a de la place dans la penalty box, le joueur ..." WHERE ID=1438;
+UPDATE rdtom_questions SET Text="Une équipe n'aligne qu'un seul blocker au cours d'un jam et il reçoit une pénalité. Il y a de la place dans la penalty box, le joueur est envoyé en penalty box ..." WHERE ID=1439;
+UPDATE rdtom_questions SET Text="Un joueur reçoit une pénalité mais est renvoyé de la penalty box qui est pleine. Le jam se termine avant que le joueur en question ne purge sa peine. Si ce dernier ne reste pas sur la piste dans le jam suivant alors qu'il est en attente ..." WHERE ID=1440;
+UPDATE rdtom_questions SET Text="Vrai ou faux : un jammer ne peut jamais être renvoyé de la penalty box." WHERE ID=1441;
+UPDATE rdtom_questions SET Text="Une équipe a deux blockers, A5 et B6, en penalty box. Les deux joueurs ont plus de 10 secondes à purger quand le blocker C7 de la même équipe arrive dans la penalty box. C7 ..." WHERE ID=1442;
+UPDATE rdtom_questions SET Text="Une équipe a deux blockers, A5 et B6, en penalty box. Il reste moins de 10 secondes à purger pour A5 quand le blocker C7 de la même équipe arrive dans la penalty box. C7 ..." WHERE ID=1443;
+UPDATE rdtom_questions SET Text="Le chronomètre de pénalité démarre quand ..." WHERE ID=1444;
+UPDATE rdtom_questions SET Text="Vrai ou faux : le chronomètre de pénalité ne tourne que quand le chronomètre de jam tourne." WHERE ID=1445;
+UPDATE rdtom_questions SET Text="Quand il reste dix secondes à la pénalité d'un joueur, ..." WHERE ID=1446;
+UPDATE rdtom_questions SET Text="Si un patineur en penalty box ne se lève pas quand on lui demande, ..." WHERE ID=1447;
+UPDATE rdtom_questions SET Text="Si un patineur en penalty box se met debout sur ses patins avant qu’il ne lui reste 10 secondes sur le chronomètre de pénalité, ..." WHERE ID=1448;
+UPDATE rdtom_questions SET Text="Vrai ou faux : un joueur pénalisé peut quitter la penalty box au cours d'un temps-mort officiel." WHERE ID=1449;
+UPDATE rdtom_questions SET Text="Vrai ou faux : un joueur pénalisé peut quitter la penalty box au cours d'un temps-mort d'équipe." WHERE ID=1450;
+UPDATE rdtom_questions SET Text="Vrai ou faux : si le capitaine ou l'alternate d'une équipe est pénalisé et dans la penalty box, il ne peut pas demander un temps-mort." WHERE ID=1451;
+UPDATE rdtom_questions SET Text="Si un joueur est dans la zone de la penalty box sans être assis, il a le droit d'enlever ..." WHERE ID=1452;
+UPDATE rdtom_questions SET Text="Vrai ou faux : le capitaine d'une équipe a le droit de demander un temps-mort alors qu'il est dans la penalty box." WHERE ID=1453;
+UPDATE rdtom_questions SET Text="Quelle(s) pièce(s) de l'équipement de protection un joueur peut-il enlever quand il est assis dans la penalty box ?" WHERE ID=1454;
+UPDATE rdtom_questions SET Text="Qui peut pénétrer dans la zone de la penalty box afin de communiquer avec un joueur pénalisé ?" WHERE ID=1455;
+UPDATE rdtom_questions SET Text="Dans quelle direction doit patiner un joueur sortant de la penalty box ?" WHERE ID=1456;
+UPDATE rdtom_questions SET Text="Vrai ou faux : quand il sort de la penalty box, un joueur doit patiner à 4,6 mètres des limites de la piste (si la salle le permet)." WHERE ID=1457;
+UPDATE rdtom_questions SET Text="Où un joueur sortant de pénalisé doit-il retourner en jeu après une pénalité ?" WHERE ID=1458;
+UPDATE rdtom_questions SET Text="Un jammer est pénalisé alors qu'il a terminé son passage initiale à travers le pack. Il retourne dans le jeu dans le même jam et ..." WHERE ID=1459;
+UPDATE rdtom_questions SET Text="Vrai ou faux : un jammer a fait un passage marquant partiel quand il a été envoyé en penalty box et retourne en jeu dans le même jam. Il a l’opportunité de compléter le pass, en marquant des points uniquement sur les adversaires qu’il n’avait pas encore passés." WHERE ID=1460;
+UPDATE rdtom_questions SET Text="Un jammer qui a fait un passage marquant partiel quand il a été envoyé en penalty box retourne en jeu dans le même jam. Il ..." WHERE ID=1461;
+UPDATE rdtom_questions SET Text="Vrai ou faux : un patineur sortant de la penalty box peut retourner sur la piste devant les adversaires qui sont hors-jeu." WHERE ID=1462;
+UPDATE rdtom_questions SET Text="Vrai ou faux : dans une situation de No Pack, un joueur sortant de la penalty box doit retourner sur la piste derrière tous les joueurs." WHERE ID=1463;
+UPDATE rdtom_questions SET Text="Vrai ou faux : si un jammer est éligible pour marquer des points, il gagne immédiatement les points de dépassement des blockers qui sont hors de la zone d’engagement, derrière le jammer, au moment de son retour sur la piste" WHERE ID=1464;
+UPDATE rdtom_questions SET Text="Vrai ou faux : un patineur sortant de la penalty box peut retourner sur la piste devant les adversaires qui sont hors-jeu." WHERE ID=1465;
+UPDATE rdtom_questions SET Text="Le jammer A a déjà passé 20 secondes en pénalité quand le jammer B s'assoit à son tour en penalty box. Combien de temps ce dernier doit-il passer en penalty box ?" WHERE ID=1466;
+UPDATE rdtom_questions SET Text="Vrai ou faux : un jammer doit toujours passer 30 secondes en penalty box quand il est pénalisé." WHERE ID=1467;
+UPDATE rdtom_questions SET Text="Le jammer A a déjà passé 20 secondes en pénalité quand le jammer B est pénalisé. A quel moment, A peut-il sortir de penalty box ?" WHERE ID=1468;
+UPDATE rdtom_questions SET Text="Le jammer de l'équipe rouge reçoit une pénalité juste après avoir été relâché de la penalty box en raison d'une pénalité donnée à le jammer bleu. Quand le jammer de l'équipe rouge s'assoit en penalty box, le jammer bleu est toujours assis. Que se passe-t-il ?" WHERE ID=1469;
+UPDATE rdtom_questions SET Text="Le jammer A est assis en pénalité quand le jammer B reçoit à son tour une pénalité. A est donc relâché par l’officiel de Penalty Box, mais, oh non, A prend une nouvelle pénalité et s'assoit en Penalty Box alors que B y est toujours. Que se passe-t-il ?" WHERE ID=1470;
+UPDATE rdtom_questions SET Text="Le jammer A est en penalty box quand le jammer B est pénalisé à son tour. Le jammer A est relâché de la penalty box mais reçoit une nouvelle pénalité quand il retourne sur la piste. Il est en route pour la penalty box alors que le jam arrive à sa fin. Que se passe-t-il ?" WHERE ID=1471;
+UPDATE rdtom_questions SET Text="Que se passe-t-il si les deux jammers s'assoient en même temps dans la penalty box ?" WHERE ID=1472;
+UPDATE rdtom_questions SET Text="Vrai ou faux : il n'existe pas de durée minimale du temps que doit passer un jammer en penalty box (en dehors du moment où les deux jammers s'assoient en même temps) ?" WHERE ID=1473;
+UPDATE rdtom_questions SET Text="Un jam se termine avec le jammer A en penalty box et le jammer B en route vers cette même penalty box. Que se passe-t-il ?" WHERE ID=1474;
+UPDATE rdtom_questions SET Text="Un jam se termine avec le jammer A en penalty box et le jammer B en route vers cette même penalty box. Quel jammer peut être remplacé ?" WHERE ID=1475;
+UPDATE rdtom_questions SET Text="Un jammer en penalty box quitte cette dernière alors qu'il lui reste moins de 10 secondes à purger et sur sa propre initiative. Le jammer ..." WHERE ID=1476;
+UPDATE rdtom_questions SET Text="Vrai ou faux : une seule équipe aligne un jammer pour un jam donné. Ce dernier recevant une pénalité, le jam est arrêté au moment le jammer s'assoit en penalty box." WHERE ID=1477;
+UPDATE rdtom_questions SET Text="Une équipe oublie d'aligner un jammer pour un jam donné. L'autre jammer reçoit une pénalité, que se passe-t-il ?" WHERE ID=1478;
+UPDATE rdtom_questions SET Text="Un jam est arrêté car il n'y a qu'un jammer pour ce jam et il vient de s'assoir dans la penalty box. Qui a le droit d'être remplacé dans l'inter-jam ?" WHERE ID=1479;
+UPDATE rdtom_questions SET Text="Une équipe oublie d'aligner un jammer pour un jam donné. L'autre jammer sort de la piste pour un dysfonctionnement de son équipement, que se passe-t-il ?" WHERE ID=1480;
+UPDATE rdtom_questions SET Text="Un jammer est en penalty box quand l'autre jammer sort de la piste pour un dysfonctionnement de son équipement, que se passe-t-il ?" WHERE ID=1481;
+UPDATE rdtom_questions SET Text="Un jammer est en penalty box quand l'autre jammer sort de la piste pour une blessure. Finalement, le jammer ne pourra pas revenir sur la piste, que se passe-t-il ?" WHERE ID=1482;
+UPDATE rdtom_questions SET Text="Si un jammer quitte la piste en raison d'une blessure et que le jam est arrêté, le jammer ..." WHERE ID=1483;
+UPDATE rdtom_questions SET Text="Au cours d'un même jam, le jammer de l'équipe A est expulsé alors que le jammer B reçoit une pénalité. Que se passe-t-il ?" WHERE ID=1484;
+UPDATE rdtom_questions SET Text="Au cours d'un même jam, le jammer de l'équipe A est pénalisé alors que le jammer B décide de quitter le jam. Que se passe-t-il ?" WHERE ID=1485;
+UPDATE rdtom_questions SET Text="Au cours d'un même jam, le jammer de l'équipe A est expulsé alors que le jammer B reçoit une pénalité. Les arbitres arrêtent le jam, qui peut être remplacé pour le prochain jam ?" WHERE ID=1486;
+UPDATE rdtom_questions SET Text="Le jammer A reçoit deux pénalités au cours de la même action et doit passer 1 minute dans le penalty box. Le jammer B reçoit à son tour une pénalité et s'assoit dans la penalty box alors qu'il ne reste que 45 secondes  de temps sur la pénalité du jammer A. Combien de temps doit passer le jammer B en penalty box ?" WHERE ID=1487;
+UPDATE rdtom_questions SET Text="Le jammer A reçoit deux pénalités au cours de la même action et doit passer 1 minute dans le penalty box. Le jammer B reçoit à son tour une pénalité et s'assoit dans la penalty box alors qu'il ne reste que 45 secondes  de temps sur la pénalité du jammer A. Combien de temps doit encore passer le jammer A en penalty box ?" WHERE ID=1488;
+UPDATE rdtom_questions SET Text="Au bout de combien de pénalités, un joueur est-il exclus ?" WHERE ID=1491;
+UPDATE rdtom_questions SET Text="Un joueur est exclus au bout de ..." WHERE ID=1492;
+UPDATE rdtom_questions SET Text="Vrai ou faux : afin d'éviter un joueur d'être expulsé, un joueur peut être remplacé en cours de jam." WHERE ID=1493;
+UPDATE rdtom_questions SET Text="Un joueur reçoit sa 7e pénalité au cours d'un match. Qui doit le remplacer pour le jam suivant (s'il reste encore du temps sur la pénalité du joueur exclu) ?" WHERE ID=1494;
+UPDATE rdtom_questions SET Text="Un pivot est exclu, qui doit le remplacer pour le jam suivant (s'il reste encore du temps sur la pénalité du pivot exclu) ?" WHERE ID=1495;
+UPDATE rdtom_questions SET Text="Un jammer est exclu, qui doit le remplacer pour le jam suivant (s'il reste encore du temps sur la pénalité du jammer exclu) ?" WHERE ID=1496;
+UPDATE rdtom_questions SET Text="Si un joueur qui a été exclu du match interfère avec le jeu ..." WHERE ID=1497;
+UPDATE rdtom_questions SET Text="Vrai ou faux : La décision d’un Head Referee est indiscutable." WHERE ID=1499;
+UPDATE rdtom_questions SET Text="Qui a le droit d'expulser un joueur ?" WHERE ID=1500;
+UPDATE rdtom_questions SET Text="Qui peut réduire une explusion ?" WHERE ID=1503;
+UPDATE rdtom_questions SET Text="Vrai ou faux : les coaches et managers peuvent être expulsés." WHERE ID=1505;
+UPDATE rdtom_questions SET Text="Avec qui le Head Referee doit discuter avant d'expulser un joueur ?" WHERE ID=1506;
+UPDATE rdtom_questions SET Text="Avec qui le Head Referee doit discuter avant d'expulser un joueur ?" WHERE ID=1507;
+UPDATE rdtom_questions SET Text="Quand un joueur a été exclus, où doit il aller ?" WHERE ID=1508;
+UPDATE rdtom_questions SET Text="Un patineur explusé du match après sa septième faute passe 20 secondes en penalty box avant la fin du jam. Combien de temps son remplaçant dans la penalty box doit-il passer en penalty box ?" WHERE ID=1509;
+UPDATE rdtom_questions SET Text="A quel moment commence le temps de pénalité d'un joueur explusé du match après sa septième faute ? " WHERE ID=1510;
+UPDATE rdtom_questions SET Text="Un joueur est envoyé en penalty box pour la septième fois du match. Les arbitres lui signifient son explusion à la fin du jam après avoir passé 12 secondes en penalty box. Combien de temps son remplaçant doit-il passer en penalty box ?" WHERE ID=1511;
+UPDATE rdtom_questions SET Text="Vrai ou faux : les jammers peuvent inscrire des points sur les blockers adverses au cours de leur passage initial à travers le pack (en considérant qu'il ne s'agit pas de jam de prolongation)." WHERE ID=1512;
+UPDATE rdtom_questions SET Text="Vrai ou faux : Un Jammer peut marquer un Jammer Lap Point [point de tour d’avance] sur son Initial Pass." WHERE ID=1513;
+UPDATE rdtom_questions SET Text="Quand le passage marquant d'un jammer est-il terminé (en considérant qu'un pack existe en permanence) ?" WHERE ID=1514;
+UPDATE rdtom_questions SET Text="Un jammer quitte le sol en étant dans les limites et dépasse des joueurs. Il inscrit des points seulement ..." WHERE ID=1515;
+UPDATE rdtom_questions SET Text="Un jammer est à terre mais dans les limites de la piste. Un blocker adverse patine en sens horaire pour revenir derrière le jammer en question. Le jammer ..." WHERE ID=1516;
+UPDATE rdtom_questions SET Text="Quand le passage marquant d'un jammer prend-il fin (en considérant qu'un pack existe en permanence) ?" WHERE ID=1517;
+UPDATE rdtom_questions SET Text="Un jammer a marqué un point sur tous les blockers adverses et a quitté la zone d'engagement, mettant fin à son passage marquant. Un blocker adverse chasse le jammer mais est dépassé une nouvelle fois alors qu'il se trouve à 7,6 mètres de l'avant du pack. Combien de point le jammer gagne-t-il sur ce blocker au total ?" WHERE ID=1518;
+UPDATE rdtom_questions SET Text="Un jammer a marqué un point sur tous les blockers adverses et a quitté la zone d'engagement, mettant fin à son passage marquant. Un blocker adverse chasse le jammer et se met devant le jammer. A quel moment ce dernier est-il autorisé à marquer sur le blocker de manière légale ?" WHERE ID=1519;
+UPDATE rdtom_questions SET Text="Pour recevoir un point pour avoir passé un adversaire, le jammer doit ..." WHERE ID=1520;
+UPDATE rdtom_questions SET Text="Vrai ou faux : il existe des circonstances qui font qu'un jammer peut marquer un point contre un blocker adverse devant la zone d'engagement sans l'avoir dépassé." WHERE ID=1521;
+UPDATE rdtom_questions SET Text="Un jammer peut inscrire un point contre un blocker adverse devant la zone d'engagement sans l'avoir dépassé si ..." WHERE ID=1523;
+UPDATE rdtom_questions SET Text="Si un jammer est rattrapé par le pack avant d’avoir complété son initial pass [passage initial], combien de fois doit-il passer à travers le pack pour être dans son premier passage marquant ?" WHERE ID=1524;
+UPDATE rdtom_questions SET Text="Vrai ou faux : un jammer peut marquer des points sur des blockers en dehors des limites de la piste." WHERE ID=1525;
+UPDATE rdtom_questions SET Text="A quel moment un jammer gagne-t-il des points sur des adversaires absents de la piste ?" WHERE ID=1526;
+UPDATE rdtom_questions SET Text="L'équipe rouge a un blocker pénalisé alors que le jammer de l'équipe noire est dans un passage marquant mais sans avoir marqué de point. Le jammer noir prend un tour d'avance sur le jammer rouge qui est à l'arrière du pack. Combien de point le jammer noir gagne-t-il ?" WHERE ID=1527;
+UPDATE rdtom_questions SET Text="Vrai ou faux : un jammer marque des points d’absence de la piste quand il dépasse le jammer adverse." WHERE ID=1528;
+UPDATE rdtom_questions SET Text="L'équipe rouge a deux blockers pénalisés alors que le jammer de l'équipe noire marque son premier point sur un autre blocker rouge. Combien de point le jammer noir gagne-t-il ?" WHERE ID=1529;
+UPDATE rdtom_questions SET Text="Une équipe oublie d'aligner un jammer. Le jammer adverse inscrit son premier point sur un blocker adverse, combien de points remporte-t-il ?" WHERE ID=1530;
+UPDATE rdtom_questions SET Text="Une équipe aligner un jammer et deux blockers. Le jammer adverse inscrit son premier point sur un blocker adverse, combien de points remporte-t-il ?" WHERE ID=1531;
+UPDATE rdtom_questions SET Text="Une équipe aligner par inadervtance trois blockers. Le jammer adverse inscrit son premier point sur un blocker adverse, combien de points remporte-t-il ?" WHERE ID=1532;
+UPDATE rdtom_questions SET Text="Le blocker rouge A reçoit une pénalité mais n'a pas encore quitté la piste lors que le jammer bleu inscrit son premier point contre le blocker rouge B. Combien de point le jammer bleu gagne-t-il ?" WHERE ID=1533;
+UPDATE rdtom_questions SET Text="Un blocker contre qui le jammer n'a pas encore inscrit de point se retire de la piste alors que le jammer adverse est encore dans le pack mais a déjà marqué un point. Que se passe-t-il ?" WHERE ID=1534;
+UPDATE rdtom_questions SET Text="Un blocker contre qui le jammer n'a pas encore inscrit de point est envoyé en pénalité. Le jammer adverse inscrit son premier point sur un blocker adverse, combien de points remporte-t-il ?" WHERE ID=1535;
+UPDATE rdtom_questions SET Text="Un blocker contre qui le jammer n'a pas encore inscrit de point est envoyé en pénalité alors que le jammer adverse est encore dans le pack mais a déjà marqué un point. Que se passe-t-il ?" WHERE ID=1536;
+UPDATE rdtom_questions SET Text="Vrai ou faux : lors d'un passage marquant, quand un jammer inscrit son premier point, il marque également un point pour tous les adversaires revenant de la penalty box derrière lui." WHERE ID=1537;
+UPDATE rdtom_questions SET Text="Vrai ou faux : un blocker revenant de la penalty box n'est pas encore dans la zone d'engagement mais se trouve devant le jammer adverse. Ce dernier doit dépasser le blocker en question afin de marquer un point contre lui." WHERE ID=1538;
+UPDATE rdtom_questions SET Text="Vrai ou faux : quand un jammer inscrit son premier point lors d'un passage marquant, il gagne un point pour chaque adversaire revenant de la penalty box devant lui." WHERE ID=1539;
+UPDATE rdtom_questions SET Text="Un jammer marque des points sur deux blockers adverses avant d'être envoyé en penalty box. Un blocker adverse qui n'a pas encore été dépassé est à son tour pénalisé. Le jam se termine avant que les deux joueurs ne quittent la penalty box. A quel moment le jammer inscrit-il un point pour le blocker pénalisé ?" WHERE ID=1540;
+UPDATE rdtom_questions SET Text="Un jammer marque des points sur deux blockers adverses avant d'être envoyé en penalty box. Un blocker adverse qui n'a pas encore été dépassé est à son tour pénalisé. A quel moment le jammer inscrit-il un point pour le blocker pénalisé ?" WHERE ID=1541;
+UPDATE rdtom_questions SET Text="A quel moment les points gagnés par un jammer sont-ils annoncés ?" WHERE ID=1542;
+UPDATE rdtom_questions SET Text="A quel moment un jammer referee annonce-t-il les points gagnés par un jammer ?" WHERE ID=1543;
+UPDATE rdtom_questions SET Text="Si un jammer est toujours dans le pack à la fin du jam ..." WHERE ID=1544;
+UPDATE rdtom_questions SET Text="Si le jam finit quand le jammer est toujours dans le pack, qu'il est dans un passage marquant et que certains blockers adverses surlesquels il n'a pas encore marqué de point se trouvent devant la zone d'engagement ..." WHERE ID=1545;
+UPDATE rdtom_questions SET Text="Vrai ou faux : si un jammer n'a pas réussi à marquer un point sur un blocker adverse mais a complété son passage, il peut faire demi-tour pour tenter de passer le blocker et gagner un nouveau point ?" WHERE ID=1546;
+UPDATE rdtom_questions SET Text="Un jammer peut continuer à inscrire des points jusqu'à ..." WHERE ID=1547;
+UPDATE rdtom_questions SET Text="Vrai ou faux : une fois qu’un jammer a gagné un point, ce point ne peut jamais lui être enlevé." WHERE ID=1548;
+UPDATE rdtom_questions SET Text="Un Scoreboard operator accorde un point de bonus par erreur à une équipe est-ce que ce point peut êre enlevé ?" WHERE ID=1549;
+UPDATE rdtom_questions SET Text="Un jammer referee accorde un point de bonus par erreur à un jammer, est-ce que ce point peut êre enlevé ?" WHERE ID=1550;
+UPDATE rdtom_questions SET Text="Un jammer dépasse les blockers adverses 1 et 2 avant d'être envoyé en pénalité. Sur quel(s) blocker(s) peut il prendre des points au cours du même passage à sa sortie de pénalité ?" WHERE ID=1551;
+UPDATE rdtom_questions SET Text="Un jammer dépasse les blockers adverses A & B avant d'être envoyé en pénalité. Est-ce que le jammer peut marque de nouveaux points sur A & B quand il revient dans le jeu lors du même jam (et donc dans le même passage) ?" WHERE ID=1552;
+UPDATE rdtom_questions SET Text="Un jammer a marqué contre tous les blockers adverses mais est envoyé en penalty box avant de sortir de la zone d'engagement. A quel passage à travers le pack le jammer est-il quand il sort de pénalité (en considérant qu'il sorte au cours du même jam) ?" WHERE ID=1553;
+UPDATE rdtom_questions SET Text="Un jammer inscrit un point contre chaque blocker adverse mais est envoyé en penalty box avant la fin de son passage à travers le pack.  Le jam se termine et un nouveau démarre avant que le jammer ne sorte de penalty box. A quel passage à travers le pack le jammer est-il quand il sort de pénalité ?" WHERE ID=1554;
+UPDATE rdtom_questions SET Text="Si le jammer A dépasse complètement le jammer B d’un tour alors que les deux jammers sont sur la piste, combien de point marque le jammer A ?" WHERE ID=1555;
+UPDATE rdtom_questions SET Text="Vrai ou faux : à la fin d'un jam, le jammer reçoit un point par blocker adverse situé devant la zone d'engagement et surlequel il n'a pas encore inscrit de point lors du passage marquant." WHERE ID=1556;
+UPDATE rdtom_questions SET Text="A quel moment un jammer arrête-t-il de marquer des points ?" WHERE ID=1557;
+UPDATE rdtom_questions SET Text="Vrai ou faux : un jammer peut marquer des points tout en étant dans la penalty box si les joueurs adverses se déplacent dans le sens horaire." WHERE ID=1559;
+UPDATE rdtom_questions SET Text="Vrai ou faux : un jammer peut marquer des points tout en étant dans la penalty box" WHERE ID=1560;
+UPDATE rdtom_questions SET Text="Vrai ou faux : si un joueur ou un groupe de joueurs crée une situation de No Pack, le joueur ou le groupe sera pénalisé selon les règles." WHERE ID=1561;
+UPDATE rdtom_questions SET Text="Les arbitres ne doivent pas ..." WHERE ID=1562;
+UPDATE rdtom_questions SET Text="Les arbitres doivent ..." WHERE ID=1564;
+UPDATE rdtom_questions SET Text="Si un jam de prolongation est arrêté avant 2 minutes, que se passe-t-il ?" WHERE ID=1565;
+UPDATE rdtom_questions SET Text="Un jammer perd son statut de lead jammer si ..." WHERE ID=1566;
+UPDATE rdtom_questions SET Text="Si au cours d'un passage de l'étoile, le couvre-caque tombe au sol et que le pivot le ramasse ..." WHERE ID=1567;
+UPDATE rdtom_questions SET Text="Quelle est la hauteur minimale des limites de la piste ?" WHERE ID=1569;
+UPDATE rdtom_questions SET Text="Quelle est la hauteur maximale des limites de la piste ?" WHERE ID=1570;
+UPDATE rdtom_questions SET Text="Quelle doit être l'épaisseur de la limite de la piste ?" WHERE ID=1571;
+UPDATE rdtom_questions SET Text="Quelle hauteur des limites de la piste est valide ?" WHERE ID=1572;
+UPDATE rdtom_questions SET Text="Les lignes de pivot et de jammer doivent faire  ..." WHERE ID=1573;
+UPDATE rdtom_questions SET Text="La méthode utilisée pour délimiter la piste (ruban, adhésif, corde, etc.), y compris les repères de 3 mètres (10 pieds) recommandés, est ..." WHERE ID=1574;
+UPDATE rdtom_questions SET Text="Vrai ou faux : sous certaines conditions, la largeur du dégagement de sécurité autour de la piste peut être inférieure à 1,5 mètres (5 pieds)." WHERE ID=1575;
+UPDATE rdtom_questions SET Text="Quelle est la largeur du dégagement de sécurité autour de la piste (en considérant qu'il n'y a pas de balustrade, de mur ou de barrière) ?" WHERE ID=1576;
+UPDATE rdtom_questions SET Text="S’il y a une balustrade, un mur ou une barrière entre la piste et le public qui empêche tout contact entre les spectateurs et les concurrents, quelle est la largeur du dégagement de sécurité autour de la piste autorisée ?" WHERE ID=1577;
+UPDATE rdtom_questions SET Text="Vrai ou faux : un jammer peut rendre le jammer adverse inéligible au statut de lead jammer en le bloquant hors des limites de la piste avant qu’il ne soit à moins de 6 mètres (20 pieds) du blocker le plus en arrière du pack ?" WHERE ID=1578;
+UPDATE rdtom_questions SET Text="Si un jammer est bloqué légalement hors des limites de la piste en étant à moins de 6 mètres (20 pieds) du blocker le plus en arrière du pack, est-il éligible au statut de lead jammer ?" WHERE ID=1579;
+UPDATE rdtom_questions SET Text="Si un jammer est bloqué légalement hors des limites de la piste en étant à plus de 6 mètres (20 pieds) du blocker le plus en arrière du pack, est-il éligible au statut de lead jammer ?" WHERE ID=1580;
+UPDATE rdtom_questions SET Text="Quel statut obtient un jammer qui n'a pas dépassé légalement, et dans les limites de la piste, l'ensemble des blockers de chaque équipe (en supposant qu'ils étaient en positions d'être légallement dépassés) et qui est sorti de la zone d'engagement ?" WHERE ID=1581;
+UPDATE rdtom_questions SET Text="Jusqu'à quelle distance du pack un jammer peut-il aller avant de perdre la possibilité de tenter de redépasser un blocker illégalement dépassé pour tenter de devenir lead jammer ?" WHERE ID=1582;
+UPDATE rdtom_questions SET Text="Le numéro de roster dans le dos d’un patineur doit" WHERE ID=1583;
+UPDATE rdtom_questions SET Text="Un numéro au dos d'un uniforme est en police lisible si " WHERE ID=1584;
+UPDATE rdtom_questions SET Text="Un joueur fait partie du pack s'il se trouve à moins de quelle distance d'un joueur du pack ?" WHERE ID=1585;
+UPDATE rdtom_questions SET Text="Que se passe-t-il lorsque deux ou plusieurs groupes de blockers, en nombre égal sur la piste, sont à plus de 3 mètres (10 pieds) les uns des autres, et qu’aucun de ces groupes ne correspond aux critères de définition du pack ?" WHERE ID=1586;
+UPDATE rdtom_questions SET Text="A combien de la ligne de pivot se situe la ligne de jammer ?" WHERE ID=1587;
+UPDATE rdtom_questions SET Text="Comment est définie la zone d'engagement ?" WHERE ID=1588;
+UPDATE rdtom_questions SET Text="Quand un blocker devient hors jeu (out of play) ?" WHERE ID=1589;
+UPDATE rdtom_questions SET Text="Vrai ou faux : un blocker située à 6,4 mètres (21 pieds) devant le pack peut bloquer et assister." WHERE ID=1590;
+UPDATE rdtom_questions SET Text="Vrai ou faux : un blocker située à 4,9 mètres (16 pieds) devant le pack peut bloquer et assister." WHERE ID=1591;
+UPDATE rdtom_questions SET Text="Vrai ou faux : si un patineur accélère pour quitter la zone d'engagement par devant puis continue à accélerer jusqu'à se trouver à moins de 6 mètres (20 pieds) de l'arrière, il ne sera pas pénalisé." WHERE ID=1592;
+UPDATE rdtom_questions SET Text="Parmi les exemples ci-dessous lequel est une destruction illégale d'un pack ?" WHERE ID=1593;
+UPDATE rdtom_questions SET Text="Vrai ou faux : les blockers qui ne pattinent pas mais sont debouts et à 3 m (10 pieds) d'un joueur du pack font partie du pack." WHERE ID=1594;
+UPDATE rdtom_questions SET Text="Sous quelle condition un blocker-non pivot a le droit de s'aligner devant le pivot (par rapport à leurs hanches) ?" WHERE ID=1595;
+UPDATE rdtom_questions SET Text="Quand un blocker est hors jeu (out of play), quelle action peut-il faire ?" WHERE ID=1596;
+UPDATE rdtom_questions SET Text="Vrai ou faux : un patineur ayant les deux mains au sol est considéré comme \"à terre\" (down)." WHERE ID=1597;
+UPDATE rdtom_questions SET Text="Un jammer \"coupe\" le jammer adverse en dehors de la zone d'engagment. Il ..." WHERE ID=1606;
+UPDATE rdtom_questions SET Text="Un patineur, après avoir remédié à un dysfonctionnement de son équipement au cours d’un jam revient sur la piste devant un joueur adverse situé dans la zone d'engagement mais qui ne fait pas partie du pack. Le joueur ..." WHERE ID=1607;
+UPDATE rdtom_questions SET Text="Lors d'une situation de no pack, un joueur debout et patinant retourne complètement dans les limites de la piste (après avoir été hors des limites) en améliorant sa position par rapport à un coéquipier. Le joueur ..." WHERE ID=1612;
+UPDATE rdtom_questions SET Text="Vrai ou faux : s’il ne reste que 30 secondes ou moins à jouer sur le chronomètre officiel de période à la fin d’un Jam et qu'une équipe appelle un Official Timeout [temps mort] ?" WHERE ID=1616;
+UPDATE rdtom_questions SET Text="Que se passe-t-il si un patineur est partiellement dans les limites de la piste (il chevauche la limite [straddling]) au coup de sifflet de départ de Jam ?" WHERE ID=1617;
+UPDATE rdtom_questions SET Text="Un Official Review est utilisé quand ..." WHERE ID=1620;
+UPDATE rdtom_questions SET Text="Un joueur qui porte un couvre-casque de pivot reçoit une pénalité avant le début d'un jam. En considèrant que ce joueur n'a pas participé au jam précédent, à quel poste le joueur ira-t-il en penalty box ?" WHERE ID=1622;
+UPDATE rdtom_questions SET Text="Vrai ou faux : il est possible de transférer le poste de pivot au cours d'un jam ?" WHERE ID=1623;
+UPDATE rdtom_questions SET Text="Si le couvre-casque de Pivot tombe au sol dans des limites de la piste, comment peut-il être récupéré ?" WHERE ID=1624;
+UPDATE rdtom_questions SET Text="Si le couvre-casque de Pivot tombe en dehors des limites de la piste, comment peut-il être récupéré ?" WHERE ID=1625;
+UPDATE rdtom_questions SET Text="Un jammer est dans son passage initial et il lui reste un seul blocker à passer. Le jammer tombe à terre mais reste dans les limites de la piste alors que le blocker retourne derrière le jammer dans le sens horaire. Si l'on considère que le jammer répond à tous les autres critères pour devenir lead jammer, celui-ci..." WHERE ID=1626;
+UPDATE rdtom_questions SET Text="Vrai ou faux : si un jammer ne réunit pas toutes les conditions pour devenir lead jammer et quitte la zone d'engagement par l'arrière, il est déclaré Not Lead Jammer (Jammer non Lead) ?" WHERE ID=1627;
+UPDATE rdtom_questions SET Text="Vrai ou faux : un lead jammer ne peut pas appeler la fin d'un jam si son couvre-casque a été retiré au cours du déroulement naturel du jeu (en considérant qu'il tente d'arrêter la fin du jam sans le couvre-casque sur le casque) ?" WHERE ID=1628;
+UPDATE rdtom_questions SET Text="Vrai ou faux : un jammer peut passer son étoile à un pivot qui est en attente pour la penalty box." WHERE ID=1629;
+UPDATE rdtom_questions SET Text="Combien d'ensembles de couvre-casques colorés différement doit posséder chaque équipe ?" WHERE ID=1630;
+UPDATE rdtom_questions SET Text="Si une équipe a l’impression qu’il pourrait y avoir confusion dans la distinction entre les jammers et les pivots adverse, elle ..." WHERE ID=1631;
+UPDATE rdtom_questions SET Text="Vrai ou faux : une équipe peut contester un numéro inscrit sur un casque a des risques d'être confondue avec une étoile de jammer." WHERE ID=1632;
+UPDATE rdtom_questions SET Text="Vrai ou faux : un joueur a le droit de décorer son casque même si les décorations en question peuvent être confondues avec une étoile de jammer ou une bande de pivot." WHERE ID=1633;
+UPDATE rdtom_questions SET Text="Si une équipe conteste l’utilisation des couvre-casques de l'autre équipe parce qu'elle a l’impression qu’il pourrait y avoir confusion dans la distinction entre les jammers, les pivots et que le contestation est justifiée, le Head Referee ... " WHERE ID=1634;
+UPDATE rdtom_questions SET Text="Vrai ou faux : un numéro d'un uniforme peut être modifié par du ruban adhésif." WHERE ID=1635;
+UPDATE rdtom_questions SET Text="Qu'est il autorisé de faire ?" WHERE ID=1636;
+UPDATE rdtom_questions SET Text="Vrai ou faux : le capitaine doit obligatoirement porter un « C » visible sur ses vêtements, son uniforme ou son bras." WHERE ID=1637;
+UPDATE rdtom_questions SET Text="Si le capitaine d'une équipe ne peut pas participer à la fin d'un match après avoir été exclus ou explusé ..." WHERE ID=1638;
+UPDATE rdtom_questions SET Text="Si le capitaine d'une équipe ne peut plus participer au match et qu'une pénalité doit lui être assigné ..." WHERE ID=1639;
+UPDATE rdtom_questions SET Text="Vrai ou faux : une équipe peut désigner un nouvel alternate, si l'alternate est expulsé du match." WHERE ID=1640;
+UPDATE rdtom_questions SET Text="Vrai ou faux : le ruban adhésif peut être utilisé pour modifier les numéros sur les uniformes." WHERE ID=1641;
+UPDATE rdtom_questions SET Text="Si tous les blockers d’une équipe sont alignés hors position de pré-jam et que les 30 secondes entre les jams ont expiré ..." WHERE ID=1642;
+UPDATE rdtom_questions SET Text="A quel moment le pack peut commencer à rouler ?" WHERE ID=1643;
+UPDATE rdtom_questions SET Text="Au coup de sifflet de départ de jam, que n'a pas le droit de faire un jammer ?" WHERE ID=1644;
+UPDATE rdtom_questions SET Text="Vrai ou faux : un arbitre doit donner un avertissement d’out of play à un joueur avant de lui donner une pénalité de Out of Play Block." WHERE ID=1645;
+UPDATE rdtom_questions SET Text="Un joueur initie un contact inintentionnel au-dessus des épaules qui n’est pas puissant. L'initiateur du contact ..." WHERE ID=1646;
+UPDATE rdtom_questions SET Text="Un joueur contacte sans le faire exprès la tête d'un de ses coéquipiers. Le joueur ..." WHERE ID=1647;
+UPDATE rdtom_questions SET Text="Un contact sur un adversaire en utilisant les mains en gênant la mobilité de cet adversaire  ..." WHERE ID=1648;
+UPDATE rdtom_questions SET Text="Un patineur aggripe un adversaire afin de faire un blcoage sur un autre adversaire. L'initiateur ..." WHERE ID=1649;
+UPDATE rdtom_questions SET Text="Pour qu'un blocage à plusieurs soit pénalisé pour un Multi-Player Block [blocage à plusieurs] , le lien doit ..." WHERE ID=1650;
+UPDATE rdtom_questions SET Text="Deux coéquipiers se tiennent par les mains pour empêcher un jammer de passer entre eux. L'action ..." WHERE ID=1651;
+UPDATE rdtom_questions SET Text="Vrai ou faux : un blocage à plusieurs est pénalisé si le jammer ne peut pas physiquement passer entre les deux joueurs impliqués." WHERE ID=1652;
+UPDATE rdtom_questions SET Text="Un joueur en dehors des limites de la piste assiste un coéquipier. Cette action ne provoque pas l’amélioration de la position relative du coéquipier recevant l’Assist. Le joueur en question ..." WHERE ID=1653;
+UPDATE rdtom_questions SET Text="Un joueur en dehors des limites de la piste assiste un coéquipier. Cette action provoque l’amélioration de la position relative du coéquipier recevant l’Assist. Le joueur en question ..." WHERE ID=1654;
+UPDATE rdtom_questions SET Text="Le pack est à l'arrêt ou patine dans le sens horaire. Si un blocker est devant la zone d'engagement, que doit-il faire ?" WHERE ID=1655;
+UPDATE rdtom_questions SET Text="Une situation de No Pack se crée car tous les blockers d'une équipe se trouvent à plus de 3 mètres (10 pieds) des blockers de l'autre équipe. Que doivent faire les patineurs du groupe avant jusqu'à ce qu'un pack soit à nouveau formé ?" WHERE ID=1656;
+UPDATE rdtom_questions SET Text="Vrai ou faux : une situation de No Pack se crée car tous les blockers d'une équipe se trouvent à plus de 3 mètres (10 pieds) des blockers de l'autre équipe. Si l'équipe le plus en avant freine, aucun de ses blockers ne sera pénalisé." WHERE ID=1657;
+UPDATE rdtom_questions SET Text="Une situation de No Pack se crée car tous les blockers d'une équipe se trouvent à plus de 3 mètres (10 pieds) des blockers de l'autre équipe. Que doivent faire les patineurs du groupe arrière jusqu'à ce qu'un pack soit à nouveau formé ?" WHERE ID=1658;
+UPDATE rdtom_questions SET Text="Lors d'une situation de No Pack avec plus de deux groupes, les joueurs ne faisant pas partie du groupe le plus à l'avant ou le plus à l'arrière ..." WHERE ID=1659;
+UPDATE rdtom_questions SET Text="Une situation de No Pack se crée car tous les blockers d'une équipe se trouvent hors des limites. L'autre équipe doit ..." WHERE ID=1660;
+UPDATE rdtom_questions SET Text="Lors d'une situation de no pack, un joueur debout et patinant retourne complètement dans les limites de la piste (après avoir été hors des limites) en améliorant sa position par rapport à un coéquipier en jeu et un deuxième en dehors de la zone d'engagement. Le joueur ..." WHERE ID=1661;
+UPDATE rdtom_questions SET Text="Un joueur debout et patinant retourne complètement dans les limites de la piste (après avoir été hors des limites) en améliorant sa position par rapport à un adversaire hors de la zone d'engagement. Le joueur ..." WHERE ID=1662;
+UPDATE rdtom_questions SET Text="Un patineur \"coupe\" un joueur adverse en jeu. Il ..." WHERE ID=1663;
+UPDATE rdtom_questions SET Text="Un joueur debout et patinant retourne complètement dans les limites de la piste (après avoir été hors des limites) en améliorant sa position par rapport à deux coéquipiers. Le joueur ..." WHERE ID=1664;
+UPDATE rdtom_questions SET Text="Le patineur de l'équipe rouge est bloqué en dehors des limites de la piste par un adversaire puis revient sur la piste devant cet adversaire. Avant qu'il revienne sur la piste, l'initiateur du blocage est considéré comme étant en prison suite à une pénalité. Le joueur rouge ..." WHERE ID=1665;
+UPDATE rdtom_questions SET Text="Un patineur est bloqué en dehors de la piste puis revient dans les limites devant l'initiateur qui a également quitté la piste. Le patineur ..." WHERE ID=1666;
+UPDATE rdtom_questions SET Text="Red 7 est bloqué en dehors de la piste puis revient dans les limites devant Blue 4 qui a également quitté la piste à la suite d'une action illégale. Red 7 ..." WHERE ID=1667;
+UPDATE rdtom_questions SET Text="Le patineur de l'équipe rouge sort des limites de la piste après avoir reçu un blocage par un adversaire puis revient sur la piste devant cet adversaire. Avant qu'il ne revienne sur la piste, l'initiateur du blocage tombe par terre. Le joueur rouge ..." WHERE ID=1668;
+UPDATE rdtom_questions SET Text="Le patineur de l'équipe rouge est bloqué en dehors des limites de la piste par un adversaire puis revient sur la piste devant cet adversaire. Avant qu'il revienne sur la piste, l'initiateur du blocage quitte la zone d'engagement. Le joueur rouge ..." WHERE ID=1669;
+UPDATE rdtom_questions SET Text="Un pivot patine en dehors des limites pour aller récupérer un couvre-casque qui a été jeté en dehors des limites. Le joueur ..." WHERE ID=1670;
+UPDATE rdtom_questions SET Text="Un joueur décide de chevaucher volontairement les limites de la piste, il ..." WHERE ID=1671;
+UPDATE rdtom_questions SET Text="Un joueur effectue un cross-over (croisé) en touchant hors des limites. Il reçoit .." WHERE ID=1672;
+UPDATE rdtom_questions SET Text="Un joueur coupe à travers la zone intérieure de la piste des petites distances du tour, qui, additionnées ensemble, amènent au raccourcissement d’une portion significative de la distance tout au long du match. A quel moment, ce joueur reçoit-il une pénalité ?" WHERE ID=1674;
+UPDATE rdtom_questions SET Text="Un joueur qui a décidé de chevaucher volontairement la limite quitte la piste. Il ..." WHERE ID=1675;
+UPDATE rdtom_questions SET Text="Un jammer faisant un faux départ doit ..." WHERE ID=1676;
+UPDATE rdtom_questions SET Text="Si un jammer est coupable d'avoir fait un faux départ mais qu'il n'y a pas d'autre jammer sur la piste, il ..." WHERE ID=1677;
+UPDATE rdtom_questions SET Text="Un patineur sort complètement de la Penalty Box avant que son temps de pénalité ne soit terminé, après avoir reçu une mauvaise instruction par l’officiel de Penalty Box. Il ..." WHERE ID=1678;
+UPDATE rdtom_questions SET Text="Un patineur initie un contact envers un adversaire après le quatrième coup de sifflet de fin de jam, ce qui fait tomber cet adversaire. L'initiateur ..." WHERE ID=1679;
+UPDATE rdtom_questions SET Text="Un patineur initie un contact envers un adversaire après le quatrième coup de sifflet de fin de Jam, ce qui déséquilibre sévèrement cet adversaire. L'initiateur ..." WHERE ID=1680;
+UPDATE rdtom_questions SET Text="Dans le cas où un pack ne peut pas se former à la première opportunité légale entre la ligne de jammer et celle de pivot au départ de jam, ..." WHERE ID=1681;
+UPDATE rdtom_questions SET Text="Si une pénalité de Delay of Game [retardement de jeu] est justifiée ..." WHERE ID=1682;
+UPDATE rdtom_questions SET Text="Une équipe n'aligne aucun blocker au début d'un jam entre les lignes de pivot et de jammer, empêchant un pack de se former entre les lignes de pivot et de jammer à la première opportunité légale. Le capitaine de l'équipe en tort ..." WHERE ID=1683;
+UPDATE rdtom_questions SET Text="Une équipe n'aligne aucun blocker au début d'un jam entre les lignes de pivot et de jammer, empêchant un pack de se former entre les lignes de pivot et de jammer à la première opportunité légale. Qui reçoit la pénalité ?" WHERE ID=1684;
+UPDATE rdtom_questions SET Text="Avec un jammer purgeant une pénalité en penalty box, l'équipe adverse manque à aligner un jammer au jam suivant, empêchant un jam de démarrer. Le capitaine de l'équipe en tort ..." WHERE ID=1685;
+UPDATE rdtom_questions SET Text="Un patineur ayant précédemment arrêté un jam à cause d’une blessure, se met sur la piste au départ de jam avant que les trois jams requis pendant lesquels le patineur ne peut pas participer ne se soient écoulés." WHERE ID=1686;
+UPDATE rdtom_questions SET Text="Un joueur qui n'est pas impliqué dans le jam interfére illégalement avec ce jam. Il ..." WHERE ID=1687;
+UPDATE rdtom_questions SET Text="Vrai ou faux : chaque pénalité est chronométrée séparéement et individuellement." WHERE ID=1688;
+UPDATE rdtom_questions SET Text="Avant le début d'un jam, un joueur comment une infraction. Sous quel poste doit-il servir sa pénalité ?" WHERE ID=1689;
+UPDATE rdtom_questions SET Text="Avant le début d'un jam, un joueur comment une infraction alors qu'il porte un couvre-casque de jammer. Sous quel poste doit-il servir sa pénalité ?" WHERE ID=1690;
+UPDATE rdtom_questions SET Text="Un jammer est un sur un passage marquant et saute au dessus de l'apex d'un virage et dépasse quatre blockers adverses. Il atterrit debout et dans les limites de la piste. Alors qu'il est en l'air,  le jam prend fin. Combien de points le jammer reçoit-il ?" WHERE ID=1691;
+UPDATE rdtom_questions SET Text="Combien d'arbitres en patins maxium seront positionnés au centre de la piste ?" WHERE ID=1692;
+UPDATE rdtom_questions SET Text="Avant quelle pénalité, un avertissement doit-il être donné ?" WHERE ID=1693;
+UPDATE rdtom_questions SET Text="Un joueur initie un contact au-dessus des épaules d'un joueur ne portant pas de casque. L'initiateur du contact ..." WHERE ID=1694;
+UPDATE rdtom_questions SET Text="Vrai ou faux : une équipe peut avoir trois blockers présents dans le penalty box en même temps." WHERE ID=1695;
+UPDATE rdtom_questions SET Text="Vai ou faux : seul les décisions faites lors du Jam précédent peuvent être revues lors d'un Official Review ?" WHERE ID=2744;
+UPDATE rdtom_questions SET Text="Si, lors du premier Official Review d’une équipe dans une période, le Head Referee détermine qu’une erreur d’arbitrage a été faite en relation avec l’objection ..." WHERE ID=2745;
+UPDATE rdtom_questions SET Text="Une équipe peut avoir plusieurs Offical Reviews (plus de deux) au cours d'une même période si à chaque fois le Head Referee détermine qu’une erreur d’arbitrage." WHERE ID=2746;
+UPDATE rdtom_questions SET Text="En cas de défaillance ou de divergence, quand le chronomètre officiel de période peut-il être mis à jour ?" WHERE ID=2747;
+UPDATE rdtom_questions SET Text="Si le temps de période est affiché au tableau de score [scoreboard] bien visible ainsi que sur le chronomètre d'un NSO, lequel des deux est le chronometre officiel de période ?" WHERE ID=2748;
+UPDATE rdtom_questions SET Text="Quelle est la durée maximale d'un jam ?" WHERE ID=2749;
+UPDATE rdtom_questions SET Text="S'il reste moins de 30 secondes sur le chronomètre officiel de période quand un Official Timeout [temps mort] est appelé ..." WHERE ID=2750;
+UPDATE rdtom_questions SET Text="Les lignes de pivot et de jammer ..." WHERE ID=2751;
+UPDATE rdtom_questions SET Text="A combien de la ligne de jammer se situe la ligne de pivot ?" WHERE ID=2752;
+UPDATE rdtom_questions SET Text="Vrai ou faux : une coquille de protection peut être portée en tant qu'équipement de protection." WHERE ID=2753;
