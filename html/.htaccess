@@ -1,10 +1,9 @@
 AddHandler php5-script .php
 
-<FilesMatch "\.(js|css|xml|gz)$">
-  Header append Vary: Accept-Encoding
-</FilesMatch>
-
 RewriteEngine on
+
+AddDefaultCharset UTF-8
+# php_value default_charset UTF-8
 
 RewriteCond %{REQUEST_FILENAME} !-f
 RewriteRule ^(.*)$ index.php [NC,QSA,L]

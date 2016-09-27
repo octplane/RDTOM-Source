@@ -8,7 +8,7 @@ if (!is_random_question()) {
 	$page_title = "Question #" . $question->get_ID() . ":";
 }
 
-$question_text = htmlentities(stripslashes($question->get_Text()));
+$question_text = htmlspecialchars(stripslashes($question->get_Text()));
 
 if ($reportHasBeenFiled)
 {
@@ -19,7 +19,7 @@ if ($reportHasBeenFiled)
 
 <h3><?php echo $page_title; ?></h3>
 
-<p><?php echo $question_text; ?></p>
+<p><?php echo $question_text; ?> <?php echo $question->get_ID(); ?></p>
 
 <ol type="A">
 	<?php 
@@ -33,13 +33,13 @@ if ($reportHasBeenFiled)
 		}
 		
 		echo "<li>
-			<a class=\"mobilebutton $correct_class\"  onclick=\"select_answer(" . $answer->get_ID() . ");\">" . htmlentities(stripslashes($answer->get_Text())) . "</a>";
+			<a class=\"mobilebutton $correct_class\"  onclick=\"select_answer(" . $answer->get_ID() . ");\">" . htmlspecialchars(stripslashes($answer->get_Text())) . "</a>";
 		if ($answer->is_correct()) {
 			$section_string = "";
 			
 			if ($question->get_WFTDA_Link())
 			{
-				$section_string .= "See rule " . htmlentities(stripslashes($question->get_Section()));
+				$section_string .= "See rule " . htmlspecialchars(stripslashes($question->get_Section()));
 			
 				$section_string .= " (<a target=\"_blank\" href=\"" . $question->get_WFTDA_Link() . "\" title=\"the section of the rules as found on wftda.com\" >view on WFTDA.com</a>)";
 			}
@@ -58,7 +58,7 @@ if ($reportHasBeenFiled)
 </ol>
 
 <?php if ($question->get_Notes()) {?>
-	<p  style="display:none;" class="question_notes">Note: <?php echo htmlentities(stripslashes($question->get_Notes())); ?></p>
+	<p  style="display:none;" class="question_notes">Note: <?php echo htmlspecialchars(stripslashes($question->get_Notes())); ?></p>
 <?php } ?>
 
 <p>
@@ -66,7 +66,7 @@ if ($reportHasBeenFiled)
 </p>
 
 <?php if ($question->get_Source()) {?>
-	<p class="small_p" >Source: <?php echo htmlentities(stripslashes($question->get_Source())); ?></p>
+	<p class="small_p" >Source: <?php echo htmlspecialchars(stripslashes($question->get_Source())); ?></p>
 <?php } ?>
 
 <script type="text/javascript">
@@ -139,7 +139,7 @@ if ($reportHasBeenFiled)
 <div class="report_form" id="hidden_report_form">
 	
 	<h3>Report this question:</h3>
-	<p>You should report a question if you think it's incorrect or if it's poorly written (including spelling mistakes or bad grammar). If you think the question is wrong be sure to double check the wording of the question <i>and</i> the specific rule it references, which in this case is <strong><?php if ($question) { echo htmlentities(stripslashes($question->get_Section())); } ?></strong>. Until the great robot uprising, we're only human so mistakes happen. Thanks for helping!</p>
+	<p>You should report a question if you think it's incorrect or if it's poorly written (including spelling mistakes or bad grammar). If you think the question is wrong be sure to double check the wording of the question <i>and</i> the specific rule it references, which in this case is <strong><?php if ($question) { echo htmlspecialchars(stripslashes($question->get_Section())); } ?></strong>. Until the great robot uprising, we're only human so mistakes happen. Thanks for helping!</p>
 	<p>In the text box below please let me know what it is that made you report this question.</p>
 	
 	<form name="formreport" method="post" action="<?php echo get_site_URL(); ?>report">	
@@ -148,7 +148,7 @@ if ($reportHasBeenFiled)
 		<textarea name="report_text"  id="report_text" rows="10" cols="40"><?php 
 		if ($_POST['report_text']) 
 		{
-			echo stripslashes(htmlentities($_POST['report_text']));
+			echo stripslashes(htmlspecialchars($_POST['report_text']));
 		}
 		else
 		{

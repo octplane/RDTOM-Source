@@ -5,7 +5,7 @@ function get_question_from_array($req_array) {
 
 function get_question_from_ID($req_ID) {
 	global $myPDO;
-	
+	echo $req_ID;
 	// prep the statement
 	$statement = $myPDO->prepare('SELECT * FROM rdtom_questions WHERE ID = :ID LIMIT 1');
 	$statement->execute(array(':ID' => $req_ID));
@@ -34,17 +34,13 @@ function get_question_random() {
 	
 	// if the holes table is being rebuilt, cheat
 	if ($mydb->does_table_exist("rdtom_questions_holes_map")) {
-		
 		// at most try to find a new unique question 5 times
 		for ($i = 0; $i < FANCY_CODE_MAXIMUM_ATTEMPT_COUNT; $i++) {
-			
+
 			$query = "SELECT COUNT(*) FROM rdtom_questions_holes_map";
-			
 			$statement = $myPDO->query($query);
 			$result = $statement->fetch(PDO::FETCH_BOTH);
-			
 			$random_question = mt_rand(0, $result[0] - 1);
-			
 			$query = "
 		SELECT 
 			*

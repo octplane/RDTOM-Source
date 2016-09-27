@@ -191,8 +191,6 @@ function user_update_password($req_oldpassword, $req_newpassword) {
 	$mydb->set_user_password($user->get_ID() , $req_newpassword);
 }
 
-
-
 function is_admin() {
 	$user = get_global_user();
 	if ($user) {

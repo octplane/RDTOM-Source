@@ -63,8 +63,8 @@ class api_resource_questions extends api_resource
 				
 				// generic question values
 				$XML_newquestion->addChild('id', $question->get_ID());
-				$XML_newquestion->addChild('text', htmlentities(stripslashes($question->get_Text())));
-				$XML_newquestion->addChild('wftda_link', htmlentities($question->get_WFTDA_Link()));
+				$XML_newquestion->addChild('text', htmlspecialchars(stripslashes($question->get_Text())));
+				$XML_newquestion->addChild('wftda_link', htmlspecialchars($question->get_WFTDA_Link()));
 			
 				// meta data
 				$terms = $question->get_terms();
@@ -79,8 +79,8 @@ class api_resource_questions extends api_resource
 				}
 				
 				// notes might be optional
-				if (preg_match('#\S#', htmlentities(stripslashes($question->get_Notes())))) // Checks for non-whitespace character
-					$XML_newquestion->addChild('notes', htmlentities(stripslashes($question->get_Notes())));
+				if (preg_match('#\S#', htmlspecialchars(stripslashes($question->get_Notes())))) // Checks for non-whitespace character
+					$XML_newquestion->addChild('notes', htmlspecialchars(stripslashes($question->get_Notes())));
 				else
 					$XML_newquestion->addChild('notes');
 	
@@ -88,7 +88,7 @@ class api_resource_questions extends api_resource
 				$XML_sections = $XML_newquestion->addChild('sections');
 				foreach ($question->get_Sections() as $alternate_section)
 				{
-					$XML_sections->addChild('section', htmlentities($alternate_section));
+					$XML_sections->addChild('section', htmlspecialchars($alternate_section));
 				}
 				
 				// the answers
@@ -118,7 +118,7 @@ class api_resource_questions extends api_resource
 					}
 					*/
 					
-					$XML_newanswer->addChild('text', utf8_encode(htmlentities($answer->get_Text())));
+					$XML_newanswer->addChild('text', utf8_encode(htmlspecialchars($answer->get_Text())));
 					
 					if ($answer->is_correct())
 					{

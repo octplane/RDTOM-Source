@@ -166,7 +166,7 @@ if (!UriPath::part(1)) {
 				
 				<p><strong>Title</strong><br /><input type="text" id="test_title" name="test_title" style="font-size: 20px; width: 90%;" value="<?php
 			if ($test) {
-				echo htmlentities(stripslashes($test->get_Title()));
+				echo htmlspecialchars(stripslashes($test->get_Title()));
 			} ?>"/></p>
 				
 				<p><strong>Description</strong><br /><textarea id="test_description" style="width:90%" name="test_description" rows="5"><?php
@@ -804,10 +804,10 @@ if (!UriPath::part(1)) {
 					echo "
 							<tr style=\"padding: 5px\">
 								<td>
-									<a href=\"" . get_site_URL() . "test/builder/" . $tmp_test->get_ID() . "\">" . htmlentities(stripslashes($tmp_test->get_Title())) . "</a> 
+									<a href=\"" . get_site_URL() . "test/builder/" . $tmp_test->get_ID() . "\">" . htmlspecialchars(stripslashes($tmp_test->get_Title())) . "</a> 
 								</td>
 								<td style=\"text-align:center\">
-									<a href=\"" . $tmp_test->get_test_URL() . "\">" . htmlentities(stripslashes($tmp_test->get_Status())) . "</a>
+									<a href=\"" . $tmp_test->get_test_URL() . "\">" . htmlspecialchars(stripslashes($tmp_test->get_Status())) . "</a>
 							
 								</td>
 								<td style=\"text-align:center\">" . number_format($tmp_test->get_Views_Count()) . "</td>

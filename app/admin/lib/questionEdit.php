@@ -16,11 +16,11 @@ foreach ($_POST['answer'] as $id => $answer) {
 
 // have the answers changed? There may not be any answers.
 if ($temp_answer_array && ($tmp_question->is_answers_different($temp_answer_array))) {
-    
+
     // delete existing questions
     $mydb->remove_answers_given_questionID($tmp_question->get_ID());
     $message = "Answers deleted! ";
-    
+
     // save all the answers
     foreach ($_POST['answer'] as $id => $answer) {
         if (trim($answer)) {
@@ -32,6 +32,7 @@ if ($temp_answer_array && ($tmp_question->is_answers_different($temp_answer_arra
 } else {
     $message.= "Answers unchanged! ";
 }
+print("COUCOU");
 
 // edit the question
 edit_question($tmp_question->get_ID(), $_POST['question_text'], $_POST['question_section'], trim($_POST['question_notes']));

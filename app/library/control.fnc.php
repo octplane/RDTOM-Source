@@ -41,6 +41,6 @@ function set_up_database()
 	
 	// set up the PDO object
 	global $myPDO;
-	$myPDO = new PDO("mysql:dbname=" . DATABASE_NAME . ";host=" . DATABASE_HOST, DATABASE_USERNAME, DATABASE_PASSWORD);
+	$myPDO = new PDO("mysql:dbname=" . DATABASE_NAME . ";host=" . DATABASE_HOST . ";charset=utf8;", DATABASE_USERNAME, DATABASE_PASSWORD);
 
 }

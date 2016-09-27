@@ -141,7 +141,7 @@ if (is_logged_in())
 			<input type="hidden" name="formemailupdate" id="formemailupdate" value="yes" ></input>
 			<p>
 				New email address: <br />
-				<input class="input_text" type="text" name="email" id="email" value="<?php echo htmlentities(stripslashes($user->get_Email())); ?>"></input>
+				<input class="input_text" type="text" name="email" id="email" value="<?php echo htmlspecialchars(stripslashes($user->get_Email())); ?>"></input>
 			</p>
 			<p>
 				<a class="button" onClick="document.formemailupdate.submit()">Update email</a>
@@ -154,7 +154,7 @@ if (is_logged_in())
 			<input type="hidden" name="formnameupdate" id="formnameupdate" value="yes" ></input>
 			<p>
 				New name: <br />
-				<input class="input_text" type="text" name="name" id="name" value="<?php echo htmlentities(stripslashes($user->get_Name())); ?>"></input>
+				<input class="input_text" type="text" name="name" id="name" value="<?php echo htmlspecialchars(stripslashes($user->get_Name())); ?>"></input>
 			</p>
 			<p>
 				<a class="button" onClick="document.formnameupdate.submit()">Update name</a>

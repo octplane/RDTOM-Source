@@ -102,7 +102,7 @@ function get_CSS_embed($type = false) {
 function get_error_string($nice_formatting = true) {
 	global $error_string;
 	if ($nice_formatting) {
-		return htmlentities($error_string);
+		return htmlspecialchars($error_string);
 	} else {
 		return $error_string;
 	}
@@ -124,7 +124,7 @@ function get_recent_wrong_questions() {
 				$question_string = substr($question_string, 0, 97) . "...";
 			}
 			
-			$out.= $question->get_Section() . " <a href=\"" . $question->get_URL() . "\">" . htmlentities(stripslashes($question_string)) . "</a><br />";
+			$out.= $question->get_Section() . " <a href=\"" . $question->get_URL() . "\">" . htmlspecialchars(stripslashes($question_string)) . "</a><br />";
 		}
 		$out.= "</p>";
 	}
@@ -149,7 +149,7 @@ function get_recent_questions() {
 				$question_string = substr($question_string, 0, 97) . "...";
 			}
 			
-			$out.= $question->get_Section() . " <a href=\"" . $question->get_URL() . "\">" . htmlentities(stripslashes($question_string)) . "</a><br />";
+			$out.= $question->get_Section() . " <a href=\"" . $question->get_URL() . "\">" . htmlspecialchars(stripslashes($question_string)) . "</a><br />";
 		}
 		$out.= "</p>";
 	} else {

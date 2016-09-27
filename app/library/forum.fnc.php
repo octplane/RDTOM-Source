@@ -279,7 +279,7 @@ class topic
 			
 				<li class=\"topicslist_divider\">
 					<div class=\"topicslist_divider_wrap\">
-						" . htmlentities($this->data['Title']) . "
+						" . htmlspecialchars($this->data['Title']) . "
 					</div>
 				</li>";
 		} else {
@@ -287,8 +287,8 @@ class topic
 			
 			$out.= "<li class=\"topicslist_topic\">
 				<div class=\"topicslist_topic_wrap\">
-					<a href=\"" . $this->get_URL() . "\">" . htmlentities($this->data['Title']) . "</a>
-					<br /><i>" . htmlentities($this->data['Blurb']) . "</i>";
+					<a href=\"" . $this->get_URL() . "\">" . htmlspecialchars($this->data['Title']) . "</a>
+					<br /><i>" . htmlspecialchars($this->data['Blurb']) . "</i>";
 			if ($latest_post) {
 				$out.= $latest_post->get_latest_post_string();
 			}
@@ -300,7 +300,7 @@ class topic
 	}
 	
 	public function get_body() {
-		$out.= "<h3><a href=\"" . get_site_URL() . "forum\">Forum</a> > " . htmlentities($this->data['Title']) . "</h3>";
+		$out.= "<h3><a href=\"" . get_site_URL() . "forum\">Forum</a> > " . htmlspecialchars($this->data['Title']) . "</h3>";
 		
 		// get the "body" version of the topic, the page version of the topic listing all the threads
 		$threads = get_threads_from_topic_id($this->data['ID']);
@@ -371,7 +371,7 @@ class thread
 		
 		$out.= "<li class=\"threadslist_thread\">
 			<div class=\"threadslist_thread_wrap\">
-				<a href=\"" . $this->get_URL() . "\">" . htmlentities(stripslashes($this->data['Title'])) . "</a>";
+				<a href=\"" . $this->get_URL() . "\">" . htmlspecialchars(stripslashes($this->data['Title'])) . "</a>";
 		if ($latest_post) {
 			$out.= "<br />" . $latest_post->get_latest_post_string($hide_title);
 		}
@@ -389,7 +389,7 @@ class thread
 		// get the "body" version of te thread, the page version of the thread listing all the posts
 		$parent_topic = $this->get_parent_topic();
 		
-		$out.= "<h3><a href=\"" . get_site_URL() . "forum\">Forum</a> > <a href=\"" . $parent_topic->get_URL() . "\">" . htmlentities(stripslashes($parent_topic->get_title())) . "</a> > " . htmlentities(stripslashes($this->data['Title'])) . "</h3>";
+		$out.= "<h3><a href=\"" . get_site_URL() . "forum\">Forum</a> > <a href=\"" . $parent_topic->get_URL() . "\">" . htmlspecialchars(stripslashes($parent_topic->get_title())) . "</a> > " . htmlspecialchars(stripslashes($this->data['Title'])) . "</h3>";
 		
 		// get the "body" version of the topic, the page version of the topic listing all the threads
 		$posts = get_posts_from_thread_id($this->data['ID']);
@@ -459,14 +459,14 @@ class post
 			<div class=\"forum_post_meta\">
 				<div class=\"forum_post_meta_wrap\">
 					<img style=\"height:40px;width:40px\"src=\"" . get_gravatar($author->get_Email(), 40) . "\" /><br />
-					<span class=\"forum_post_meta_name\">" . htmlentities($author->get_Name()) . "</span><br />
+					<span class=\"forum_post_meta_name\">" . htmlspecialchars($author->get_Name()) . "</span><br />
 					<span class=\"forum_post_meta_posts\">Posts: " . number_format(get_post_count_from_user_id($this->data['Creator_User_ID'])) . "</span>
 				</div>
 			</div>
 			<div class=\"forum_post_content\">
 				<div class=\"forum_post_content_wrap\">
 				
-					<p id=\"forum_post_" . $this->data['ID'] . "\">" . nl2br(make_links_clickable(htmlentities(stripslashes($this->data['Text'])))) . "</p>
+					<p id=\"forum_post_" . $this->data['ID'] . "\">" . nl2br(make_links_clickable(htmlspecialchars(stripslashes($this->data['Text'])))) . "</p>
 					";
 		if (($user && ($user->get_ID() == $author->get_ID())) || is_admin()) {
 			$out.= "
@@ -474,7 +474,7 @@ class post
 					<span id=\"forum_post_edit_" . $this->data['ID'] . "\" style=\"display:none\">
 						<form name=\"form_edit_post_" . $this->data['ID'] . "\" id=\"form_edit_post\" method=\"post\" action=\"" . get_site_URL() . "forum\" >
 							<input type=\"hidden\" name=\"forum_form_name\" value=\"edit_post\" />
-							<textarea name=\"edit_post_text\" style=\"width:800px\" name=\"edit_post_text\" cols=\"40\" rows=\"10\">" . htmlentities(stripslashes($this->data['Text'])) . "</textarea>
+							<textarea name=\"edit_post_text\" style=\"width:800px\" name=\"edit_post_text\" cols=\"40\" rows=\"10\">" . htmlspecialchars(stripslashes($this->data['Text'])) . "</textarea>
 							<input type=\"hidden\" name=\"edit_post_ID\" value=\"" . $this->data['ID'] . "\" />
 							<br />
 							<a class=\"button\" id=\"new_thread_button\" onclick=\"document.form_edit_post_" . $this->data['ID'] . ".submit();return false;\"/>Edit</a> 
@@ -505,9 +505,9 @@ class post
 	public function get_latest_post_string($hide_title = false) {
 		$parent_thread = $this->get_parent_thread();
 		if ($hide_title) {
-			return "<div class=\"latest_post_string\">Latest post by <strong>" . htmlentities($this->get_author_name()) . "</strong>, " . $this->get_freshness_html() . "</div>";
+			return "<div class=\"latest_post_string\">Latest post by <strong>" . htmlspecialchars($this->get_author_name()) . "</strong>, " . $this->get_freshness_html() . "</div>";
 		} else {
-			return "<div class=\"latest_post_string\">Latest post by <strong>" . htmlentities($this->get_author_name()) . "</strong> in <a href=\"" . $parent_thread->get_URL() . "\">" . htmlentities(stripslashes($parent_thread->get_Title())) . "</a>, " . $this->get_freshness_html() . "</div>";
+			return "<div class=\"latest_post_string\">Latest post by <strong>" . htmlspecialchars($this->get_author_name()) . "</strong> in <a href=\"" . $parent_thread->get_URL() . "\">" . htmlspecialchars(stripslashes($parent_thread->get_Title())) . "</a>, " . $this->get_freshness_html() . "</div>";
 		}
 	}
 	

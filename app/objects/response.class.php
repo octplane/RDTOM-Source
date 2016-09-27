@@ -8,7 +8,7 @@ class response
 	private $Correct;
 	private $IP;
 	private $User_ID;
-	
+
 	function __construct(
 		$req_ID,
 		$req_Question_ID,
@@ -26,27 +26,27 @@ class response
 		$this->IP = $req_IP;
 		$this->User_ID = $req_User_ID;
 	}
-	
+
 	public function is_correct()
 	{
 		return $this->Correct;
 	}
-	
+
 	public function get_ID()
 	{
 		return $this->ID;
 	}
-	
+
 	public function get_Question_ID()
 	{
 		return $this->Question_ID;
 	}
-	
+
 	public function get_Answer_ID()
 	{
 		return $this->Answer_ID;
 	}
-	
+
 	public function get_Timestamp()
 	{
 		return $this->Timestamp;
@@ -56,12 +56,12 @@ class response
 	{
 		return $this->Correct;
 	}
-	
+
 	public function get_IP()
 	{
 		return $this->IP;
 	}
-	
+
 	public function get_User_ID()
 	{
 		return $this->User_ID;

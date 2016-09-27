@@ -322,7 +322,7 @@ function ajax_get_admin_questions_list() {
 			$div_class_array_string = implode(" ", $div_class_array);
 			
 			$out.= "<div style=\"clear:left\" class=\" question_string " . $div_class_array_string . "\">
-			<!-- <a onclick=\"$('#extra_" . $question->get_ID() . "').toggle();\">+</a> --> " . $question->get_Section() . " <a href=\"" . get_site_URL() . "admin/edit/" . $question->get_ID() . "#edit_question\">" . htmlentities(stripslashes($question->get_Text())) . "</a>
+			<!-- <a onclick=\"$('#extra_" . $question->get_ID() . "').toggle();\">+</a> --> " . $question->get_Section() . " <a href=\"" . get_site_URL() . "admin/edit/" . $question->get_ID() . "#edit_question\">" . htmlspecialchars(stripslashes($question->get_Text())) . "</a>
 				<span class=\"extra_all\" id=\"extra_" . $question->get_ID() . "\" style=\"display:none;\">
 				<p style=\"font-size: 10px; margin-left: 1em;\">
 				";
@@ -384,7 +384,7 @@ function ajax_save_comment() {
 function ajax_random_forum_thread() {
 	$thread = get_thread_from_random();
 	if ($thread) {
-		return "<a href=\"" . $thread->get_URL() . "\">" . htmlentities(stripslashes($thread->get_Title())) . "</a>";
+		return "<a href=\"" . $thread->get_URL() . "\">" . htmlspecialchars(stripslashes($thread->get_Title())) . "</a>";
 	}
 }
 
@@ -392,7 +392,7 @@ function ajax_latest_forum_thread() {
 	$thread = get_latest_thread();
 	if ($thread) {
 		$latest_post = $thread->get_latest_post();
-		return "<a href=\"" . $thread->get_URL() . "\">&quot;" . htmlentities(stripslashes($thread->get_Title())) . "&quot; by " . htmlentities(stripslashes($latest_post->get_author()->get_Name())) . "</a>";
+		return "<a href=\"" . $thread->get_URL() . "\">&quot;" . htmlspecialchars(stripslashes($thread->get_Title())) . "&quot; by " . htmlspecialchars(stripslashes($latest_post->get_author()->get_Name())) . "</a>";
 	}
 }
 

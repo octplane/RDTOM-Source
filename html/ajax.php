@@ -133,7 +133,7 @@ try {
 	echo $out;
 }
 catch(Exception $e) {
-	save_log("error_ajax", htmlentities(print_r($_POST, true)) . " " . $e->getMessage());
+	save_log("error_ajax", htmlspecialchars(print_r($_POST, true)) . " " . $e->getMessage());
 	echo $e->getMessage();
 	echo "<pre>" . print_r($e->getTrace(), true) . "</pre>";
 }

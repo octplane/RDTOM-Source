@@ -98,22 +98,22 @@ function rebuild_sitemap() {
 		
 		if ($sitemap_item['loc']) {
 			$sitemap_string.= '
-				<loc>' . htmlentities($sitemap_item['loc']) . "</loc>";
+				<loc>' . htmlspecialchars($sitemap_item['loc']) . "</loc>";
 		}
 		
 		if ($sitemap_item['lastmod']) {
 			$sitemap_string.= '
-				<lastmod>' . htmlentities($sitemap_item['lastmod']) . "</lastmod>";
+				<lastmod>' . htmlspecialchars($sitemap_item['lastmod']) . "</lastmod>";
 		}
 		
 		if ($sitemap_item['changefreq']) {
 			$sitemap_string.= '
-				<changefreq>' . htmlentities($sitemap_item['changefreq']) . "</changefreq>";
+				<changefreq>' . htmlspecialchars($sitemap_item['changefreq']) . "</changefreq>";
 		}
 		
 		if ($sitemap_item['priority']) {
 			$sitemap_string.= '
-				<priority>' . htmlentities($sitemap_item['priority']) . "</priority>";
+				<priority>' . htmlspecialchars($sitemap_item['priority']) . "</priority>";
 		}
 		
 		$sitemap_string.= '

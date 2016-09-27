@@ -56,7 +56,7 @@ class api_controller extends abstract_api_controller
 		if ($this->request['format'] == "nicexml")
 		{
 			// HTML view of XML
-			echo "<pre>" . htmlentities(formatXmlString($this->out_XML->asXML())) . "</pre>";
+			echo "<pre>" . htmlspecialchars(formatXmlString($this->out_XML->asXML())) . "</pre>";
 		}
 		elseif ($this->request['format'] == "json")
 		{
@@ -68,8 +68,8 @@ class api_controller extends abstract_api_controller
 		{
 			// JSONP
 			header('Content-Type: application/javascript');
-			$requested_callback = htmlentities($_GET['callback']);
-			$requested_jsonarg = htmlentities($_GET['jsonarg']);
+			$requested_callback = htmlspecialchars($_GET['callback']);
+			$requested_jsonarg = htmlspecialchars($_GET['jsonarg']);
 			
 			if (!$requested_callback)
 			{
@@ -89,7 +89,7 @@ class api_controller extends abstract_api_controller
 		{
 			// JSONP
 			header('Content-Type: application/javascript');
-			$requested_var = htmlentities($_GET['var']);
+			$requested_var = htmlspecialchars($_GET['var']);
 			
 			if (!$requested_var)
 			{

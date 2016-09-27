@@ -91,18 +91,18 @@ include("header.php");
 			if ($current_taxonomy != $term->get_taxonomy())
 			{
 				$current_taxonomy = $term->get_taxonomy();
-				$breakdown_string_array[$current_taxonomy] .= "<strong>" . htmlentities($current_taxonomy) . "</strong>";
+				$breakdown_string_array[$current_taxonomy] .= "<strong>" . htmlspecialchars($current_taxonomy) . "</strong>";
 			}
 			
 			try 
 			{	
 				$number_string = number_format(count(get_questions(array($term->get_taxonomy() => $term->get_Name()), false)));
-				$breakdown_string_array[$current_taxonomy] .= "<br /><span class=\"small_p\">" . htmlentities($term->get_Name()) . " (" . htmlentities($term->get_Description()) . "): " . $number_string . "</span>";
+				$breakdown_string_array[$current_taxonomy] .= "<br /><span class=\"small_p\">" . htmlspecialchars($term->get_Name()) . " (" . htmlspecialchars($term->get_Description()) . "): " . $number_string . "</span>";
 				
 			} 
 			catch (Exception $e) 
 			{
-				$breakdown_string_array[$current_taxonomy] .= "<br /><span class=\"small_p\">" . htmlentities($term->get_Name()) . " (" . htmlentities($term->get_Description()) . "): <i>None</i></span>";
+				$breakdown_string_array[$current_taxonomy] .= "<br /><span class=\"small_p\">" . htmlspecialchars($term->get_Name()) . " (" . htmlspecialchars($term->get_Description()) . "): <i>None</i></span>";
 			}
 		}
 		

@@ -35,7 +35,7 @@
 				{
 					?>		
 					<p>
-						You are logged in as <strong><?php echo htmlentities(stripslashes($user->get_Name()))?></strong>, <a href="<?php echo get_site_URL(); ?>profile">view your profile</a>.
+						You are logged in as <strong><?php echo htmlspecialchars(stripslashes($user->get_Name()))?></strong>, <a href="<?php echo get_site_URL(); ?>profile">view your profile</a>.
 					</p>
 					<?php 
 				} 

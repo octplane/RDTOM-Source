@@ -362,10 +362,10 @@ class test
 
 		if ($this->title)
 		{
-			$out .= "<h3>" . htmlentities(stripslashes($this->title)) . "</h3>";
+			$out .= "<h3>" . htmlspecialchars(stripslashes($this->title)) . "</h3>";
 		}
 		if ($this->description){
-			$out .= "<p>" . nl2br(htmlentities(stripslashes($this->description))) . "</p>";
+			$out .= "<p>" . nl2br(htmlspecialchars(stripslashes($this->description))) . "</p>";
 		}
 		$out .= '
 		
@@ -412,7 +412,7 @@ class test
 					<tr style=\"page-break-inside: avoid\">
 						<td style=\"text-align:center; padding-top: 5px;\"><strong>" . $i . "</strong></td>
 						<td style=\"padding: 5px; page-break-inside: avoid\">
-							" . htmlentities(stripslashes($question->get_Text()));
+							" . htmlspecialchars(stripslashes($question->get_Text()));
 							
 					$out .= "
 							<ol type=\"A\" style=\"list-style-type: upper-alpha;\">";
@@ -429,7 +429,7 @@ class test
 								
 								$quick_answer[] = $answer->get_ID();
 								
-								$out .= "<li>" . htmlentities(stripslashes($answer->get_Text())) . "</li>";
+								$out .= "<li>" . htmlspecialchars(stripslashes($answer->get_Text())) . "</li>";
 							}
 					$out .= "
 							</ol>
@@ -469,10 +469,10 @@ class test
 
 		if ($this->title)
 		{
-			$out .= "<h3>" . htmlentities(stripslashes($this->title)) . "</h3>";
+			$out .= "<h3>" . htmlspecialchars(stripslashes($this->title)) . "</h3>";
 		}
 		if ($this->description){
-			$out .= "<p>" . nl2br(htmlentities(stripslashes($this->description))) . "</p>";
+			$out .= "<p>" . nl2br(htmlspecialchars(stripslashes($this->description))) . "</p>";
 		}
 		$out .= '
 
@@ -507,7 +507,7 @@ class test
 					<tr style=\"page-break-inside: avoid\">
 						<td style=\"text-align:center; padding-top: 5px;\"><strong>" . $i . "</strong></td>
 						<td style=\"padding: 5px; page-break-inside: avoid\">
-							" . htmlentities(stripslashes($question->get_Text()));
+							" . htmlspecialchars(stripslashes($question->get_Text()));
 							
 					$out .= "
 							<ol type=\"A\" style=\"list-style-type: upper-alpha;\">";
@@ -516,7 +516,7 @@ class test
 							foreach ($answers as $answer)
 							{
 								
-								$out .= "<li><a onclick=\"$('#question_" . $question->get_ID() . "_chosen').html('" . chr(65+ $answer_count) . "'); selected_answer(" . $question->get_ID() . ", " . $answer->get_ID() . ");\" id=\"answer_" . $question->get_ID() . "_" . $answer->get_ID() . "\">" . htmlentities(stripslashes($answer->get_Text())) . "</a></li>";
+								$out .= "<li><a onclick=\"$('#question_" . $question->get_ID() . "_chosen').html('" . chr(65+ $answer_count) . "'); selected_answer(" . $question->get_ID() . ", " . $answer->get_ID() . ");\" id=\"answer_" . $question->get_ID() . "_" . $answer->get_ID() . "\">" . htmlspecialchars(stripslashes($answer->get_Text())) . "</a></li>";
 								
 								$QandA_ID_array[$question->get_ID()][$answer->get_ID()] = $answer->is_correct();
 								
