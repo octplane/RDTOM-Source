@@ -251,8 +251,6 @@ class database_derbytest extends database
 		$query = "DELETE FROM rdtom_questions WHERE ID = '" .$req_question_ID . "' LIMIT 1;";
 		$this->run_query($query);
 		
-		rebuild_questions_holes_map();
-		
 		// delete answers
 		$query = "DELETE FROM rdtom_answers WHERE Question_ID = '" .$req_question_ID . "'";
 		$this->run_query($query);

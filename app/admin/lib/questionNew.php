@@ -24,12 +24,6 @@ if ($_POST['term_checkbox']) {
 // do we need to rebuild the holes map
 $tmp_question = get_question_from_ID($question_id);
 
-// rebuild the holes map, if the new question falls into the parameters defined in default_terms_array
-if ($tmp_question->is_default_terms_array()) {
-	rebuild_questions_holes_map();
-	$message.= "Holes map rebuilt! ";
-}
-
 // save a comment
 $comment_text = "Question Created \n\n" . $tmp_question;
 

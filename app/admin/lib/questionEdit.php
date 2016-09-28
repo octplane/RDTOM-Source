@@ -32,7 +32,6 @@ if ($temp_answer_array && ($tmp_question->is_answers_different($temp_answer_arra
 } else {
     $message.= "Answers unchanged! ";
 }
-print("COUCOU");
 
 // edit the question
 edit_question($tmp_question->get_ID(), $_POST['question_text'], $_POST['question_section'], trim($_POST['question_notes']));
@@ -50,13 +49,6 @@ if ($_POST['term_checkbox']) {
     }
     $message.= "Relationships Rebuilt! ";
 }
-
-// rebuild the holes map, if the new question falls into the parameters defined in default_terms_array
-if ($tmp_question->is_default_terms_array()) {
-    rebuild_questions_holes_map();
-    $message.= "Holes map rebuilt! ";
-}
-
 // save a comment
 $comment_text = "Question Edited \n\nFrom: \n " . $old_question_string . " \nTo: \n" . get_question_from_ID($tmp_question->get_ID());
 

@@ -28,41 +28,23 @@ function get_question_count() {
 
 function get_question_random() {
 
-    //throw new exception("Woah, either the site ran out of questions, or the database is being updated. Try reloading the page, or <a href=\"http://rollerderbytestomatic.com/forget\">click here to make the site forget which questions you have answered</a>.");
     global $mydb, $myPDO;
     $session = new Session();
 
-    // if the holes table is being rebuilt, cheat
-    if ($mydb->does_table_exist("rdtom_questions_holes_map")) {
-        // at most try to find a new unique question 5 times
-        for ($i = 0; $i < FANCY_CODE_MAXIMUM_ATTEMPT_COUNT; $i++) {
+    // at most try to find a new unique question 5 times
+    for ($i = 0; $i < FANCY_CODE_MAXIMUM_ATTEMPT_COUNT; $i++) {
 
-            $query = "SELECT COUNT(*) FROM rdtom_questions_holes_map";
-            $statement = $myPDO->query($query);
-            $result = $statement->fetch(PDO::FETCH_BOTH);
-            $random_question = mt_rand(0, $result[0] - 1);
-            $query = "
-        SELECT
-            *
-        FROM
-            rdtom_questions
-        INNER JOIN
-            rdtom_questions_holes_map
-        ON
-            rdtom_questions_holes_map.Question_ID = rdtom_questions.id
-        WHERE
-            rdtom_questions_holes_map.row_id = $random_question ";
+        $query = "SELECT * FROM rdtom_questions ORDER BY RAND() LIMIT 1";
 
-            $statement = $myPDO->query($query);
-            $result = $statement->fetch(PDO::FETCH_ASSOC);
+        $statement = $myPDO->query($query);
+        $result = $statement->fetch(PDO::FETCH_ASSOC);
 
-            if ($result) {
-                $question = get_question_from_array($result);
+        if ($result) {
+            $question = get_question_from_array($result);
 
-                // if the question hasn't already been asked recently OR we're not remembering things in the session, return it
-                if ((!$session->get('random_questions_asked') || ($session->get('random_questions_asked') && !in_array($question->get_ID(), $session->get('random_questions_asked'))))) {
-                    return $question;
-                }
+            // if the question hasn't already been asked recently OR we're not remembering things in the session, return it
+            if ((!$session->get('random_questions_asked') || ($session->get('random_questions_asked') && !in_array($question->get_ID(), $session->get('random_questions_asked'))))) {
+                return $question;
             }
         }
     }
@@ -448,33 +430,6 @@ function add_question($req_text, $req_section, $req_notes) {
     return $lastInsertedID;
 }
 
-function rebuild_questions_holes_map($terms_array = false) {
-
-    global $mydb, $default_terms_array;
-
-    $all_questions = get_questions($default_terms_array);
-
-    // delete then remake the holes map table
-    $query = "DROP TABLE IF EXISTS rdtom_questions_holes_map;
-    CREATE TABLE rdtom_questions_holes_map ( row_id int not NULL primary key, Question_ID int not null);";
-
-    $mydb->run_multi_query($query);
-
-    // populate the table
-    $i = 0;
-    foreach ($all_questions as $question) {
-        $query = "INSERT INTO rdtom_questions_holes_map (
-            row_id ,
-            Question_ID
-            )
-            VALUES (
-            '" . $i . "',  '" . $question->get_ID() . "'
-            );";
-        $i++;
-        $mydb->run_query($query);
-    }
-}
-
 function edit_question($req_ID, $req_text, $req_section, $req_notes) {
     global $myPDO;
 
@@ -490,10 +445,6 @@ function edit_question($req_ID, $req_text, $req_section, $req_notes) {
         ");
 
     $statement->execute(array(':Text' => $req_text, ':Section' => $req_section, ':Notes' => $req_notes, ':ID' => $req_ID));
-
-    //rebuild_questions_holes_map();
-
-
 }
 
 function compare_questions($req_question1, $req_question2) {
