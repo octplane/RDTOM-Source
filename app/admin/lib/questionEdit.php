@@ -25,7 +25,6 @@ if ($temp_answer_array && ($tmp_question->is_answers_different($temp_answer_arra
     // save all the answers
     foreach ($_POST['answer'] as $id => $answer) {
         if (trim($answer)) {
-            print($qid . ": " . $answer . "<br>");
             $is_correct = $_POST['correct'][$id] == 1;
             add_answer($qid, trim($answer), $is_correct);
         }
