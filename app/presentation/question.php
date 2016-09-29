@@ -2,10 +2,10 @@
 // display the page
 include("header.php");
 
-$page_title = "Random question:";
+$page_title = "Question au hasard";
 
 if (!is_random_question()) {
-	$page_title = "Question #" . $question->get_ID() . ":";
+	$page_title = "Question n&deg;" . $question->get_ID() . ":";
 }
 
 $question_text = htmlspecialchars(stripslashes($question->get_Text()));
@@ -62,7 +62,7 @@ if ($reportHasBeenFiled)
 <?php } ?>
 
 <p>
-	<a class="button mobilebutton" href="<?php echo get_site_URL(); ?>">New Question</a>
+	<a class="button mobilebutton" href="<?php echo get_site_URL(); ?>">Nouvelle Question</a>
 </p>
 
 <?php if ($question->get_Source()) {?>
