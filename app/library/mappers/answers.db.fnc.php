@@ -108,6 +108,10 @@ function add_answer($req_Question_ID, $req_Text, $req_Correct) {
 	if ($req_Text == "") {
 		throw new exception("No text given for answer;");
 	}
+    $req_Correct = trim($req_Correct);
+    if ($req_Correct == "") {
+        $req_Correct = 0;
+    }
 
 	$statement = $myPDO->prepare("
 	INSERT
@@ -125,11 +129,10 @@ function add_answer($req_Question_ID, $req_Text, $req_Correct) {
 		);
 	");
 
-	$statement->execute(array(
+	$succ = $statement->execute(array(
 		':Question_ID' => $req_Question_ID,
 		':Text' => $req_Text,
-		':Correct' => $req_Correct
-	));
+		':Correct' => $req_Correct));
 }
 
 function update_answer($answer, $new_text) {
