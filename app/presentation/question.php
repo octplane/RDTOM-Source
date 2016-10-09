@@ -39,17 +39,17 @@ if ($reportHasBeenFiled)
 			
 			if ($question->get_WFTDA_Link())
 			{
-				$section_string .= "See rule " . htmlspecialchars(stripslashes($question->get_Section()));
+				$section_string .= "Voir r&eagrave;gle " . htmlspecialchars(stripslashes($question->get_Section()));
 			
-				$section_string .= " (<a target=\"_blank\" href=\"" . $question->get_WFTDA_Link() . "\" title=\"the section of the rules as found on wftda.com\" >view on WFTDA.com</a>)";
+				$section_string .= " (<a target=\"_blank\" href=\"" . $question->get_WFTDA_Link() . "\" title=\"Section officielle des r&eagrave;gles\" >voir sur WFTDA.com</a>)";
 			}
 			
 			
-			echo " <span style=\"display:none;\" class=\"correct_answer_win\"><strong>You Win!</strong> " . $section_string . "</span><span style=\"display:none;\" class=\"correct_answer\"><strong> The correct answer.</strong> " . $section_string . "</span>";
+			echo " <span style=\"display:none;\" class=\"correct_answer_win\"><strong>Gagn&eacute;&nbsp;!</strong> " . $section_string . "</span><span style=\"display:none;\" class=\"correct_answer\"><strong> La bonne r&eacute;ponse.</strong> " . $section_string . "</span>";
 		}
 		else
 		{
-			echo " <span style=\"display:none;\" class=\"wrong_answer\" id=\"wrong_answer" . $answer->get_ID() . "\"><strong>Wrong!</strong></span>";
+			echo " <span style=\"display:none;\" class=\"wrong_answer\" id=\"wrong_answer" . $answer->get_ID() . "\"><strong>Perdu&nbsp;!</strong></span>";
 		}
 		echo "</li>";
 	}
