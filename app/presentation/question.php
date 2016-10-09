@@ -39,9 +39,9 @@ if ($reportHasBeenFiled)
 			
 			if ($question->get_WFTDA_Link())
 			{
-				$section_string .= "Voir r&eagrave;gle " . htmlspecialchars(stripslashes($question->get_Section()));
+				$section_string .= "Voir r&egrave;gle " . htmlspecialchars(stripslashes($question->get_Section()));
 			
-				$section_string .= " (<a target=\"_blank\" href=\"" . $question->get_WFTDA_Link() . "\" title=\"Section officielle des r&eagrave;gles\" >voir sur WFTDA.com</a>)";
+				$section_string .= " (<a target=\"_blank\" href=\"" . $question->get_WFTDA_Link() . "\" title=\"Section officielle des r&egrave;gles\" >voir sur WFTDA.com</a>)";
 			}
 			
 			
