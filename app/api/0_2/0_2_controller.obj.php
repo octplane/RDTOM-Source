@@ -14,49 +14,49 @@ class api_controller extends abstract_api_controller
 		{
 			throw new exception ("Missing application parameter.", 400);
 		}
-		
+
 		// load the resource object dynamically given the resource request
-		//try 
+		//try
 		//{
 			$resource_name = "api_resource_" . $this->request['resource'][0];
 			$resource = new $resource_name($this->request['parameters']);
-		//} 
-		//catch (Exception $e) 
+		//}
+		//catch (Exception $e)
 		//{
 		//	throw new exception ("The resource you have requested could not be found", 404);
 		//}
 
 		// we now have the resource object, so let's start building the XML output
-		
+
 		// start the XML
 		$this->out_XML = new SimpleXMLElement('<?xml version="1.0" encoding="UTF-8" ?>
 		<response />');
 		$this->out_XML->addChild("api_version", "0.2");
 		$this->out_XML->addChild("status_code", "200");
-		
+
 		// append the resource to the output
-		
+
 		// get the DOM for both
 		$dom_response = dom_import_simplexml($this->out_XML);
 		$dom_resource = dom_import_simplexml($resource->get_XML());
-		
+
 		// import the resource into the results document
 		$dom_resource  = $dom_response->ownerDocument->importNode($dom_resource, TRUE);
-		
+
 		// append the resource into the results
-		$dom_response->appendChild($dom_resource);	
-			
+		$dom_response->appendChild($dom_resource);
+
 		// display yourself
 		$this->output();
 	}
-	
+
 	public function output($opt_xml = false)
 	{
 		if ($opt_xml)
 		{
 			$this->out_XML = $opt_xml;
 		}
-		
+
 		// output in the currect format
 		if ($this->request['format'] == "nicexml")
 		{
@@ -75,12 +75,12 @@ class api_controller extends abstract_api_controller
 			header('Content-Type: application/javascript');
 			$requested_callback = htmlspecialchars($_GET['callback']);
 			$requested_jsonarg = htmlspecialchars($_GET['jsonarg']);
-			
+
 			if (!$requested_callback)
 			{
 				throw new exception ("No JSONP callback specified");
 			}
-			
+
 			if (!$requested_jsonarg)
 			{
 				echo "$requested_callback (" . json_encode($this->out_XML) . ", '$requested_jsonarg');";
@@ -95,14 +95,14 @@ class api_controller extends abstract_api_controller
 			// JSONP
 			header('Content-Type: application/javascript');
 			$requested_var = htmlspecialchars($_GET['var']);
-			
+
 			if (!$requested_var)
 			{
 				throw new exception ("No Javascript variable name specified");
 			}
 
 			echo "var $requested_var = " . json_encode($this->out_XML) . ";";
-			
+
 		}
 		else
 		{
@@ -111,7 +111,7 @@ class api_controller extends abstract_api_controller
 			echo $this->out_XML->asXML();
 		}
 	}
-	
+
 	public function documentation()
 	{
 		echo "
@@ -119,18 +119,18 @@ class api_controller extends abstract_api_controller
 		<p>To use the API you simply call a URI which contains the output format, resource you're after, and the parameters.</p>
 
 		<pre>http://rollerderbytestomatic.com/api/0.2/[format]/[resource]/[parameters]</pre>
-		
+
 		<p>There are two parameters you <strong>must</strong> include:</p>
-		
+
 		<ul>
 			<li><i>developer</i> - Who you are, e.g. &quot;SausageRoller&quot;</li>
 			<li><i>application</i> - The name of the app calling the API (it's a good idea to include your version number), e.g. &quot;RDTOMLite_Android_0_3&quot;</li>
 		</ul>
-		
+
 		<p>Failure to include these two paramters will cause your call to be rejected.</p>
-		
+
 		<p>Formats:
-		
+
 		<ul>
 			<li><i>XML</i> - Default, UTF-8 XML</li>
 			<li><i>NiceXML</i> - HTML formatted XML</li>
@@ -139,7 +139,7 @@ class api_controller extends abstract_api_controller
 			<li><i>JavaScript</i> - A JavaScript array. You must specify the <i>var</i> parameter, which is the name of the array</li>
 		</ul>
 		</p>
-		
+
 		<p>Resources:
 		<ul>
 			<li>Question - A specific question specified using the <i>ID</i> parameter </li>
@@ -148,39 +148,39 @@ class api_controller extends abstract_api_controller
 			<li>Changes - When given the required <i>since</i> parameter (which is a Unix timestamp for a GMT date and time, i.e. PHP's gmmktime() function), a list of IDs of questions which have been updated (created or edited) and a list of questions which have been deleted are returned. Take note: questions which fall outside the default set are listed.</li>
 		</ul>
 		</p>
-		
+
 		<p>Example: you want to get a random question in XML, so use the following URL:</p>
-		
+
 		<pre>http://rollerderbytestomatic.com/api/0.2/xml/question/<br />?developer=SausageRoller&application=testing</pre>
-		
+
 		<p>Example: you want to get a list of changed questions since a specific time, in JSON:</p>
-		
+
 		<pre>http://rollerderbytestomatic.com/api/0.2/json/changes/<br />?developer=SausageRoller&application=testing&since=1369819830&callback=my_function</pre>
-		
-		
+
+
 ";
 	}
 }
 
 
-function formatXmlString($xml) {  
-  
+function formatXmlString($xml) {
+
   // add marker linefeeds to aid the pretty-tokeniser (adds a linefeed between all tag-end boundaries)
   $xml = preg_replace('/(>)(<)(\/*)/', "$1\n$2$3", $xml);
-  
+
   // now indent the tags
   $token      = strtok($xml, "\n");
   $result     = ''; // holds formatted version as it is built
   $pad        = 0; // initial indent
   $matches    = array(); // returns from preg_matches()
-  
+
   // scan each line and adjust indent based on opening/closing tags
-  while ($token !== false) : 
-  
+  while ($token !== false) :
+
     // test for the various tag states
-    
+
     // 1. open and closing tags on same line - no change
-    if (preg_match('/.+<\/\w[^>]*>$/', $token, $matches)) : 
+    if (preg_match('/.+<\/\w[^>]*>$/', $token, $matches)) :
       $indent=0;
     // 2. closing tag - outdent now
     elseif (preg_match('/^<\/\w/', $token, $matches)) :
@@ -190,15 +190,15 @@ function formatXmlString($xml) {
       $indent=1;
     // 4. no indentation needed
     else :
-      $indent = 0; 
+      $indent = 0;
     endif;
-    
+
     // pad the line with the required number of leading spaces
     $line    = str_pad($token, strlen($token)+$pad, ' ', STR_PAD_LEFT);
     $result .= $line . "\n"; // add to the cumulative result, with linefeed
     $token   = strtok("\n"); // get the next token
-    $pad    += $indent; // update the pad size for subsequent lines    
-  endwhile; 
-  
+    $pad    += $indent; // update the pad size for subsequent lines
+  endwhile;
+
   return $result;
 }
