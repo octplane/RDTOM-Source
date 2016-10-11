@@ -5,7 +5,6 @@ function get_question_from_array($req_array) {
 
 function get_question_from_ID($req_ID) {
     global $myPDO;
-    echo $req_ID;
     // prep the statement
     $statement = $myPDO->prepare('SELECT * FROM rdtom_questions WHERE ID = :ID LIMIT 1');
     $statement->execute(array(':ID' => $req_ID));
