@@ -38,4 +38,5 @@ local.properties
 .buildpath
 
 
-tests/_output/*data
+tests/_output/*
+data
