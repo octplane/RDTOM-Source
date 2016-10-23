@@ -160,15 +160,10 @@ if ($reportHasBeenFiled)
 		?></textarea>
 	</p>
 	<p>
-		To prevent spam reports, please complete the following sentence:<br /> "Roller <input id="report_extra" name="report_extra" type="text" /> is an awesome sport."
-	</p>
-
-	<p>
 		<a class="button" onClick="document.formreport.submit()">Submit Report</a> <a class="button" onClick="$('#hidden_report_form').slideUp()">Cancel</a> 
 	</p>
 	</form>
-	
-	<p>A small message from Sausage Roller (the guy who made the site): Thank you. No seriously, <i>thank you</i>. The reports I've gotten from people have been so useful, and really helped me improve, clarify and fix the questions. I'm sorry there's no easy way for me to show my gratitude, but the response from this report feature has reminded me, once again, why I love the global derby community.</p>
+	<b>MERCI !</b>
 </div>
 <?php 
 include("footer.php");

@@ -28,16 +28,6 @@ class database_derbytest extends database
 		return $out;
 	}
 
-	public function get_report_from_ID($req_ID)
-	{
-		settype($req_ID, "integer");
-		
-		$query = "SELECT * FROM rdtom_reports WHERE ID = '$req_ID'";
-		$result = $this->get_row($query);
-		
-		return get_report_from_array($result);
-	}
-	
 	public function get_answer_count()
 	{
 		$query = "SELECT COUNT(*) FROM rdtom_answers";

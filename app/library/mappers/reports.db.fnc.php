@@ -74,26 +74,56 @@ function set_report($req_report)
 	$statement->bindValue(':Text', $req_report->get_Text());
 	$statement->bindValue(':Status', $req_report->get_Status());
 
-	$statement->execute();
+	if(!$statement->execute()) {
+		print_r($statement->errorInfo());
+		exit();
+	}
 }
 
+function get_report_from_ID($report_ID)
+{
+	global $myPDO;
+
+	$query = "SELECT * FROM rdtom_reports WHERE ID = :ID LIMIT 1";
+	$parms = array(
+		':ID' => $report_ID
+	);
+
+	$statement = $myPDO->prepare($query);
+	$statement->execute($parms);
+
+	$results = $statement->fetchAll();
+
+	if ($results)
+	{
+		foreach ($results as $result)
+		{
+			$out[] = get_report_from_array($result);
+		}
+	}
+	return $out[0];
+}
 
 function get_reports_from_question_ID($question_ID, $status = false)
 {
-	global $mydb;
+	global $myPDO;
 
-	settype($question_ID, "integer");
-	$clause = "WHERE Question_ID = '$question_ID'";
+	$query = "SELECT * FROM rdtom_reports WHERE Question_ID = :ID";
+	$parms = array(
+		':ID' => $question_ID
+	);
 
-	if ($status !== false)
-	{
-		settype($status, "integer");
-		$clause .= "AND Status = '$status'";
+	if ($status !== false) {
+		$query .= " AND Status = :STATUS";
+		$parms[':STATUS'] = $status;
 	}
 
-	$query = "SELECT * FROM rdtom_reports $clause ORDER BY Timestamp ASC";
+	$query .= " ORDER BY Timestamp ASC";
 
-	$results = $mydb->get_results($query);
+	$statement = $myPDO->prepare($query);
+	$statement->execute($parms);
+
+	$results = $statement->fetchAll();
 
 	if ($results)
 	{

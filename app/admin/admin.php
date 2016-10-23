@@ -38,7 +38,7 @@ if ($_GET['clone_question']) {
 
 //update reports when needed
 if ($_GET['update_report']) {
-    $report = $mydb->get_report_from_ID($_GET['update_report']);
+    $report = get_report_from_ID($_GET['update_report']);
 
     if ($_GET['new_status'] == "open") {
         $report->set_Status(REPORT_OPEN);
@@ -60,7 +60,7 @@ if ($_GET['update_report']) {
 
     $message.= "Report updated!";
 
-    // header('Location: ' . get_site_URL() . 'admin/edit/' . $report->get_Question_ID());
+    header('Location: ' . get_site_URL() . 'admin/edit/' . $report->get_Question_ID());
 }
 
 // is a question being edited

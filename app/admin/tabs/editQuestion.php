@@ -1,6 +1,6 @@
 <?php
 	if ($question){
-		$sectionHeader = "Edit question #" . $question->get_ID() . ":";
+		$sectionHeader = "Éditer la question n&deg;" . $question->get_ID() . ":";
 		$formPostAction = get_site_URL() . "admin/edit/" . $question->get_ID();
 
 		$questionSuccessColour = ColourFromPercentageCalculator::calculate($question->get_SuccessRate());
@@ -17,7 +17,7 @@
 		<table>
 
 			<tr>
-				<td style="width:200px">ID:</td>
+				<td style="width:200px">ID&nbsp;:</td>
 				<td><input type="text"  id="question_id" name="question_id" value = "<?php
 			if ($question)
 			{
@@ -26,7 +26,7 @@
 			?>"></input> </td>
 				</tr>
 				<tr>
-					<td style="width:200px">Question:</td>
+					<td style="width:200px">Question&nbsp;:</td>
 					<td><textarea id="question_text" style="width:500px" name="question_text" cols="40" rows="5"><?php
 					if ($question)
 					{
@@ -35,7 +35,7 @@
 					?></textarea></td>
 				</tr>
 				<tr>
-					<td style="width:200px">Section:</td>
+					<td style="width:200px">Section&nbsp;:</td>
 					<td><input type="text"  id="question_section" name="question_section" style="width:100px" value="<?php
 					if ($question)
 					{
@@ -72,8 +72,8 @@
 					</td>
 				</tr>
 				<tr>
-					<td>Answers:<br />
-					(Tick correct answers)<br />
+					<td>Réponses&nbsp;:<br />
+					(cochez les réponses correctes)<br />
 					(<a onclick="setdefaultanswers('tf');">TF</a> <a onclick="setdefaultanswers('pen');">Penalty</a>)</td>
 					<td><?php
 					for ($i=0; $i<NUMBER_OF_ANSWERS; $i++)
@@ -88,7 +88,7 @@
 							{
 								$checked = " checked";
 							}
-							$value = htmlspecialchars(stripslashes($answers[$i]->get_Text()),ENT_QUOTES, "ISO-8859-1" );
+							$value = htmlspecialchars(stripslashes($answers[$i]->get_Text()),ENT_QUOTES, "utf-8" );
 						}
 
 						// if we're remembering
@@ -283,8 +283,7 @@
 							<p class=\"small_p\">
 								<span style=\"font-weight:bold; color:$text_colour;\">Report #" . $comment_or_report->get_ID() . " - " . $comment_or_report->get_Status_String() . "</span> <i>" . date("D, jS M Y H:i", $comment_or_report->get_Timestamp()) . "</i>
 							</p>
-							<p class=\"small_p\">
-								" . nl2br(htmlspecialchars(stripslashes($comment_or_report->get_Text()))) . "
+							<p class=\"small_p\">" . nl2br(htmlspecialchars(stripslashes($comment_or_report->get_Text()))) . "
 							</p>
 							<p class=\"small_p\">
 								Set: " . get_formatted_admin_report_links($comment_or_report) . "
