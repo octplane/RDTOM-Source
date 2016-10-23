@@ -1,4 +1,4 @@
-<?php 		
+<?php
 // display the page
 include("header.php");
 
@@ -22,7 +22,7 @@ if ($reportHasBeenFiled)
 <p><?php echo $question_text; ?> <?php echo $question->get_ID(); ?></p>
 
 <ol type="A">
-	<?php 
+	<?php
 	foreach ($answers as $answer) {
 		$quick_answer[] = $answer->get_ID();
 
@@ -31,20 +31,20 @@ if ($reportHasBeenFiled)
 		if (!$answer->is_correct()) {
 			$correct_class = "wrong_answer_link";
 		}
-		
+
 		echo "<li>
 			<a class=\"mobilebutton $correct_class\"  onclick=\"select_answer(" . $answer->get_ID() . ");\">" . htmlspecialchars(stripslashes($answer->get_Text())) . "</a>";
 		if ($answer->is_correct()) {
 			$section_string = "";
-			
+
 			if ($question->get_WFTDA_Link())
 			{
 				$section_string .= "Voir r&egrave;gle " . htmlspecialchars(stripslashes($question->get_Section()));
-			
+
 				$section_string .= " (<a target=\"_blank\" href=\"" . $question->get_WFTDA_Link() . "\" title=\"Section officielle des r&egrave;gles\" >voir sur WFTDA.com</a>)";
 			}
-			
-			
+
+
 			echo " <span style=\"display:none;\" class=\"correct_answer_win\"><strong>Gagn&eacute;&nbsp;!</strong> " . $section_string . "</span><span style=\"display:none;\" class=\"correct_answer\"><strong> La bonne r&eacute;ponse.</strong> " . $section_string . "</span>";
 		}
 		else
@@ -71,7 +71,7 @@ if ($reportHasBeenFiled)
 
 <script type="text/javascript">
 	var answered = false;
-	
+
 	function select_answer(selected)
 	{
 		if (!answered)
@@ -98,8 +98,8 @@ if ($reportHasBeenFiled)
 			<?php } ?>
 
 			// ajax save the response for stats tracking
-			$.post("/ajax.php", { 
-				call: "save_response", 
+			$.post("/ajax.php", {
+				call: "save_response",
 				question_ID: "<?php echo $question->get_ID(); ?>",
 				response_ID: selected,
 				return_remembered_questions_string: true},
@@ -112,7 +112,7 @@ if ($reportHasBeenFiled)
 			);
 		}
 	}
-	
+
 	var allow_keypress = true;
 	$(document).keypress(function(e) {
 		if (allow_keypress)
@@ -121,7 +121,7 @@ if ($reportHasBeenFiled)
 			{
 		    	window.location.reload();
 		    }
-		    <?php 
+		    <?php
 		    for ($i = 0; $i < count($answers); $i++)
 		    {
 			    ?>
@@ -129,42 +129,36 @@ if ($reportHasBeenFiled)
 				{
 			    	select_answer(<?php echo $quick_answer[$i]; ?>);
 			    }
-			    <?php 
+			    <?php
 			}?>
 		}
 	});
-	
+
 </script>
 
 <div class="report_form" id="hidden_report_form">
-	
+
 	<h3>Report this question:</h3>
 	<p>You should report a question if you think it's incorrect or if it's poorly written (including spelling mistakes or bad grammar). If you think the question is wrong be sure to double check the wording of the question <i>and</i> the specific rule it references, which in this case is <strong><?php if ($question) { echo htmlspecialchars(stripslashes($question->get_Section())); } ?></strong>. Until the great robot uprising, we're only human so mistakes happen. Thanks for helping!</p>
 	<p>In the text box below please let me know what it is that made you report this question.</p>
-	
-	<form name="formreport" method="post" action="<?php echo get_site_URL(); ?>report">	
+
+	<form name="formreport" method="post" action="<?php echo get_site_URL(); ?>report">
 	<p>
 		<input type="hidden" id="report_question_ID" name="report_question_ID" value="<?php if ($question) echo $question->get_ID(); ?>" />
-		<textarea name="report_text"  id="report_text" rows="10" cols="40"><?php 
-		if ($_POST['report_text']) 
-		{
-			echo stripslashes(htmlspecialchars($_POST['report_text']));
-		}
-		else
-		{
-			echo "I'm reporting question #";
-			if ($question) 
-				echo $question->get_ID();
-			echo " because ... ";
-		}
-		?></textarea>
+		<textarea name="report_text"
+			id="report_text"
+			rows="10"
+			cols="40"
+			placeholder="Entrez ici le détail de votre rapport..."
+		><?php if ($_POST['report_text']) {
+		echo stripslashes(htmlspecialchars($_POST['report_text']));
+		} ?></textarea>
 	</p>
 	<p>
-		<a class="button" onClick="document.formreport.submit()">Submit Report</a> <a class="button" onClick="$('#hidden_report_form').slideUp()">Cancel</a> 
+		<a class="button" onClick="document.formreport.submit()">Soumettre le rapport</a>
+		<a class="button" onClick="$('#hidden_report_form').slideUp()">Annuler</a>
 	</p>
 	</form>
 	<b>MERCI !</b>
 </div>
-<?php 
-include("footer.php");
-?>
+<?php include("footer.php"); ?>
