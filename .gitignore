@@ -40,3 +40,4 @@ local.properties
 
 tests/_output/*
 data
+app/library/classes/storage/filecache
