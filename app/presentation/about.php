@@ -17,7 +17,7 @@ Les dimensions indiquées dans le système métrique sont arrondies et dès lors
 Le neutre n’existant pas en français, les termes neutres anglais destinés à inclure à la fois des éléments masculins et féminins ont été traduits selon la règle de base du français où le masculin s’impose au niveau du genre, afin de faciliter la traduction, la lecture et la compréhension.
 </p>
 <p>
-Certains termes propres au Roller Derby ont été laissés en anglais dans le même but de compréhension du jeu car ces termes sont employés en match dans leur langue d’origine. Un lexique a été ajouté en fin de document pour ces termes.
+Certains termes propres au Roller Derby ont été laissés en anglais dans le même but de compréhension du jeu car ces termes sont employés en match dans leur langue d’origine.
 </p>
 
 
