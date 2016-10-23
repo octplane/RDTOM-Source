@@ -12,7 +12,7 @@ La WFTDA publie les règles en diverses langues. En cas de divergence sur la for
 <p>
 Les dimensions indiquées dans le système métrique sont arrondies et dès lors approximatives. Les dimensions anglo-saxonnes sont péremptoires.</p>
 
-<h4>NOTE À L’ATT ENTION DES LECTEURS FRANCOPHONES</h4>
+<h4>NOTE À L’ATTENTION DES LECTEURS FRANCOPHONES</h4>
 <p>
 Le neutre n’existant pas en français, les termes neutres anglais destinés à inclure à la fois des éléments masculins et féminins ont été traduits selon la règle de base du français où le masculin s’impose au niveau du genre, afin de faciliter la traduction, la lecture et la compréhension.
 </p>
