@@ -12,7 +12,7 @@ $question_text = htmlspecialchars(stripslashes($question->get_Text()));
 
 if ($reportHasBeenFiled)
 {
-	echo "<h3 class=\"error_string\">Your report has been filed. Thanks very much for your help!</h3>";
+	echo "<h3 class=\"error_string\">Merci d'avoir pris le temps de signaler la question, cela nous a été transmis.</h3>";
 }
 
 ?>
