@@ -1,0 +1,25 @@
+web:
+  image: tutum/lamp
+  links:
+    - mysql
+  ports:
+    - "20080:80"
+  volumes:
+    - /Users/octplane/src/RDTOM-Source:/var/www
+  environment:
+    - ALLOW_OVERRIDE=true
+mysql:
+  image: mysql
+  ports:
+    - "3306:3306"
+  environment:
+    MYSQL_ROOT_PASSWORD: dev
+  volumes:
+    - /Users/octplane/src/RDTOM-Source/data:/var/lib/mysql
+admin:
+  image: nazarpc/phpmyadmin
+  ports:
+    - "20081:80"
+  links:
+    - mysql
+
