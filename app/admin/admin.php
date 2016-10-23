@@ -60,7 +60,7 @@ if ($_GET['update_report']) {
 
     $message.= "Report updated!";
 
-    header('Location: ' . get_site_URL() . 'admin/edit/' . $report->get_Question_ID());
+    // header('Location: ' . get_site_URL() . 'admin/edit/' . $report->get_Question_ID());
 }
 
 // is a question being edited

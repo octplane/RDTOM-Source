@@ -14,7 +14,7 @@ function get_report_from_array($req_array)
 function set_report($req_report)
 {
 	global $myPDO;
-	
+
 	// basic validation
 	if (!$req_report->get_ID())
 	{
@@ -25,12 +25,12 @@ function set_report($req_report)
 	{
 		throw new exception ("No text given for answer;");
 	}
-	
+
 	if ($req_report->get_ID() <= 0)
 	{
 		$statement = $myPDO->prepare("
-		INSERT 
-		INTO rdtom_reports 
+		INSERT
+		INTO rdtom_reports
 		(
 			IP ,
 			Timestamp ,
@@ -39,7 +39,7 @@ function set_report($req_report)
 			Text ,
 			Status
 		)
-		VALUES 
+		VALUES
 		(
 			:IP ,
 			:Timestamp ,
@@ -52,19 +52,19 @@ function set_report($req_report)
 	else
 	{
 		$statement = $myPDO->prepare("
-		UPDATE  rdtom_reports 
-		SET  
+		UPDATE  rdtom_reports
+		SET
 			IP = :IP,
 			Timestamp = :Timestamp,
 			Question_ID = :Question_ID,
 			User_ID = :User_ID,
 			Text = :Text,
-			Status =  :Status 
-		WHERE 
-			ID = :ID 
+			Status =  :Status
+		WHERE
+			ID = :ID
 		;");
 		$statement->bindValue(':ID', $req_report->get_ID());
-		
+
 	}
 
 	$statement->bindValue(':IP', $req_report->get_IP());
@@ -73,7 +73,7 @@ function set_report($req_report)
 	$statement->bindValue(':User_ID', $req_report->get_User_ID());
 	$statement->bindValue(':Text', $req_report->get_Text());
 	$statement->bindValue(':Status', $req_report->get_Status());
-	
+
 	$statement->execute();
 }
 
@@ -81,20 +81,20 @@ function set_report($req_report)
 function get_reports_from_question_ID($question_ID, $status = false)
 {
 	global $mydb;
-	
+
 	settype($question_ID, "integer");
 	$clause = "WHERE Question_ID = '$question_ID'";
-	
+
 	if ($status !== false)
 	{
 		settype($status, "integer");
 		$clause .= "AND Status = '$status'";
 	}
-	
+
 	$query = "SELECT * FROM rdtom_reports $clause ORDER BY Timestamp ASC";
-	
+
 	$results = $mydb->get_results($query);
-	
+
 	if ($results)
 	{
 		foreach ($results as $result)
