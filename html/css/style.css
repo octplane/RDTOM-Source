@@ -415,3 +415,17 @@ border: 1px solid #dcdcdc;
         margin: 0 5px;
    }
 }
+
+/* Oh yeah! */
+.question-box    {
+    border-top: 3px solid #4574B0;
+}
+.question-block {
+    background-color: #4574B0;
+    padding: 0px 10px 5px 10px;
+    margin-left: 30px;
+    color: white;
+}
+.question-text {
+    margin-top: 20px;
+}

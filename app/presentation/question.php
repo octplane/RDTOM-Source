@@ -17,10 +17,11 @@ if ($reportHasBeenFiled)
 
 ?>
 
-<h3><?php echo $page_title; ?></h3>
 
-<p><?php echo $question_text; ?> <?php echo $question->get_ID(); ?></p>
-
+<div class="question-box">
+	<span class="question-block"><?=  $question->get_ID() ?> - <?= $page_title ?></span>
+	<p class="question-text"><?= $question_text ?></p>
+</div>
 <ol type="A">
 	<?php
 	foreach ($answers as $answer) {
