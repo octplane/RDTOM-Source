@@ -1,4 +1,8 @@
-ssh jkershaw.com@jkershaw.com << EOF
-cd domains/dev.rollerderbytestomatic.fr/RDTOM-Source/
-git pull
-EOF
+#!/bin/sh
+
+set -e
+set -x
+
+test -f deploy-key && \
+  ssh-agent bash -c 'ssh-add deploy-key; git pull' || git pull
+
