@@ -5,29 +5,6 @@
 
 class database_derbytest extends database
 {
-
-	public function get_reports($status = false)
-	{
-		if ($status !== false)
-		{
-			settype($status, "integer");
-			$clause = "WHERE Status = '$status'";
-		}
-		
-		$query = "SELECT * FROM rdtom_reports $clause ORDER BY Timestamp ASC";
-		
-		$results = $this->get_results($query);
-		
-		if ($results)
-		{
-			foreach ($results as $result)
-			{
-				$out[] = get_report_from_array($result);
-			}
-		}
-		return $out;
-	}
-
 	public function get_answer_count()
 	{
 		$query = "SELECT COUNT(*) FROM rdtom_answers";

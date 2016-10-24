@@ -2,7 +2,9 @@
 function get_formatted_admin_report($report) {
 	$out.= '<br />
 		 <a href="' . get_site_URL() . 'admin/edit/' . $report->get_Question_ID() . '">' . $report->get_Question_ID() . '</a>
-		(' . get_formatted_admin_report_links($report) . '):' . nl2br(htmlspecialchars(stripslashes($report->get_Text()))) . '<br />';
+		(' . get_formatted_admin_report_links($report) . '):' . nl2br(htmlspecialchars(stripslashes($report->get_Text()))) . '<br />';
+
+
 	
 	return $out;
 }
@@ -86,7 +88,9 @@ function get_admin_terms_checkboxes($term, $question = false) {
 				$display_name = $term->get_Name();
 			}
 			
-			$out.= "<input $selected_string type=\"checkbox\" id=\"term_checkbox[" . $term->get_ID() . "]\" name=\"term_checkbox[" . $term->get_ID() . "]\">" . htmlspecialchars(stripslashes($display_name)) . "<br />";
+			$out.= "<input $selected_string type=\"checkbox\" id=\"term_checkbox[" . $term->get_ID() . "]\" name=\"term_checkbox[" . $term->get_ID() . "]\">" . htmlspecialchars(stripslashes($display_name)) . "<br />";
+
+
 		}
 	} else {
 		$out.= "No terms found";
@@ -126,7 +130,9 @@ function get_admin_terms_checkboxes_ajax($term, $question) {
 				$display_name = $term->get_Name();
 			}
 			
-			$out.= "<a $style id=\"term_" . $term->get_ID() . "_" . $question->get_ID() . "\" onclick=\"toggle_term_relationship(" . $term->get_ID() . ", " . $question->get_ID() . ")\">" . htmlspecialchars(stripslashes($display_name)) . "</a> ";
+			$out.= "<a $style id=\"term_" . $term->get_ID() . "_" . $question->get_ID() . "\" onclick=\"toggle_term_relationship(" . $term->get_ID() . ", " . $question->get_ID() . ")\">" . htmlspecialchars(stripslashes($display_name)) . "</a> ";
+
+
 		}
 	} else {
 		$out.= "No terms found";

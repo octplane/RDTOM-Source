@@ -80,15 +80,8 @@ function set_report($req_report)
 	}
 }
 
-function get_report_from_ID($report_ID)
-{
+function report_execute_and_return($query, $parms) {
 	global $myPDO;
-
-	$query = "SELECT * FROM rdtom_reports WHERE ID = :ID LIMIT 1";
-	$parms = array(
-		':ID' => $report_ID
-	);
-
 	$statement = $myPDO->prepare($query);
 	$statement->execute($parms);
 
@@ -101,7 +94,34 @@ function get_report_from_ID($report_ID)
 			$out[] = get_report_from_array($result);
 		}
 	}
+	return $out;
+}
+
+function get_report_from_ID($report_ID) {
+	$query = "SELECT * FROM rdtom_reports WHERE ID = :ID LIMIT 1";
+	$parms = array(
+		':ID' => $report_ID
+	);
+
+	$out = report_execute_and_return($query, $parms);
 	return $out[0];
+}
+
+function get_reports($status = false) {
+	global $myPDO;
+
+	$query = "SELECT * FROM rdtom_reports ";
+	$parms = array(
+	);
+
+	if ($status !== false) {
+		$query .= " WHERE Status = :STATUS";
+		$parms[':STATUS'] = $status;
+	}
+
+	$query .= " ORDER BY Timestamp ASC";
+
+	return report_execute_and_return($query, $parms);
 }
 
 function get_reports_from_question_ID($question_ID, $status = false)
@@ -120,18 +140,6 @@ function get_reports_from_question_ID($question_ID, $status = false)
 
 	$query .= " ORDER BY Timestamp ASC";
 
-	$statement = $myPDO->prepare($query);
-	$statement->execute($parms);
-
-	$results = $statement->fetchAll();
-
-	if ($results)
-	{
-		foreach ($results as $result)
-		{
-			$out[] = get_report_from_array($result);
-		}
-	}
-	return $out;
+	return report_execute_and_return($query, $parms);
 }
 ?>

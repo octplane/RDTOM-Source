@@ -116,7 +116,7 @@ if ($_GET['recompute']) {
 }
 
 // get the open reports (and the value for the menu)
-$reports_open = $mydb->get_reports(REPORT_OPEN);
+$reports_open = get_reports(REPORT_OPEN);
 
 if ($reports_open && count($reports_open) > 0) {
     $reports_menu_string = " (" . get_open_report_count($reports_open) . ")";
