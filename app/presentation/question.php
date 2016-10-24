@@ -139,9 +139,9 @@ if ($reportHasBeenFiled)
 
 <div class="report_form" id="hidden_report_form">
 
-	<h3>Report this question:</h3>
-	<p>You should report a question if you think it's incorrect or if it's poorly written (including spelling mistakes or bad grammar). If you think the question is wrong be sure to double check the wording of the question <i>and</i> the specific rule it references, which in this case is <strong><?php if ($question) { echo htmlspecialchars(stripslashes($question->get_Section())); } ?></strong>. Until the great robot uprising, we're only human so mistakes happen. Thanks for helping!</p>
-	<p>In the text box below please let me know what it is that made you report this question.</p>
+	<h3>Signaler cette question :</h3>
+	<p>Il convient de reporter une question si vous pensez que la réponse donnée n'est pas la bonne ou si la forme de la question (ou d'une réponse) est mal écrite (y compris des fautes d'orthographe ou de grammaire). Si vous pensez que la réponse donnée n'est pas la bonne, merci de vérifier à deux fois dans les rèlges (dans ce cas la règle <strong><?php if ($question) { echo htmlspecialchars(stripslashes($question->get_Section())); } ?></strong>. . Malgré tous nos efforts, les erreurs arrivent. Ne pas hésiter et merci de votre aide !</p>
+	<p>Entrez ici le détail de votre rapport...</p>
 
 	<form name="formreport" method="post" action="<?php echo get_site_URL(); ?>report">
 	<p>
