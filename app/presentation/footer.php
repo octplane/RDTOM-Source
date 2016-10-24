@@ -26,7 +26,7 @@
 				{
 					?>
 					<p>
-						<a href="<?php echo get_site_URL(); ?>">Répondre à plus de questions</a>
+						<a href="<?php echo get_site_URL(); ?>">Répondre à une nouvelle question</a>
 					</p>
 					<?php
 				}
@@ -71,7 +71,7 @@
 
 
             <p style="text-align:center;">
-                Site inspiré par celui <a href="http://jkershaw.com/">John Kershaw</a> (aka Sausage Roller).
+                Site inspiré par celui de <a href="http://jkershaw.com/">John Kershaw</a> (aka Sausage Roller) <a href="http://www.rollerderbytestomatic.com/" target= "_blank">www.rollerderbytestomatic.com</a>.
             </p>
 
 			<?php if (is_admin())
