@@ -28,7 +28,7 @@ class ResetPasswordTokenHandlerTest extends \PHPUnit_Framework_TestCase
 	<br />
 	You can either click the link, or copy the URL into your browser's address bar.<br />
 	<br />
-	If you didn't request to have your password reset then you can ignore this email. If you get this email a bunch of times then something is probably not right. If you're concerned about your account's security, please get in touch via contact@rollerderbytestomatic.com.");
+	If you didn't request to have your password reset then you can ignore this email. If you get this email a bunch of times then something is probably not right. If you're concerned about your account's security, please get in touch via contact@rollerderbytestomatic.fr.");
 		
 		//Assert the database was updated correctly
 		$this->assertEquals($fakeMydb->token_string, $token_string);

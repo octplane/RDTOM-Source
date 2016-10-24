@@ -128,6 +128,6 @@ include("header.php");
 
 <div style="clear:both; height:100px;"></div>
 	
-<p>No data is stored on you. This does not count towards your stats. It's been built as a proof of concept for the Roller Derby Test O'Matic API. For more information get in touch. Please send pictures of sad and happy cats to me via <a href="mailto:contact@rollerderbytestomatic.com ?Subject=Cats">email</a>, <a href="http://www.facebook.com/RollerDerbyTestOMatic">Facebook</a>, <a href="http://twitter.com/#!/wardrox">Twitter</a> or <a href="http://wardrox.tumblr.com/ask">Tumblr</a>.</p>
+<p>No data is stored on you. This does not count towards your stats. It's been built as a proof of concept for the Roller Derby Test O'Matic API. For more information get in touch. Please send pictures of sad and happy cats to me via <a href="mailto:contact@rollerderbytestomatic.fr ?Subject=Cats">email</a>, <a href="http://www.facebook.com/RollerDerbyTestOMatic">Facebook</a>, <a href="http://twitter.com/#!/wardrox">Twitter</a> or <a href="http://wardrox.tumblr.com/ask">Tumblr</a>.</p>
 <?php 
 include("footer.php"); ?>

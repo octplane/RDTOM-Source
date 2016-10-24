@@ -38,7 +38,7 @@ function rebuild_sitemap() {
 	// get all the pages into an array
 	$sitemap = array(
 		1 => array(
-			"loc" => "http://rollerderbytestomatic.com",
+			"loc" => "http://rollerderbytestomatic.fr",
 			
 			//"lastmod" => "2005-01-01",
 			"changefreq" => "weekly",
@@ -46,7 +46,7 @@ function rebuild_sitemap() {
 		) ,
 		
 		2 => array(
-			"loc" => "http://rollerderbytestomatic.com/about",
+			"loc" => "http://rollerderbytestomatic.fr/about",
 			
 			//"lastmod" => "2005-01-01",
 			"changefreq" => "weekly",
@@ -54,7 +54,7 @@ function rebuild_sitemap() {
 		) ,
 		
 		3 => array(
-			"loc" => "http://rollerderbytestomatic.com/stats",
+			"loc" => "http://rollerderbytestomatic.fr/stats",
 			
 			//"lastmod" => "2005-01-01",
 			"changefreq" => "weekly",
@@ -62,7 +62,7 @@ function rebuild_sitemap() {
 		) ,
 		
 		4 => array(
-			"loc" => "http://rollerderbytestomatic.com/stats",
+			"loc" => "http://rollerderbytestomatic.fr/stats",
 			
 			//"lastmod" => "2005-01-01",
 			"changefreq" => "weekly",
@@ -70,7 +70,7 @@ function rebuild_sitemap() {
 		) ,
 		
 		5 => array(
-			"loc" => "http://rollerderbytestomatic.com/test",
+			"loc" => "http://rollerderbytestomatic.fr/test",
 			
 			//"lastmod" => "2005-01-01",
 			"changefreq" => "weekly",
