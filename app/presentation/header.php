@@ -3,7 +3,7 @@
 	<head>
 		<meta http-equiv="Content-Type" content="text/html; charset=utf-8">
 
-		<title>Roller Derby Test O'Matic</title>
+		<title>Roller Derby Test O'Matic.fr</title>
 
 		<?php
 		echo get_CSS_embed();
