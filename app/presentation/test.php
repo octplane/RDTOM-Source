@@ -24,11 +24,11 @@ if (!UriPath::part(1)) {
 	
 ?>
 	
-	<p>Click the button to randomly generate an online rules test with its difficulty balanced to be similar to the <a href="http://wftda.com/resources/wftda-rules-test.pdf" >WFTDA's sample test</a>.</p>
+	<p>Cliquer sur le bouton afin de génerer automatiquement un test de 45 questions.</p>
 	
 	<p>
 		<a id="generate_link" class="button mobilebutton" href="<?php
-	echo get_site_URL() ?>test/generate/?d=wftda&n=45&p=80&o=interactiveHTML" >Generate Rules Test</a>
+	echo get_site_URL() ?>test/generate/?d=wftda&n=45&p=80&o=interactiveHTML" >Génerer un test</a>
 	</p>
 	
 	
@@ -38,18 +38,18 @@ if (!UriPath::part(1)) {
 		<form id="submittestparameters" name="submittestparameters" method="get" action="<?php
 	echo get_site_URL() ?>test/generate/">
 	
-		<p><strong>Difficulty</strong></p>
+		<p><strong>Difficulté</strong></p>
 		<p>
-			<input type="radio" name="d" value="wftda" checked> Balanced - Roughly the same difficulty as the WFTDA sample test<br />
-			<input type="radio" name="d" value="mixed"> Mixed - A random selection of questions from all difficulties<br />
+			<input type="radio" name="d" value="wftda" checked>Équilibré - un test de difficulté similaire à un test de la WFTDA<br />
+			<input type="radio" name="d" value="mixed">Mélangé - des questions prises au hasard dans tous les niveaux de difficulté<br />
 		</p>
 		<p>
-			<input type="radio" name="d" value="beginner"> Beginner - only questions most people get right<br />
-			<input type="radio" name="d" value="intermediate"> Intermediate - only questions that are about average<br />
-			<input type="radio" name="d" value="expert"> Expert - only hard questions
+			<input type="radio" name="d" value="beginner"> Débutant - seulement les questions où la majorité des personnes ont bon<br />
+			<input type="radio" name="d" value="intermediate"> Intermédiaire - seulement les questions où la moyenne des personnes a bon<br />
+			<input type="radio" name="d" value="expert"> Expert - seulement les questions les plus dures
 		</p>
 		
-		<p><strong>Number of questions</strong></p>
+		<p><strong>Nombre de questions</strong></p>
 		
 		<p>
 			<input type="text" size="5" id="n" name="n" value="45" />
@@ -91,21 +91,21 @@ if (!UriPath::part(1)) {
 			</script>
 		</p>
 		
-		<p><strong>Pass percentage</strong></p>
+		<p><strong>Pourcentage de bonnes réponses attendues</strong></p>
 		
 		<p>
 			<input type="text" size="5" id="p"  name="p" value="80" />&#37; (<span id="test_number_of_questions_span">36 / 45</span>)
 		</p>
 		
-		<p><strong>Output format</strong></p>
+		<p><strong>Format du test</strong></p>
 		
 		<p>
-			<input type="radio" name="o" value="interactiveHTML" checked> Interactive (can be filled in online) </checkbox><br />
-			<input type="radio" name="o" value="HTML"> Non-interactive (can be printed, answers are at the bottom of the page)</checkbox><br />
+			<input type="radio" name="o" value="interactiveHTML" checked> Interactive (peut être passé <i>on line</i>) </checkbox><br />
+			<input type="radio" name="o" value="HTML"> Non-interactive (seulement à imprimer, les réponses seront données en bas du test)</checkbox><br />
 		</p>
 
 		<p>
-			<a class="button mobilebutton" href="#" onclick="$('#submittestparameters').submit();">Generate custom test</a>
+			<a class="button mobilebutton" href="#" onclick="$('#submittestparameters').submit();">Générer un test personnalisé</a>
 		</p>
 		
 		</form>
@@ -166,7 +166,9 @@ if (!UriPath::part(1)) {
 				
 				<p><strong>Title</strong><br /><input type="text" id="test_title" name="test_title" style="font-size: 20px; width: 90%;" value="<?php
 			if ($test) {
-				echo htmlspecialchars(stripslashes($test->get_Title()));
+				echo htmlspecialchars(stripslashes($test->get_Title()));
+
+
 			} ?>"/></p>
 				
 				<p><strong>Description</strong><br /><textarea id="test_description" style="width:90%" name="test_description" rows="5"><?php
@@ -804,10 +806,14 @@ if (!UriPath::part(1)) {
 					echo "
 							<tr style=\"padding: 5px\">
 								<td>
-									<a href=\"" . get_site_URL() . "test/builder/" . $tmp_test->get_ID() . "\">" . htmlspecialchars(stripslashes($tmp_test->get_Title())) . "</a> 
+									<a href=\"" . get_site_URL() . "test/builder/" . $tmp_test->get_ID() . "\">" . htmlspecialchars(stripslashes($tmp_test->get_Title())) . "</a> 
+
+
 								</td>
 								<td style=\"text-align:center\">
-									<a href=\"" . $tmp_test->get_test_URL() . "\">" . htmlspecialchars(stripslashes($tmp_test->get_Status())) . "</a>
+									<a href=\"" . $tmp_test->get_test_URL() . "\">" . htmlspecialchars(stripslashes($tmp_test->get_Status())) . "</a>
+
+
 							
 								</td>
 								<td style=\"text-align:center\">" . number_format($tmp_test->get_Views_Count()) . "</td>
