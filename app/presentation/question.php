@@ -59,7 +59,7 @@ if ($reportHasBeenFiled)
 </ol>
 
 <?php if ($question->get_Notes()) {?>
-	<p  style="display:none;" class="question_notes">Note: <?php echo htmlspecialchars(stripslashes($question->get_Notes())); ?></p>
+	<p  style="display:none;" class="question_notes">Note : <?php echo htmlspecialchars(stripslashes($question->get_Notes())); ?></p>
 <?php } ?>
 
 <p>
