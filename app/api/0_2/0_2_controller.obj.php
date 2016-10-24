@@ -61,7 +61,9 @@ class api_controller extends abstract_api_controller
 		if ($this->request['format'] == "nicexml")
 		{
 			// HTML view of XML
-			echo "<pre>" . htmlspecialchars(formatXmlString($this->out_XML->asXML())) . "</pre>";
+			echo "<pre>" . htmlspecialchars(formatXmlString($this->out_XML->asXML())) . "</pre>";
+
+
 		}
 		elseif ($this->request['format'] == "json")
 		{
@@ -73,8 +75,12 @@ class api_controller extends abstract_api_controller
 		{
 			// JSONP
 			header('Content-Type: application/javascript');
-			$requested_callback = htmlspecialchars($_GET['callback']);
-			$requested_jsonarg = htmlspecialchars($_GET['jsonarg']);
+			$requested_callback = htmlspecialchars($_GET['callback']);
+
+
+			$requested_jsonarg = htmlspecialchars($_GET['jsonarg']);
+
+
 
 			if (!$requested_callback)
 			{
@@ -94,7 +100,9 @@ class api_controller extends abstract_api_controller
 		{
 			// JSONP
 			header('Content-Type: application/javascript');
-			$requested_var = htmlspecialchars($_GET['var']);
+			$requested_var = htmlspecialchars($_GET['var']);
+
+
 
 			if (!$requested_var)
 			{
@@ -118,7 +126,7 @@ class api_controller extends abstract_api_controller
 		<h3>Version 0.2</h3>
 		<p>To use the API you simply call a URI which contains the output format, resource you're after, and the parameters.</p>
 
-		<pre>http://rollerderbytestomatic.com/api/0.2/[format]/[resource]/[parameters]</pre>
+		<pre>http://rollerderbytestomatic.fr/api/0.2/[format]/[resource]/[parameters]</pre>
 
 		<p>There are two parameters you <strong>must</strong> include:</p>
 
@@ -151,11 +159,11 @@ class api_controller extends abstract_api_controller
 
 		<p>Example: you want to get a random question in XML, so use the following URL:</p>
 
-		<pre>http://rollerderbytestomatic.com/api/0.2/xml/question/<br />?developer=SausageRoller&application=testing</pre>
+		<pre>http://rollerderbytestomatic.fr/api/0.2/xml/question/<br />?developer=SausageRoller&application=testing</pre>
 
 		<p>Example: you want to get a list of changed questions since a specific time, in JSON:</p>
 
-		<pre>http://rollerderbytestomatic.com/api/0.2/json/changes/<br />?developer=SausageRoller&application=testing&since=1369819830&callback=my_function</pre>
+		<pre>http://rollerderbytestomatic.fr/api/0.2/json/changes/<br />?developer=SausageRoller&application=testing&since=1369819830&callback=my_function</pre>
 
 
 ";

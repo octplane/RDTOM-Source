@@ -56,7 +56,9 @@ class api_controller extends abstract_api_controller
 		if ($this->request['format'] == "nicexml")
 		{
 			// HTML view of XML
-			echo "<pre>" . htmlspecialchars(formatXmlString($this->out_XML->asXML())) . "</pre>";
+			echo "<pre>" . htmlspecialchars(formatXmlString($this->out_XML->asXML())) . "</pre>";
+
+
 		}
 		elseif ($this->request['format'] == "json")
 		{
@@ -68,8 +70,12 @@ class api_controller extends abstract_api_controller
 		{
 			// JSONP
 			header('Content-Type: application/javascript');
-			$requested_callback = htmlspecialchars($_GET['callback']);
-			$requested_jsonarg = htmlspecialchars($_GET['jsonarg']);
+			$requested_callback = htmlspecialchars($_GET['callback']);
+
+
+			$requested_jsonarg = htmlspecialchars($_GET['jsonarg']);
+
+
 			
 			if (!$requested_callback)
 			{
@@ -89,7 +95,9 @@ class api_controller extends abstract_api_controller
 		{
 			// JSONP
 			header('Content-Type: application/javascript');
-			$requested_var = htmlspecialchars($_GET['var']);
+			$requested_var = htmlspecialchars($_GET['var']);
+
+
 			
 			if (!$requested_var)
 			{
@@ -113,15 +121,15 @@ class api_controller extends abstract_api_controller
 		<h3>Version 0.1</h3>
 		<p>To use the API you simply call a URI which contains the output format, resource you're after, and any parameters.</p>
 
-		<pre>http://rollerderbytestomatic.com/api/0.1/[format]/[resource]/[parameters]</pre>
+		<pre>http://rollerderbytestomatic.fr/api/0.1/[format]/[resource]/[parameters]</pre>
 		
 		<p>If, for example, you want to get a random question in XML, you would use the following URL:</p>
 		
-		<pre>http://rollerderbytestomatic.com/api/0.1/xml/question/</pre>
+		<pre>http://rollerderbytestomatic.fr/api/0.1/xml/question/</pre>
 		
 		<p>In another example, if you wanted to get the results in JSONP, you must specify the callback function. To do this, add the parameter \"Callback\". In the following example we also want a specific question, so a second parameter of \"ID\" is added which specifies the question's ID.</p>
 		
-		<pre>http://rollerderbytestomatic.com/api/0.1/jsonp/question/?callback=my_function&ID=704</pre>
+		<pre>http://rollerderbytestomatic.fr/api/0.1/jsonp/question/?callback=my_function&ID=704</pre>
 		
 		<p>Available Formats:
 		

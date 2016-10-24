@@ -141,7 +141,9 @@ if (is_logged_in())
 			<input type="hidden" name="formemailupdate" id="formemailupdate" value="yes" ></input>
 			<p>
 				New email address: <br />
-				<input class="input_text" type="text" name="email" id="email" value="<?php echo htmlspecialchars(stripslashes($user->get_Email())); ?>"></input>
+				<input class="input_text" type="text" name="email" id="email" value="<?php echo htmlspecialchars(stripslashes($user->get_Email())); ?>"></input>
+
+
 			</p>
 			<p>
 				<a class="button" onClick="document.formemailupdate.submit()">Update email</a>
@@ -154,7 +156,9 @@ if (is_logged_in())
 			<input type="hidden" name="formnameupdate" id="formnameupdate" value="yes" ></input>
 			<p>
 				New name: <br />
-				<input class="input_text" type="text" name="name" id="name" value="<?php echo htmlspecialchars(stripslashes($user->get_Name())); ?>"></input>
+				<input class="input_text" type="text" name="name" id="name" value="<?php echo htmlspecialchars(stripslashes($user->get_Name())); ?>"></input>
+
+
 			</p>
 			<p>
 				<a class="button" onClick="document.formnameupdate.submit()">Update name</a>
@@ -171,7 +175,7 @@ if (is_logged_in())
 			</p>
 		</form>
 		
-		<p>If you would like the your account and associated data permanently deleted from the system, or have any questions about the data the site stores, please email <a href="mailto:contact@rollerderbytestomatic.com ?Subject=Roller%20Derby%20Test%20O'Matic">contact@rollerderbytestomatic.com</a>.</p>
+		<p>If you would like the your account and associated data permanently deleted from the system, or have any questions about the data the site stores, please email <a href="mailto:contact@rollerderbytestomatic.fr ?Subject=Roller%20Derby%20Test%20O'Matic">contact@rollerderbytestomatic.fr</a>.</p>
 	</div>
 	
 	<script type="text/javascript">

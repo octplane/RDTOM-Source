@@ -27,7 +27,7 @@
 			{
 				$("#unarchiving_status").html("Calling");
 				$.ajax({  
-				    url: "http://rollerderbytestomatic.com/cron.php?force=unarchive_responses",  
+				    url: "http://rollerderbytestomatic.fr/cron.php?force=unarchive_responses",  
 				    dataType: "jsonp", 
 				    timeout: 30000,
 				    error: function(xhr, textStatus, errorThrown){

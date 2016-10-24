@@ -56,7 +56,7 @@ if (!$error_string && ($_POST['forgottenemailform'] == "yes")) {
 				$resetPasswordTokenHandler->setUp($forgetfulUser);
 			}
 			catch(Exception $e) {
-				$error_string = "Sorry, we were not able to send you an email with your password rest info in. This could be caused by you not registering an email address on sign up (and, to be fair, the email bit is optional). If you think your account might not have an email address associated, send a message to contact@rollerderbytestomatic.com and we can sort it out.";
+				$error_string = "Sorry, we were not able to send you an email with your password rest info in. This could be caused by you not registering an email address on sign up (and, to be fair, the email bit is optional). If you think your account might not have an email address associated, send a message to contact@rollerderbytestomatic.fr and we can sort it out.";
 			}
 		}
 	}

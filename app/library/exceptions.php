@@ -141,9 +141,9 @@ function echo_error_page($error_string) {
 			
 			<script src="http://ajax.googleapis.com/ajax/libs/jquery/1.5/jquery.min.js"></script>
 			
-			<link rel="stylesheet" href="http://rollerderbytestomatic.com/css/style.css" type="text/css" />
-	        <link rel="icon" href="http://rollerderbytestomatic.com/images/favicon.gif" type="image/gif"/>
-	        <link rel="apple-touch-icon-precomposed" href="http://rollerderbytestomatic.com/images/RDTOM_touch_icon.png"/>	
+			<link rel="stylesheet" href="http://rollerderbytestomatic.fr/css/style.css" type="text/css" />
+	        <link rel="icon" href="http://rollerderbytestomatic.fr/images/favicon.gif" type="image/gif"/>
+	        <link rel="apple-touch-icon-precomposed" href="http://rollerderbytestomatic.fr/images/RDTOM_touch_icon.png"/>	
 			
 			<meta name="viewport" content="width=device-width" />
 			<meta name="Description" content="An online, free, Roller Derby rules test with hundreds of questions.">
@@ -165,7 +165,7 @@ function echo_error_page($error_string) {
 		
 		<body>
 	
-		<h1><a href="http://rollerderbytestomatic.com/">Roller Derby Test O'Matic</a></h1>
+		<h1><a href="http://rollerderbytestomatic.fr/">Roller Derby Test O'Matic</a></h1>
 		<h2>Turn left and break the site.</h2>
 	<?php
 	if (strstr($error_string, "max_user_connections")) {
@@ -178,7 +178,7 @@ function echo_error_page($error_string) {
 	<?php
 	} elseif (strstr($error_string, "ran out of questions")) {
 ?>
-		<p>Woah, either the site ran out of questions, or the database is being updated. Try reloading the page, or <a href="http://rollerderbytestomatic.com/forget">click here to make the site forget which questions you have answered</a>.<p>
+		<p>Woah, either the site ran out of questions, or the database is being updated. Try reloading the page, or <a href="http://rollerderbytestomatic.fr/forget">click here to make the site forget which questions you have answered</a>.<p>
 	<?php
 	} else {
 ?>

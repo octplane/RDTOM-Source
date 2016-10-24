@@ -27,7 +27,7 @@ function setUpSMTP($ini_array) {
 	$smtp_userpassword = $ini_array["smtp_userpassword"];
 	$smtp_host = $ini_array["smtp_host"];
 	$smtp_from_name = "Roller Derby Test O'Matic";
-	$smtp_from_address = "auto@rollerderbytestomatic.com";
+	$smtp_from_address = "auto@rollerderbytestomatic.fr";
 }
 
 function setUpDatabase($ini_array) {

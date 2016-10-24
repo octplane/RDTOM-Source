@@ -30,7 +30,7 @@ include("header.php");
 		
 	</p>
 	
-	<p>I'd love to hear from you if you have any questions or comments. To get in touch <a href="http://rollerderbytestomatic.com/forum/minimum-skills">head over to the forum</a>.</p>
+	<p>I'd love to hear from you if you have any questions or comments. To get in touch <a href="http://rollerderbytestomatic.fr/forum/minimum-skills">head over to the forum</a>.</p>
 	
 	<p>The App is based on the 2013 WFTDA Minimum Skills Requirements, and breaks all you need to know down into the following categories:</p>
 
