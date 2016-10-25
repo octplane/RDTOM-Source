@@ -7,14 +7,14 @@ function return_stats_user_totals() {
     $user_responses = return_user_responses();
     
     if (!$user_responses) {
-        return "<p>You have not answered any questions whilst logged in. When you do, your stats will appear here.</p>";
+        return "<p>Vous n'avez pas encore répondu à de questions tout en étant connecté. Une fois connecté, vos statistiques apparaîtront ici.</p>";
     }
     
     // total questions answered
     $total_response_count = count($user_responses);
     
     $total_response_count_string = number_format($total_response_count);
-    $out.= "<p>You have answered a total of <strong>" . $total_response_count_string . "</strong> question";
+    $out.= "<p>Vous avez répondu à un total de <strong>" . $total_response_count_string . "</strong> questions";
     if ($total_response_count != 1) {
         $out.= "s";
     }
@@ -36,7 +36,7 @@ function return_stats_user_totals() {
     }
     
     $perc_colour = ColourFromPercentageCalculator::calculate($perc_value);
-    $out.= "<p>You have a current total success rate of <span style=\"font-weight:bold; color:" . $perc_colour . "\">" . $perc_value . "%</span> (" . number_format($all_time_correct_count) . " correct out of " . $total_response_count_string . ").</p>";
+    $out.= "<p>Vous avez un pourcentage de bonnes réponses de <span style=\"font-weight:bold; color:" . $perc_colour . "\">" . $perc_value . "%</span> (" . number_format($all_time_correct_count) . " correct out of " . $total_response_count_string . ").</p>";
     
     // recent questions answered
     
