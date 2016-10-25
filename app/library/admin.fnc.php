@@ -33,7 +33,7 @@ function get_open_report_count($reports_open = false) {
 	}
 	
 	// need to work it out and remember it
-	$reports_open = $mydb->get_reports(REPORT_OPEN);
+	$reports_open = get_reports(REPORT_OPEN);
 	
 	if ($reports_open && count($reports_open) > 0) {
 		$global_reports_open_count = count($reports_open);
