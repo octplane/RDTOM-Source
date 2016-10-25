@@ -71,7 +71,7 @@
 
 
             <p style="text-align:center;">
-                Site inspiré par celui de <a href="http://jkershaw.com/">John Kershaw</a> (aka Sausage Roller) <a href="http://www.rollerderbytestomatic.fr/" target= "_blank">www.rollerderbytestomatic.fr</a>.
+                Site inspiré par celui de <a href="http://jkershaw.com/">John Kershaw</a> <a href="http://www.rollerderbytestomatic.fr/" target= "_blank">www.rollerderbytestomatic.com</a>.
             </p>
 
 			<?php if (is_admin())
