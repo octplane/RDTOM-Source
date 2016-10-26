@@ -42,8 +42,8 @@
 
 	<body>
 
-	<h2><a href="<?php echo get_site_URL(); ?>">rollerderbytestomatic.fr</a></h1>
-	<h3><?php echo get_page_subtitle(); ?></h2>
+	<h1><a href="<?php echo get_site_URL(); ?>">rollerderbytestomatic.fr</a></h1>
+	<h2><?php echo get_page_subtitle(); ?></h2>
 
 <?php
 
