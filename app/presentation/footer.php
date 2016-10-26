@@ -62,7 +62,7 @@
 			<div class="footer_block">
 				<p><a href="<?php echo get_site_URL(); ?>about">A propos</a></p>
 				<!-- <p><a href="<?php echo get_site_URL(); ?>search">Search</a></p> -->
-				<p><a href="mailto:contact@rollerderbytestomatic.fr">Contact</a></p>
+				<p><a href="mailto:contact@rollerderbytestomatic.fr">@ Contact</a></p>
 
 			</div>
 
