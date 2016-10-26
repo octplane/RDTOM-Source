@@ -35,7 +35,7 @@
 				{
 					?>
 					<p>
-						Connecté en tant que <strong><?php echo htmlspecialchars(stripslashes($user->get_Name()))?></strong>, <a href="<?php echo get_site_URL(); ?>profile">voir son profil</a>.
+						Connecté en tant que <strong><?php echo htmlspecialchars(stripslashes($user->get_Name()))?></strong>, <a href="<?php echo get_site_URL(); ?>profile">voir votre profil</a>.
 
 					</p>
 					<?php
@@ -62,7 +62,7 @@
 			<div class="footer_block">
 				<p><a href="<?php echo get_site_URL(); ?>about">A propos</a></p>
 				<!-- <p><a href="<?php echo get_site_URL(); ?>search">Search</a></p> -->
-				<p><a href="<?php echo get_site_URL(); ?>stats">Stats du site</a></p>
+				<p><a href="mailto:contact@rollerderbytestomatic.fr">Contact</a></p>
 
 			</div>
 
