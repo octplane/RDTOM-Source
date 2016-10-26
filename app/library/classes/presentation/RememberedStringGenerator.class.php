@@ -35,7 +35,7 @@ class RememberedStringGenerator
 		} else {
 			if ($this->hasStreakEndedSpecification($questionsAnsweredResults)) {
 				$priorStreakLength = $this->calculateStreak($questionsAnsweredResults, 1);
-				$streakString = " <span style=\"color:#FF0000\">Vous avez mis fin à votre série de <strong>" . $priorStreakLength . " bonnes réponses.</strong></span>.";
+				$streakString = " <span style=\"color:#FF0000\">Vous avez mis fin à votre série de <strong>" . $priorStreakLength . "</strong></span> bonnes réponses.";
 			} else {
 				$streakString = "";
 			}
