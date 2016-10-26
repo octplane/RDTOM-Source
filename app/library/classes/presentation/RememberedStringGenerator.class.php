@@ -26,7 +26,7 @@ class RememberedStringGenerator
 			return "";
 		}
 		
-		$currentSuccessString = "Vous avez un pourcentage de réussite de <span style=\"font-weight:bold; color:" . $percentageColour . "\">" . $percentageCorrect . "%</span> (" . $questionsAnsweredCorrectly . " bonnes réponses sur" . $questionsAnswered . ")";
+		$currentSuccessString = "Vous avez un pourcentage de réussite de <span style=\"font-weight:bold; color:" . $percentageColour . "\">" . $percentageCorrect . "%</span> (" . $questionsAnsweredCorrectly . " bonnes réponses sur " . $questionsAnswered . ")";
 		
 		$forgetString = " <a href=\"" . $this->site_url . "forget\">Remise à zéro</a>";
 		
