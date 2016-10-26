@@ -26,16 +26,16 @@ class RememberedStringGenerator
 			return "";
 		}
 		
-		$currentSuccessString = "You have a current success rate of <span style=\"font-weight:bold; color:" . $percentageColour . "\">" . $percentageCorrect . "%</span> (" . $questionsAnsweredCorrectly . " correct out of " . $questionsAnswered . ").";
+		$currentSuccessString = "Vous avez un pourcentage de réussite de <span style=\"font-weight:bold; color:" . $percentageColour . "\">" . $percentageCorrect . "%</span> (" . $questionsAnsweredCorrectly . " bonnes réponses " . $questionsAnswered . ").";
 		
-		$forgetString = " <a href=\"" . $this->site_url . "forget\">Forget</a>";
+		$forgetString = " <a href=\"" . $this->site_url . "forget\">Remise à zéro</a>";
 		
 		if ($currentStreak > $this->showStreakWhenStreakLength) {
-			$streakString = " You are on a winning streak of <strong>" . $currentStreak . "</strong>.";
+			$streakString = " dont <strong>" . $currentStreak . "</strong> bonnes réponses consécutives.";
 		} else {
 			if ($this->hasStreakEndedSpecification($questionsAnsweredResults)) {
 				$priorStreakLength = $this->calculateStreak($questionsAnsweredResults, 1);
-				$streakString = " <span style=\"color:#FF0000\">You just ended your streak of <strong>" . $priorStreakLength . "</strong></span>.";
+				$streakString = " <span style=\"color:#FF0000\">Vous avez mis fin à votre série de <strong>" . $priorStreakLength . "</strong></span>.";
 			} else {
 				$streakString = "";
 			}
