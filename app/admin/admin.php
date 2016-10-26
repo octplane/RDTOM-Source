@@ -11,7 +11,7 @@
 if (!is_admin()) {
 
     // show error page if not admin
-    echo "Sorry, you must be logged in to view this page.";
+    echo "Désolé, il faut être admin pour voir cette page.";
     exit;
 }
 
@@ -40,19 +40,19 @@ if ($_GET['clone_question']) {
 if ($_GET['update_report']) {
     $report = get_report_from_ID($_GET['update_report']);
 
-    if ($_GET['new_status'] == "open") {
+    if ($_GET['new_status'] == "en cours") {
         $report->set_Status(REPORT_OPEN);
     }
-    if ($_GET['new_status'] == "fixed") {
+    if ($_GET['new_status'] == "corrigé") {
         $report->set_Status(REPORT_FIXED);
     }
     if ($_GET['new_status'] == "incorrect") {
         $report->set_Status(REPORT_INCORRECT);
     }
-    if ($_GET['new_status'] == "clarified") {
+    if ($_GET['new_status'] == "clarifié") {
         $report->set_Status(REPORT_CLARIFIED);
     }
-    if ($_GET['new_status'] == "noaction") {
+    if ($_GET['new_status'] == "pas d'action") {
         $report->set_Status(REPORT_NOACTION);
     }
 
@@ -123,6 +123,6 @@ if ($reports_open && count($reports_open) > 0) {
 }
 
 // display the page
-set_page_subtitle("Turn left and administer all the things.");
+set_page_subtitle("Gestions des questions.");
 include ("view.php");
 ?>
