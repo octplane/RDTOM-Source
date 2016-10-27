@@ -20,8 +20,7 @@ h1 {
 	font-size: 34px;
 	font-style: normal;
 	font-variant: normal;
-	font-weight: 500;
-	color:#4b465d
+	color:4b465d
 }
 h1 a {
     color: black;
@@ -36,7 +35,6 @@ h2 {
 	font-size: 24px;
 	font-style: normal;
 	font-variant: normal;
-	font-weight: 500;
 }
 h3 a {
     font-weight: bold;
