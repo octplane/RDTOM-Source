@@ -17,11 +17,10 @@ a:hover {
 }
 h1 {
 	font-family: "Century Gothic", CenturyGothic, AppleGothic, sans-serif;
-	font-size: 44px;
+	font-size: 34px;
 	font-style: normal;
 	font-variant: normal;
 	font-weight: 500;
-	line-height: 40px;
 }
 h1 a {
     color: black;
