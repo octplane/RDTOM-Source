@@ -36,7 +36,7 @@ function return_stats_user_totals() {
     }
     
     $perc_colour = ColourFromPercentageCalculator::calculate($perc_value);
-    $out.= "<p>Vous avez un pourcentage de bonnes réponses de <span style=\"font-weight:bold; color:" . $perc_colour . "\">" . $perc_value . "%</span> (" . number_format($all_time_correct_count) . " correct out of " . $total_response_count_string . ").</p>";
+    $out.= "<p>Vous avez un pourcentage de bonnes réponses de <span style=\"font-weight:bold; color:" . $perc_colour . "\">" . $perc_value . "%</span> (" . number_format($all_time_correct_count) . " bonnes réponses sur  " . $total_response_count_string . ").</p>";
     
     // recent questions answered
     
