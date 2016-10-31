@@ -51,7 +51,7 @@
 				?>
 
 				<p>
-					<a href="<?php echo get_site_URL(); ?>test/">Générer un test</a> - <a href="<?php echo get_site_URL(); ?>test/builder">Construire son propre test</a>
+					<a href="<?php echo get_site_URL(); ?>test/">Générer un test</a><!-- - <a href="<?php echo get_site_URL(); ?>test/builder">Construire son propre test</a>-->
                 </p>
 			</div>
 
