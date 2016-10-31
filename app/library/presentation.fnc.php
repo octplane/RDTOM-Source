@@ -39,7 +39,7 @@ function get_page_description() {
 	if (!is_random_question() && is_question()) {
 		$out = htmlspecialchars(stripslashes("Queston #" . $question->get_ID() . " - " . $question->get_Text()));
 	} else {
-		$out = "A free online WFTDA roller derby rules test with hundreds of questions. Turn left and learn the rules.";
+		$out = "A free online roller derby rules test with hundreds of questions. Turn left and learn the rules.";
 	}
 	return $out;
 }
@@ -102,7 +102,9 @@ function get_CSS_embed($type = false) {
 function get_error_string($nice_formatting = true) {
 	global $error_string;
 	if ($nice_formatting) {
-		return htmlspecialchars($error_string);
+		return htmlspecialchars($error_string);
+
+
 	} else {
 		return $error_string;
 	}
@@ -116,7 +118,7 @@ function get_recent_wrong_questions() {
 	$questions = get_questions_from_User_ID($user->get_ID() , 20, 1209600, true);
 	
 	if ($questions) {
-		$out.= "<h3>Recent questions you got wrong</h3>";
+		$out.= "<h3>Questions récentes auxquelles vous avez eu faux</h3>";
 		$out.= "<p class=\"small_p\">";
 		foreach ($questions as $question) {
 			$question_string = $question->get_Text();
@@ -124,7 +126,9 @@ function get_recent_wrong_questions() {
 				$question_string = substr($question_string, 0, 97) . "...";
 			}
 			
-			$out.= $question->get_Section() . " <a href=\"" . $question->get_URL() . "\">" . htmlspecialchars(stripslashes($question_string)) . "</a><br />";
+			$out.= $question->get_Section() . " <a href=\"" . $question->get_URL() . "\">" . htmlspecialchars(stripslashes($question_string)) . "</a><br />";
+
+
 		}
 		$out.= "</p>";
 	}
@@ -139,7 +143,7 @@ function get_recent_questions() {
 	
 	$questions = get_questions_from_User_ID($user->get_ID() , 20, 86400, false);
 	
-	$out.= "<h3>All the questions you've answered in the past 24 hours</h3>";
+	$out.= "<h3>Les réponses auxquelles vous avez répondu dans les dernières 24 h</h3>";
 	
 	if ($questions) {
 		$out.= "<p class=\"small_p\">";
@@ -149,11 +153,13 @@ function get_recent_questions() {
 				$question_string = substr($question_string, 0, 97) . "...";
 			}
 			
-			$out.= $question->get_Section() . " <a href=\"" . $question->get_URL() . "\">" . htmlspecialchars(stripslashes($question_string)) . "</a><br />";
+			$out.= $question->get_Section() . " <a href=\"" . $question->get_URL() . "\">" . htmlspecialchars(stripslashes($question_string)) . "</a><br />";
+
+
 		}
 		$out.= "</p>";
 	} else {
-		$out.= "<p class=\"small_p\">You've not answered any questions, <a href=\"" . get_site_URL() . "\">best fix that</a>.</p>";
+		$out.= "<p class=\"small_p\">Vous n'avez répondu à aucunes questions .... <a href=\"" . get_site_URL() . "\">allons régler ça !</a>.</p>";
 	}
 	
 	return $out;
