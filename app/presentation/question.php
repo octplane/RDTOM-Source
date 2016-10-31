@@ -63,7 +63,7 @@ if ($reportHasBeenFiled)
 <?php } ?>
 
 <p>
-	<a class="button mobilebutton" href="<?php echo get_site_URL(); ?>">Nouvelle Question</a>
+	<a class="button mobilebutton" href="<?php echo get_site_URL(); ?>">Nouvelle question</a>
 </p>
 
 <?php if ($question->get_Source()) {?>
@@ -140,7 +140,7 @@ if ($reportHasBeenFiled)
 <div class="report_form" id="hidden_report_form">
 
 	<h3>Signaler cette question :</h3>
-	<p>Il convient de reporter une question si vous pensez que la réponse donnée n'est pas la bonne ou si la forme de la question (ou d'une réponse) est mal écrite (y compris des fautes d'orthographe ou de grammaire). Si vous pensez que la réponse donnée n'est pas la bonne, merci de vérifier à deux fois dans les rèlges (dans ce cas la règle <strong><?php if ($question) { echo htmlspecialchars(stripslashes($question->get_Section())); } ?></strong>. . Malgré tous nos efforts, les erreurs arrivent. Ne pas hésiter et merci de votre aide !</p>
+	<p>Il faut reporter une question si vous pensez que la réponse donnée n'est pas la bonne ou si la forme de la question (ou d'une réponse) est mal écrite (y compris des fautes d'orthographe ou de grammaire). Si vous pensez que la réponse donnée n'est pas la bonne, merci de vérifier à deux fois dans les rèlges (dans ce cas la règle <strong><?php if ($question) { echo htmlspecialchars(stripslashes($question->get_Section())); } ?></strong>. . Malgré tous nos efforts, les erreurs arrivent. Ne pas hésiter et merci de votre aide !</p>
 	<p>Entrez ici le détail de votre rapport...</p>
 
 	<form name="formreport" method="post" action="<?php echo get_site_URL(); ?>report">
