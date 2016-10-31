@@ -35,7 +35,7 @@ function user_log_in($req_username, $req_password, $rememberMe = false) {
 	$user = $mydb->get_user_from_name_and_password($req_username, $req_password);
 
 	if (!$user) {
-		throw new exception("Name and password combination not found, please try again.");
+		throw new exception("Le nom et le mot de passe ne coïncident pas, veuillez réessayer.");
 	}
 
 	set_global_user($user);
@@ -86,7 +86,7 @@ function user_sign_up($req_username, $req_password, $req_email) {
 	
 	// is the password valid?
 	if (strlen($req_password) < 8) {
-		throw new exception("You need to have a password which is 8 or more characters long.");
+		throw new exception("Le mot de passe doit faire au minimum 8 caractères.");
 	}
 	
 	// is name, email and password valid? Will throw exception if not
@@ -95,7 +95,7 @@ function user_sign_up($req_username, $req_password, $req_email) {
 	//is the email taken?
 	if ($req_email) {
 		if ($mydb->is_email_taken($req_email)) {
-			throw new exception("Sorry, that email address is already in use.");
+			throw new exception("Désolé, cette adresse email est déjà associée à un compte.");
 		}
 	}
 	
@@ -114,12 +114,12 @@ function is_valid_username($req_username) {
 	
 	// is name valid?
 	if (!$req_username) {
-		throw new exception("You need to have a name.");
+		throw new exception("Il vous faut un identifiant.");
 	}
 	
 	// is name or email taken?
 	if ($mydb->is_user_name_taken($req_username)) {
-		throw new exception("Sorry, that name is already in use.");
+		throw new exception("Désolé, cet identifiant est déjà associé à un compte.");
 	}
 	
 	return true;
@@ -130,7 +130,7 @@ function user_update_name($req_username) {
 	$user = get_global_user();
 	
 	if (!is_logged_in()) {
-		throw new exception("You must be signed in to change your username.");
+		throw new exception("Vous devez être connecté pour changer de nom.");
 	}
 	
 	$req_username = trim($req_username);
@@ -150,7 +150,7 @@ function user_update_email($req_email) {
 	$user = get_global_user();
 	
 	if (!is_logged_in()) {
-		throw new exception("You must be signed in to change your email.");
+		throw new exception("Vous devez être connecté pour changer d'email.");
 	}
 	
 	$req_email = trim($req_email);
@@ -158,7 +158,7 @@ function user_update_email($req_email) {
 	//is the email taken?
 	if ($req_email) {
 		if ($mydb->is_email_taken($req_email)) {
-			throw new exception("Sorry, that email address is already in use.");
+			throw new exception("Désolé, cette adresse email est déjà associée à un compte.");
 		}
 	}
 	
@@ -174,17 +174,17 @@ function user_update_password($req_oldpassword, $req_newpassword) {
 	$user = get_global_user();
 	
 	if (!is_logged_in()) {
-		throw new exception("You must be signed in to change your password.");
+		throw new exception("Vous devez être connecté pour changer de mot de passe.");
 	}
 	
 	// is old password valid?
 	if (!$mydb->get_user_from_name_and_password($user->get_Name() , $req_oldpassword)) {
-		throw new exception("The old password you entered is not correct.");
+		throw new exception("L'ancien mot de pass entré n'est pas bon.");
 	}
 	
 	// is the new password valid?
 	if (strlen($req_newpassword) < 8) {
-		throw new exception("You need to have a password which is 8 or more characters long.");
+		throw new exception("Le nouveau mot de passe doit faire au minimum 8 caractères.");
 	}
 	
 	// update the password
