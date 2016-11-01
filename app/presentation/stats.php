@@ -56,7 +56,7 @@ include("header.php");
 	
 	<div class="layout_box" id="layout_box_traffic" style="display:none;">
 		<h3>Web Traffic:</h3>
-		
+		<!--
 		<p>
 			The following charts are taken from the site's Google Analytics (via seethestats.com to generate the widgets). If you would like a more detailed breakdown, get in touch.
 		</p>
@@ -73,7 +73,7 @@ include("header.php");
 			<iframe src="http://www.seethestats.com/stats/6319/Visitors_5174a3827_ifr.html" style="width:700px;height:300px;border:none;" scrolling="no" frameborder="0"></iframe>
 		</p>
 	</div>
-	
+	-->
 	<div class="layout_box" id="layout_box_questions" style="display:none;">
 		<h3>Question breakdown by type (there is overlap):</h3>
 		<?php 
@@ -91,18 +91,24 @@ include("header.php");
 			if ($current_taxonomy != $term->get_taxonomy())
 			{
 				$current_taxonomy = $term->get_taxonomy();
-				$breakdown_string_array[$current_taxonomy] .= "<strong>" . htmlspecialchars($current_taxonomy) . "</strong>";
+				$breakdown_string_array[$current_taxonomy] .= "<strong>" . htmlspecialchars($current_taxonomy) . "</strong>";
+
+
 			}
 			
 			try 
 			{	
 				$number_string = number_format(count(get_questions(array($term->get_taxonomy() => $term->get_Name()), false)));
-				$breakdown_string_array[$current_taxonomy] .= "<br /><span class=\"small_p\">" . htmlspecialchars($term->get_Name()) . " (" . htmlspecialchars($term->get_Description()) . "): " . $number_string . "</span>";
+				$breakdown_string_array[$current_taxonomy] .= "<br /><span class=\"small_p\">" . htmlspecialchars($term->get_Name()) . " (" . htmlspecialchars($term->get_Description()) . "): " . $number_string . "</span>";
+
+
 				
 			} 
 			catch (Exception $e) 
 			{
-				$breakdown_string_array[$current_taxonomy] .= "<br /><span class=\"small_p\">" . htmlspecialchars($term->get_Name()) . " (" . htmlspecialchars($term->get_Description()) . "): <i>None</i></span>";
+				$breakdown_string_array[$current_taxonomy] .= "<br /><span class=\"small_p\">" . htmlspecialchars($term->get_Name()) . " (" . htmlspecialchars($term->get_Description()) . "): <i>None</i></span>";
+
+
 			}
 		}
 		
