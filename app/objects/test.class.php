@@ -388,9 +388,9 @@ class test
 		
 		<table style="width: 100%; margin: 0 0 1em;">
 			<tr>
-				<td><strong>Pass mark:</strong> ' . $this->get_pass_mark() . ' / ' . $this->number_of_questions . '</td>
+				<td><strong>Note requise :</strong> ' . $this->get_pass_mark() . ' / ' . $this->number_of_questions . '</td>
 				<td style="text-align: center;"><strong>Score:</strong>_____</td>
-				<td style="text-align: right;">PASS / FAIL</td>
+				<td style="text-align: right;">RÉUSSI / RATÉ</td>
 			</tr>
 		</table>
 			  
