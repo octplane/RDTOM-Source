@@ -2,11 +2,7 @@
 // display the page
 include("header.php");
 
-$page_title = "Question au hasard";
-
-if (!is_random_question()) {
-	$page_title = "Question n&deg;" . $question->get_ID() . ":";
-}
+$page_title = "Question n&deg;" . $question->get_ID() . "&nbsp;:";
 
 $question_text = htmlspecialchars(stripslashes($question->get_Text()));
 
@@ -19,7 +15,7 @@ if ($reportHasBeenFiled)
 
 
 <div class="question-box">
-	<span class="question-block"><?=  $question->get_ID() ?> - <?= $page_title ?></span>
+	<span class="question-block"><?= $page_title ?></span>
 	<p class="question-text"><?= $question_text ?></p>
 </div>
 <ol type="A">

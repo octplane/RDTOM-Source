@@ -62,8 +62,8 @@ class Router
 				break;
 
 			default:
-				set_up_question("random");
-				self::includeFile($localPath . "/presentation/question.php");
+				header('Location: ' . get_site_URL() . 'question/' . get_question_random()->get_ID() );
+				die();
 				break;
 		}
 	}

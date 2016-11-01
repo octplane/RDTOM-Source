@@ -149,7 +149,7 @@ ol {
 border: 1px solid #dcdcdc;
     display: inline-block;
     color: #0000ff;
-    font-family: arial;
+    /*font-family: arial;*/
     font-size: 15px;
     font-weight: bold;
     padding: 6px 24px;
@@ -393,16 +393,12 @@ li {
     background: -moz-linear-gradient(center top, #ededed 5%, #dfdfdf 100%);
     filter: progid: DXImageTransform.Microsoft.gradient(startColorstr='#ededed', endColorstr='#dfdfdf');
     background-color: #ededed;
-    /*-moz-border-radius:6px;*/
 
-/*-webkit-border-radius:6px;*/
 
-/*border-radius:6px;*/
-
-border: 1px solid #dcdcdc;
+    border: 1px solid #dcdcdc;
     display: block;
     color: #0000ff;
-    font-family: arial;
+    /* font-family: arial; */
     font-size: 15px;
     padding: 10px 24px;
     text-decoration: none;

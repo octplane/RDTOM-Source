@@ -42,7 +42,9 @@ function get_question_random() {
             $question = get_question_from_array($result);
 
             // if the question hasn't already been asked recently OR we're not remembering things in the session, return it
-            if ((!$session->get('random_questions_asked') || ($session->get('random_questions_asked') && !in_array($question->get_ID(), $session->get('random_questions_asked'))))) {
+            if ((!$session->get('random_questions_asked')
+                || ($session->get('random_questions_asked')
+                && !in_array($question->get_ID(), $session->get('random_questions_asked'))))) {
                 return $question;
             }
         }
