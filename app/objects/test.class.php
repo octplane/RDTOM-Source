@@ -824,8 +824,8 @@ class test
 				}
 			}	
 				
-			$('#text_finalscore').html('<strong>Your score:</strong> ' + correct_count);
-			$('#text_finalscore2').html('<strong>Your score:</strong> ' + correct_count);
+			$('#text_finalscore').html('<strong>Votre score :</strong> ' + correct_count);
+			$('#text_finalscore2').html('<strong>Votre score:</strong> ' + correct_count);
 			if (correct_count >= " . $this->get_pass_mark() . ") 
 			{
 				$('#text_passorfail').html(\"RÉUSSI\");
