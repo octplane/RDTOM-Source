@@ -2,7 +2,7 @@
 // display the page
 include("header.php");
 
-$page_title = "Question n&deg;" . $question->get_ID() . "&nbsp;:";
+$page_title = "<i class=\"fa fa-question-circle\" aria-hidden=\"true\"></i> Question n&deg;" . $question->get_ID() . "&nbsp;:";
 
 $question_text = htmlspecialchars(stripslashes($question->get_Text()));
 
@@ -14,10 +14,12 @@ if ($reportHasBeenFiled)
 ?>
 
 
+<div class="question-content">
 <div class="question-box">
 	<span class="question-block"><?= $page_title ?></span>
-	<p class="question-text"><?= $question_text ?></p>
 </div>
+<div class="question-body">
+	<p class="question-text"><?= $question_text ?></p>
 <ol type="A">
 	<?php
 	foreach ($answers as $answer) {
@@ -53,13 +55,17 @@ if ($reportHasBeenFiled)
 
 	?>
 </ol>
-
+</div>
+</div>
 <?php if ($question->get_Notes()) {?>
 	<p  style="display:none;" class="question_notes">Note : <?php echo htmlspecialchars(stripslashes($question->get_Notes())); ?></p>
 <?php } ?>
 
 <p>
-	<a class="button mobilebutton" href="<?php echo get_site_URL(); ?>">Nouvelle question</a>
+	<a class="button mobilebutton" href="<?php echo get_site_URL(); ?>">
+		Nouvelle question
+		<i class="fa fa-random" aria-hidden="true"></i>
+	</a>
 </p>
 
 <?php if ($question->get_Source()) {?>

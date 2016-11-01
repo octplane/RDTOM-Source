@@ -13,6 +13,7 @@
         <link rel="icon" href="<?php echo get_site_URL(true); ?>images/favicon.gif" type="image/gif">
         <link rel="apple-touch-icon-precomposed" href="<?php echo get_site_URL(true); ?>images/RDTOM_touch_icon.png">
 		<link href="https://fonts.googleapis.com/css?family=Carrois+Gothic" rel="stylesheet">
+		<link href="https://maxcdn.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css" rel="stylesheet">
 		<meta name="viewport" content="width=device-width" >
 
 		<meta property="og:title" content="Roller Derby Test O'Matic" >
