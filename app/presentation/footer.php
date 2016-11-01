@@ -59,6 +59,7 @@
 				<p><a href="<?php echo get_site_URL(); ?>about">A propos</a></p>
 				<!-- <p><a href="<?php echo get_site_URL(); ?>search">Search</a></p> -->
 				<p>Contact : <a href="mailto:contact@rollerderbytestomatic.fr">contact@rollerderbytestomatic.fr</a></p>
+				<p><a href="https://www.facebook.com/RDTOMfr/" target="_blank">Retrouvez nous sur Facebook</a></p>
 
 			</div>
 
