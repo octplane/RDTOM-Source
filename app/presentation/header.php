@@ -12,7 +12,7 @@
 
         <link rel="icon" href="<?php echo get_site_URL(true); ?>images/favicon.gif" type="image/gif">
         <link rel="apple-touch-icon-precomposed" href="<?php echo get_site_URL(true); ?>images/RDTOM_touch_icon.png">
-
+		<link href="https://fonts.googleapis.com/css?family=Carrois+Gothic" rel="stylesheet">
 		<meta name="viewport" content="width=device-width" >
 
 		<meta property="og:title" content="Roller Derby Test O'Matic" >
@@ -23,6 +23,22 @@
 
 		<script src="<?php echo get_site_URL(true); ?>js/jquery_1_8_3.min.js" type="text/javascript"></script>
    		<script src="<?php echo get_site_URL(true); ?>js/jquery-ui_1_10_3.js" type="text/javascript"></script>
+
+		<!-- Piwik -->
+		<script type="text/javascript">
+		var _paq = _paq || [];
+		_paq.push(['trackPageView']);
+		_paq.push(['enableLinkTracking']);
+		(function() {
+			var u="//a.zoy.org/";
+			_paq.push(['setTrackerUrl', u+'piwik.php']);
+			_paq.push(['setSiteId', '1']);
+			var d=document, g=d.createElement('script'), s=d.getElementsByTagName('script')[0];
+			g.type='text/javascript'; g.async=true; g.defer=true; g.src=u+'piwik.js'; s.parentNode.insertBefore(g,s);
+		})();
+		</script>
+		<noscript><p><img src="//a.zoy.org/piwik.php?idsite=1" style="border:0;" alt="" /></p></noscript>
+		<!-- End Piwik Code -->
 
 	</head>
 
