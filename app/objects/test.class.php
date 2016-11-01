@@ -400,8 +400,8 @@ class test
 				<tr>
 					<td style="width:50px; text-align:center">#</td>
 					<td style="text-align:center">Question</td>
-					<td style="width:75px; text-align:center">Answer</td>
-					<td style="width:75px; text-align:center">Mark</td>
+					<td style="width:75px; text-align:center">Réponse</td>
+					<td style="width:75px; text-align:center">Note</td>
 				</tr>
 			</thead>
 			<tbody style="vertical-align:top;">
@@ -666,10 +666,10 @@ class test
 		}
 		$out .= "
 		<p>
-			Link to this test, answers are randomised every time (<a onclick=\"shorten_link();\">shorten using bit.ly</a>): <input id=\"link_to_test\" name=\"link_to_test\" type=\"text\" value=\"" . $this->get_test_URL() . "\"> <span id=\"loading_bitly\" style=\"display:none\">Loading...</span>
+			<!--Link to this test, answers are randomised every time (<a onclick=\"shorten_link();\">shorten using bit.ly</a>): <input id=\"link_to_test\" name=\"link_to_test\" type=\"text\" value=\"" . $this->get_test_URL() . "\"> <span id=\"loading_bitly\" style=\"display:none\">Loading...</span>-->
 		</p>
 		<p>
-		    <a href=\"" . $this->get_test_URL(true) . "\">Edit and save this test</a>
+		    <!--<a href=\"" . $this->get_test_URL(true) . "\">Edit and save this test</a>-->
 		</p>
 		";
 
