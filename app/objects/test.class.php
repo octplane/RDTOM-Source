@@ -828,13 +828,13 @@ class test
 			$('#text_finalscore2').html('<strong>Your score:</strong> ' + correct_count);
 			if (correct_count >= " . $this->get_pass_mark() . ") 
 			{
-				$('#text_passorfail').html(\"PASS\");
-				$('#text_passorfail2').html(\"PASS\");
+				$('#text_passorfail').html(\"RÉUSSI\");
+				$('#text_passorfail2').html(\"RÉUSSI\");
 			}
 			else
 			{
-				$('#text_passorfail').html(\"FAIL :(\");
-				$('#text_passorfail2').html(\"FAIL :(\");
+				$('#text_passorfail').html(\"RATÉ :(\");
+				$('#text_passorfail2').html(\"RATÉ :(\");
 			}
 			
 			$('#mark_test_button').fadeOut();
