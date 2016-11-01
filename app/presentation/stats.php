@@ -71,9 +71,9 @@ include("header.php");
 		
 		<p style="text-align: center;">
 			<iframe src="http://www.seethestats.com/stats/6319/Visitors_5174a3827_ifr.html" style="width:700px;height:300px;border:none;" scrolling="no" frameborder="0"></iframe>
-		</p>
+		</p>-->
 	</div>
-	-->
+	
 	<div class="layout_box" id="layout_box_questions" style="display:none;">
 		<h3>Question breakdown by type (there is overlap):</h3>
 		<?php 
