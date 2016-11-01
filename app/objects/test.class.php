@@ -491,7 +491,7 @@ class test
 		
 		<table style="width: 100%; margin: 0 0 1em;">
 			<tr>
-				<td style="width: 25%;"><strong>Pass mark:</strong> ' . $this->get_pass_mark() . ' / ' . $this->number_of_questions . '</td>
+				<td style="width: 25%;"><strong>Note requise :</strong> ' . $this->get_pass_mark() . ' / ' . $this->number_of_questions . '</td>
 				<td style="width: 25%; text-align: center;" id="text_finalscore"></td>
 				<td style="text-align: left;" id="text_passorfail"></td>
 			</tr>
@@ -503,8 +503,8 @@ class test
 				<tr>
 					<td style="width:50px; text-align:center">#</td>
 					<td style="text-align:center">Question</td>
-					<td style="width:75px; text-align:center">Answer</td>
-					<td style="width:75px; text-align:center">Mark</td>
+					<td style="width:75px; text-align:center">Réponse</td>
+					<td style="width:75px; text-align:center">Note</td>
 				</tr>
 			</thead>
 			<tbody style="vertical-align:top;">
