@@ -116,7 +116,6 @@ function get_questions($terms_array = false, $sort = true) {
             ) R
             ON
                 R.Question_ID = rdtom_questions.ID");
-
         $statement = $myPDO->query($query_string);
     } else {
         $statement = $myPDO->query("SELECT * FROM rdtom_questions ORDER BY Section ASC");

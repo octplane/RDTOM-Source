@@ -149,7 +149,7 @@ function populate_test(&$test, $opt_number_of_questions = 45, $difficulty = "int
 			
 			// get the questions
 			$terms_array["rule-set"] = "WFTDA7";
-			$terms_array["tag"] = "Test Question";
+			$terms_array["tag"] = "Questions pour les tests";
 			$all_questions = get_questions($terms_array);
 			
 			// we're starting from the top, so shuffle before we begin
@@ -164,7 +164,7 @@ function populate_test(&$test, $opt_number_of_questions = 45, $difficulty = "int
 			foreach($all_questions as $question)
 			{
 				// found a beginner question
-				if (($beginner_perc_number > 0) && $question->is_relationship_true("difficulty", "Beginner"))
+				if (($beginner_perc_number > 0) && $question->is_relationship_true("difficulty", "Debutant"))
 				{
 					$beginner_perc_number--;
 					$test_questions[] = $question;
@@ -172,7 +172,7 @@ function populate_test(&$test, $opt_number_of_questions = 45, $difficulty = "int
 				}
 				
 				// found an intermediate question
-				if (($intermediate_perc_number > 0) && $question->is_relationship_true("difficulty", "Intermediate"))
+				if (($intermediate_perc_number > 0) && $question->is_relationship_true("difficulty", "Intermediaire"))
 				{
 					$intermediate_perc_number--;
 					$test_questions[] = $question;
@@ -195,7 +195,7 @@ function populate_test(&$test, $opt_number_of_questions = 45, $difficulty = "int
 			
 			if ($difficulty == "beginner")
 			{
-				$terms_array["difficulty"] = "Beginner";
+				$terms_array["difficulty"] = "Debutant";
 			}
 			elseif ($difficulty == "expert")
 			{
@@ -203,14 +203,14 @@ function populate_test(&$test, $opt_number_of_questions = 45, $difficulty = "int
 			}
 			elseif ($difficulty == "intermediate")
 			{
-				$terms_array["difficulty"] = "Intermediate";
+				$terms_array["difficulty"] = "Intermediaire";
 			}
 			
 			//$test->set_difficulty = $difficulty;
 			
 			// we want only WFTDA 5 questions and questions tagged with "Test Question" to be shown
 			$terms_array["rule-set"] = "WFTDA7";
-			$terms_array["tag"] = "Test Question";
+			$terms_array["tag"] = "Questions pour les tests";
 			
 			$all_questions = get_questions($terms_array);
 			

@@ -95,8 +95,8 @@ if ($_GET['recompute']) {
         $message.= "All questions loaded (Beginner " . count($all_beginner_questions) . ", Intermediate: " . count($all_intermediate_questions) . ", Expert: " . count($all_expert_questions) . ")!";
 
         // for each question, add the difficulty relationship
-        $beginner_term = $mydb->get_term_from_taxonomy_and_name("difficulty", "Beginner");
-        $intermediate_term = $mydb->get_term_from_taxonomy_and_name("difficulty", "Intermediate");
+        $beginner_term = $mydb->get_term_from_taxonomy_and_name("difficulty", "Debutant");
+        $intermediate_term = $mydb->get_term_from_taxonomy_and_name("difficulty", "Intermediaire");
         $expert_term = $mydb->get_term_from_taxonomy_and_name("difficulty", "Expert");
 
         $message.= "Term IDs loaded (Beginner " . $beginner_term->get_ID() . ", Intermediate: " . $intermediate_term->get_ID() . ", Expert: " . $expert_term->get_ID() . ")!";

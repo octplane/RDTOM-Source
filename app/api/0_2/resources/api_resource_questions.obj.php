@@ -29,12 +29,12 @@ class api_resource_questions extends api_resource
 			{
 				// user wants a difficulty
 				$terms_array["rule-set"] = "WFTDA7";
-				$terms_array["tag"] = "Test Question";
+				$terms_array["tag"] = "Questions pour les tests";
 				
 				if ($parameters['search'] == "difficulty:beginner")
-					$terms_array["difficulty"] = "Beginner";
+					$terms_array["difficulty"] = "Debutant";
 				if ($parameters['search'] == "difficulty:intermediate")
-					$terms_array["difficulty"] = "Intermediate";
+					$terms_array["difficulty"] = "Intermediaire";
 				if ($parameters['search'] == "difficulty:expert")
 					$terms_array["difficulty"] = "Expert";
 				
@@ -63,8 +63,12 @@ class api_resource_questions extends api_resource
 				
 				// generic question values
 				$XML_newquestion->addChild('id', $question->get_ID());
-				$XML_newquestion->addChild('text', htmlspecialchars(stripslashes($question->get_Text())));
-				$XML_newquestion->addChild('wftda_link', htmlspecialchars($question->get_WFTDA_Link()));
+				$XML_newquestion->addChild('text', htmlspecialchars(stripslashes($question->get_Text())));
+
+
+				$XML_newquestion->addChild('wftda_link', htmlspecialchars($question->get_WFTDA_Link()));
+
+
 			
 				// meta data
 				$terms = $question->get_terms();
@@ -79,8 +83,12 @@ class api_resource_questions extends api_resource
 				}
 				
 				// notes might be optional
-				if (preg_match('#\S#', htmlspecialchars(stripslashes($question->get_Notes())))) // Checks for non-whitespace character
-					$XML_newquestion->addChild('notes', htmlspecialchars(stripslashes($question->get_Notes())));
+				if (preg_match('#\S#', htmlspecialchars(stripslashes($question->get_Notes())))) // Checks for non-whitespace character
+
+
+					$XML_newquestion->addChild('notes', htmlspecialchars(stripslashes($question->get_Notes())));
+
+
 				else
 					$XML_newquestion->addChild('notes');
 	
@@ -88,7 +96,9 @@ class api_resource_questions extends api_resource
 				$XML_sections = $XML_newquestion->addChild('sections');
 				foreach ($question->get_Sections() as $alternate_section)
 				{
-					$XML_sections->addChild('section', htmlspecialchars($alternate_section));
+					$XML_sections->addChild('section', htmlspecialchars($alternate_section));
+
+
 				}
 				
 				// the answers
@@ -118,7 +128,9 @@ class api_resource_questions extends api_resource
 					}
 					*/
 					
-					$XML_newanswer->addChild('text', utf8_encode(htmlspecialchars($answer->get_Text())));
+					$XML_newanswer->addChild('text', utf8_encode(htmlspecialchars($answer->get_Text())));
+
+
 					
 					if ($answer->is_correct())
 					{
