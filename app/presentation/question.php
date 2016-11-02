@@ -72,6 +72,18 @@ if ($reportHasBeenFiled)
 	<p class="small_p" >Source: <?php echo htmlspecialchars(stripslashes($question->get_Source())); ?></p>
 <?php } ?>
 
+<div class="shortcuts">
+	<h4>Raccourcis-clavier</h4>
+	<div><span class="keycap">a</span>
+		<span class="keycap">b</span>
+		<span class="keycap">c</span>
+		<span class="keycap">d</span> choisir la réponse,<br>
+		<span class="keycap">s</span> suivant
+
+		
+		</div>
+</div>
+
 <script type="text/javascript">
 	var answered = false;
 
@@ -120,9 +132,10 @@ if ($reportHasBeenFiled)
 	$(document).keypress(function(e) {
 		if (allow_keypress)
 		{
-		    if((e.which == 78) || (e.which == 110))
+		    if((e.which == 78) || (e.which == 110) ||
+				(e.which == 83) || (e.which == 115))
 			{
-		    	window.location.reload();
+		    	window.location.href = "<?php echo get_site_URL(); ?>";
 		    }
 		    <?php
 		    for ($i = 0; $i < count($answers); $i++)
