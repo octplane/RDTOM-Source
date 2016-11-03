@@ -7,7 +7,7 @@ include("header.php");
   <span class="question-block">À propos de ce site</span>
 <h4>LANGUES OFFICIELLES</h4>
 <p>
-La WFTDA publie les règles en diverses langues. En cas de divergence sur la formulation d’une version en langue étrangère des Règles du Flat Track Roller Derby, le <a href="https://wftda.com/rules" target="blank">texte anglais</a> a autorité.
+La WFTDA publie les règles en diverses langues. En cas de divergence sur la formulation d’une version en langue étrangère des Règles du Flat Track Roller Derby, le <a href="https://wftda.org/rules" target="blank">texte anglais</a> a autorité.
 </p>
 
 <h4>MESURES</h4>
