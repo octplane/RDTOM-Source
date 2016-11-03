@@ -11,32 +11,31 @@ include("header.php");
 	</p>
 	
 	<div class="layout_box" id="layout_box_general">
-		<h3>General Stats:</h3>
+		<h3>Statistiques générales :</h3>
 		<p>
-			Questions: <span id="count_questions_string">Loading ...</span><span id="count_questions_difference_string"></span><br />
-			Answers: <span id="count_answers_string">Loading ...</span><span id="count_answers_difference_string"></span><br />
-			Accounts: <span id="count_users_string">Loading ...</span><span id="count_users_difference_string"></span><br />
+			Questions : <span id="count_questions_string">Loading ...</span><span id="count_questions_difference_string"></span><br />
+			Réponses : <span id="count_answers_string">Loading ...</span><span id="count_answers_difference_string"></span><br />
+			Comptes : <span id="count_users_string">Loading ...</span><span id="count_users_difference_string"></span><br />
 			
 		</p>
 		
-		<p><strong>Responses:</strong></p>
-		<p>When somebody selects an answer to a question, their response is saved.</p>
+		<p><strong>Réponses :</strong></p>
+		<p>Quand quelqu'un répond à une question, sa réponse est enregistrée.</p>
 		<p>
-			Total: <span id="count_responses_string">Loading ...</span> <span id="count_responses_difference_string"></span><br />
-			Individuals: <span id="count_unique_IPs_string">Loading ...</span> <span id="count_unique_IPs_difference_string"></span><br />
-			Current per-day rate: <span id="count_daily_responses_string">Loading ...</span> <span id="count_daily_responses_difference_string"></span><br />
-			Current per-hour rate: <span id="count_hourly_responses_string">Loading ...</span> <span id="count_hourly_responses_difference_string"></span><br />
-			Current per-minute rate: <span id="count_minutly_responses_string">Loading ...</span> <span id="count_minutly_responses_difference_string"></span><br />
+			Total : <span id="count_responses_string">Loading ...</span> <span id="count_responses_difference_string"></span><br />
+			Réponse par jour : <span id="count_daily_responses_string">Loading ...</span> <span id="count_daily_responses_difference_string"></span><br />
+			Réponse par heure : <span id="count_hourly_responses_string">Loading ...</span> <span id="count_hourly_responses_difference_string"></span><br />
+			Réponse par minute : <span id="count_minutly_responses_string">Loading ...</span> <span id="count_minutly_responses_difference_string"></span><br />
 		</p>
 		
-		<p><strong>API:</strong></p>
+		<p><strong>API :</strong></p>
 		<p>
-			Hourly API Requests: <span id="count_api_string">Loading ...</span><span id="count_api_difference_string"></span><br />
+			Requête API par heure : <span id="count_api_string">Loading ...</span><span id="count_api_difference_string"></span><br />
 		</p>
 	</div>
-	
+	<!--
 	<div class="layout_box" id="layout_box_graphs" style="display:none;">
-		<h3>Graphs and charts:</h3>
+		<h3>Graphs and charts :</h3>
 		
 		<p>
 			A graph of responses-per-hour covering the past 24 hours:
@@ -73,7 +72,7 @@ include("header.php");
 			<iframe src="http://www.seethestats.com/stats/6319/Visitors_5174a3827_ifr.html" style="width:700px;height:300px;border:none;" scrolling="no" frameborder="0"></iframe>
 		</p>-->
 	</div>
-	
+	-->
 	<div class="layout_box" id="layout_box_questions" style="display:none;">
 		<h3>Question breakdown by type (there is overlap):</h3>
 		<?php 
