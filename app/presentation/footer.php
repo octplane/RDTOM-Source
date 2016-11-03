@@ -68,7 +68,6 @@
 				<p><a href="<?php echo get_site_URL(); ?>about">A propos</a></p>
 				<!-- <p><a href="<?php echo get_site_URL(); ?>search">Search</a></p> -->
 				<p>Contact : <a href="mailto:contact@rollerderbytestomatic.fr">contact@rollerderbytestomatic.fr</a></p>
-				<p><a href="https://www.facebook.com/RDTOMfr/" target="_blank">Retrouvez nous sur Facebook</a></p>
 
 			</div>
 
@@ -99,8 +98,7 @@
 
 		</div>
 
-<div class="fb-like" data-href="https://www.facebook.com/RDTOMfr/?ref=bookmarks" data-layout="standard" data-action="like" data-show-faces="true" data-share="true"></div>
-
+<div class="fb-like" data-href="https://www.facebook.com/RDTOMfr/?ref=bookmarks" data-layout="button_count" data-action="like" data-show-faces="false" data-share="true"></div>
 		<div class="print_footer">
 			<p>Page genérée par le Roller Derby Test O'Matic</p>
 		</div>
