@@ -63,15 +63,15 @@ if ($reportHasBeenFiled)
 	<p  style="display:none;" class="question_notes">Note : <?php echo htmlspecialchars(stripslashes($question->get_Notes())); ?></p>
 <?php } ?>
 
-<p>
+<!--<p>
 	<a class="button mobilebutton" href="<?php echo get_site_URL(); ?>">
 		Nouvelle question
 		<i class="fa fa-random" aria-hidden="true"></i>
 	</a>
-</p>
+</p>-->
 
 <?php if ($question->get_Source()) {?>
-	<p class="small_p" >Source: <?php echo htmlspecialchars(stripslashes($question->get_Source())); ?></p>
+	<p class="small_p" >Source : <?php echo htmlspecialchars(stripslashes($question->get_Source())); ?></p>
 <?php } ?>
 
 <div class="shortcuts">
