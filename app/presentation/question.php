@@ -74,8 +74,11 @@ if ($reportHasBeenFiled)
 	<p class="small_p" >Source : <?php echo htmlspecialchars(stripslashes($question->get_Source())); ?></p>
 <?php } ?>
 
+
+<p class="small_p">
+	<span class="light-bulb"><i class="fa fa-lightbulb-o " aria-hidden="true"></i> raccourcis clavier</span>
+</p>
 <div class="shortcuts">
-	<h4>Raccourcis-clavier</h4>
 	<div><span class="keycap">a</span>
 		<span class="keycap">b</span>
 		<span class="keycap">c</span>
@@ -85,6 +88,7 @@ if ($reportHasBeenFiled)
 		
 		</div>
 </div>
+
 
 <script type="text/javascript">
 	var answered = false;
@@ -131,6 +135,13 @@ if ($reportHasBeenFiled)
 	}
 
 	var allow_keypress = true;
+
+	$(function() {
+		console.log("coucou");
+		 $(".light-bulb").hover(function () {
+         	$(".shortcuts").toggle();
+		 });
+	});
 	$(document).keypress(function(e) {
 		if (allow_keypress)
 		{

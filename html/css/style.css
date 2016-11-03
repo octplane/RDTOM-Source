@@ -372,9 +372,25 @@ span.keycap {
   background: #fbfbfb;
 }
 
+.light-bulb {
+    cursor: help;
+}
+
+.shortcuts {
+    display: none;
+    position: fixed;
+    background-color: white;
+    border: 1px solid grey;
+    padding: 5px;
+}
+
 /* screen MEDIA */
 
 @media screen and (max-width: 480px) {
+
+    .light-bulb {
+        display: none;
+    }
     body {
         margin: 0 5px;
         font-size: 1em;
@@ -463,9 +479,6 @@ span.keycap {
         font-size: 1em;
     }
 
-    .shortcuts {
-        display: none;
-    }
 
 }
 @media screen and (max-width: 800px) {
