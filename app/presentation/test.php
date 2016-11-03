@@ -28,11 +28,11 @@ if (!UriPath::part(1)) {
 	
 	<p>
 		<a id="generate_link" class="button mobilebutton" href="<?php
-	echo get_site_URL() ?>test/generate/?d=wftda&n=45&p=80&o=interactiveHTML" >Génerer un test</a>
+	echo get_site_URL() ?>test/generate/?d=wftda&n=45&p=80&o=interactiveHTML" >Génerer un test de 45 questions</a>
 	</p>
 	
 	
-	<p id="test_customisation_link"><a onclick="$('#generate_link').hide();$('#test_customisation_link').hide();$('#test_customisation').show()">Customise the test</a></p>
+	<p id="test_customisation_link"><a  class="button mobilebutton" onclick="$('#generate_link').hide();$('#test_customisation_link').hide();$('#test_customisation').show()">Définir le type de test</a></p>
 	
 	<div id="test_customisation" style="display:none">
 		<form id="submittestparameters" name="submittestparameters" method="get" action="<?php
