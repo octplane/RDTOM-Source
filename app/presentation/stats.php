@@ -5,8 +5,8 @@ include("header.php");
 ?>
 	<p>
 		<a class="button" onclick="$('#layout_box_graphs').hide();$('#layout_box_traffic').hide();$('#layout_box_general').fadeIn();$('#layout_box_questions').hide();">General</a>
-		<a class="button" onclick="$('#layout_box_general').hide();$('#layout_box_traffic').hide();$('#layout_box_graphs').fadeIn();$('#layout_box_questions').hide();drawChart();">Graphs and Charts</a>
-		<a class="button" onclick="$('#layout_box_general').hide();$('#layout_box_graphs').hide();$('#layout_box_traffic').fadeIn();$('#layout_box_questions').hide();">Web Traffic</a>
+		<!--<a class="button" onclick="$('#layout_box_general').hide();$('#layout_box_traffic').hide();$('#layout_box_graphs').fadeIn();$('#layout_box_questions').hide();drawChart();">Graphs and Charts</a>
+		<a class="button" onclick="$('#layout_box_general').hide();$('#layout_box_graphs').hide();$('#layout_box_traffic').fadeIn();$('#layout_box_questions').hide();">Web Traffic</a>-->
 		<a class="button" onclick="$('#layout_box_general').hide();$('#layout_box_graphs').hide();$('#layout_box_traffic').hide();$('#layout_box_questions').fadeIn();">Questions</a>
 	</p>
 	
@@ -33,7 +33,7 @@ include("header.php");
 			Requête API par heure : <span id="count_api_string">Loading ...</span><span id="count_api_difference_string"></span><br />
 		</p>
 	</div>
-	<!--
+	
 	<div class="layout_box" id="layout_box_graphs" style="display:none;">
 		<h3>Graphs and charts :</h3>
 		
@@ -55,7 +55,7 @@ include("header.php");
 	
 	<div class="layout_box" id="layout_box_traffic" style="display:none;">
 		<h3>Web Traffic:</h3>
-		<!--
+		
 		<p>
 			The following charts are taken from the site's Google Analytics (via seethestats.com to generate the widgets). If you would like a more detailed breakdown, get in touch.
 		</p>
@@ -70,9 +70,9 @@ include("header.php");
 		
 		<p style="text-align: center;">
 			<iframe src="http://www.seethestats.com/stats/6319/Visitors_5174a3827_ifr.html" style="width:700px;height:300px;border:none;" scrolling="no" frameborder="0"></iframe>
-		</p>-->
+		</p>
 	</div>
-	-->
+	
 	<div class="layout_box" id="layout_box_questions" style="display:none;">
 		<h3>Question breakdown by type (there is overlap):</h3>
 		<?php 
