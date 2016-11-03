@@ -16,9 +16,7 @@ if ($reportHasBeenFiled)
 
 <div class="question-content">
 <div class="question-box">
-	<span class="question-block"><?= $page_title ?></span> -- <p>
-	<a class="button mobilebutton" href="<?php echo get_site_URL(); ?>">
-		Nouvelle question
+	<span class="question-block"><?= $page_title ?></span> -- <span class="question-block"><a class="button mobilebutton" href="<?php echo get_site_URL(); ?>">Nouvelle question
 		<i class="fa fa-random" aria-hidden="true"></i>
 	</a>
 </div>
