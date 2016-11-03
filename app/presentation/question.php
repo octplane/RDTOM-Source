@@ -16,7 +16,11 @@ if ($reportHasBeenFiled)
 
 <div class="question-content">
 <div class="question-box">
-	<span class="question-block"><?= $page_title ?></span>
+	<span class="question-block"><?= $page_title ?></span> -- <p>
+	<a class="button mobilebutton" href="<?php echo get_site_URL(); ?>">
+		Nouvelle question
+		<i class="fa fa-random" aria-hidden="true"></i>
+	</a>
 </div>
 <div class="question-body">
 	<p class="question-text"><?= $question_text ?></p>
@@ -156,6 +160,7 @@ if ($reportHasBeenFiled)
 
 	<h3>Signaler cette question :</h3>
 	<p>Il faut reporter une question si vous pensez que la réponse donnée n'est pas la bonne ou si la forme de la question (ou d'une réponse) est mal écrite (y compris des fautes d'orthographe ou de grammaire). Si vous pensez que la réponse donnée n'est pas la bonne, merci de vérifier à deux fois dans les règles (dans ce cas la règle <strong><?php if ($question) { echo htmlspecialchars(stripslashes($question->get_Section())); } ?></strong>). Malgré tous nos efforts, les erreurs arrivent. Ne pas hésiter et merci de votre aide !</p>
+	<p>Pour information, l'ordre des réponses étant alléatoire, il vaut mieux citer la réponse qui ne serait pas bonne plutôt que citer le numéro de la réopnse.</p>
 	<p>Entrez ici le détail de votre rapport...</p>
 
 	<form name="formreport" method="post" action="<?php echo get_site_URL(); ?>report">
