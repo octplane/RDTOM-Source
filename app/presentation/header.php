@@ -22,8 +22,8 @@
 
 		<meta name="Description" content="<?php echo get_page_description(); ?>">
 
-		<script src="<?php echo get_site_URL(true); ?>js/jquery_1_8_3.min.js" type="text/javascript"></script>
-   		<script src="<?php echo get_site_URL(true); ?>js/jquery-ui_1_10_3.js" type="text/javascript"></script>
+		<script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/1.8.3/jquery.min.js" type="text/javascript"></script>
+   		<script src="https://ajax.googleapis.com/ajax/libs/jqueryui/1.10.3/jquery-ui.min.js" type="text/javascript"></script>
 
 		<!-- Piwik -->
 		<script type="text/javascript">
