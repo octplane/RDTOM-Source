@@ -355,6 +355,15 @@ border: 1px solid #dcdcdc;
     background-color: white;
 }
 
+.custom-left-finger {
+    width: 34px;
+    height: 25px;
+    display: inline-block;
+    background-size: cover;
+    background-image: url(/images/finger.png);
+    vertical-align: middle;
+}
+
  /* ----- KeyCap Style ----- */
 span.keycap {
   -webkit-border-radius: 4px;

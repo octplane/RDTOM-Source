@@ -45,7 +45,7 @@
 
 	<body>
 
-	<h1><i class="fa fa-hand-o-left" aria-hidden="true"></i> <a href="<?php echo get_site_URL(); ?>">rollerderbytestomatic.fr</a></h1>
+	<h1><i class="custom-left-finger" aria-hidden="true"></i> <a href="<?php echo get_site_URL(); ?>">rollerderbytestomatic.fr</a></h1>
 	<!--<h2><?php echo get_page_subtitle(); ?></h2>-->
 
 <?php
