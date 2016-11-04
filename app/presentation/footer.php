@@ -26,8 +26,7 @@
 				if (is_question())
 				{
 					?>
-					<p>
-						<i class="fa fa-exclamation-circle" aria-hidden="true"></i> <a class="report_link" onclick="allow_keypress = false;$('#hidden_report_form').show();">Signaler cette question</a>
+					<p><a class="report_link" onclick="allow_keypress = false;$('#hidden_report_form').show();"><i class="fa fa-exclamation-circle" aria-hidden="true"></i> Signaler cette question</a>
 					</p>
 					<?php
 				}
@@ -69,7 +68,7 @@
 				<p><a href="<?php echo get_site_URL(); ?>about">À propos</a></p>
 				<!-- <p><a href="<?php echo get_site_URL(); ?>search">Search</a></p> -->
 				<p>Contact : <a href="mailto:contact@rollerderbytestomatic.fr">contact@rollerderbytestomatic.fr</a></p>
-				<p><a href="https://www.facebook.com/RDTOMfr/" target="_blank">RDTOMfr sur <i class="fa fa-facebook-official" aria-hidden="true"></i></a>
+				<p><a href="https://www.facebook.com/RDTOMfr/" target="_blank">RDTOMfr sur</a> <i class="fa fa-facebook-official" aria-hidden="true"></i>
 
 			</div>
 
