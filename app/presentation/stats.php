@@ -23,9 +23,7 @@ include("header.php");
 		<p>Quand quelqu'un répond à une question, sa réponse est enregistrée.</p>
 		<p>
 			Total : <span id="count_responses_string">Loading ...</span> <span id="count_responses_difference_string"></span><br />
-			Réponse par jour : <span id="count_daily_responses_string">Loading ...</span> <span id="count_daily_responses_difference_string"></span><br />
-			Réponse par heure : <span id="count_hourly_responses_string">Loading ...</span> <span id="count_hourly_responses_difference_string"></span><br />
-			Réponse par minute : <span id="count_minutly_responses_string">Loading ...</span> <span id="count_minutly_responses_difference_string"></span><br />
+			Réponses par minute : <span id="count_minutly_responses_string">Loading ...</span> <span id="count_minutly_responses_difference_string"></span><br />
 		</p>
 		
 		<p><strong>API :</strong></p>
@@ -74,7 +72,7 @@ include("header.php");
 	</div>
 	
 	<div class="layout_box" id="layout_box_questions" style="display:none;">
-		<h3>Question breakdown by type (there is overlap):</h3>
+		<h3>Types de questions :</h3>
 		<?php 
 		$current_taxonomy = "";
 		$breakdown_string_array = Array();
