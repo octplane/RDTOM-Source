@@ -335,6 +335,7 @@ border: 1px solid #dcdcdc;
     border: 1px solid #aaa;
 }
 
+
 /* Oh yeah! */
 .question-box    {
     border-top: 3px solid #4574B0;
@@ -352,19 +353,6 @@ border: 1px solid #dcdcdc;
 .question-content {
     padding-bottom: 20px;
     background-color: white;
-}
-
-.rule-hint {
-    display: none;
-}
-
-.valid_response {
-    color: red;
-    font-weight: bold;
-}
-
-.answer-pane {
-    width: 50%;
 }
 
 .custom-left-finger {
