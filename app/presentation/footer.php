@@ -27,7 +27,7 @@
 				{
 					?>
 					<p>
-						<a class="report_link" onclick="allow_keypress = false;$('#hidden_report_form').show();">Signaler cette question</a>
+						<i class="fa fa-exclamation-circle" aria-hidden="true"></i> <a class="report_link" onclick="allow_keypress = false;$('#hidden_report_form').show();">Signaler cette question</a>
 					</p>
 					<?php
 				}
@@ -61,7 +61,7 @@
 				?>
 
 				<p>
-					<a href="<?php echo get_site_URL(); ?>test/">Générer un test</a> — <a href="<?php echo get_site_URL(); ?>test/builder">Construire son propre test</a>
+					<i class="fa fa-list-ul" aria-hidden="true"></i> <a href="<?php echo get_site_URL(); ?>test/">Générer un test</a> — <a href="<?php echo get_site_URL(); ?>test/builder">Construire son propre test</a>
                 </p>
 			</div>
 
