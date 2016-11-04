@@ -65,7 +65,7 @@
 			</div>
 
 			<div class="footer_block">
-				<p><a href="<?php echo get_site_URL(); ?>about">A propos</a></p>
+				<p><a href="<?php echo get_site_URL(); ?>about">À propos</a></p>
 				<!-- <p><a href="<?php echo get_site_URL(); ?>search">Search</a></p> -->
 				<p>Contact : <a href="mailto:contact@rollerderbytestomatic.fr">contact@rollerderbytestomatic.fr</a></p>
 
@@ -76,7 +76,7 @@
 
 
             <p style="text-align:center;">
-                Site inspiré par celui de <a href="http://jkershaw.com/">John Kershaw</a> <a href="http://www.rollerderbytestomatic.com/" target= "_blank">www.rollerderbytestomatic.com</a>.
+                Site inspiré par celui de <a href="http://jkershaw.com/" target="_blank">John Kershaw</a> <a href="http://www.rollerderbytestomatic.com/" target= "_blank">www.rollerderbytestomatic.com</a>.
             </p>
 
 			<?php if (is_admin())
