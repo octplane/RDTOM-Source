@@ -44,7 +44,8 @@
 				{
 					?>
 					<p>
-						Connecté en tant que <strong><?php echo htmlspecialchars(stripslashes($user->get_Name()))?></strong>, <a href="<?php echo get_site_URL(); ?>profile">voir votre profil</a>.
+						Connecté en tant que <strong><?php echo htmlspecialchars(stripslashes($user->get_Name()))?></strong>, <i class="fa fa-user-circle" aria-hidden="true"></i>
+ <a href="<?php echo get_site_URL(); ?>profile">voir votre profil</a>.
 
 					</p>
 					<?php
