@@ -363,15 +363,6 @@ border: 1px solid #dcdcdc;
     font-weight: bold;
 }
 
-.sidebarMainContent > h1 {
-    display: none;
-}
-
-.sidebarMainContent .ruleSubHeader {
-    font-weight: bold;
-    
-}
-
 .answer-pane {
     width: 50%;
 }
