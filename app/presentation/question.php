@@ -1,7 +1,7 @@
 <?php
 // display the page
 include("header.php");
-
+include("../objects/rule.class.php");
 
 
 $page_title = "<i class=\"fa fa-question-circle\" aria-hidden=\"true\"></i> Question n&deg;" . $question->get_ID() . "&nbsp;:";
@@ -60,8 +60,8 @@ if ($reportHasBeenFiled)
 		echo " (<a target=\"_blank\" href=\"" . $question->get_WFTDA_Link() . "\" title=\"Section officielle des r&egrave;gles\" >voir sur WFTDA.org</a>)<br><br>";
 	}
 
-//	$rule = new Rule($question->get_WFTDA_Link());
-//	echo $rule->get_content_with_selection($question->get_Section());
+	$rule = new Rule($question->get_WFTDA_Link());
+	echo $rule->get_content_with_selection($question->get_Section());
 	?>
 	</div>
 	<?php } ?>

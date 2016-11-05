@@ -6,11 +6,7 @@ if ($message) {
 	echo "<div class=\"message\">" . $message . "</div>";
 }
 
-print_r(get_declared_classes());
-
-
 ?>
-		
 <p>
 	<a class="button" onclick="show_page('edit_question');">Edit Question</a>
 	<a class="button" onClick="show_page('all_questions');">All Questions</a>
