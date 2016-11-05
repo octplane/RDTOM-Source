@@ -1,5 +1,5 @@
 <?php
-class Rule {
+class rule {
 	public $content;
     private $url;
 
