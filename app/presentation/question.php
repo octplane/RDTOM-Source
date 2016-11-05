@@ -2,6 +2,8 @@
 // display the page
 include("header.php");
 
+
+
 $page_title = "<i class=\"fa fa-question-circle\" aria-hidden=\"true\"></i> Question n&deg;" . $question->get_ID() . "&nbsp;:";
 
 $question_text = htmlspecialchars(stripslashes($question->get_Text()));
@@ -38,13 +40,6 @@ if ($reportHasBeenFiled)
 		if ($answer->is_correct()) {
 			$section_string = "";
 
-			if ($question->get_WFTDA_Link())
-			{
-				$section_string .= "Voir r&egrave;gle " . htmlspecialchars(stripslashes($question->get_Section()));
-
-				$section_string .= " (<a target=\"_blank\" href=\"" . $question->get_WFTDA_Link() . "\" title=\"Section officielle des r&egrave;gles\" >voir sur WFTDA.org</a>)";
-			}
-
 
 			echo " <span style=\"display:none;\" class=\"correct_answer_win\"><strong>Gagn&eacute;&nbsp;!</strong> " . $section_string . "</span><span style=\"display:none;\" class=\"correct_answer\"><strong> La bonne r&eacute;ponse.</strong> " . $section_string . "</span>";
 		}
@@ -58,7 +53,21 @@ if ($reportHasBeenFiled)
 	?>
 </ol>
 </div>
+	<?php if ($question->get_WFTDA_Link()) { ?>
+	<div class="question-body rule-hint">
+	<a href="#<?= $question->get_Section() ?>"><?php {
+		echo "R&egrave;gle " . htmlspecialchars(stripslashes($question->get_Section())) . "</a>";
+		echo " (<a target=\"_blank\" href=\"" . $question->get_WFTDA_Link() . "\" title=\"Section officielle des r&egrave;gles\" >voir sur WFTDA.org</a>)<br><br>";
+	}
+
+	$rule = new Rule($question->get_WFTDA_Link());
+	echo $rule->get_content_with_selection($question->get_Section());
+	?>
+	</div>
+	<?php } ?>
 </div>
+
+
 <?php if ($question->get_Notes()) {?>
 	<p  style="display:none;" class="question_notes">Note : <?php echo htmlspecialchars(stripslashes($question->get_Notes())); ?></p>
 <?php } ?>
@@ -85,7 +94,6 @@ if ($reportHasBeenFiled)
 		<span class="keycap">d</span> choisir la réponse,<br>
 		<span class="keycap">s</span> suivant
 
-		
 		</div>
 </div>
 
@@ -99,7 +107,7 @@ if ($reportHasBeenFiled)
 		{
 			// make sure we only answer once
 			answered = true;
-
+			$(".rule-hint").show();
 			// show what was right and what was wrong
 			if (selected == <?php echo $correct_answer->get_ID()?>)
 			{
