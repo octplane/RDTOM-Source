@@ -15,9 +15,6 @@ if (!is_admin()) {
     exit;
 }
 
-print_r(get_declared_classes());
-
-
 // has a question been saved?
 if ($_POST) {
 

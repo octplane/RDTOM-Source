@@ -60,7 +60,7 @@ if ($reportHasBeenFiled)
 		echo " (<a target=\"_blank\" href=\"" . $question->get_WFTDA_Link() . "\" title=\"Section officielle des r&egrave;gles\" >voir sur WFTDA.org</a>)<br><br>";
 	}
 
-	$rule = new Rule($question->get_WFTDA_Link());
+	$rule = new rule($question->get_WFTDA_Link());
 	echo $rule->get_content_with_selection($question->get_Section());
 	?>
 	</div>
