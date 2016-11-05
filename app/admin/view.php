@@ -6,6 +6,9 @@ if ($message) {
 	echo "<div class=\"message\">" . $message . "</div>";
 }
 
+print_r(get_declared_classes());
+
+
 ?>
 		
 <p>
