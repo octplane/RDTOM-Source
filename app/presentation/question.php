@@ -56,7 +56,7 @@ if ($reportHasBeenFiled)
 	<?php if ($question->get_WFTDA_Link()) { ?>
 	<div class="question-body rule-hint">
 	<a href="#<?= $question->get_Section() ?>"><?php {
-		echo "R&egrave;gle " . htmlspecialchars(stripslashes($question->get_Section())) . "</a>";
+		echo "R&egrave;gle " . htmlspecialchars(stripslashes($question->get_Section())) . "<i class='fa fa-arrow-down' aria-hidden='true'></i></a>";
 		echo " (<a target=\"_blank\" href=\"" . $question->get_WFTDA_Link() . "\" title=\"Section officielle des r&egrave;gles\" >voir sur WFTDA.org</a>)<br><br>";
 	}
 
