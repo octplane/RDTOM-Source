@@ -74,7 +74,7 @@
 				<tr>
 					<td>Réponses&nbsp;:<br />
 					(cochez les réponses correctes)<br />
-					(<a onclick="setdefaultanswers('tf');">TF</a> <a onclick="setdefaultanswers('pen');">Penalty</a>)</td>
+					(<a onclick="setdefaultanswers('tf');">Vr-Fx</a> <a onclick="setdefaultanswers('pen');">Pénalités</a>)</td>
 					<td><?php
 					for ($i=0; $i<NUMBER_OF_ANSWERS; $i++)
 					{
@@ -107,7 +107,7 @@
 
 					}?></td>
 				<tr>
-					<td style="width:200px">Notes:</td>
+					<td style="width:200px">Notes :</td>
 					<td>
 					<?php
 					if ($question && $question->get_Notes())
@@ -124,7 +124,7 @@
 					else
 					{
 					?>
-						<span id="question_notes_link"><a onclick="$('#question_notes_link').hide();$('#question_notes').slideDown();">Click to add a note</a></span>
+						<span id="question_notes_link"><a onclick="$('#question_notes_link').hide();$('#question_notes').slideDown();">Click pour ajouter une note</a></span>
 						<textarea id="question_notes" style="width:500px; display:none;" name="question_notes" cols="40" rows="5"></textarea>
 					<?php
 					}?>
@@ -132,7 +132,7 @@
 					</td>
 				</tr>
 				<tr>
-					<td style="width:200px">Source:</td>
+					<td style="width:200px">Source :</td>
 					<td>
 						<?php
 							echo get_admin_terms_checkboxes("source", $question);
@@ -142,7 +142,7 @@
 					</td>
 				</tr>
 				<tr>
-					<td style="width:200px">Applicable Rule Set:</td>
+					<td style="width:200px">Rule Set :</td>
 					<td>
 						<?php
 							echo get_admin_terms_checkboxes("rule-set", $question);
@@ -150,7 +150,7 @@
 					</td>
 				</tr>
 				<tr>
-					<td style="width:200px">Tags:</td>
+					<td style="width:200px">Tag s:</td>
 					<td>
 						<?php
 							echo get_admin_terms_checkboxes("tag", $question);
@@ -158,7 +158,7 @@
 					</td>
 				</tr>
 				<tr>
-					<td style="width:200px">Difficulty:</td>
+					<td style="width:200px">Difficulté :</td>
 					<td>
 						<?php
 							echo get_admin_terms_checkboxes("difficulty", $question);
@@ -166,7 +166,7 @@
 					</td>
 				</tr>
 				<tr>
-					<td style="width:200px">Author:</td>
+					<td style="width:200px">Auteur :</td>
 					<td>
 						<?php
 							echo get_admin_terms_checkboxes("author-id", $question);
@@ -174,7 +174,7 @@
 					</td>
 				</tr>
 				<tr>
-					<td style="width:200px">Language:</td>
+					<td style="width:200px">Langue :</td>
 					<td>
 						<?php
 							echo get_admin_terms_checkboxes("language", $question);
@@ -183,26 +183,26 @@
 				</tr>
 				<tr>
 					<td></td>
-					<td><a class="button" id="edit_question_button" onclick="newquestionvalidation('editquestionform');return false;"/><?php
+					<td><a class="question-block" id="edit_question_button" onclick="newquestionvalidation('editquestionform');return false;"/><?php
 						if ($question)
 						{
-							echo "Edit";
+							echo "Editer la";
 						}
 						else
 						{
-							echo "Add";
+							echo "Ajouter une";
 						}
-						?> Question</a>
+						?> question</a>
 					</td>
 				</tr>
 				<tr>
-					<td>Remember answers:</td>
+					<td>Se souvenir des réponses :</td>
 					<td><input <?php if ($_POST['rememberanswers']) { echo " checked"; }?> type="checkbox" value="yes" name="rememberanswers"/></td>
 				</tr>
 				<?php  if($question)
 				{?>
 				<tr>
-					<td>Success rate:</td>
+					<td>Taux de bonnes réponses : </td>
 					<td><?php echo "<span style=\"color: " . $questionSuccessColour . "\">" . $question->get_SuccessRate() . "%</span> (" . number_format($question->get_ResponseCount()) . " responses)"; ?></td>
 				</tr>
 				<?php  } ?>
@@ -213,7 +213,7 @@
 		if ($question)
 		{
 			?>
-			<h3>Comments and Reports:</h3>
+			<h3>Commentaires et signalements :</h3>
 			<?php
 			if ($question)
 			{
@@ -294,11 +294,11 @@
 			}
 			?>
 			<hr>
-			<p><strong>Leave a comment:</strong></p>
+			<p><strong>Laisser un commentaire :</strong></p>
 			<textarea id="question_comment_text" style="width:500px;" name="question_comment_text" cols="40" rows="5"></textarea>
 			<input type="hidden" id="question_comment_question_id" name="question_comment_question_id" value="<?php echo $question->get_ID(); ?>"/>
 
-			<br /><a class="button" id="save_comment_button" onclick="save_comment();return false;"/>Save Comment</a> <span id="question_comment_ajax_status"></span>
+			<br /><a class="question-block" id="save_comment_button" onclick="save_comment();return false;"/>Enregistrer un commentaire</a> <span id="question_comment_ajax_status"></span>
 
 			<script type="text/javascript">
 				function save_comment()
