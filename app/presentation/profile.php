@@ -100,7 +100,7 @@ if (is_logged_in())
 	<p>
 		<a class="question-block" onclick="show_page_stats();">Voir vos statitiques</a>
 		<a class="question-block" onclick="show_page_profile();">Mettre à jour son profil</a>
-		<a class="question-block" onClick="document.formlogout.submit()"><i class="fa fa-window-close" aria-hidden="true"></i>Se déconnecter</a>
+		<a class="question-block" onClick="document.formlogout.submit()">Se déconnecter</a>
 	</p>
 	
 	<form method="post" action="<?php echo get_site_URL(); ?>profile" name="formlogout">
@@ -173,13 +173,14 @@ if (is_logged_in())
 		<form method="post" action="<?php echo get_site_URL(); ?>profile#update" name="disassociateform">
 			<p>
 				<input type="hidden" name="disassociateform"  id="disassociateform" value="yes" ></input>
-				<a class="button" onClick="if (confirm('Are you sure you want the site to forget every answer you have given? This CAN NOT be undone.')){ document.disassociateform.submit() };">Disassociate Answers</a>
+				<a class="button" onClick="if (confirm('Are you sure you want the site to forget every answer you have given? This CAN NOT be undone.')){ document.disassociateform.submit() };">Effacer son historique</a>
 			</p>
 		</form>
 		
 		<p>Si vous voulez que votre compte soit effacé, envoyez nous un e-mail : <a href="mailto:contact@rollerderbytestomatic.fr ?Subject=Roller%20Derby%20Test%20O'Matic">contact@rollerderbytestomatic.fr</a>.</p>
 	</div>
-	
+</div>
+</div>
 	<script type="text/javascript">
 	    if (location.href.indexOf("#") != -1) 
 		{
@@ -254,7 +255,7 @@ else
 		</form>
 		
 		<p>
-			Si vous n'avez pas de compte <a onclick="$('#form_login').hide();$('#form_signup').show();">ya plus qu'à !</a>.
+			Si vous n'avez pas de compte <a onclick="$('#form_login').hide();$('#form_signup').show();">ya plus qu'à </a>!
 		</p>
 	</div>
 	
@@ -310,3 +311,4 @@ else
 
 include("footer.php"); 
 ?>
+
