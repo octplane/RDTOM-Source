@@ -8,12 +8,12 @@ if ($message) {
 
 ?>
 <p>
-	<a class="button" onclick="show_page('edit_question');">Edit Question</a>
-	<a class="button" onClick="show_page('all_questions');">All Questions</a>
-	<a class="button" onclick="show_page('reports');">Reports<?php echo $reports_menu_string; ?></a>
-	<a class="button" onClick="show_page('logs');">Logs</a>
-<!-- 	<a class="button" onClick="show_page('recompute');">Recompute</a>
-	<a class="button" onClick="show_page('test');">Test</a> -->
+	<a class="question-block" onclick="show_page('edit_question');">Editer une question</a>
+	<a class="question-block" onClick="show_page('all_questions');">Toutes les questions</a>
+	<a class="question-block" onclick="show_page('reports');">Reports<?php echo $reports_menu_string; ?></a>
+	<a class="question-block" onClick="show_page('logs');">Logs</a>
+<!-- 	<a class="question-block" onClick="show_page('recompute');">Recompute</a>
+	<a class="question-block" onClick="show_page('test');">Test</a> -->
 </p>
 
 <?php include(__DIR__ . "/tabs/editQuestion.php"); ?>
@@ -55,8 +55,8 @@ if ($message) {
 		{
 			if (type == "tf")
 			{
-				$("input[name='answer[0]']").val("True");
-				$("input[name='answer[1]']").val("False");
+				$("input[name='answer[0]']").val("Vrai");
+				$("input[name='answer[1]']").val("Faux");
 				<?php for ($i = 2; $i < NUMBER_OF_ANSWERS; $i++) { ?>
 					$("input[name='answer[<?php echo $i ?>]']").val("");	
 				<?php } ?>
@@ -64,10 +64,10 @@ if ($message) {
 			
 			if (type == "pen")
 			{
-				$("input[name='answer[0]']").val("Legal Play");
-				$("input[name='answer[1]']").val("No Impact/No Penalty");
-				$("input[name='answer[2]']").val("Penalty");
-				$("input[name='answer[3]']").val("Expulsion");
+				$("input[name='answer[0]']").val("ne reçoit pas de pénalité, c'est une action de jeu légal.");
+				$("input[name='answer[1]']").val("ne reçoit pas de pénalité, No Impact/No Penalty.");
+				$("input[name='answer[2]']").val("reçoit une pénalité");
+				$("input[name='answer[3]']").val("est expulsé du match.");
 				<?php for ($i = 4; $i < NUMBER_OF_ANSWERS; $i++) { ?>
 				$("input[name='answer[<?php echo $i ?>]']").val("");	
 				<?php } ?>
