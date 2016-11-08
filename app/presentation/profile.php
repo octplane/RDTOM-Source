@@ -16,7 +16,7 @@ if ($_POST['loginform'] == "yes")
 elseif (($_POST['logoutform'] == "yes") && is_logged_in())
 {
 	user_log_out();
-	$profile_message = "You have logged out. Bye!";
+	$profile_message = "Vous vous êtes déconnectés, à bientôt !";
 }
 elseif ($_POST['signupform'] == "yes")
 {
@@ -25,7 +25,7 @@ elseif ($_POST['signupform'] == "yes")
 		user_sign_up($_POST['name'], $_POST['password'], $_POST['email']);
 		user_log_in($_POST['name'], $_POST['password'], false);
 		global $user;
-		$profile_message = "Your account has been made, please log in now and experience the joy* of a Roller Derby Test O'Matic account (*joy not guaranteed).";
+		$profile_message = "Votre compte vient d'être créé. Il ne vous reste plus vous connecter pour répondre à des questions.";
 	}
 	catch (Exception $e) 
 	{
@@ -36,7 +36,7 @@ elseif ($_POST['signupform'] == "yes")
 elseif ($_POST['disassociateform'] == "yes")
 {
 	$mydb->responses_disassociate($user->get_ID());
-	$profile_message = "Answers disassociated! The site may take a little while to update, be patient.";
+	$profile_message = "Historique effacé.";
 	
 }
 elseif ($_POST['formpasswordupdate'] == "yes")
@@ -44,7 +44,7 @@ elseif ($_POST['formpasswordupdate'] == "yes")
 	try 
 	{
 		user_update_password($_POST['oldpassword'], $_POST['newpassword']);
-		$profile_message = "Your password has been updated.";
+		$profile_message = "Votre mot de passe a été modifié.";
 	}
 	catch (Exception $e) 
 	{
@@ -57,7 +57,7 @@ elseif ($_POST['formnameupdate'] == "yes")
 	try 
 	{
 		user_update_name($_POST['name']);
-		$profile_message = "Your name has been updated.";
+		$profile_message = "Votre identifiant a été modifié.";
 	}
 	catch (Exception $e) 
 	{
@@ -65,12 +65,12 @@ elseif ($_POST['formnameupdate'] == "yes")
 	}
 	
 }
-elseif ($_POST['formemailupdate'] == "yes")
+elseif ($_POST['formemailupdate'] == "Oui")
 {
 	try 
 	{
 		user_update_email($_POST['email']);
-		$profile_message = "Your email has been updated.";
+		$profile_message = "Votre e-amail a été modifié.";
 	}
 	catch (Exception $e) 
 	{
@@ -95,10 +95,12 @@ if ($profile_message)
 if (is_logged_in())
 {
 	?>
+<div class="question-content">
+<div class="question-box">
 	<p>
-		<a class="button" onclick="show_page_stats();">Your stats</a>
-		<a class="button" onclick="show_page_profile();">Update profile</a>
-		<a class="button" onClick="document.formlogout.submit()">Log out</a>
+		<a class="question-block" onclick="show_page_stats();">Voir vos statitiques</a>
+		<a class="question-block" onclick="show_page_profile();">Mettre à jour son profil</a>
+		<a class="question-block" onClick="document.formlogout.submit()"><i class="fa fa-window-close" aria-hidden="true"></i>Se déconnecter</a>
 	</p>
 	
 	<form method="post" action="<?php echo get_site_URL(); ?>profile" name="formlogout">
@@ -119,54 +121,54 @@ if (is_logged_in())
 	</div>
 	
 	<div class="layout_box" id="layout_box_profile" style="display:none;">
-		<h3>Update your password</h3>
+		<h3>Mettre à jour son mot de passe</h3>
 		<form method="post" action="<?php echo get_site_URL(); ?>profile#update" name="formpasswordupdate">
 			<input type="hidden" name="formpasswordupdate" id="formpasswordupdate" value="yes" ></input>
 			<p>
-				Old password: <br />
+				Ancien mot de passe : <br />
 				<input class="input_text" type="password" name="oldpassword" id="oldpassword"></input>
 			</p>
 			<p>
-				New password (8 character minimum): <br />
+				Nouveau mort de passe (8 charactères minimum) : <br />
 				<input class="input_text" type="password" name="newpassword" id="newpassword"></input>
 			</p>
 			<p>
-				<a class="button" onClick="document.formpasswordupdate.submit()">Update password</a>
+				<a class="button" onClick="document.formpasswordupdate.submit()">Mettre à jour son mot de passe</a>
 			</p>
 		</form>
 		
-		<h3>Update your email</h3>
+		<h3>Mettre à jour son e-mail</h3>
 		
 		<form method="post" action="<?php echo get_site_URL(); ?>profile#update" name="formemailupdate">
 			<input type="hidden" name="formemailupdate" id="formemailupdate" value="yes" ></input>
 			<p>
-				New email address: <br />
+				Nouvelle adresse e-mail : <br />
 				<input class="input_text" type="text" name="email" id="email" value="<?php echo htmlspecialchars(stripslashes($user->get_Email())); ?>"></input>
 
 
 			</p>
 			<p>
-				<a class="button" onClick="document.formemailupdate.submit()">Update email</a>
+				<a class="button" onClick="document.formemailupdate.submit()">Mettre à jour son e-mail</a>
 			</p>
 		</form>
 		
-		<h3>Update your name</h3>
+		<h3>Mettre à jour son identifiant</h3>
 		
 		<form method="post" action="<?php echo get_site_URL(); ?>profile#update" name="formnameupdate">
 			<input type="hidden" name="formnameupdate" id="formnameupdate" value="yes" ></input>
 			<p>
-				New name: <br />
+				Nouvel identifiant : <br />
 				<input class="input_text" type="text" name="name" id="name" value="<?php echo htmlspecialchars(stripslashes($user->get_Name())); ?>"></input>
 
 
 			</p>
 			<p>
-				<a class="button" onClick="document.formnameupdate.submit()">Update name</a>
+				<a class="button" onClick="document.formnameupdate.submit()">Mettre à jour son identifiant</a>
 			</p>
 		</form>
 		
-		<h3>Disassociate questions</h3>
-		<p>To disassociate yourself from all the questions you have currently answered, click this button. This is not reversable and is only to be done in dire situations. Every single question you have answered will be forgotten and you will have to start all over again. Think about that for a second.</p>
+		<h3>Effacer son historique</h3>
+		<p>Si vous voulez effacez l'ensemble des questions auxquelles vous avez répondu, il faut cliquer sur ce bouton. Cette décision est irrévocable.</p>
 		
 		<form method="post" action="<?php echo get_site_URL(); ?>profile#update" name="disassociateform">
 			<p>
@@ -175,7 +177,7 @@ if (is_logged_in())
 			</p>
 		</form>
 		
-		<p>If you would like the your account and associated data permanently deleted from the system, or have any questions about the data the site stores, please email <a href="mailto:contact@rollerderbytestomatic.fr ?Subject=Roller%20Derby%20Test%20O'Matic">contact@rollerderbytestomatic.fr</a>.</p>
+		<p>Si vous voulez que votre compte soit effacé, envoyez nous un e-mail : <a href="mailto:contact@rollerderbytestomatic.fr ?Subject=Roller%20Derby%20Test%20O'Matic">contact@rollerderbytestomatic.fr</a>.</p>
 	</div>
 	
 	<script type="text/javascript">
@@ -231,56 +233,56 @@ else
 	
 	?>
 	<div id="form_login" <?php if ($sign_up_error) { echo "style=\"display: none;\""; }?>>
-		<h3>Login to your account</h3>
+		<h3>Se connecter</h3>
 		
 		<form method="post" action="<?php echo get_site_URL(true); ?>profile" name="formlogin">
 		<input type="hidden"  name="loginform" id="loginform" value="yes"></input>
 		<p>
-			Name:<br />
+			Identifiant :<br />
 			<input class="input_text" type="text" id="name" name="name" />
 		</p>
 		<p>
-			Password:<br />
+			Mot de passe :<br />
 			<input class="input_text" type="password" id="password" name="password" />
 		</p>
 		<p class="small_p">	
-			<input type="checkbox" name="remember" id="remember" value="Yes" /> remember me (don't select this if you're on a public computer)
+			<input type="checkbox" name="remember" id="remember" value="Yes" /> se souvenir de moi (ne pas choisir cette option si vous êtes sur un ordinateur public)
 		</p>
 		<p>
-			<a class="button" onclick="document.formlogin.submit()">Login</a>
+			<a class="button" onclick="document.formlogin.submit()">Connexion</a>
 		</p>
 		</form>
 		
 		<p>
-			Roller Derby Test O'Matic accounts are free, <a onclick="$('#form_login').hide();$('#form_signup').show();">click here to get one</a>.
+			Si vous n'avez pas de compte <a onclick="$('#form_login').hide();$('#form_signup').show();">ya plus qu'à !</a>.
 		</p>
 	</div>
 	
 	<div id="form_signup" <?php if (!$sign_up_error) { echo "style=\"display: none;\""; }?>>
-		<h3>Sign up</h3>
+		<h3>Création de compte</h3>
 		<form method="post" action="<?php echo get_site_URL(true); ?>profile" name="formsignup">
 			<input type="hidden" id="signupform" name="signupform"  value="yes"></input>
 		<p>		
-			Name: <br />
+			Identifiant : <br />
 			<input class="input_text" type="text" id="signup_name" name = "name" />
 		</p>
 		<p>		
-			Password: <br />
+			Mot de passe : <br />
 			<input class="input_text" type="password" id="signup_password" name = "password" /> <span id="password_extra"></span>
 		</p>
 		<p>		
-			Email: <br />
-			<input class="input_text" type="text" id="signup_email" name = "email"> <span style="font-style:italic; color:#777">Optional</span>
+			Email : <br />
+			<input class="input_text" type="text" id="signup_email" name = "email"> <span style="font-style:italic; color:#777">Optionnel</span>
 		</p>
 		<p>
 			<a class="button" onclick="document.formsignup.submit()">Sign up</a>
 		</p>
 		</form>
 		<p>
-			If you already have an account <a onclick="$('#form_signup').hide();$('#form_login').show();">click here to login</a>.
+			Si vous avez déjà un compte, <a onclick="$('#form_signup').hide();$('#form_login').show();">connectez-vous</a>.
 		</p>
 	</div>
-	<p><a href="<?php echo get_site_URL(); ?>passwordreset">Forgotten your password?</a></p>
+	<p><a href="<?php echo get_site_URL(); ?>passwordreset">Vous avez oublié votre mot de passe ?</a></p>
 	
 	<script type="text/javascript">
 	    if (location.href.indexOf("#") != -1) {
