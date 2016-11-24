@@ -88,7 +88,7 @@
 						<a href="<?php echo get_site_URL(); ?>stats/"><i class="fa fa-bar-chart" aria-hidden="true"></i> Stats</a><br/><?php
 						if (is_question())
 						{
-							?>, <i class="fa fa-pencil" aria-hidden="true"></i> <a href="<?php echo get_site_URL(); ?>admin/edit/<?php echo $question->get_ID(); ?>#edit_question">Editer la question</a><?php
+							?><i class="fa fa-pencil" aria-hidden="true"></i> <a href="<?php echo get_site_URL(); ?>admin/edit/<?php echo $question->get_ID(); ?>#edit_question">Editer</a><?php
 						}
 						?>
 					</p>
