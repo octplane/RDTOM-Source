@@ -76,7 +76,7 @@
 			</div>
 
 
-            <p style="text-align:center;">
+            <p style="text-align:left;">
                 Site inspiré par celui de John Kershaw <a href="http://www.rollerderbytestomatic.com/" target= "_blank">www.rollerderbytestomatic.com</a>.<br/>
 		<a href="<?php echo get_site_URL(); ?>stats/"><i class="fa fa-bar-chart" aria-hidden="true"></i> Stats</a>
             </p>
@@ -85,8 +85,8 @@
 			{
 				?>
 					<p style="text-align:right;">
-						<a href="<?php echo get_site_URL(); ?>admin/">Admin<?php echo get_open_report_count_string(); ?></a>,
-						<br/><?php
+						<a href="<?php echo get_site_URL(); ?>admin/">Admin<?php echo get_open_report_count_string(); ?></a>
+						<?php
 						if (is_question())
 						{
 							?><i class="fa fa-pencil" aria-hidden="true"></i> <a href="<?php echo get_site_URL(); ?>admin/edit/<?php echo $question->get_ID(); ?>#edit_question">Editer</a><?php
