@@ -8,10 +8,10 @@ include("header.php");
 <div class="question-box">
 
 	<p>
-		<span class="question-block"><a class="button" onclick="$('#layout_box_graphs').hide();$('#layout_box_traffic').hide();$('#layout_box_general').fadeIn();$('#layout_box_questions').hide();">Générales</a></span>
-		<!--<a class="button" onclick="$('#layout_box_general').hide();$('#layout_box_traffic').hide();$('#layout_box_graphs').fadeIn();$('#layout_box_questions').hide();drawChart();">Graphs and Charts</a>
-		<a class="button" onclick="$('#layout_box_general').hide();$('#layout_box_graphs').hide();$('#layout_box_traffic').fadeIn();$('#layout_box_questions').hide();">Web Traffic</a>-->
-		<span class="question-block"><a class="button" onclick="$('#layout_box_general').hide();$('#layout_box_graphs').hide();$('#layout_box_traffic').hide();$('#layout_box_questions').fadeIn();">Questions</a></span>
+		<a class="question-block" onclick="$('#layout_box_graphs').hide();$('#layout_box_traffic').hide();$('#layout_box_general').fadeIn();$('#layout_box_questions').hide();">Générales</a>
+		<!--<a class="question-block" onclick="$('#layout_box_general').hide();$('#layout_box_traffic').hide();$('#layout_box_graphs').fadeIn();$('#layout_box_questions').hide();drawChart();">Graphs and Charts</a>
+		<a class="question-block" onclick="$('#layout_box_general').hide();$('#layout_box_graphs').hide();$('#layout_box_traffic').fadeIn();$('#layout_box_questions').hide();">Web Traffic</a>-->
+		<a class="question-block" onclick="$('#layout_box_general').hide();$('#layout_box_graphs').hide();$('#layout_box_traffic').hide();$('#layout_box_questions').fadeIn();">Questions</a>
 	</p>
 	
 	<div class="layout_box" id="layout_box_general">
