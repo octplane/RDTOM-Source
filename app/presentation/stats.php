@@ -13,7 +13,7 @@ include("header.php");
 		<a class="question-block" onclick="$('#layout_box_general').hide();$('#layout_box_graphs').hide();$('#layout_box_traffic').fadeIn();$('#layout_box_questions').hide();">Web Traffic</a>-->
 		<a class="question-block" onclick="$('#layout_box_general').hide();$('#layout_box_graphs').hide();$('#layout_box_traffic').hide();$('#layout_box_questions').fadeIn();">Questions</a>
 	</p>
-	
+	</div>	
 	<div class="layout_box" id="layout_box_general">
 		<h3>Statistiques générales :</h3>
 		<p>
@@ -217,7 +217,6 @@ include("header.php");
 			}
 			
 		</script>
-	</div>
 	</div>
 <?php 
 include("footer.php");
