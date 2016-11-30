@@ -46,7 +46,7 @@
 	<body>
 
 	<h1><i class="custom-left-finger" aria-hidden="true"></i> <a href="<?php echo get_site_URL(); ?>">rollerderbytestomatic.fr</a></h1>
-	<!--<h2><?php echo get_page_subtitle(); ?></h2>-->
+		<h2>questions basées sur la 8<sup>e</sup> édition des règles du 1{{er}} janvier 2015</h2>
 
 <?php
 
