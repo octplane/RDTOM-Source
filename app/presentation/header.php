@@ -47,7 +47,7 @@
 
 	<h1><i class="custom-left-finger" aria-hidden="true"></i> <a href="<?php echo get_site_URL(); ?>">rollerderbytestomatic.fr</a></h1>
 		<h2>questions basées sur la 8<sup>e</sup> édition des règles du 1<sup>er</sup> janvier 2015</h2>
-		<p><i class="fa fa-exclamation" aria-hidden="true"></i> Une nouvelle version des règles entre en vigueur au 1<sup>er</sup> janvier 2017 <i class="fa fa-exclamation" aria-hidden="true"></i></p>
+		<p><i class="fa fa-exclamation" aria-hidden="true"></i> <font color="red">Une nouvelle version des règles entre en vigueur au 1<sup>er</sup> janvier 2017</font> <i class="fa fa-exclamation" aria-hidden="true"></i></p>
 
 <?php
 
