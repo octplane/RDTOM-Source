@@ -46,8 +46,7 @@
 	<body>
 
 	<h1><i class="custom-left-finger" aria-hidden="true"></i> <a href="<?php echo get_site_URL(); ?>">rollerderbytestomatic.fr</a></h1>
-		<p><font color="grey">Questions basées sur la 8<sup>e</sup> édition des règles du 1<sup>er</sup> janvier 2015</font>
-		<p><font color="grey">Une <a href="https://wftda.com/wftda-releases-february-15-2017-rules-of-flat-track-roller-derby/" target="_blank">nouvelle version</a> des règles est en vigueur depuis février 2017. En cas d'erreur sur une question, ne pas hésiter à signaler cette question</font>
+		<p><font color="grey">En cas d'erreur sur une question, ne pas hésiter à signaler cette question</font>
 
 <?php
 
