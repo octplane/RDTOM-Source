@@ -103,8 +103,7 @@
 <div class="fb-like" data-href="https://www.facebook.com/RDTOMfr/?ref=bookmarks" data-layout="button_count" data-action="like" data-show-faces="false" data-share="true"></div>
 		
 <hr>
-<p style="text-align:left;">Liens : <img src="https://yt3.ggpht.com/-d7RVj-U4WD8/AAAAAAAAAAI/AAAAAAAAAAA/HCKjq9EYTms/s88-c-k-no-mo-rj-c0xffffff/photo.jpg" width="20" height="20"><a target="_blank" href="https://www.youtube.com/channel/UCMC5UcEHWAsM75-2ErVh25A">Nullius In verba</a>
-	— <img src="http://5seconds.fr/favicon.ico" width="20" height="20"> <a href="http://5seconds.fr/" target="_blank">5seconds</a>
+<p style="text-align:left;"><a target="_blank" href="https://rules.wftda.com/fr/singlehtml/">WFTDA -- les règles</a>
 <div class="print_footer">
 			<p>Page genérée par le Roller Derby Test O'Matic</p>
 		</div>
