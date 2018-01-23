@@ -53,7 +53,7 @@ if ($reportHasBeenFiled)
 	?>
 </ol>
 </div>
-	<?php if (is_admin() && $question->get_WFTDA_Link()) { ?>
+	<!--<?php if (is_admin() && $question->get_WFTDA_Link()) { ?>
 	<div class="question-body rule-hint">
 	<a href="#<?= $question->get_Section() ?>"><?php {
 		echo "R&egrave;gle " . htmlspecialchars(stripslashes($question->get_Section())) . "<i class='fa fa-arrow-down' aria-hidden='true'></i></a>";
@@ -64,7 +64,7 @@ if ($reportHasBeenFiled)
 	echo $rule->get_content_with_selection($question->get_Section());
 	?>
 	</div>
-	<?php } ?>
+	<?php } ?>-->
 </div>
 
 
