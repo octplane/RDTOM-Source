@@ -103,7 +103,7 @@
 <div class="fb-like" data-href="https://www.facebook.com/RDTOMfr/?ref=bookmarks" data-layout="button_count" data-action="like" data-show-faces="false" data-share="true"></div>
 		
 <hr>
-<p style="text-align:left;"><a target="_blank" href="https://rules.wftda.com/fr/singlehtml/">WFTDA -- les règles</a>
+<p style="text-align:left;"><a target="_blank" href="https://static.wftda.com/rules/wftda-rules-french.pdf">WFTDA -- les règles (en pdf)</a>
 <div class="print_footer">
 			<p>Page genérée par le Roller Derby Test O'Matic</p>
 		</div>
