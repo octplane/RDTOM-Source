@@ -176,7 +176,7 @@ if ($reportHasBeenFiled)
 <div class="report_form" id="hidden_report_form">
 
 	<h3>Signaler cette question :</h3>
-	<p>Il faut reporter une question si vous pensez que la réponse donnée n'est pas la bonne ou si la forme de la question (ou d'une réponse) est mal écrite (y compris des fautes d'orthographe ou de grammaire). Si vous pensez que la réponse donnée n'est pas la bonne, merci de vérifier à deux fois dans les règles (dans ce cas la règle <strong><?php if ($question) { echo htmlspecialchars(stripslashes($question->get_Section())); } ?></strong>). Malgré tous nos efforts, les erreurs arrivent. Ne pas hésiter et merci de votre aide !</p>
+	<p>Il faut reporter une question si vous pensez que la réponse donnée n'est pas la bonne ou si la forme de la question (ou d'une réponse) est mal écrite (y compris des fautes d'orthographe ou de grammaire). Si vous pensez que la réponse donnée n'est pas la bonne, merci de vérifier à deux fois dans les règles . Malgré tous nos efforts, les erreurs arrivent. Ne pas hésiter et merci de votre aide !</p>
 	<p>Pour information, l'ordre des réponses étant aléatoire, il vaut mieux citer la réponse qui ne serait pas bonne plutôt que citer le numéro de la réponse.</p>
 	<p>Entrez ici le détail de votre rapport...</p>
 
