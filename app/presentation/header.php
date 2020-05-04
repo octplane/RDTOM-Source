@@ -22,7 +22,7 @@
 
 		<meta name="Description" content="<?php echo get_page_description(); ?>">
 
-		<meta property="fb:admins" content="{Taraoq}"/>
+		<meta property="fb:admins" content="100000500702240"/>
 
 		<script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/1.8.3/jquery.min.js" type="text/javascript"></script>
    		<script src="https://ajax.googleapis.com/ajax/libs/jqueryui/1.10.3/jquery-ui.min.js" type="text/javascript"></script>
