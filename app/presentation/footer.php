@@ -26,8 +26,6 @@
 						<a href="<?php echo get_site_URL(); ?>">Répondre à une nouvelle question</a>
 					</p>
 					<?php
-				}
-
 				if (is_logged_in())
 				{
 					?>
