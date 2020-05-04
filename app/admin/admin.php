@@ -11,7 +11,7 @@
 if (!is_admin()) {
 
     // show error page if not admin
-    echo "Sorry, you must be logged in to view this page.";
+    echo "Désolé, il faut être connecté pour avoir accès à cette page.";
     exit;
 }
 
