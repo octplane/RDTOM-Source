@@ -8,11 +8,6 @@ $page_title = "<i class=\"fa fa-question-circle\" aria-hidden=\"true\"></i> Ques
 
 $question_text = htmlspecialchars(stripslashes($question->get_Text()));
 
-if ($reportHasBeenFiled)
-{
-	echo "<h3 class=\"error_string\">Merci d'avoir pris le temps de signaler la question, cela nous a été transmis.</h3>";
-}
-
 ?>
 
 
@@ -96,6 +91,11 @@ if ($reportHasBeenFiled)
 
 		</div>
 </div>
+<div 
+	class="fb-comments" 
+	data-href="http://www.rollerderbytestomatic.fr/question/<?php echo $question->get_ID() ?>"
+	data-numposts="5"
+	data-width=""></div>
 
 
 <script type="text/javascript">
@@ -145,7 +145,6 @@ if ($reportHasBeenFiled)
 	var allow_keypress = true;
 
 	$(function() {
-		console.log("coucou");
 		 $(".light-bulb").hover(function () {
          	$(".shortcuts").toggle();
 		 });
@@ -173,30 +172,4 @@ if ($reportHasBeenFiled)
 
 </script>
 
-<div class="report_form" id="hidden_report_form">
-
-	<h3>Signaler cette question :</h3>
-	<p>Il faut reporter une question si vous pensez que la réponse donnée n'est pas la bonne ou si la forme de la question (ou d'une réponse) est mal écrite (y compris des fautes d'orthographe ou de grammaire). Si vous pensez que la réponse donnée n'est pas la bonne, merci de vérifier à deux fois dans les règles . Malgré tous nos efforts, les erreurs arrivent. Ne pas hésiter et merci de votre aide !</p>
-	<p>Pour information, l'ordre des réponses étant aléatoire, il vaut mieux citer la réponse qui ne serait pas bonne plutôt que citer le numéro de la réponse.</p>
-	<p>Entrez ici le détail de votre rapport...</p>
-
-	<form name="formreport" method="post" action="<?php echo get_site_URL(); ?>report">
-	<p>
-		<input type="hidden" id="report_question_ID" name="report_question_ID" value="<?php if ($question) echo $question->get_ID(); ?>" />
-		<textarea name="report_text"
-			id="report_text"
-			rows="10"
-			cols="40"
-			placeholder="Entrez ici le détail de votre rapport..."
-		><?php if ($_POST['report_text']) {
-		echo stripslashes(htmlspecialchars($_POST['report_text']));
-		} ?></textarea>
-	</p>
-	<p>
-		<a class="button" onClick="document.formreport.submit()">Soumettre le rapport</a>
-		<a class="button" onClick="$('#hidden_report_form').slideUp()">Annuler</a>
-	</p>
-	</form>
-	<b>MERCI !</b>
-</div>
 <?php include("footer.php"); ?>

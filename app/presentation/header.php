@@ -22,6 +22,8 @@
 
 		<meta name="Description" content="<?php echo get_page_description(); ?>">
 
+		<meta property="fb:admins" content="{Taraoq}"/>
+
 		<script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/1.8.3/jquery.min.js" type="text/javascript"></script>
    		<script src="https://ajax.googleapis.com/ajax/libs/jqueryui/1.10.3/jquery-ui.min.js" type="text/javascript"></script>
 
@@ -44,6 +46,9 @@
 	</head>
 
 	<body>
+
+	<div id="fb-root"></div>
+	<script async defer crossorigin="anonymous" src="https://connect.facebook.net/fr_FR/sdk.js#xfbml=1&version=v6.0"></script>
 
 	<h1><i class="custom-left-finger" aria-hidden="true"></i> <a href="<?php echo get_site_URL(); ?>">rollerderbytestomatic.fr</a></h1>
 		<p><font color="grey">En cas d'erreur sur une question, ne pas hésiter à signaler cette question</font>
