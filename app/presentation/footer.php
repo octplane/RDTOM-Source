@@ -22,17 +22,6 @@
 
 			<div class="footer_block">
 
-				<?php
-				if (is_question())
-				{
-					?>
-					<p><a class="report_link" onclick="allow_keypress = false;$('#hidden_report_form').show();"><i class="fa fa-exclamation-circle" aria-hidden="true"></i> Signaler cette question</a>
-					</p>
-					<?php
-				}
-				else
-				{
-					?>
 					<p>
 						<a href="<?php echo get_site_URL(); ?>">Répondre à une nouvelle question</a>
 					</p>
