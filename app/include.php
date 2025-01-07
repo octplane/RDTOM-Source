@@ -44,7 +44,7 @@ $classesDir = array(
 	__DIR__ . '/objects/'
 );
 
-function __autoload($classname) {
+spl_autoload_register(function($classname) {
 	
 	if ($classname == "PHPMailer") {
 		include_once ("library/phpmailer/class.phpmailer.php");
@@ -63,5 +63,5 @@ function __autoload($classname) {
 			return;
 		}
 	}
-}
+});
 ?>
