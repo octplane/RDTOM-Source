@@ -7,6 +7,7 @@
 -- Version du serveur :  5.7.14
 -- Version de PHP :  5.6.25
 
+USE RDTOM;
 SET SQL_MODE = "NO_AUTO_VALUE_ON_ZERO";
 SET time_zone = "+00:00";
 
