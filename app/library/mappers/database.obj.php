@@ -63,12 +63,12 @@ class database
 	public function run_query($req_query) {
 
 		if (!$this->saved_link) {
-			$this->saved_link = mysql_connect($this->dbHost, $this->dbUser, $this->dbUserPw) or die("Could not connect : " . mysql_error());
-			
-			mysql_select_db($this->dbName) or die("Could not select database");
+      $this->saved_link = mysqli_connect($this->dbHost, $this->dbUser,
+        $this->dbUserPw, 
+        $this->dbName) or die("Could not connect : " . mysql_error());
 		}
 		
-		$results = mysql_query($req_query) or die("Query error:<br />" . $req_query . "<br />" . mysql_error());
+		$results = $this->saved_link::mysqli_query($req_query) or die("Query error:<br />" . $req_query . "<br />" . mysql_error());
 		
 		return $results;
 	}
