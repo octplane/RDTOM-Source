@@ -39,7 +39,10 @@ class FileCache
 		
 		try {
 			
-			$fh = fopen($filename, 'r');
+      $fh = fopen($filename, 'r');
+      if(!$fh) {
+        return false;
+      }
 			$theData = fread($fh, filesize($filename));
 			fclose($fh);
 			

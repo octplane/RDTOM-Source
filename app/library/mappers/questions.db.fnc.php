@@ -185,7 +185,7 @@ function get_questions_from_User_ID($req_User_ID, $opt_limit = false, $opt_timel
     }
 
     if ($opt_timelimit) {
-        $clause.= " AND rdtom_responses.Timestamp >= '" . (gmmktime() - $opt_timelimit) . "' ";
+        $clause.= " AND rdtom_responses.Timestamp >= '" . (time() - $opt_timelimit) . "' ";
         $order = " ORDER BY rdtom_responses.Timestamp Desc";
     }
 

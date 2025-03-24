@@ -24,7 +24,7 @@ class database
 		$results = $this->run_query($req_query);
 		if (!$results) return null;
 		
-		$row = mysql_fetch_row($results);
+		$row = $results->fetch_row();
 		
 		return $row[0];
 	}
@@ -35,7 +35,7 @@ class database
 		if (!$results) return null;
 		
 		// return the first row/column
-		return mysql_fetch_assoc($results);
+		return mysqli_fetch_assoc($results);
 	}
 	
 	// run a query and return a single column as a one dimensional array
@@ -43,19 +43,19 @@ class database
 		$results = $this->run_query($req_query);
 		if (!$results) return null;
 		
-		while ($row = mysql_fetch_row($results)) $result_array[] = $row[0];
+		while ($row = $result->fetch_row()) $result_array[] = $row[0];
 		
 		return $result_array;
 	}
 	
 	// run a query and return an array containing an assoc array.
-	public function get_results($req_query) {
+  public function get_results($req_query) {
 		$results = $this->run_query($req_query);
 		
 		if (!$results) return null;
 		
 		// pass results into a multidimensional array
-		while ($row = mysql_fetch_assoc($results)) $result_array[] = $row;
+		while ($row = $results->fetch_assoc()) $result_array[] = $row;
 		return $result_array;
 	}
 	
@@ -68,59 +68,21 @@ class database
         $this->dbName) or die("Could not connect : " . mysql_error());
 		}
 		
-		$results = $this->saved_link::mysqli_query($req_query) or die("Query error:<br />" . $req_query . "<br />" . mysql_error());
+		$results = $this->saved_link->query($req_query) or die("Query error:<br />" . $req_query . "<br />" . mysql_error());
 		
 		return $results;
-	}
-	
-	// execute multiple queries
-	public function run_multi_query($req_query) {
-		$link = mysqli_connect($this->dbHost, $this->dbUser, $this->dbUserPw, $this->dbName);
-		
-		/* check connection */
-		if (mysqli_connect_errno()) {
-			printf("Connect failed: %s\n", mysqli_connect_error());
-			exit();
-		}
-		
-		/* execute multi query */
-		$results = mysqli_multi_query($link, $req_query) or die("Query error:<br />" . $req_query . "<br />" . mysqli_error());
-		
-		/* close connection */
-		mysqli_close($link);
-		
-		return $results;
-	}
-	
-	public function does_table_exist($req_table_name) {
-		
-		$link = mysql_connect($this->dbHost, $this->dbUser, $this->dbUserPw) or die("Could not connect : " . mysql_error());
-		
-		mysql_select_db($this->dbName) or die("Could not select database");
-		
-		$val = mysql_query('SELECT 1 FROM ' . $req_table_name);
-		
-		if ($val !== FALSE) {
-			return true;
-		} else {
-			return false;
-		}
-	}
-	
-	public function get_inserted_id() {
-		return mysql_insert_id();
 	}
 	
 	public function mysql_res($req_text) {
 		global $saved_link;
 		
 		if (!$saved_link) {
-			$saved_link = mysql_connect($this->dbHost, $this->dbUser, $this->dbUserPw) or die("Could not connect : " . mysql_error());
+      $saved_link = mysqli_connect($this->dbHost, $this->dbUser,
+        $this->dbUserPw, 
+        $this->dbName) or die("Could not connect : " . mysql_error());
 		}
 		
-		mysql_select_db($this->dbName) or die("Could not select database");
-		
-		$req_text = mysql_real_escape_string($req_text);
+		$req_text = $saved_link->real_escape_string($req_text);
 		
 		return $req_text;
 	}

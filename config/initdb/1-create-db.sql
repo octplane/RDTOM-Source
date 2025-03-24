@@ -1,3 +1,0 @@
--- 01-create-database.sql
-CREATE DATABASE IF NOT EXISTS RDTOM;
-USE RDTOM;

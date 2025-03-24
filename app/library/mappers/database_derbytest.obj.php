@@ -348,7 +348,7 @@ class database_derbytest extends database
 		$user_name = $this->mysql_res($req_user_name);
 		$user_password_hash = $this->mysql_res($user_password_hash);
 		
-		$query="SELECT * FROM rdtom_users WHERE name=\"" . $user_name . "\" AND  password_hash=\"" . $user_password_hash . "\"";
+    $query="SELECT * FROM rdtom_users WHERE name=\"" . $user_name . "\" AND  password_hash=\"" . $user_password_hash . "\"";
 		$result = $this->get_row($query);
 		
 		if ($result)
@@ -426,7 +426,7 @@ class database_derbytest extends database
 	{
 		$user_name = $this->mysql_res($req_user_name);
 		
-		$query="SELECT password_salt FROM rdtom_users WHERE name=\"" . $user_name . "\"";
+    $query="SELECT password_salt FROM rdtom_users WHERE name=\"" . $user_name . "\"";
 		$result = $this->get_var($query);
 		
 		if ($result)
