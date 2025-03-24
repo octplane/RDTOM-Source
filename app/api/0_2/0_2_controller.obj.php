@@ -153,7 +153,7 @@ class api_controller extends abstract_api_controller
 			<li>Question - A specific question specified using the <i>ID</i> parameter </li>
 			<li>Questions - All the default questions. If you add the <i>search</i> parameter, every question in the database is searched (including those questions not in the default set) and those with the search text found in the question or answer are returned.</li>
 			<li>Statistic - A given statistic specified using the <i>ID</i> parameter (available options: responses, api_calls_hourly, responses_daily, responses_hourly, responses_minutly, questions, answers, users, unique_IPs) </li>
-			<li>Changes - When given the required <i>since</i> parameter (which is a Unix timestamp for a GMT date and time, i.e. PHP's gmmktime() function), a list of IDs of questions which have been updated (created or edited) and a list of questions which have been deleted are returned. Take note: questions which fall outside the default set are listed.</li>
+			<li>Changes - When given the required <i>since</i> parameter (which is a Unix timestamp for a GMT date and time, i.e. PHP's time() function), a list of IDs of questions which have been updated (created or edited) and a list of questions which have been deleted are returned. Take note: questions which fall outside the default set are listed.</li>
 		</ul>
 		</p>
 

@@ -8,7 +8,7 @@ function stats_hourly_posts() {
 function response_count_last_hour() {
 	global $mydb;
 	$fileCache = new FileCache();
-	$fileCache->set("response_count_last_hour", $mydb->get_response_count_since(gmmktime() - 3600));
+	$fileCache->set("response_count_last_hour", $mydb->get_response_count_since(time() - 3600));
 }
 
 function last_10000_sections() {
@@ -29,7 +29,7 @@ function delete_old_usertokens() {
 	global $mydb;
 	
 	// delete tokens older than 90 days
-	$mydb->remove_old_token(gmmktime() - 7776000);
+	$mydb->remove_old_token(time() - 7776000);
 }
 
 function rebuild_sitemap() {
@@ -143,7 +143,7 @@ function archive_responses() {
 	$start = $time;
 	
 	// how old do they have to be to archive?
-	$time_ago = gmmktime() - (5184000);
+	$time_ago = time() - (5184000);
 	
 	$query = "SELECT * FROM rdtom_responses WHERE Timestamp < '$time_ago' ORDER BY ID ASC LIMIT 1000";
 	$results = $mydb->get_results($query);
@@ -206,7 +206,7 @@ function unarchive_responses() {
 	$start = $time;
 	
 	// how old do they have to be to archive?
-	$time_ago = gmmktime() - (5184000);
+	$time_ago = time() - (5184000);
 	
 	$query = "SELECT * FROM rdtom_responses_archive WHERE Timestamp > '$time_ago' LIMIT 10";
 	

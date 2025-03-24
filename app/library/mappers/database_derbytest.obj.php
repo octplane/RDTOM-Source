@@ -279,7 +279,7 @@ class database_derbytest extends database
 	public function get_stats_hourly_posts($hour_count)
 	{
 		// get the time x hours ago & round down
-		$time_now = gmmktime();
+		$time_now = time();
 		$time_ago = $time_now - (60*60*$hour_count);
 		$time_ago = floor($time_ago/3600) * 3600;
 		
@@ -495,7 +495,7 @@ class database_derbytest extends database
 				'" . $user_password_hash . "',  
 				'" . $user_password_salt . "',  
 				'" . $user_email . "',  
-				'" . gmmktime() . "'
+				'" . time() . "'
 			);";
 		
 		$this->run_query($query);
@@ -589,7 +589,7 @@ class database_derbytest extends database
 				'" . $req_User_ID . "',  
 				'" . $req_token . "',  
 				'" . $req_IP . "',  
-				'" . gmmktime() . "'
+				'" . time() . "'
 			);
 		";
 		
@@ -695,7 +695,7 @@ class database_derbytest extends database
 				'$req_User_ID', 
 				'$req_Email', 
 				'$req_Token', 
-				'" . gmmktime() . "', 
+				'" . time() . "', 
 				'0');";
 		
 		$this->run_query($query);
@@ -705,7 +705,7 @@ class database_derbytest extends database
 	{
 		
 		$req_Token = $this->mysql_res($req_Token);
-		$time_ago = gmmktime() - PASSWORD_RESET_TOKEN_TTL;
+		$time_ago = time() - PASSWORD_RESET_TOKEN_TTL;
 		
 		$query = "SELECT count(*) FROM rdtom_passwordresettokens WHERE Token = '$req_Token' AND Timestamp >= '$time_ago' AND Used = '0'";
 	
@@ -726,7 +726,7 @@ class database_derbytest extends database
 	{
 		
 		$req_Token = $this->mysql_res($req_Token);
-		$time_ago = gmmktime() - PASSWORD_RESET_TOKEN_TTL;
+		$time_ago = time() - PASSWORD_RESET_TOKEN_TTL;
 		
 		$query = "SELECT User_ID FROM rdtom_passwordresettokens WHERE Token = '$req_Token' AND Timestamp >= '$time_ago' AND Used = '0'";
 	

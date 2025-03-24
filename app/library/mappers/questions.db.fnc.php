@@ -419,7 +419,7 @@ function add_question($req_text, $req_section, $req_notes) {
         (
             :Text,
             :Section,
-            " . gmmktime() . ",
+            " . time() . ",
             :Notes
         );");
 

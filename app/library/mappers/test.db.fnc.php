@@ -297,7 +297,7 @@ function set_test($req_test)
 			:Average_Rating 
 		);");
 		
-		$statement->bindValue(':Date_Created', gmmktime());
+		$statement->bindValue(':Date_Created', time());
 	}
 	else
 	{
@@ -330,7 +330,7 @@ function set_test($req_test)
 	$statement->bindValue(':Status', $req_test->get_Status());
 	$statement->bindValue(':Link_Hash', $req_test->get_link_hash());
 	$statement->bindValue(':User_ID', $req_test->get_Author_ID());
-	$statement->bindValue(':Date_Edited', gmmktime());
+	$statement->bindValue(':Date_Edited', time());
 	$statement->bindValue(':Views_Count', $req_test->get_Views_Count());
 	$statement->bindValue(':Completes_Count', $req_test->get_Complete_Count());
 	$statement->bindValue(':Questions_Count', $req_test->get_Question_Count());

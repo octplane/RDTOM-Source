@@ -25,7 +25,7 @@ function ajax_save_response() {
 	}
 	
 	// make a new response
-	$response = new response(-1, $question_ID, $response_ID, gmmktime() , $response_is_correct, $_SERVER['REMOTE_ADDR'], $user_ID);
+	$response = new response(-1, $question_ID, $response_ID, time() , $response_is_correct, $_SERVER['REMOTE_ADDR'], $user_ID);
 	
 	// save the response
 	$mydb->set_response($response);
@@ -85,7 +85,7 @@ function ajax_save_responses() {
 			$response_is_correct = is_answer_correct_from_ID($_POST['a_array'][$index]);
 			
 			// save the response
-			$response = new response(-1, $question_ID, $_POST['a_array'][$index], gmmktime() , $response_is_correct, $_SERVER['REMOTE_ADDR'], $user_ID);
+			$response = new response(-1, $question_ID, $_POST['a_array'][$index], time() , $response_is_correct, $_SERVER['REMOTE_ADDR'], $user_ID);
 			
 			$mydb->set_response($response);
 		}
@@ -159,7 +159,7 @@ function ajax_count_hourly_responses() {
 
 function ajax_count_minutly_responses() {
 	global $mydb;
-	return $mydb->get_response_count_since(gmmktime() - 60);
+	return $mydb->get_response_count_since(time() - 60);
 }
 
 /*
@@ -223,7 +223,7 @@ function ajax_save_poll_results() {
 				IP
 				)
 				VALUES (
-				'" . $question_ID . "',  '" . gmmktime() . "',  '" . $user_ip . "'
+				'" . $question_ID . "',  '" . time() . "',  '" . $user_ip . "'
 				);";
 			
 			$mydb->run_query($query);
@@ -373,7 +373,7 @@ function ajax_save_comment() {
 	}
 	
 	// make a new comment
-	$comment = new comment(-1, $user->get_ID() , $question_comment_question_id, gmmktime() , $question_comment_text, QUESTION_COMMENT);
+	$comment = new comment(-1, $user->get_ID() , $question_comment_question_id, time() , $question_comment_text, QUESTION_COMMENT);
 	
 	// save the comment
 	set_comment($comment);

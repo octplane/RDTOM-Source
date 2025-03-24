@@ -163,7 +163,7 @@ class forum
 				);
 			");
 			
-			if (!$statement->execute(array(':Title' => $_POST['new_thread_title'], ':Creator_User_ID' => $user->get_ID(), ':Slug' => $slug, ':Timestamp' => gmmktime(), ':Topic_ID' => $_POST['new_thread_topic_ID']))) {
+			if (!$statement->execute(array(':Title' => $_POST['new_thread_title'], ':Creator_User_ID' => $user->get_ID(), ':Slug' => $slug, ':Timestamp' => time(), ':Topic_ID' => $_POST['new_thread_topic_ID']))) {
 				throw new exception("Errr saving thread: " . print_r($statement->errorInfo(), true));
 			}
 			
@@ -230,7 +230,7 @@ class forum
 			);
 		");
 		
-		if (!$statement->execute(array(':Text' => $text, ':Creator_User_ID' => $user_ID, ':Timestamp' => gmmktime(), ':Topic_ID' => $topic_ID, ':Thread_ID' => $thread_ID))) {
+		if (!$statement->execute(array(':Text' => $text, ':Creator_User_ID' => $user_ID, ':Timestamp' => time(), ':Topic_ID' => $topic_ID, ':Thread_ID' => $thread_ID))) {
 			throw new exception("Error saving post: " . print_r($statement->errorInfo(), true));
 		}
 	}
@@ -257,7 +257,7 @@ class forum
 			UPDATE rdtom_forum_posts SET Text = :Text, Edited_Timestamp = :Edited_Timestamp WHERE ID = :ID;
 			");
 		
-		if (!$statement->execute(array(':Text' => $text, ':ID' => $post_ID, ':Edited_Timestamp' => gmmktime()))) {
+		if (!$statement->execute(array(':Text' => $text, ':ID' => $post_ID, ':Edited_Timestamp' => time()))) {
 			throw new exception("Error editing post: " . print_r($statement->errorInfo(), true));
 		}
 	}
@@ -787,7 +787,7 @@ function get_gravatar($email, $s = 80, $d = 'mm', $r = 'g', $img = false, $atts 
 
 // taken from http://www.zachstronaut.com/posts/2009/01/20/php-relative-date-time-string.html
 function time_elapsed_string($ptime) {
-	$etime = gmmktime() - $ptime;
+	$etime = time() - $ptime;
 	
 	if ($etime < 10) {
 		return 'just now';

@@ -17,7 +17,7 @@ function set_test_rating($test_ID, $Rating, $User_ID = -1)
 			User_ID = :User_ID
 		;");
 		$statement->bindValue(':Rating', $Rating);	
-		$statement->bindValue(':Timestamp', gmmktime());	
+		$statement->bindValue(':Timestamp', time());	
 		$statement->bindValue(':Test_ID', $test_ID);
 		$statement->bindValue(':User_ID', $User_ID);		
 		$statement->execute();
@@ -40,7 +40,7 @@ function set_test_rating($test_ID, $Rating, $User_ID = -1)
 			User_ID = -1
 		;");
 		$statement->bindValue(':Rating', $Rating);	
-		$statement->bindValue(':Timestamp', gmmktime());	
+		$statement->bindValue(':Timestamp', time());	
 		$statement->bindValue(':Test_ID', $test_ID);
 		$statement->bindValue(':IP', get_ip());	
 		$statement->execute();
@@ -72,7 +72,7 @@ function set_test_rating($test_ID, $Rating, $User_ID = -1)
 		$statement->bindValue(':User_ID', $User_ID);	
 		$statement->bindValue(':Rating', $Rating);	
 		$statement->bindValue(':IP', get_ip());	
-		$statement->bindValue(':Timestamp', gmmktime());	
+		$statement->bindValue(':Timestamp', time());	
 		$statement->execute();
 	}
 	

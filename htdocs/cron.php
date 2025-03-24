@@ -62,7 +62,7 @@ try {
 	foreach ($cron_tasks as $cron_task) {
 		
 		// check with the $cron_tasks_data to see when this function was last fired
-		if (($cron_tasks_data[$cron_task['function']] < (gmmktime() - $cron_task['seconds'])) || ($_GET['force'])) {
+		if (($cron_tasks_data[$cron_task['function']] < (time() - $cron_task['seconds'])) || ($_GET['force'])) {
 			if ($_GET['force'] && ($_GET['force'] != $cron_task['function'])) {
 				
 				//echo "Force: " . $_GET['force'] . "!=" . $cron_task['function'] . "<br />";
@@ -73,7 +73,7 @@ try {
 			$count++;
 			
 			$cron_task['function']();
-			$cron_tasks_data[$cron_task['function']] = gmmktime();
+			$cron_tasks_data[$cron_task['function']] = time();
 			
 			// echo what the job was
 			echo "Cron completed: " . $cron_task['function'] . "<br />";

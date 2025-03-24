@@ -54,7 +54,7 @@ if ($_POST['term_checkbox']) {
 $comment_text = "Question Edited \n\nFrom: \n " . $old_question_string . " \nTo: \n" . get_question_from_ID($qid);
 
 // make a new comment
-$comment = new comment(-1, $user->get_ID(), $qid, gmmktime(), $comment_text, QUESTION_CHANGED);
+$comment = new comment(-1, $user->get_ID(), $qid, time(), $comment_text, QUESTION_CHANGED);
 
 // save the comment
 set_comment($comment);

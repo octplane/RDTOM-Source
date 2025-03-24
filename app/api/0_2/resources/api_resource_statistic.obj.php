@@ -45,7 +45,7 @@ class api_resource_statistic extends api_resource
 			// responses in the past 60 seconds
 			case "responses_minutly":
 				global $mydb;
-				$statistic_value = $mydb->get_response_count_since(gmmktime() - 60);
+				$statistic_value = $mydb->get_response_count_since(time() - 60);
 			break;	
 			
 			// total number of questions

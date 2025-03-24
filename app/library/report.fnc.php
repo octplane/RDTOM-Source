@@ -12,7 +12,7 @@ function report_question() {
 
     save_log("report", $report_string, $questionID);
 
-    $report = new report(-1, get_ip() , gmmktime() , $questionID, 0, $report_string, REPORT_OPEN);
+    $report = new report(-1, get_ip() , time() , $questionID, 0, $report_string, REPORT_OPEN);
     set_report($report);
 
     // clear the input

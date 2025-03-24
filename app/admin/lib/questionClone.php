@@ -14,7 +14,7 @@ if ($_GET['updateToWFTDA7']) {
 $comment_text = "Question Cloned from \n\n" . $questionToBeCloned;
 
 // make a new comment
-$comment = new comment(-1, $user->get_ID(), $new_question_id, gmmktime(), $comment_text, QUESTION_CHANGED);
+$comment = new comment(-1, $user->get_ID(), $new_question_id, time(), $comment_text, QUESTION_CHANGED);
 
 // save the comment
 set_comment($comment);
@@ -62,7 +62,7 @@ function updateToWFTDA7($mydb, $user, $question) {
 	$comment_text = "Question run through the update script to tag it WFTDA7";
 	
 	// make a new comment
-	$comment = new comment(-1, $user->get_ID(), $question->get_ID(), gmmktime(), $comment_text, QUESTION_CHANGED);
+	$comment = new comment(-1, $user->get_ID(), $question->get_ID(), time(), $comment_text, QUESTION_CHANGED);
 	
 	// save the comment
 	set_comment($comment);
