@@ -31,8 +31,8 @@ function ajax_save_response() {
 	$mydb->set_response($response);
 	
 		
-		$random_questions_asked = $session->get('random_questions_asked');
-		$random_questions_results = $session->get('random_questions_results');
+		$random_questions_asked = $session->get('random_questions_asked') ?? [];
+		$random_questions_results = $session->get('random_questions_results') ?? [];
 		
 		// if we know the last 100, forget one
 		if (count($random_questions_asked) >= NUMBER_OF_RECENTLY_ASKED_QUESTIONS_TO_REMEMBER) {
