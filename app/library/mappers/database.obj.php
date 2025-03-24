@@ -35,7 +35,7 @@ class database
 		if (!$results) return null;
 		
 		// return the first row/column
-		return mysql_fetch_assoc($results);
+		return mysqli_fetch_assoc($results);
 	}
 	
 	// run a query and return a single column as a one dimensional array

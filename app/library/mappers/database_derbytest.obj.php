@@ -427,7 +427,6 @@ class database_derbytest extends database
 		$user_name = $this->mysql_res($req_user_name);
 		
     $query="SELECT password_salt FROM rdtom_users WHERE name=\"" . $user_name . "\"";
-    die($query);
 		$result = $this->get_var($query);
 		
 		if ($result)

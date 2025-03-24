@@ -390,10 +390,14 @@ function ajax_random_forum_thread() {
 
 function ajax_latest_forum_thread() {
 	$thread = get_latest_thread();
-	if ($thread) {
-		$latest_post = $thread->get_latest_post();
+  if (!$thread) {
+    return "";
+  }
+  $latest_post = $thread->get_latest_post();
+  if (!$latest_post) {
+    return "";
+  }
 		return "<a href=\"" . $thread->get_URL() . "\">&quot;" . htmlspecialchars(stripslashes($thread->get_Title())) . "&quot; by " . htmlspecialchars(stripslashes($latest_post->get_author()->get_Name())) . "</a>";
-	}
 }
 
 function ajax_stats_user_progress() {

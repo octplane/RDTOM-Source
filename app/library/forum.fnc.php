@@ -424,7 +424,10 @@ class thread
 	
 	public function get_URL() {
 		
-		$parent_topic = $this->get_parent_topic();
+    $parent_topic = $this->get_parent_topic();
+    if(!$parent_topic) {
+      return "";
+    }
 		return get_site_URL() . "forum/" . $parent_topic->get_slug() . "/" . $this->data['Slug'];
 	}
 	

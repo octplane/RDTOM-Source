@@ -98,7 +98,7 @@ if (is_logged_in())
 <div class="question-content">
 <div class="question-box">
 	<p>
-		<a class="question-block" onclick="show_page_stats();">Voir vos statitiques</a>
+		<a class="question-block" onclick="show_page_stats();">Voir vos statistiques</a>
 		<a class="question-block" onclick="show_page_profile();">Mettre à jour son profil</a>
 		<a class="question-block" onClick="document.formlogout.submit()">Se déconnecter</a>
 	</p>
