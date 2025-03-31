@@ -10,7 +10,7 @@ services:
       - database
     volumes:
       - ./app:/var/www/app
-      - ${DOCUMENT_ROOT-./www}:/var/www/html:rw
+      - ${DOCUMENT_ROOT-./www}:/var/www/html
       - ${PHP_INI-./config/php/php.ini}:/usr/local/etc/php/php.ini
       - ${SSL_DIR-./config/ssl}:/etc/apache2/ssl/
       - ${VHOSTS_DIR-./config/vhosts}:/etc/apache2/sites-enabled
