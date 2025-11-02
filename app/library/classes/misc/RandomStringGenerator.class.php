@@ -6,7 +6,7 @@ class RandomStringGenerator
 		$i = 0;
 		$salt = "";
 		do {
-			$salt.= $characterList{mt_rand(0, strlen($characterList) - 1) };
+			$salt.= $characterList[mt_rand(0, strlen($characterList) - 1) ];
 			$i++;
 		} while ($i < $length);
 		return $salt;

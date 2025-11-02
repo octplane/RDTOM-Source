@@ -13,7 +13,7 @@ class FileCache
 		$this->cacheFolder = __DIR__ . "/filecache/";
 		
 		if (!is_dir($this->cacheFolder)) {
-			mkdir($this->cacheFolder);
+			mkdir($this->cacheFolder, 0755, true);
 		}
 	}
 	
@@ -27,10 +27,16 @@ class FileCache
 		
 		$fh = fopen($filename, 'w');
 		
+		if (!$fh) {
+			return false;
+		}
+		
 		$serializedData = serialize($data);
 		fwrite($fh, $serializedData);
 		
 		fclose($fh);
+		
+		return true;
 	}
 	
 	public function get($key) {
