@@ -11,7 +11,7 @@ abstract class api_resource
 		$this->build_XML($req_parameters);
 	}
 	
-	protected function build_XML()
+	protected function build_XML($parameters)
 	{
 	}
 	
