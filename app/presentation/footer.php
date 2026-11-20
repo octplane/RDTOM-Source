@@ -66,6 +66,8 @@
             <p style="text-align:left;">
                 Site inspiré par celui de John Kershaw <a href="http://www.rollerderbytestomatic.com/" target= "_blank">www.rollerderbytestomatic.com</a>.<br/>
 		<a href="<?php echo get_site_URL(); ?>stats/"><i class="fa fa-bar-chart" aria-hidden="true"></i> Stats</a>
+				<script src="https://neatstats.net/counter.js" defer></script>
+				<span class="neatstats-counter" data-style="flip"></span>
             </p>
 
 			<?php if (is_admin())
