@@ -24,12 +24,10 @@
 
 		<meta property="fb:admins" content="100000500702240"/>
 
+		<meta name="neatstats_verification" content="NeatStats:1a6d727af839876f">
 		<script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/1.8.3/jquery.min.js" type="text/javascript"></script>
     <script src="https://ajax.googleapis.com/ajax/libs/jqueryui/1.10.3/jquery-ui.min.js" type="text/javascript"></script>
-    
-    <script defer data-domain="rollerderbytestomatic.fr" src="https://plausible.io/js/script.js"></script>
-    <script>window.plausible = window.plausible || function() { (window.plausible.q = window.plausible.q || []).push(arguments) }</script>
-
+		<script defer src="https://neatstats.net/view.js"></script>
 	</head>
 
 	<body>
